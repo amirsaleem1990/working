@@ -62,7 +62,7 @@ def wiki_persnol_informations(name):
     df['key'] = d.keys()
     df['value'] = d.values()
     df.to_csv('{}.csv'.format(''.join(data.original_title.split())))
-#     os.system('libreoffice {}.csv'.format(''.join(data.original_title.split())))
+    #os.system('libreoffice {}.csv'.format(''.join(data.original_title.split())))
 try:
     os.system("rm -rf /new")
 except:
