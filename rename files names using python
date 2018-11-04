@@ -1,0 +1,10 @@
+import os
+
+# get a files names you want to change
+
+names_list = os.listdir("/home/amir/Dropbox/books/Statistics/recommended books for reading/ISLR (An Introduction to Statistical Learning with Applications in R)/ISLR color graphs/new")
+
+# pick files one by one, change <.> by <-> and add <jpeg> in the end, so <amir.saleem>> yeild <amir-saleem.png>
+
+for i in : 
+    os.rename(i, i.replace('.', '-')+'.jpeg')
