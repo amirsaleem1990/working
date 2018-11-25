@@ -1,0 +1,24 @@
+# bbc files download using saved links
+with open('for_download', 'r') as file:
+    file = file.readlines()
+file2 = [i[:-1] for i in file]
+
+names = []
+pdf = []
+mp3 = []
+
+import os
+for i in range(0, len(file2), 3):
+    names.append(file2[i])
+    pdf.append(file2[i+1])
+    mp3.append(file2[i+2])
+mp3[154] = mp3[154]+'3'
+names2 = [i.replace(' ', '_'.replace("'", '')) for i in names]
+
+import os
+for name,book,sound in zip(names2, pdf, mp3):
+    os.mkdir(name)
+    os.chdir(name)
+    os.system('wget {}'.format(book))
+    os.system('wget {}'.format(sound))
+    os.chdir('..')
