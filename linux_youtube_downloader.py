@@ -2,7 +2,7 @@ import os
 try:
     from pytube import YouTube
 except:
-    !pip install pytube
+    os.system('pip install pytube')
 try:
     os.system('subl')
     a = 'subl'
@@ -32,3 +32,4 @@ if a:
                 os.system('{} youtube_links.txt'.format(a))
 else:
     print('install either sublime {} or text {}'.format('https://www.sublimetext.com/3', 'https://help.ubuntu.com/community/gedit'))
+os.system('nautilus ./')
