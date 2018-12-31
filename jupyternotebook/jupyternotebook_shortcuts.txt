@@ -1,0 +1,25 @@
+# add image
+# Note: in markdown cell
+<img src = "image.bmp", width = 400, height = 400>
+
+# add vedio
+from IPython.lib.display import YouTubeVideo
+YouTubeVideo('xo9Vsfzfg8g', width=900, height = 500)
+
+# change color
+# Note: in markdown cell
+### Note: we try both <font color='red'>Stemming</font> and <font color='red'>Lemmitization</font> and decide which work best
+
+# coloring, center, font size; all together:
+# Note: in markdown cell
+# <h1><center><font size="10"><font color='red'>WEEK 2</font></font></h1></center>
+
+
+# in markdown Cell the $ symbol is spycial symbol, so if you want to type: df$column then this line treated not as a normal line, to avoid this spaciality you add two back slash and type: df\\$column.
+# Note: after you press Ctrl+Enter you see this line as usual.. df$column, and don't see <\\>
+
+
+# SSE (sum of squared Error) formula
+$$SSE=\sum_{i=0}^n (y_i-\bar{y})^2$$
+
+
