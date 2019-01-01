@@ -1,0 +1,7 @@
+pin the tab..
+bad dafa firefox ki kafi tabs khuli hoti hen, or un me sy kuch aham hoti hen, ab baz dafa ye hota h k dosri tabs ko open or close karty waqt wo aham tabs bhi band ho jati hen, is k hal k lye:
+tab par right clik karen, or <pin Tab> par click kar den,, ab ye tab close nahi ho sakti, is ka close ka option hi khatam ho gya.
+--------------------------------------------------------
+# White backgroud to black
+https://addons.mozilla.org/en-US/firefox/addon/dark-background-light-text/
+
