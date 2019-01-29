@@ -1,0 +1,9 @@
+CTRL+1 for 100% page size
+CTRL+3 for full screen
+(CTRL)+(SHIFT)+(+) = Rotate Clockwise
+(CTRL)+(SHIFT)+(-) = Rotate CounterClockwise
+CTRL+9 = duble page
+CTRL+8 = single page
+CTRL+0 = duble page (continues) 
+
+aga galti sy ctrl+B press ho jay to page bookmark ho jata h, ab is ko undo karny k lye ctrl+z use karen instead bookmark penal me ja kar usy delete karny k.
