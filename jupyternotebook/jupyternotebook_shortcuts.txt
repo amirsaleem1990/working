@@ -46,3 +46,10 @@ $$SSE=\sum_{i=0}^n (y_i-\bar{y})^2$$
 <div class="alert alert-block alert-info">
 <b>color:</b> Blue.
 </div>
+
+#linear regression equation
+Y = β0 + $β_1X$ + $β_2X^2$ + $β_3X^3$ + $e$. 
+
+
+
+
