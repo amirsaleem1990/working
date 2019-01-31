@@ -24,9 +24,25 @@ $$SSE=\sum_{i=0}^n (y_i-\bar{y})^2$$
 
 
 
-# colored box
-<div class="alert alert-block alert-info">
-<b>Tip:</b> jupyter notebook Bos example 
+# colored boxes
+
+# Yellow
+<div class="alert alert-block alert-warning">
+<b>Color:</b> Yellow.
 </div>
 
 
+# Green
+<div class="alert alert-block alert-success">
+<b>color:</b> Green.
+</div>
+
+# Red
+<div class="alert alert-block alert-danger">
+<b>color:</b> red.
+</div>
+
+# Blue
+<div class="alert alert-block alert-info">
+<b>color:</b> Blue.
+</div>
