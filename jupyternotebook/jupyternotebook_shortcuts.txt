@@ -58,3 +58,10 @@ Y = β0 + $β_1X$ + $β_2X^2$ + $β_3X^3$ + $e$.
 $\bar{x}$
 
 
+
+# indentaion space ................... $\;\;\;\;\;\;$ ................ 
+
+    Type "nbsp" to add a single space.
+    Type "ensp" to add 2 spaces.
+    Type "emsp" to add 4 spaces.
+    Use the non-breaking space (nbsp) 4 times to insert a tab.
