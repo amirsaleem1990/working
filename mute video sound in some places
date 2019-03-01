@@ -1,0 +1,13 @@
+# extract audio from video
+ffmpeg -i class4-27-2-2019.mp4 class4-27-2-2019.mp3
+
+
+# get video withou audio
+ffmpeg -i class4-27-2-2019.mp4 -vcodec copy -an class4-27-2-2019-without-sound.mp4
+
+
+# mute mp3 in cirtien places
+ffmpeg -i class4-27-2-2019.mp3  -af "volume=enable='between(t,466,468)':volume=0, volume=enable='between(t,1014,1043)':volume=0, volume=enable='between(t,1055,1065)':volume=0, volume=enable='between(t,1877,1904)':volume=0, volume=enable='between(t,1947,1962)':volume=0, volume=enable='between(t,2099,2106)':volume=0, volume=enable='between(t,2322,2332)':volume=0, volume=enable='between(t,2543,2549)':volume=0, volume=enable='between(t,3464,3475)':volume=0" class4-27-2-2019-muted.mp3
+
+# join no-sound-vide and muted-mp3
+ffmpeg -i class4-27-2-2019-without-sound.mp4 -i class4-27-2-2019-muted.mp3 -c:v copy -c:a aac -strict experimental final-video.mp4
