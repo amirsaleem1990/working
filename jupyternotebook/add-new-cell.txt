@@ -1,0 +1,3 @@
+enter ESC once
+press A twice if you want new cell upper
+press B twice if you want new cell bottom
