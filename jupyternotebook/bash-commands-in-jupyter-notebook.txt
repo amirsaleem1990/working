@@ -7,3 +7,9 @@ eg: os.system("!ls *.txt -1")
 
 3- %%bash
 type %%bash on the top of cell, and type your bash commands as you type on terminal.
+
+if you need to capture an output:
+
+%%bash --out your_variable_name
+pip3 list
+# now output of <pip3 list> is stored in your_variable_name as str, you can use it in your python code.
