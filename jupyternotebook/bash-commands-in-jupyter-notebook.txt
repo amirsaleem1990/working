@@ -1,0 +1,9 @@
+we can run shell commands from jupyternotebook in various ways.
+1- !
+eg: !ls *.txt -1
+
+2- os.system()
+eg: os.system("!ls *.txt -1")
+
+3- %%bash
+type %%bash on the top of cell, and type your bash commands as you type on terminal.
