@@ -1,3 +1,1 @@
-in your python shell type:
-!ipython nbconvert --to=python config_template.ipynb
-
+ipython3 nbconvert --to python script.ipynb
