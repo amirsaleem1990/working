@@ -1,3 +1,5 @@
+import time
+import pickle
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -8,7 +10,7 @@ from selenium.webdriver.common.keys import Keys
 with open("../../Amir-personal/facebook-userName-and-password.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
     
-browser = webdriver.Firefox(executable_path="github/working/facebook-selenium//geckodriver")
+browser = webdriver.Firefox(executable_path="./geckodriver")
 #navigates you to the facebook page.
 browser.get('https://www.facebook.com/')
 
@@ -57,12 +59,5 @@ for k,v in link_dict.items():
         all_links[k] = v
     else:
         all_links[k] = list(set(all_links[k] + v))
-# f1 = "zahid.mughal.5895"
-# time.sleep(np.random.randint(3, 6))
-# Query = browser.find_elements_by_css_selector("input[name=q]")
-# Query[0].send_keys(f1)
-# Query_search_button = browser.find_elements_by_css_selector("button[type=submit]")
-# Query_search_button[0].click()
-
-# s = BeautifulSoup(browser.page_source, "lxml")
-# output = browser.find_elements_by_css_selector("div[class=clearfix _ikh]")
+time.sleep(30)
+browser.close()
