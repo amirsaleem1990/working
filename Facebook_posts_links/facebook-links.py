@@ -5,7 +5,7 @@ import numpy as np
 import time
 from selenium.webdriver.common.keys import Keys
 
-with open("../Amir-personal/facebook-userName-and-password.txt", "r") as file:
+with open("../../Amir-personal/facebook-userName-and-password.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
     
 browser = webdriver.Firefox(executable_path="github/working/facebook-selenium//geckodriver")
