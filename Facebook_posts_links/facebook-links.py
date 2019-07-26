@@ -52,12 +52,14 @@ for name, url in zip(["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad
         except:
             pass
 
+        
+        
 with open("All_FB_links.pkl", "rb") as file:
     all_links = pickle.load(file)
-for k,v in link_dict.items():
-    if not k in all_links:
-        all_links[k] = v
-    else:
-        all_links[k] = list(set(all_links[k] + v))
+
+with open("new_data.pkl", "wb") as file:
+    
+    
+
 time.sleep(30)
 browser.close()
