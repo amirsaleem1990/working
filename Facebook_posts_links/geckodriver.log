@@ -627,3 +627,5 @@ console.error: BroadcastService:
 
 
 (/usr/lib/firefox/firefox:5471): dconf-WARNING **: 09:28:52.884: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1564115428912	Marionette	INFO	Stopped listening on port 45587
+[Parent 5380, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-oTXxYK/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
