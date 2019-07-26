@@ -57,11 +57,8 @@ for name, url in zip(["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad
 
         
         
+with open("current_data.pkl", "wb") as file:
+    pickle.dump(link_dict, file)
 
-for link_
-for i in link_dict:
-    if 
-    
-
-time.sleep(30)
+time.sleep(10)
 browser.close()
