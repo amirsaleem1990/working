@@ -3,6 +3,12 @@ import pickle
 
 with open("current_data.pkl", "rb") as file:
     current_data = pickle.load(file)
+cd = []
+for i in current_data:
+	if not i in cd:
+		cd.append(i)
+current_data = cd
+del cd
 
 for links_list in current_data.values():
     for link in links_list:
