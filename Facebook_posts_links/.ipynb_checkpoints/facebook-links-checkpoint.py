@@ -6,7 +6,9 @@ from selenium import webdriver
 import numpy as np
 import time
 from selenium.webdriver.common.keys import Keys
-
+with open("All_FB_links.pkl", "rb") as file:
+    all_links = pickle.load(file)
+    
 with open("../../Amir-personal/facebook-userName-and-password.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
     
@@ -48,16 +50,18 @@ for name, url in zip(["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad
     for i in a.find_all('a'):
         try:
             if i['href'].startswith(url + "/post"):
-                link_dict[name].append(i['href'])
+                if not i['href'] in all_links[name]:
+                    link_dict[name].append(i['href'])
         except:
             pass
 
-with open("All_FB_links.pkl", "rb") as file:
-    all_links = pickle.load(file)
-for k,v in link_dict.items():
-    if not k in all_links:
-        all_links[k] = v
-    else:
-        all_links[k] = list(set(all_links[k] + v))
+        
+        
+
+for link_
+for i in link_dict:
+    if 
+    
+
 time.sleep(30)
 browser.close()

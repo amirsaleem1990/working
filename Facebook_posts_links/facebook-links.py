@@ -50,8 +50,8 @@ for name, url in zip(["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad
     for i in a.find_all('a'):
         try:
             if i['href'].startswith(url + "/post"):
-                if i['hrefall_links[name]
-                link_dict[name].append(i['href'])
+                if not i['href'] in all_links[name]:
+                    link_dict[name].append(i['href'])
         except:
             pass
 
