@@ -55,8 +55,14 @@ for name, url in zip(["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad
         except:
             pass
 
-        
-        
+                             
+for name,list_of_links in link_dict.items():
+    lst = []
+    for link in list_of_links:
+        if not "comment_id" in link:
+            lst.append(link)
+    link_dict[name] = lst
+
 with open("current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
 
