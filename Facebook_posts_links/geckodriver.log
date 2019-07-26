@@ -646,3 +646,4 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
 
+1564118572776	Marionette	INFO	Stopped listening on port 33213
