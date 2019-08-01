@@ -15,7 +15,7 @@ all_all_links_dict_links = list(itertools.chain(*all_links.values()))
 for links_list in current_data.values():
     for link in links_list:
     	if not link in all_current_dict_links:
-	        # os.system("firefox "+  link)
+	        os.system("firefox "+  link)
 	        pass
         
 
