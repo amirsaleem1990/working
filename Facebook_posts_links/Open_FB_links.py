@@ -5,9 +5,9 @@ with open("current_data.pkl", "rb") as file:
     current_data = pickle.load(file)
 
 
-# for links_list in current_data.values():
-#     for link in links_list:
-#         os.system("firefox "+  link)
+for links_list in current_data.values():
+    for link in links_list:
+        os.system("firefox "+  link)
         
 with open("All_FB_links.pkl", "rb") as file:
     all_links = pickle.load(file)
