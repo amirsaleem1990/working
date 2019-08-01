@@ -12,12 +12,9 @@ with open("All_FB_links.pkl", "rb") as file:
 all_current_dict_links = list(itertools.chain(*current_data.values()))
 all_all_links_dict_links = list(itertools.chain(*all_links.values()))
 
-for links_list in current_data.values():
-    for link in links_list:
-    	if not link in all_current_dict_links:
-	        os.system("firefox "+  link)
-	        pass
-        
+for link in all_current_dict_links:
+	if not link in all_all_links_dict_links:
+		os.system("firefox " + link)        
 
 
 for k,v in current_data.items():

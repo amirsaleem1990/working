@@ -35,13 +35,15 @@ loginButton[0].click()
 
 link_dict = {}
 for name, url in zip(["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
-                     "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad"], 
+                     "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
+                     "Abu muhammad musab", "Mahtab khan"], 
                      ["https://web.facebook.com/MMushtaqYusufzai", "https://web.facebook.com/asif.mahmood.1671", "https://web.facebook.com/zahid.mughal.5895", 
                      "https://web.facebook.com/mohammad.f.haris", "https://web.facebook.com/abdullah.adam49", "https://web.facebook.com/hm.zubair.52", 
                       "https://web.facebook.com/abumaryam82", "https://web.facebook.com/munib.hussain86", "https://web.facebook.com/jameelbaloch1924", 
                       "https://web.facebook.com/theguided1", "https://web.facebook.com/abubakr.quddusi.3",
                      "https://web.facebook.com/mohammaddin.jauhar.7", "https://web.facebook.com/Riayat.Farooqui", "https://web.facebook.com/asim.allahbakhsh",
-                     "https://web.facebook.com/sohaib.naseem.3", "https://web.facebook.com/idreesazaad"]):
+                     "https://web.facebook.com/sohaib.naseem.3", "https://web.facebook.com/idreesazaad", "https://web.facebook.com/Abu.Musab.98622733", 
+                     "https://web.facebook.com/profile.php?id=100026041448813"]):
     if not name in link_dict:
         link_dict[name] = []
     browser.get(url)
