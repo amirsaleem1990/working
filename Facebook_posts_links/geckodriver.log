@@ -820,3 +820,16 @@ console.error: BroadcastService:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
 
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iayr4/yC/l/en_US/mldT23vGh2I.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeGdbX2CaLgR6PaavvovyJ9DCcuxfgMC0ne2SaHAP2qGXVio3abEfeMnGxP4oE1-nJhsz0wdsQpkpMdHRDzdpXECHYkpXcvPOv8gyca6C_rDVKofe788Yn55Y1OYicLj2ZI, line 652: unreachable code after return statement
+1564653605191	Marionette	INFO	Stopped listening on port 36835
+[Parent 24976, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-oTXxYK/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
