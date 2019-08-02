@@ -6,13 +6,13 @@ from selenium import webdriver
 import numpy as np
 import time
 from selenium.webdriver.common.keys import Keys
-with open("All_FB_links.pkl", "rb") as file:
+with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb") as file:
     all_links = pickle.load(file)
     
-with open("../../Amir-personal/facebook-userName-and-password.txt", "r") as file:
+with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
     
-browser = webdriver.Firefox(executable_path="./geckodriver")
+browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
 #navigates you to the facebook page.
 browser.get('https://www.facebook.com/')
 
@@ -65,7 +65,7 @@ for name,list_of_links in link_dict.items():
             lst.append(link)
     link_dict[name] = lst
 
-with open("current_data.pkl", "wb") as file:
+with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
 
 time.sleep(10)

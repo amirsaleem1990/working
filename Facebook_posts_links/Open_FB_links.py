@@ -2,10 +2,10 @@ import os
 import pickle
 import itertools
 
-with open("current_data.pkl", "rb") as file:
+with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "rb") as file:
     current_data = pickle.load(file)
 
-with open("All_FB_links.pkl", "rb") as file:
+with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb") as file:
     all_links = pickle.load(file)
 
 
@@ -26,5 +26,5 @@ for k,v in current_data.items():
                 all_links[k].append(i)
 
 
-with open("All_FB_links.pkl", "wb") as file:
+with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "wb") as file:
 	pickle.dump(all_links, file)
