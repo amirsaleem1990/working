@@ -12,7 +12,8 @@ with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
     
-browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
+# browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
+browser = webdriver.PhantomJS()
 #navigates you to the facebook page.
 browser.get('https://www.facebook.com/')
 
@@ -51,7 +52,7 @@ for name, url in zip(["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad
     a = s.find("div", {"id" : "timeline_story_column"})
     for i in a.find_all('a'):
         try:
-            if i['href'].startswith(url + "/post"):
+            if i['href'].startswith(url.replace("//web.facebook", "//www.facebook") + "/post"):
                 if not i['href'] in all_links[name]:
                     link_dict[name].append(i['href'])
         except:
