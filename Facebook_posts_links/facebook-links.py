@@ -6,14 +6,17 @@ from selenium import webdriver
 import numpy as np
 import time
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.firefox.options import Options
+options = Options()
+options.add_argument("--headless")
+
 with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb") as file:
     all_links = pickle.load(file)
     
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
     
-# browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
-browser = webdriver.PhantomJS()
+browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
 #navigates you to the facebook page.
 browser.get('https://www.facebook.com/')
 
