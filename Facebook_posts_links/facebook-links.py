@@ -68,5 +68,4 @@ for name,list_of_links in link_dict.items():
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
 
-time.sleep(10)
 browser.close()
