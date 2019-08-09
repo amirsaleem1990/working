@@ -14,8 +14,9 @@ with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb
     all_links = pickle.load(file)
     
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
-	usrname, pas = file.read().splitlines()
+    usrname, pas = file.read().splitlines()
     
+# browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
 browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
 #navigates you to the facebook page.
 browser.get('https://www.facebook.com/')
@@ -38,36 +39,30 @@ loginButton = browser.find_elements_by_css_selector("input[type=submit]")
 loginButton[0].click()
 
 link_dict = {}
+fb_base_url = "https://web.facebook.com/"
 for name, url in zip(["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
                      "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
                      "Abu muhammad musab", "Mahtab khan"], 
-                     ["https://web.facebook.com/MMushtaqYusufzai", "https://web.facebook.com/asif.mahmood.1671", "https://web.facebook.com/zahid.mughal.5895", 
-                     "https://web.facebook.com/mohammad.f.haris", "https://web.facebook.com/abdullah.adam49", "https://web.facebook.com/hm.zubair.52", 
-                      "https://web.facebook.com/abumaryam82", "https://web.facebook.com/munib.hussain86", "https://web.facebook.com/jameelbaloch1924", 
-                      "https://web.facebook.com/theguided1", "https://web.facebook.com/abubakr.quddusi.3",
-                     "https://web.facebook.com/mohammaddin.jauhar.7", "https://web.facebook.com/Riayat.Farooqui", "https://web.facebook.com/asim.allahbakhsh",
-                     "https://web.facebook.com/sohaib.naseem.3", "https://web.facebook.com/idreesazaad", "https://web.facebook.com/Abu.Musab.98622733", 
-                     "https://web.facebook.com/profile.php?id=100026041448813"]):
+                     ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895", 
+                     "mohammad.f.haris", "abdullah.adam49", "hm.zubair.52", 
+                      "abumaryam82", "munib.hussain86", "jameelbaloch1924", 
+                      "theguided1", "abubakr.quddusi.3",
+                     "mohammaddin.jauhar.7", "Riayat.Farooqui", "asim.allahbakhsh",
+                     "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
+                     "profile.php?id=100026041448813"]):
+    complted_url = fb_base_url + url
     if not name in link_dict:
         link_dict[name] = []
-    browser.get(url)
+    browser.get(complted_url)
     s = BeautifulSoup(browser.page_source, "lxml")
     a = s.find("div", {"id" : "timeline_story_column"})
     for i in a.find_all('a'):
         try:
-            if i['href'].startswith(url.replace("//web.facebook", "//www.facebook") + "/post"):
+            if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
                 if not i['href'] in all_links[name]:
                     link_dict[name].append(i['href'])
         except:
             pass
-
-                             
-for name,list_of_links in link_dict.items():
-    lst = []
-    for link in list_of_links:
-        if not "comment_id" in link:
-            lst.append(link)
-    link_dict[name] = lst
 
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
