@@ -51,7 +51,7 @@ for name, url in zip(
     #                  "mohammaddin.jauhar.7", "Riayat.Farooqui", "asim.allahbakhsh",
     #                  "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
     #                  "profile.php?id=100026041448813"]
-    ["hassan khanlid"], ["hassaan.khalid98"]):
+    ["hassan khanlid"], ["hassaan.khalid.98"]):
     complted_url = fb_base_url + url
     if not name in link_dict:
         link_dict[name] = []
