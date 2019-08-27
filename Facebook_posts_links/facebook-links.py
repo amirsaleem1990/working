@@ -40,16 +40,18 @@ loginButton[0].click()
 
 link_dict = {}
 fb_base_url = "https://web.facebook.com/"
-for name, url in zip(["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
-                     "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
-                     "Abu muhammad musab", "Mahtab khan"], 
-                     ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895", 
-                     "mohammad.f.haris", "abdullah.adam49", "hm.zubair.52", 
-                      "abumaryam82", "munib.hussain86", "jameelbaloch1924", 
-                      "theguided1", "abubakr.quddusi.3",
-                     "mohammaddin.jauhar.7", "Riayat.Farooqui", "asim.allahbakhsh",
-                     "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
-                     "profile.php?id=100026041448813"]):
+for name, url in zip(
+    # ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
+    #                  "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
+    #                  "Abu muhammad musab", "Mahtab khan"], 
+    #                  ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895", 
+    #                  "mohammad.f.haris", "abdullah.adam49", "hm.zubair.52", 
+    #                   "abumaryam82", "munib.hussain86", "jameelbaloch1924", 
+    #                   "theguided1", "abubakr.quddusi.3",
+    #                  "mohammaddin.jauhar.7", "Riayat.Farooqui", "asim.allahbakhsh",
+    #                  "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
+    #                  "profile.php?id=100026041448813"]
+    ["hassan khanlid"], ["hassaan.khalid98"]):
     complted_url = fb_base_url + url
     if not name in link_dict:
         link_dict[name] = []
