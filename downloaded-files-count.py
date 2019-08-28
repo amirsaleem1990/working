@@ -1,7 +1,9 @@
 import time
 import os
 import datetime
-a = os.popen("ls *.mp3 | wc")
+file_type = input("Enter file extension: eg: mp3\n")
+command = "ls *." + file_type + "| wc"
+a = os.popen(command)
 b = int(list(a)[0].split()[0])
 
 while True:
