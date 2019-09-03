@@ -16,5 +16,7 @@ for i in df.Avail:
         avail.append(int(i))
 df.Avail = avail
 import pprint
-pprint.pprint(df.query("Avail > 0").sort_values("Avail", ascending = False))
+adf = df.query("Avail > 0").sort_values("Avail", ascending = False)
+pprint.pprint(adf[adf.Filesystem.str.contains("/dev")])
+#pprint.pprint(df.query("Avail > 0").sort_values("Avail", ascending = False))
 os.remove("temppp.txt")
