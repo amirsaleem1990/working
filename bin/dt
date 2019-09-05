@@ -19,7 +19,7 @@ df.Size_in_KB = df.Size_in_KB.astype("int64")
 a = list(zip(*df.Size_in_KB.map(mgkb)))
 df["Size"] = a[0]
 df["UNIT"] = a[1]
-df["Size"] = df.Size.astype(int).astype(str) + " " + df.UNIT
+df["Size"] = df.Size.round(1).astype(str) + " " + df.UNIT
 df = df.drop(["Size_in_KB", "UNIT"], axis= 1)
 for i in range(len(df)):
 	name = df.iloc[i][0]
