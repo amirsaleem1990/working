@@ -1,0 +1,21 @@
+#!/usr/bin/env ipython3
+import os
+a = list(os.popen("du -sh -B K * | sort -nr"))
+import pandas as pd
+df = pd.DataFrame(columns=["Name", "Size_in_KB"])
+for i in a:
+    df.loc[len(df)+1] = i.strip().split("\t")[::-1]
+df.Size_in_KB = df.Size_in_KB.str.replace("K", "")
+def mgkb(x):
+    if x > 1024*1024:
+        return (x/1024/1024, "GB")
+    elif x > 1024:
+        return (x/1024, "MB")
+    else:
+        return (x, "KB")
+df.Size_in_KB = df.Size_in_KB.astype("int64")
+a = list(zip(*df.Size_in_KB.map(mgkb)))
+df["Size"] = a[0]
+df["UNIT"] = a[1]
+import pprint
+pprint.pprint(df)
