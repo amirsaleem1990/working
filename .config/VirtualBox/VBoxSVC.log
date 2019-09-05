@@ -1,0 +1,47 @@
+00:00:00.001644 main     VirtualBox XPCOM Server 6.0.8 r130520 linux.amd64 (May 13 2019 14:56:54) release log
+00:00:00.001654 main     Log opened 2019-07-26T05:45:18.972205000Z
+00:00:00.001655 main     Build Type: release
+00:00:00.001667 main     OS Product: Linux
+00:00:00.001669 main     OS Release: 4.15.0-54-generic
+00:00:00.001670 main     OS Version: #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+00:00:00.001760 main     DMI Product Name: Inspiron 3576
+00:00:00.001776 main     DMI Product Version: 
+00:00:00.001917 main     Host RAM: 7729MB (7.5GB) total, 7042MB (6.8GB) available
+00:00:00.001925 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001925 main     Process ID: 20739
+00:00:00.001926 main     Package type: LINUX_64BITS__UBUNTU_18_04
+00:00:00.003423 main     IPC socket path: /tmp/.vbox-amir-ipc/ipcd
+00:00:00.108577 nspr-2   VirtualBox: object creation starts
+00:00:00.109125 nspr-2   Home directory: '/home/amir/.config/VirtualBox'
+00:00:00.109537 nspr-2   Loading settings file "/home/amir/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.121488 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.122685 nspr-2   NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.122701 nspr-2   NAT: resolv.conf: ignoring "options edns0"
+00:00:00.122714 nspr-2   HostDnsMonitor::updateInfo
+00:00:00.122733 nspr-2   HostDnsMonitor: old information
+00:00:00.122737 nspr-2     no server entries
+00:00:00.122741 nspr-2     no domain set
+00:00:00.122744 nspr-2     no search string entries
+00:00:00.122748 nspr-2   HostDnsMonitor: new information
+00:00:00.122751 nspr-2     server 1: 127.0.0.53
+00:00:00.122756 nspr-2     no domain set
+00:00:00.122759 nspr-2     no search string entries
+00:00:00.127390 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.142730 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/amir/VirtualBox VMs/win10/win10.vbox' for reading: -102 (File not found.).
+00:00:00.142739 nspr-2   /home/vbox/vbox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.143313 nspr-2   VirtualBox: object created
+00:00:00.513231 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/amir/VirtualBox VMs/win10/win10.vbox' for reading: -102 (File not found.).
+00:00:00.513243 nspr-3   /home/vbox/vbox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.514354 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/amir/VirtualBox VMs/win10/win10.vbox' for reading: -102 (File not found.).
+00:00:00.514364 nspr-3   /home/vbox/vbox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.516753 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/amir/VirtualBox VMs/win10/win10.vbox' for reading: -102 (File not found.).
+00:00:00.516763 nspr-3   /home/vbox/vbox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.521456 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:00.521487 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'win10'}, preserve=false aResultDetail=0
+00:00:03.133114 nspr-3   Saving settings file "/home/amir/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.158811 nspr-3   Saving settings file "/home/amir/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.184796 nspr-3   Saving settings file "/home/amir/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:08.726644 main     VirtualBox: object deletion starts
+00:00:09.146332 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:13.735500 main     {00007f0f08017d60} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:13.735781 main     VirtualBox: object deleted

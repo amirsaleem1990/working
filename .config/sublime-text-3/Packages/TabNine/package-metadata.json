@@ -1,0 +1,1 @@
+{"platforms": ["*"], "sublime_text": "*", "description": "Sublime Text client for TabNine", "dependencies": [], "url": "https://tabnine.com/", "version": "2.1.11"}

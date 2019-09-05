@@ -1,0 +1,17 @@
+{
+  "servers": [
+    {
+      "id": "d466bcf1-ffd4-4314-85e0-bd454bd6f349",
+      "name": "Amir",
+      "client": "sqlserver",
+      "ssl": false,
+      "host": "209.97.147.137",
+      "port": 1432,
+      "socketPath": null,
+      "user": "sa",
+      "password": "286fbb745cadff6fa1d037e5bcb782",
+      "schema": null,
+      "encrypted": true
+    }
+  ]
+}

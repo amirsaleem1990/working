@@ -1,0 +1,972 @@
+{
+	"folder_history":
+	[
+		"/home/amir/github/working/facebook-selenium",
+		"/media/amir/32GB",
+		"/home/amir/github/Linux",
+		"/home/amir/Linux",
+		"/home/amir/github/datasciencecoursera/2-R_programming/week-2/programming-assingment-1/specdata"
+	],
+	"last_version": 3207,
+	"last_window_id": 8,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"web",
+						"web_name"
+					],
+					[
+						"amir",
+						"amirsaleem1990"
+					],
+					[
+						"in",
+						"num_in_rank"
+					],
+					[
+						"num_in",
+						"num_in_rank"
+					],
+					[
+						"analy",
+						"analyze_hand"
+					],
+					[
+						"MA",
+						"MAX_NUMBER"
+					],
+					[
+						"secre",
+						"secret_number"
+					],
+					[
+						"sectr",
+						"secret_number"
+					],
+					[
+						"secr",
+						"secret_number"
+					],
+					[
+						"h",
+						"high"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Install Package Control",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 213.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/amir/github/Amir-personal/diry/08-28-19.txt",
+				"/bin/git_status",
+				"/bin/diskfree",
+				"/home/amir/a.py",
+				"/etc/fstab",
+				"/home/amir/github/Amir-personal/diry/08-27-19.txt",
+				"/home/amir/.bashrc",
+				"/home/amir/networking/youtube-links.txt",
+				"/home/amir/mtm/downloaded-files-count.py",
+				"/home/amir/mtm/download-script.py",
+				"/home/amir/mtm/get-links.py",
+				"/home/amir/github/working/downloaded-files-count.py",
+				"/home/amir/mtm/.bashrc",
+				"/home/amir/ML algos",
+				"/home/amir/github/working/Facebook_posts_links/facebook-links.py",
+				"/home/amir/github/Amir-personal/push_git",
+				"/home/amir/mtm/script.py",
+				"/home/amir/github/Amir-personal/diry/08-25-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-24-19.txt",
+				"/bin/systemctl",
+				"/home/amir/github/Amir-personal/diry/08-23-19.txt",
+				"/home/amir/coursera-script/coursera-script.py",
+				"/home/amir/coursera-vids/The Bits and Bytes of Computer Networking/file.txt",
+				"/home/amir/github/Amir-personal/diry/08-22-19.txt",
+				"/home/amir/github/working/Facebook_posts_links/Open_FB_links.py",
+				"/home/amir/github/Amir-personal/diry/08-21-19.txt",
+				"/home/amir/github/Linux/Linux_commands.txt",
+				"/home/amir/github/Notes/SQL/SQL_and_Pandas_practice.sql",
+				"/home/amir/github/Notes/SQL/sql_udacity_code.sql",
+				"/home/amir/github/R_language/swirl/Statistical-Inference.R",
+				"/home/amir/github/Amir-personal/diry/08-19-19.txt",
+				"/home/amir/github/R_language/swirl/save_notes_help_a.py",
+				"/home/amir/github/R_language/swirl/save_notes_help_q.py",
+				"/home/amir/github/R_language/swirl/save_notes_help.py",
+				"/home/amir/github/Amir-personal/diry/08-16-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-18-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-17-19.txt",
+				"/home/amir/artagal-session-4/link.txt",
+				"/home/amir/.local/bin/youtube-dl",
+				"/home/amir/.local/lib/python3.6/site-packages/youtube_dl/YoutubeDL.py",
+				"/home/amir/artagal-session-4/open_links.py",
+				"/home/amir/artagal-session-3/link.txt",
+				"/home/amir/artagal-session-2/links.txt",
+				"/home/amir/artagal-session-3/open_links.py",
+				"/bin/google",
+				"/home/amir/artagal-session-3/google",
+				"/home/amir/battery",
+				"/home/amir/github/Amir-personal/diry/08-12-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-11-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-10-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-09-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-08-19.txt",
+				"/home/amir/artagal-session-2/links_2.txt",
+				"/home/amir/github/LFD-server/final-peer-graded-assignment/script.R",
+				"/home/amir/Videos/links.txt",
+				"/home/amir/github/Amir-personal/diry/08-07-19.txt",
+				"/home/amir/github/R_language/swirl/Exploratory Data Analysis_2.R",
+				"/home/amir/github/Amir-personal/diry/08-06-19.txt",
+				"/home/amir/github/Notes/Problems-solved.txt",
+				"/home/amir/github/Notes/rstudio-shortcuts.txt",
+				"/home/amir/github/Amir-personal/diry/08-03-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-04-19.txt",
+				"/home/amir/github/Amir-personal/diry/07-04-19.txt",
+				"/home/amir/a",
+				"/home/amir/github/Amir-personal/diry/08-02-19.txt",
+				"/home/amir/.config/autostart/rest-5-minuts.desktop",
+				"/home/amir/n/facebook-links.py",
+				"/home/amir/github/Amir-personal/fiverr-userName-and-password.txt",
+				"/home/amir/Downloads/n/phantomjs-2.1.1-linux-x86_64/README.md",
+				"/home/amir/github/Amir-personal/diry/08-01-19.txt",
+				"/home/amir/github/R_language/swirl/swirl-problems.txt",
+				"/home/amir/n/gdal-3.0.1/install-sh",
+				"/home/amir/github/Linux/for-loop.txt",
+				"/home/amir/github/LFD-server/Exploratory Data Analysis.R",
+				"/home/amir/github/R_language/Rstudio.txt",
+				"/home/amir/artagal-Session-2-videos-links.txt",
+				"/home/amir/github/R_language/swirl/temp.R",
+				"/home/amir/github/Amir-personal/diry/07-31-19.txt",
+				"/home/amir/Downloads/n/rstudio-1.2.1335/INSTALL",
+				"/home/amir/Downloads/n/rstudio-1.2.1335/README.md",
+				"/home/amir/.trans_history",
+				"/home/amir/github/R_language/swirl/Exploratory Data Analysis.R",
+				"/home/amir/.sudo_as_admin_successful",
+				"/home/amir/github/Amir-personal/diry/07-29-19.txt",
+				"/home/amir/github/Amir-personal/diry/07-30-19.txt",
+				"/home/amir/a.txt",
+				"/home/amir/github/datasciencecoursera/2-R_programming/week-3/Peer.Graded.Assingment/ProgrammingAssignment2/cachematrix.R",
+				"/home/amir/github/datasciencecoursera/2-R_programming/week-3/Peer.Graded.Assingment/Lexical_Scoping.R",
+				"/home/amir/github/working/facebook-selenium/facebook-selenium.py",
+				"/home/amir/github/Amir-personal/diry/07-25-19.txt",
+				"/home/amir/github/working/facebook-links.py",
+				"/home/amir/github/working/facebook-links.ipynb",
+				"/home/amir/github/Amir-personal/facebook-userName-and-password.txt",
+				"/home/amir/github/Notes/python-script-to-executable-code.txt",
+				"/home/amir/password.py",
+				"/bin/push_git",
+				"/home/amir/github/LFD-server/Pakistan_economic_survey/LFD-internship/Statistical Appendix/Pakistan Economic Survey shiny app/shiny_dashboard_ggplot.R",
+				"/home/amir/github/LFD-server/lfd_Linux_commands.sh",
+				"/home/amir/github/Notes/pandas.py",
+				"/home/amir/github/Notes/python.py",
+				"/home/amir/rest5minuts.sh",
+				"/home/amir/startup_Amir.sh",
+				"/home/amir/github/Amir-personal/diry/07-24-19.txt",
+				"/home/amir/pin2.py",
+				"/home/amir/github/Amir-personal/diry/07-22-19.txt",
+				"/home/amir/github/Amir-personal/diry/07-19-19.txt",
+				"/home/amir/git_files.sh",
+				"/home/amir/github/Amir-personal/diry/07-18-19.txt",
+				"/usr/local/lib/python3.6/dist-packages/camelot/__init__.py",
+				"/home/amir/usr/local/lib/python3.6/dist-packages/camelot/__init__.py",
+				"/media/amir/667567ED09032BEE/python apps/python mushkil codes.py",
+				"/media/amir/667567ED09032BEE/python apps/python ",
+				"/media/amir/667567ED09032BEE/umair bhai R codes from github/Crypto_market_cap-master/changes_at_Furqan_office.R",
+				"/home/amir/github/Amir-personal/diry/07-17-19.txt",
+				"/home/amir/github/Amir-personal/diry/07-16-19.txt",
+				"/home/amir/github/Data_Cleaning/Text_data_cleaning/pandas.py",
+				"/home/amir/github/Data_Cleaning/Text_data_cleaning/regex.py",
+				"/home/amir/.cache/.fr-5jELbQ/Dashboard.R",
+				"/home/amir/.cache/.fr-NJJpZb/Dashboard.R",
+				"/home/amir/.cache/.fr-miY1Ux/home/amir/Downloads/shiny/app.R",
+				"/home/amir/Downloads/shiny/Dashboard.R",
+				"/home/amir/.cache/.fr-SgRs58/Dashboard.R",
+				"/home/amir/Downloads/shiny/exper.R",
+				"/home/amir/.cache/.fr-Lvxdrx/Dashboard.R",
+				"/home/amir/.cache/.fr-AP4Xii/Dashboard.R",
+				"/home/amir/.cache/.fr-UnuoHG/home/amir/Downloads/shiny/app.R",
+				"/home/amir/github/Amir-personal/diry/07-15-19.txt",
+				"/home/amir/Downloads/shiny/app.R"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"...: ",
+					".mp4",
+					"3",
+					"kb",
+					"mb",
+					"speed",
+					"24510",
+					"https://web.facebook.com/",
+					"image-2",
+					"iamge-2",
+					"Rules",
+					"smooth",
+					"splom",
+					"control",
+					"appearance",
+					"multi",
+					"panel",
+					"text",
+					"rstudio",
+					"import pickle\nwith open(\"pins.pkl\", \"rb\") as file:\n\tdic = pickle.load(file)\n\nfor e, i in enumerate(sorted(list(dic.keys()))):\n\t\tprint(e, i)\n\ndef addd():\n\tweb_name = input(\"\\nEnter web address:  \")\n\temail = input(\"Enter email address: \")\n\ttry:\n\t\tdic[web_name][email]\n\t\ta = int(input(\"\\nThis email is regestered on this web, are you need to override existing password?\\n1-Yes\\t\\t2-hmmm, show me the existing password\\t\\t\"))\n\t\tif a == 1:\n\t\t\tpass\n\t\telif a == 2:\n\t\t\tprint(\"*\"*10, dic[web_name][email], \"*\"*10)\n\t\t\ta = int(input(\"\\nAre you need to override it?\\n1-Yes\\t\\t2-No\\t\\t\"))\n\t\t\tif a == 2:\n\t\t\t\treturn \n\t\t\telif a == 1:\n\t\t\t\tpass\n\texcept:\n\t\tpass\n\tpassword = input(\"Enter password: \")\n\tdic[web_name] = {email : password}\n\t\n\tsee_dict = int(input(\"\\nAre you want to see added dict?\\n1-No\\t2-Yes: \\t\\t\"))\n\tif see_dict == 2:\n\t\timport pprint\n\t\tprint(\"\\n\")\n\t\tpprint.pprint(dic)\n\t\n\toverride = int(input(\"\\nAre you need override pin dict?\\n1-No\\t2-Yes\\t\\t\"))\n\tif override == 2:\n\t\tfile_name = \"pins.pkl\"\n\telif override == 1:\n\t\tfile_name = input(\"\\nEnter New file name: \")\n\t\n\tif not file_name.endswith(\".pkl\"):\n\t\tfile_name += \".pkl\"\n\n\twith open(file_name, \"wb\") as file:\n\t\tpickle.dump(dic, file)\n\ndef extract():\n\ta = dict()\n\tweb = int(input(\"\\n\\nEnter web name. eg: github or number\\n\"))\n\tprint(\"****** Possible Emails ******\")\n\tprint(sorted(list(dic.keys()))[web])\n\tfor e,i in enumerate(dic[sorted(list(dic.keys()))[web]]):\n\t\tprint(str(e+1) + \"- \\t\" +  i)\n\t\ta[str(e+1)] = i\n\temail = input(\"\\nchoose from numbers\\n\")\n\tresult = dic[sorted(list(dic.keys()))[web]][a[email]]\n\tif result:\n\t\tprint(\"\\n\\n*********** Your password is ***********\\n\" + result)\n\ndef add_or_extract():\n\tprint(\"\\n\\nYou want add account to data, or Extract data? \\n\")\n\tinp = int(input(\"1-ADD\\t2-Extract: \\t\\t\"))\n\tif inp == 2:\n\t\textract()\n\telif inp == 1:\n\t\taddd()\n\nadd_or_extract()",
+					"***k**",
+					"*'k‘",
+					"À\"k**",
+					"'k**",
+					"‘k‘A“",
+					"*'À'***",
+					"***‘k***",
+					"*'k*",
+					"**‘k**",
+					"***‘k",
+					"*À‘***",
+					"*'k*****",
+					"***..****",
+					"***‘****",
+					"*****‘k‘k****",
+					"***‘k**",
+					"*‘k**",
+					"*\"A'*",
+					"*k*",
+					"pocker.c",
+					"pg",
+					"page",
+					"  ",
+					" ",
+					"\n",
+					" ",
+					"\n",
+					"\n\n",
+					"\n",
+					"reg",
+					"re.",
+					"\"\t,",
+					"\" ,",
+					"rm",
+					"amirsaleem",
+					"'",
+					">>> ",
+					"arrange",
+					" ,",
+					"  ",
+					"_",
+					"magnitudenitude",
+					"-XYZ",
+					"Acc-",
+					"tGravity",
+					"tBody",
+					"Gyro",
+					"into",
+					"UCI HAR Dataset/",
+					"spread",
+					"copy",
+					"date",
+					"%",
+					"date",
+					"format",
+					"%",
+					"&",
+					"date",
+					" error ",
+					"error",
+					"ANTICONF ERROR",
+					" error ",
+					"error"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"",
+					".mp4, ",
+					"",
+					"******",
+					"****",
+					"******",
+					"****",
+					"*****",
+					"*******",
+					"********",
+					"****",
+					"******",
+					"*****",
+					"******",
+					"********",
+					"*********",
+					"********",
+					"*****‘*******",
+					"*******",
+					"*****",
+					"***",
+					", ",
+					"",
+					",\"",
+					"\",",
+					"\"",
+					"",
+					"\",",
+					"",
+					",",
+					"",
+					".",
+					".x.axis.y.axis.z.axis",
+					"x.axis.y.axis.z.axis",
+					"acceleration.",
+					"time.gravity.",
+					"time.body.",
+					"gyroscope",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 37.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"web",
+						"web_name"
+					],
+					[
+						"amir",
+						"amirsaleem1990"
+					],
+					[
+						"in",
+						"num_in_rank"
+					],
+					[
+						"num_in",
+						"num_in_rank"
+					],
+					[
+						"analy",
+						"analyze_hand"
+					],
+					[
+						"MA",
+						"MAX_NUMBER"
+					],
+					[
+						"secre",
+						"secret_number"
+					],
+					[
+						"sectr",
+						"secret_number"
+					],
+					[
+						"secr",
+						"secret_number"
+					],
+					[
+						"h",
+						"high"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Install Package Control",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 213.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/amir/github/datasciencecoursera/2-R_programming/week-2/programming-assingment-1/specdata"
+			],
+			"file_history":
+			[
+				"/home/amir/.bash_history",
+				"/home/amir/.bash_logout",
+				"/home/amir/.bash_profile",
+				"/home/amir/.bashrc",
+				"/bin/dt",
+				"/home/amir/pocoyo/github/Linux/Linux_commands.txt",
+				"/home/amir/github/Linux/Linux_commands.txt",
+				"/home/amir/github/Amir-personal/boost_comments.py",
+				"/home/amir/github/Amir-personal/diry/09-04-19.txt",
+				"/home/amir/github/RepData_PeerAssessment1/PA1_template.Rmd",
+				"/home/amir/github/working/Facebook_posts_links/facebook-links.py",
+				"/home/amir/d.py",
+				"/home/amir/d",
+				"/home/amir/Desktop/R.R",
+				"/home/amir/.config/autostart/github-automatic-push.desktop",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/sms_sent_log.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/3-sep-2019/Sample 1 - Sept 2/sms_sent_log.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/4-sep-2019/Sample 2 - Sept 2/sms_sent_log.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/4-sep-2019/Sample 2 - Sept 2/filter_app_log.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/3-sep-2019/Sample 1 - Sept 2/filter_app_log.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/filter_app_log.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/third-script.py",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/second_script.py",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/second_script_2.py",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/4-sep-2019/Sample 2 - Sept 2/accounts_list.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/3-sep-2019/Sample 1 - Sept 2/accounts_list.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/first-script.py",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/accounts_list.txt",
+				"/home/amir/github/Amir-personal/diry/09-03-19.txt",
+				"/bin/diskfree",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/3-sep-2019/Sample 1 - Sept 2/contacts_list.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/first-script_2.py",
+				"/home/amir/github/R_language/swirl/save_notes_help.py",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/sms_log.txt",
+				"/home/amir/ETL-cash-egypt/calendar_events.txt",
+				"/home/amir/ETL-cash-egypt/3-sep-2019/Sample 1 - Sept 2/storage_size.txt",
+				"/home/amir/ETL-cash-egypt/storage_size.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/3-sep-2019/Sample 1 - Sept 2/sms_log.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/3-sep-2019/Sample 1 - Sept 2/calendar_events.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/script.py",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/app_install_log.txt",
+				"/home/amir/github/Amir-personal/diry/09-02-19.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/device_info.txt",
+				"/home/amir/ETL-cash-egypt/script.py",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/app_install_log",
+				"/home/amir/python.txt",
+				"/home/amir/n/sqlitebrowser-3.10.1/README.md",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/location.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/ip_address.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/storage_size.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/Untitled.ipynb",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/structure.ods",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/phone_battery_level.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/outgoing_call_log.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/gallery_data.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/ext_storage_files.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/contacts_list.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/call_log.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/calendar_events.txt",
+				"/home/amir/github/LFD-projects/ETL-cash-egypt/Updated Samples  - Aug 30.zip",
+				"/home/amir/github/Amir-personal/diry/09-01-19.txt",
+				"/media/amir/667567ED09032BEE/learning/zia khan assigments/5 - min jadeed(new 5-1-18).py",
+				"/media/amir/667567ED09032BEE/learning/zia khan assigments/assignment1.py",
+				"/media/amir/667567ED09032BEE/learning/zia khan assigments/assignment2.py",
+				"/media/amir/667567ED09032BEE/learning/zia khan assigments/assignment3_list.py",
+				"/media/amir/667567ED09032BEE/learning/zia khan assigments/assignment4_list.py",
+				"/media/amir/667567ED09032BEE/learning/zia khan assigments/assignment5_all_wordcount (DESKTOP-HQ189QF's conflicted copy 2017-12-31).py",
+				"/media/amir/667567ED09032BEE/learning/zia khan assigments/assignment5_all_wordcount.py",
+				"/media/amir/667567ED09032BEE/learning/zia khan assigments/assignment6_all_mimic (DESKTOP-HQ189QF's conflicted copy 2018-01-06).py",
+				"/media/amir/667567ED09032BEE/learning/zia khan assigments/assignment6_all_mimic.py",
+				"/usr/share/applications/gnome-terminal.desktop",
+				"/media/amir/667567ED09032BEE/Git-updates.py",
+				"/media/amir/667567ED09032BEE/asynchronous.py",
+				"/media/amir/667567ED09032BEE/r-tidyvr.R",
+				"/media/amir/667567ED09032BEE/R-lm.R",
+				"/media/amir/667567ED09032BEE/from-github.py",
+				"/media/amir/667567ED09032BEE/abbu-home.csv",
+				"/media/amir/667567ED09032BEE/n/lfd_scoring/Split Files/Processing.R",
+				"/home/amir/github/Amir-personal/diry/08-31-19.txt",
+				"/home/amir/networking/youtube-links.txt",
+				"/media/amir/667567ED09032BEE/the-lab-school/data-usb-backup-2-april-2019/lin",
+				"/media/amir/667567ED09032BEE/the-lab-school/class-videos/vidoes-links.txt",
+				"/media/amir/667567ED09032BEE/school.txt",
+				"/media/amir/667567ED09032BEE/t.py",
+				"/media/amir/667567ED09032BEE/facebook_for_reading.py",
+				"/home/amir/github/Amir-personal/diry/08-30-19.txt",
+				"/home/amir/networking/script.sh",
+				"/home/amir/mtm/results.txt",
+				"/home/amir/github/Amir-personal/diry/08-29-19.txt",
+				"/bin/ps",
+				"/bin/kill",
+				"/home/amir/twitter-scraping-for-hassan/script.py",
+				"/home/amir/twitter-scraping-for-hassan/data.txt",
+				"/bin/git_status",
+				"/home/amir/github/Amir-personal/diry/08-28-19.txt",
+				"/home/amir/a.py",
+				"/etc/fstab",
+				"/home/amir/github/Amir-personal/diry/08-27-19.txt",
+				"/home/amir/mtm/downloaded-files-count.py",
+				"/home/amir/mtm/download-script.py",
+				"/home/amir/mtm/get-links.py",
+				"/home/amir/github/working/downloaded-files-count.py",
+				"/home/amir/mtm/.bashrc",
+				"/home/amir/ML algos",
+				"/home/amir/github/Amir-personal/push_git",
+				"/home/amir/mtm/script.py",
+				"/home/amir/github/Amir-personal/diry/08-25-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-24-19.txt",
+				"/bin/systemctl",
+				"/home/amir/github/Amir-personal/diry/08-23-19.txt",
+				"/home/amir/coursera-script/coursera-script.py",
+				"/home/amir/coursera-vids/The Bits and Bytes of Computer Networking/file.txt",
+				"/home/amir/github/Amir-personal/diry/08-22-19.txt",
+				"/home/amir/github/working/Facebook_posts_links/Open_FB_links.py",
+				"/home/amir/github/Amir-personal/diry/08-21-19.txt",
+				"/home/amir/github/Notes/SQL/SQL_and_Pandas_practice.sql",
+				"/home/amir/github/Notes/SQL/sql_udacity_code.sql",
+				"/home/amir/github/R_language/swirl/Statistical-Inference.R",
+				"/home/amir/github/Amir-personal/diry/08-19-19.txt",
+				"/home/amir/github/R_language/swirl/save_notes_help_a.py",
+				"/home/amir/github/R_language/swirl/save_notes_help_q.py",
+				"/home/amir/github/Amir-personal/diry/08-16-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-18-19.txt",
+				"/home/amir/github/Amir-personal/diry/08-17-19.txt",
+				"/home/amir/artagal-session-4/link.txt",
+				"/home/amir/.local/bin/youtube-dl",
+				"/home/amir/.local/lib/python3.6/site-packages/youtube_dl/YoutubeDL.py",
+				"/home/amir/artagal-session-4/open_links.py"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"date",
+					"current",
+					"Var_name",
+					"ID Sep 2",
+					"df_temp",
+					"ID Sep 2",
+					"df_sms_sent_log",
+					"df_ext_storage_files",
+					"df_app_install_log",
+					"df_contacts_list",
+					"df_call_log",
+					"df_galary_data",
+					"df_location",
+					"df_calendar_events",
+					"df_filter_app_log",
+					"df_accounts_list",
+					"df_outgoing_call_log",
+					"df_sms_log",
+					", index=False",
+					"exist",
+					", if_exists='append'",
+					"sms_sent_log",
+					"sent_",
+					"df_outgoing_call_log",
+					"table_name = ",
+					"df_sms_log",
+					"ID Sep 2",
+					"displayName",
+					", if_exists='append'",
+					"df",
+					"\"",
+					"585",
+					"stallment",
+					"thatwasyourlastinstallment",
+					"{Address",
+					"{",
+					"[",
+					"find all",
+					"\n\n",
+					"\n",
+					"...: ",
+					".mp4",
+					"3",
+					"kb",
+					"mb",
+					"speed",
+					"24510",
+					"https://web.facebook.com/",
+					"image-2",
+					"iamge-2",
+					"Rules",
+					"smooth",
+					"splom",
+					"control",
+					"appearance",
+					"multi",
+					"panel",
+					"text",
+					"rstudio",
+					"import pickle\nwith open(\"pins.pkl\", \"rb\") as file:\n\tdic = pickle.load(file)\n\nfor e, i in enumerate(sorted(list(dic.keys()))):\n\t\tprint(e, i)\n\ndef addd():\n\tweb_name = input(\"\\nEnter web address:  \")\n\temail = input(\"Enter email address: \")\n\ttry:\n\t\tdic[web_name][email]\n\t\ta = int(input(\"\\nThis email is regestered on this web, are you need to override existing password?\\n1-Yes\\t\\t2-hmmm, show me the existing password\\t\\t\"))\n\t\tif a == 1:\n\t\t\tpass\n\t\telif a == 2:\n\t\t\tprint(\"*\"*10, dic[web_name][email], \"*\"*10)\n\t\t\ta = int(input(\"\\nAre you need to override it?\\n1-Yes\\t\\t2-No\\t\\t\"))\n\t\t\tif a == 2:\n\t\t\t\treturn \n\t\t\telif a == 1:\n\t\t\t\tpass\n\texcept:\n\t\tpass\n\tpassword = input(\"Enter password: \")\n\tdic[web_name] = {email : password}\n\t\n\tsee_dict = int(input(\"\\nAre you want to see added dict?\\n1-No\\t2-Yes: \\t\\t\"))\n\tif see_dict == 2:\n\t\timport pprint\n\t\tprint(\"\\n\")\n\t\tpprint.pprint(dic)\n\t\n\toverride = int(input(\"\\nAre you need override pin dict?\\n1-No\\t2-Yes\\t\\t\"))\n\tif override == 2:\n\t\tfile_name = \"pins.pkl\"\n\telif override == 1:\n\t\tfile_name = input(\"\\nEnter New file name: \")\n\t\n\tif not file_name.endswith(\".pkl\"):\n\t\tfile_name += \".pkl\"\n\n\twith open(file_name, \"wb\") as file:\n\t\tpickle.dump(dic, file)\n\ndef extract():\n\ta = dict()\n\tweb = int(input(\"\\n\\nEnter web name. eg: github or number\\n\"))\n\tprint(\"****** Possible Emails ******\")\n\tprint(sorted(list(dic.keys()))[web])\n\tfor e,i in enumerate(dic[sorted(list(dic.keys()))[web]]):\n\t\tprint(str(e+1) + \"- \\t\" +  i)\n\t\ta[str(e+1)] = i\n\temail = input(\"\\nchoose from numbers\\n\")\n\tresult = dic[sorted(list(dic.keys()))[web]][a[email]]\n\tif result:\n\t\tprint(\"\\n\\n*********** Your password is ***********\\n\" + result)\n\ndef add_or_extract():\n\tprint(\"\\n\\nYou want add account to data, or Extract data? \\n\")\n\tinp = int(input(\"1-ADD\\t2-Extract: \\t\\t\"))\n\tif inp == 2:\n\t\textract()\n\telif inp == 1:\n\t\taddd()\n\nadd_or_extract()",
+					"***k**",
+					"*'k‘",
+					"À\"k**",
+					"'k**",
+					"‘k‘A“",
+					"*'À'***",
+					"***‘k***",
+					"*'k*",
+					"**‘k**",
+					"***‘k",
+					"*À‘***",
+					"*'k*****",
+					"***..****",
+					"***‘****",
+					"*****‘k‘k****",
+					"***‘k**",
+					"*‘k**",
+					"*\"A'*",
+					"*k*",
+					"pocker.c",
+					"pg",
+					"page",
+					"  ",
+					" ",
+					"\n",
+					" ",
+					"\n",
+					"\n\n",
+					"\n",
+					"reg",
+					"re.",
+					"\"\t,",
+					"\" ,",
+					"rm",
+					"amirsaleem",
+					"'",
+					">>> ",
+					"arrange",
+					" ,",
+					"  ",
+					"_",
+					"magnitudenitude",
+					"-XYZ",
+					"Acc-",
+					"tGravity",
+					"tBody",
+					"Gyro",
+					"into",
+					"UCI HAR Dataset/",
+					"spread",
+					"copy",
+					"date",
+					"%",
+					"date",
+					"format",
+					"%",
+					"&",
+					"date",
+					" error ",
+					"error",
+					"ANTICONF ERROR",
+					" error ",
+					"error"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"numerical_Var_names",
+					"ID Sep 2(sample 2)",
+					"df_SQL_exist",
+					"ID Sep 2 (sample 2)",
+					"i",
+					", index=False, if_exists='append'",
+					"",
+					"{datafram}",
+					"table_name = \"",
+					"{dff}",
+					"dff",
+					"ID Aug 30",
+					"",
+					"\n",
+					"",
+					".mp4, ",
+					"",
+					"******",
+					"****",
+					"******",
+					"****",
+					"*****",
+					"*******",
+					"********",
+					"****",
+					"******",
+					"*****",
+					"******",
+					"********",
+					"*********",
+					"********",
+					"*****‘*******",
+					"*******",
+					"*****",
+					"***",
+					", ",
+					"",
+					",\"",
+					"\",",
+					"\"",
+					"",
+					"\",",
+					"",
+					",",
+					"",
+					".",
+					".x.axis.y.axis.z.axis",
+					"x.axis.y.axis.z.axis",
+					"acceleration.",
+					"time.gravity.",
+					"time.body.",
+					"gyroscope",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/amir/github/datasciencecoursera/2-R_programming/week-2/programming-assingment-1/specdata"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 35.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,0,0,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 2,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
