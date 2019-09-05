@@ -1,0 +1,1 @@
+read -p "Enter sleep time      " timee; while :; do sleep $timee ; du -0 -B M ;echo -n "      ";  date +%I:%M%p; done
