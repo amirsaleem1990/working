@@ -20,9 +20,19 @@ a = list(zip(*df.Size_in_KB.map(mgkb)))
 df["Size"] = a[0]
 df["UNIT"] = a[1]
 df["Size"] = df.Size.round(1).astype(str) + " " + df.UNIT
+sum_of_size = df.Size_in_KB.sum()
 df = df.drop(["Size_in_KB", "UNIT"], axis= 1)
 for i in range(len(df)):
 	name = df.iloc[i][0]
 	size = df.iloc[i][1]
-	# print(, size)
 	print('{:_<10}'.format(size), name)
+print("\n*")
+print("******************************\n* ", end="")
+unit = "KB" if sum_of_size < 1024 else "MB" if sum_of_size < 1024*1024 else "GB"
+if unit == "KB":
+	print(sum_of_size, " KB   TOTAL " , "{:>10}".format("*"))
+elif unit == "MB":
+		print(round(sum_of_size/1024, 2), " MB   TOTAL " , "{:>10}".format("*"))
+elif unit == "GB":
+		print(round(sum_of_size/1024/1024, 2), " GB   TOTAL " , "{:>10}".format("*"))
+print("******************************")
