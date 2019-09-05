@@ -1,7 +1,9 @@
 #!/usr/bin/env ipython3
 import os
+from pprint import pprint
 a = list(os.popen("du -sh -B K * | sort -nr"))
 import pandas as pd
+pd.set_option('max_colwidth', 150)
 df = pd.DataFrame(columns=["Name", "Size_in_KB"])
 for i in a:
     df.loc[len(df)+1] = i.strip().split("\t")[::-1]
@@ -17,5 +19,10 @@ df.Size_in_KB = df.Size_in_KB.astype("int64")
 a = list(zip(*df.Size_in_KB.map(mgkb)))
 df["Size"] = a[0]
 df["UNIT"] = a[1]
-import pprint
-pprint.pprint(df)
+df["Size"] = df.Size.astype(int).astype(str) + " " + df.UNIT
+df = df.drop(["Size_in_KB", "UNIT"], axis= 1)
+for i in range(len(df)):
+	name = df.iloc[i][0]
+	size = df.iloc[i][1]
+	# print(, size)
+	print('{:_<10}'.format(size), name)
