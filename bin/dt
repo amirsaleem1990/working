@@ -1,5 +1,6 @@
 #!/usr/bin/env ipython3
 import os
+import re
 from pprint import pprint
 a = list(os.popen("du -sh -B K * | sort -nr"))
 import pandas as pd
@@ -18,21 +19,25 @@ def mgkb(x):
 df.Size_in_KB = df.Size_in_KB.astype("int64")
 a = list(zip(*df.Size_in_KB.map(mgkb)))
 df["Size"] = a[0]
+df["Size"] = df.Size.round(1)
 df["UNIT"] = a[1]
-df["Size"] = df.Size.round(1).astype(str) + " " + df.UNIT
 sum_of_size = df.Size_in_KB.sum()
-df = df.drop(["Size_in_KB", "UNIT"], axis= 1)
+df = df.drop("Size_in_KB", axis= 1)
+df = df[["Size", "UNIT", "Name"]]
 for i in range(len(df)):
-	name = df.iloc[i][0]
-	size = df.iloc[i][1]
-	print('{:_<10}'.format(size), name)
-print("\n*")
+    size = df.iloc[i][0]
+    unit = df.iloc[i][1]
+    name = df.iloc[i][2]
+    if unit in ["KB", "MB"]:
+        size = int(size)
+    print('{:_<5}_{}'.format(size, unit), name)
+print("\n")
 print("******************************\n* ", end="")
 unit = "KB" if sum_of_size < 1024 else "MB" if sum_of_size < 1024*1024 else "GB"
 if unit == "KB":
-	print(sum_of_size, " KB   TOTAL " , "{:>10}".format("*"))
+	print(sum_of_size, " KB   TOTAL " , "{:>9}".format("*"))
 elif unit == "MB":
-		print(round(sum_of_size/1024, 2), " MB   TOTAL " , "{:>10}".format("*"))
+		print(round(sum_of_size/1024, 2), " MB   TOTAL " , "{:>9}".format("*"))
 elif unit == "GB":
-		print(round(sum_of_size/1024/1024, 2), " GB   TOTAL " , "{:>10}".format("*"))
+		print(round(sum_of_size/1024/1024, 2), " GB   TOTAL " , "{:>9}".format("*"))
 print("******************************")
