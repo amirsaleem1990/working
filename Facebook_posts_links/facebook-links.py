@@ -69,3 +69,4 @@ with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb
     pickle.dump(link_dict, file)
 
 browser.close()
+os.remove("geckodriver.log")
