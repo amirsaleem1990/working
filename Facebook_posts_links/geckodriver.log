@@ -919,3 +919,5 @@ IPDL protocol error: Handler returned error code!
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0xA80006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
 
+1568285920969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lJL57emOoKLt"
+*** You are running in headless mode.
