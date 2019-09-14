@@ -41,6 +41,7 @@ loginButton[0].click()
 
 link_dict = {}
 fb_base_url = "https://web.facebook.com/"
+# pages i nedd in list: "idreesazad2"
 for name, url in zip(
     ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
