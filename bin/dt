@@ -41,3 +41,11 @@ elif unit == "MB":
 elif unit == "GB":
 		print(round(sum_of_size/1024/1024, 2), " GB   TOTAL " , "{:>9}".format("*"))
 print("******************************")
+
+
+hiddend_files_size = list(os.popen("find -mindepth 1 -prune -name '.*'"))
+if hiddend_files_size:
+    print("\n\n", "*"*10, "NOTE", "*"*10)
+    HIDDEN = list(os.popen("du -csh  $(find -mindepth 1 -prune -name '.*')"))[-1]
+    H = HIDDEN[:HIDDEN.index("\ttotal")]
+    print(f"There is hidden files of size *****{H}*****")
