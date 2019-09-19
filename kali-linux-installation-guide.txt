@@ -1,1 +1,1 @@
-Kali linux installation in virtual box guide found in page# 11 in book Linux Basics for Hackers_Getting Started with Networking, Scripting, and Security in Kali .pdf
+Kali linux installation in virtual box guide found in page# 11 in book Linux Basics for Hackers_ Getting Started with Networking, Scripting, and Security in Kali .pdf
