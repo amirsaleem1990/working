@@ -5,13 +5,18 @@ import itertools
 
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "rb") as file:
     current_data = pickle.load(file)
-current_data = {k:y for k,y in link_dict.items() if current_data[k]}
-
+current_data = {k:y for k,y in current_data.items() if current_data[k]}
+# all_current_dict_links = list(itertools.chain(*current_data.values()))
 master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
-
-all_current_dict_links = list(itertools.chain(*current_data.values()))
 all_all_links_dict_links = master_csv.link.values
 
+for k,v in current_data.items():
+    for value in v:
+        if value in all_all_links_dict_links:
+            current_data[k].remove(value)
+
+
+            
 for link in all_current_dict_links:
 	if not link in all_all_links_dict_links:
 		os.system("firefox " + link)        
