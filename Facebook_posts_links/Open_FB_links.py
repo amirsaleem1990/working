@@ -5,6 +5,7 @@ import itertools
 
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "rb") as file:
     current_data = pickle.load(file)
+current_data = {k:y for k,y in link_dict.items() if current_data[k]}
 
 master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
 
