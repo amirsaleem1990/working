@@ -10,4 +10,5 @@ for i in dd:
     adf =  pd.DataFrame(dd[i])
     adf['Name'] = i
     df = df.append(adf)
+df.columns = ["link", "Date", "Name"]
 df.to_csv("links.csv", index=False)
