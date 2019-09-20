@@ -12,13 +12,11 @@ current_data = {k:y for k,y in current_data.items() if current_data[k]}
 
 # read master data, that contain all scraped links ever
 master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
-# list of all links
-all_all_links_dict_links = master_csv.link.values
 
 # remove all links from <current_data> that exists in <master_csv> file
 for k,v in current_data.items():
     for value in v:
-        if value in all_all_links_dict_links:
+        if value in master_csv['link']:
             current_data[k].remove(value)
 
 # lsit of all fresh links
@@ -33,9 +31,8 @@ fresh_df = pd.DataFrame()
 
 # now we create dataframe for fresh data
 dd = {}
-for i in link_dict:
-    if link_dict[i]:
-        dd[i] = [(v, str(DateTime)) for v in link_dict[i]]
+for i in current_data:
+    dd[i] = [(v, str(DateTime)) for v in current_data[i]]
 for i in dd:
     adf =  pd.DataFrame(dd[i])
     adf['Name'] = i
