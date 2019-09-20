@@ -4,11 +4,15 @@ import pickle
 import itertools
 import datetime
 
+# read all fresh links
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "rb") as file:
     current_data = pickle.load(file)
+# remove all keys that have no values[empty lists]
 current_data = {k:y for k,y in current_data.items() if current_data[k]}
 
+# read master data, that contain all scraped links ever
 master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
+# list of all links
 all_all_links_dict_links = master_csv.link.values
 
 # remove all links from <current_data> that exists in <master_csv> file
@@ -17,13 +21,17 @@ for k,v in current_data.items():
         if value in all_all_links_dict_links:
             current_data[k].remove(value)
 
+# lsit of all fresh links
 all_current_dict_links = list(itertools.chain(*current_data.values()))
+# open all links in firefox browser
 for link in all_current_dict_links:
 		os.system("firefox " + link)        
 
-
+# current date and time 
 DateTime = str(datetime.datetime.now())
 fresh_df = pd.DataFrame()
+
+# now we create dataframe for fresh data
 dd = {}
 for i in link_dict:
     if link_dict[i]:
@@ -33,6 +41,7 @@ for i in dd:
     adf['Name'] = i
     fresh_df = fresh_df.append(adf)
 
+# append fresh dataframe to master dataframe and save it
 if len(fresh_df) > 0:
     fresh_df.columns = ["link", "Date", "Name"]
     new_and_old = pd.concat([master_csv, fresh_df])
