@@ -22,7 +22,6 @@ for link in all_current_dict_links:
 		os.system("firefox " + link)        
 
 
-
 DateTime = str(datetime.datetime.now())
 fresh_df = pd.DataFrame()
 dd = {}
