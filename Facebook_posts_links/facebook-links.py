@@ -69,7 +69,7 @@ for name, url in zip(
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
 
-if not list(itertools.chain(*current_data.values())):
+if not list(itertools.chain(*link_dict.values())):
     print("\n\n\nNOTE: there is no new link\n\n")
 browser.close()
 os.remove("geckodriver.log")
