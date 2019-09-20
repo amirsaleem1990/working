@@ -7,14 +7,10 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import numpy as np
 import time
-import datetime
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 options = Options()
 options.add_argument("--headless")
-DateTime = str(datetime.datetime.now())
-
-master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
     
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
