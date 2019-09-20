@@ -65,7 +65,7 @@ for name, url in zip(
         except:
             pass
     
-with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "rb") as file:
+with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
 
 browser.close()
