@@ -13,8 +13,6 @@ from selenium.webdriver.firefox.options import Options
 options = Options()
 options.add_argument("--headless")
 DateTime = str(datetime.datetime.now())
-# with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb") as file:
-#     all_links = pickle.load(file)
 
 master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
     
@@ -70,10 +68,6 @@ for name, url in zip(
                     link_dict[name].append(i['href'])
         except:
             pass
-
-link_dict = {k:y for k,y in link_dict.items() if current_data[k]}
-with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
-    pickle.dump(link_dict, file)
     
 fresh_df = pd.DataFrame()
 dd = {}
