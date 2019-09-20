@@ -6,13 +6,16 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import numpy as np
 import time
+import datetime
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 options = Options()
 options.add_argument("--headless")
+DateTime = str(datetime.datetime.now())
+# with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb") as file:
+#     all_links = pickle.load(file)
 
-with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb") as file:
-    all_links = pickle.load(file)
+master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
     
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
@@ -67,8 +70,22 @@ for name, url in zip(
         except:
             pass
 
-with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
-    pickle.dump(link_dict, file)
+fresh_df = pd.DataFrame()
+dd = {}
+for i in link_dict:
+    if link_dict[i]:
+        dd[i] = [(v, "before 20-sep-2019") for v in link_dict[i]]
+for i in dd:
+    adf =  pd.DataFrame(dd[i])
+    adf['Name'] = i
+    fresh_df = fresh_df.append(adf)
 
-browser.close()
-os.remove("geckodriver.log")
+if len(fresh_df) > 0:
+    fresh_df.columns = ["link", "Date", "Name"]
+    new_and_old = pd.concat([master_csv, fresh_df])
+    new_and_old.to_csv("master_csv", index = False)
+# with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
+#     pickle.dump(link_dict, file)
+
+# browser.close()
+# os.remove("geckodriver.log")
