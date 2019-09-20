@@ -69,6 +69,13 @@ for name, url in zip(
         except:
             pass
     
+
+link_dict = {k:y for k,y in link_dict.items() if link_dict[k]}
+with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "rb") as file:
+    pickle.dump(link_dict, file)
+
+
+
 fresh_df = pd.DataFrame()
 dd = {}
 for i in link_dict:
