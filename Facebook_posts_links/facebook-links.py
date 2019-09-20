@@ -6,6 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import numpy as np
+import itertools
 import time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
@@ -64,9 +65,11 @@ for name, url in zip(
                     link_dict[name].append(i['href'])
         except:
             pass
-    
+
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
 
+if not list(itertools.chain(*current_data.values())):
+    print("\n\n\nNOTE: there is no new link\n\n")
 browser.close()
 os.remove("geckodriver.log")
