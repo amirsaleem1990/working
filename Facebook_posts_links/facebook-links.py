@@ -71,11 +71,15 @@ for name, url in zip(
         except:
             pass
 
+link_dict = {k:y for k,y in link_dict.items() if current_data[k]}
+with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
+    pickle.dump(link_dict, file)
+    
 fresh_df = pd.DataFrame()
 dd = {}
 for i in link_dict:
     if link_dict[i]:
-        dd[i] = [(v, "before 20-sep-2019") for v in link_dict[i]]
+        dd[i] = [(v, str(DateTime)) for v in link_dict[i]]
 for i in dd:
     adf =  pd.DataFrame(dd[i])
     adf['Name'] = i

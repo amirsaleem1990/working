@@ -1,3 +1,4 @@
+import pandas as pd
 import os
 import pickle
 import itertools
@@ -5,12 +6,10 @@ import itertools
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "rb") as file:
     current_data = pickle.load(file)
 
-with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb") as file:
-    all_links = pickle.load(file)
-
+master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
 
 all_current_dict_links = list(itertools.chain(*current_data.values()))
-all_all_links_dict_links = list(itertools.chain(*all_links.values()))
+all_all_links_dict_links = master_csv.link.values
 
 for link in all_current_dict_links:
 	if not link in all_all_links_dict_links:
@@ -24,7 +23,3 @@ for k,v in current_data.items():
         for i in v:
             if not i in all_links[k]:
                 all_links[k].append(i)
-
-
-with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "wb") as file:
-	pickle.dump(all_links, file)
