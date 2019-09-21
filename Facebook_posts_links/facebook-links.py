@@ -75,7 +75,10 @@ for name, url in zip(names, urls):
 				if not l.startswith("http"):
 					if not l.startswith("/ufi"):
 						if "posts" in l:
-							link_dict[name].append(fb_base_url[:-1] + l)
+							if l.endswith("?_rdc=1&_rdr"):
+								link_dict[name].append(fb_base_url[:-1] + l.replace("?_rdc=1&_rdr", ""))	
+							else:
+								link_dict[name].append(fb_base_url[:-1] + l)
 		except:
 			pass
 for i in link_dict:
