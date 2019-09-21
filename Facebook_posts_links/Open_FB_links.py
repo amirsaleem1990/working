@@ -11,7 +11,8 @@ def open_links():
 	current_data = {k:y for k,y in current_data.items() if current_data[k]}
 
 	# read master data, that contain all scraped links ever
-	existing_urls = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")['link'].values
+	master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
+	existing_urls = master_csv['link'].values
 
 	# remove all links from <current_data> that exists in <master_csv> file
 	for k,v in current_data.items():
@@ -39,7 +40,6 @@ def open_links():
 	    fresh_df = fresh_df.append(adf)
 
 	# append fresh dataframe to master dataframe and save it
-	master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
 	if len(fresh_df) > 0:
 	    fresh_df.columns = ["link", "Date", "Name"]
 	    new_and_old = pd.concat([master_csv, fresh_df])
