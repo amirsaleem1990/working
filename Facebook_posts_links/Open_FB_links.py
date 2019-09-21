@@ -19,7 +19,10 @@ def open_links():
 	    for value in v:
 	        if value in existing_urls:
 	            current_data[k].remove(value)
-
+	for k,v in current_data.items():
+	    for value in v:
+	        if value in existing_urls:
+	            current_data[k].remove(value)
 	# lsit of all fresh links
 	all_current_dict_links = list(itertools.chain(*current_data.values()))
 	# open all links in firefox browser
