@@ -45,7 +45,6 @@ loginButton[0].click()
 link_dict = {}
 fb_base_url = "https://web.facebook.com/"
 # pages i nedd in list: "idreesazad2"
-counter = 0
 names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
 	 "Abu muhammad musab", "Mahtab khan", "mohammad.saleem"]
@@ -59,6 +58,7 @@ urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
 
 print("Successfully logged in")
 
+counter = 0
 for name, url in zip(names, urls):
 	counter += 1
 	print("Done: ", round((counter / len(names))*100), "% || ", counter, "out of ", len(names))
@@ -70,12 +70,12 @@ for name, url in zip(names, urls):
 	a = s.find("div", {"id" : "timeline_story_column"})
 	for i in a.find_all('a'):
 		try:
-			if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
-				if not i['href'] in all_links[name]:
-					link_dict[name].append(i['href'])
-		except:
-			pass
-
+			l = i['href']
+			if l != "#":
+				if not l.startswith("http"):
+					if not l.startswith("/ufi"):
+						if "posts" in l:
+							link_dict[name].append(fb_base_url + l)
 if not list(itertools.chain(*link_dict.values())):
     print("\n\n\nNOTE: there is no new link\n\n")
 
