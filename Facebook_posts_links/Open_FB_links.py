@@ -45,4 +45,4 @@ def open_links():
 	if len(fresh_df) > 0:
 	    fresh_df.columns = ["link", "Date", "Name"]
 	    new_and_old = pd.concat([master_csv, fresh_df])
-	    new_and_old.to_csv("master_csv", index = False)
+	    new_and_old.to_csv("links.csv", index = False)
