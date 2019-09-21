@@ -80,17 +80,19 @@ for name, url in zip(names, urls):
 			pass
 
 
-if not list(itertools.chain(*link_dict.values())): print("\n\n\nNOTE: there is no new link\n\n")
-# else:
-	# with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
-		# pickle.dump(link_dict, file)
+if not list(itertools.chain(*link_dict.values())): 
+	print("\n\n\nNOTE: there is no new link\n\n")
+else:
+	with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
+		pickle.dump(link_dict, file)
 
 
-# browser.close()
-# os.remove("geckodriver.log")
+browser.close()
+os.remove("geckodriver.log")
 
-# if read_or_not.lower() == "y":
-	# import Open_FB_links
-	# Open_FB_links.open_links()
-# elif read_or_not.lower() == "n":
-	# pass
+if read_or_not.lower() == "y":
+	os.chdir("/home/amir/github/working/Facebook_posts_links")
+	import Open_FB_links
+	Open_FB_links.open_links()
+elif read_or_not.lower() == "n":
+	pass
