@@ -12,7 +12,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 
 # need to open links or not?
-read_or_not = input("Are you need to open new links? [y/n]")	
+read_or_not = input("Are you need to open new links? [y/n]\n")	
 
 options = Options()
 options.add_argument("--headless")
