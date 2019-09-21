@@ -76,7 +76,8 @@ for name, url in zip(names, urls):
 					if not l.startswith("/ufi"):
 						if "posts" in l:
 							link_dict[name].append(fb_base_url + l)
-
+		except:
+			pass
 
 
 if not list(itertools.chain(*link_dict.values())): print("\n\n\nNOTE: there is no new link\n\n")
