@@ -24,7 +24,6 @@ def open_links():
 	all_current_dict_links = list(itertools.chain(*current_data.values()))
 	# open all links in firefox browser
 	for link in all_current_dict_links:
-		time.sleep(1)
 		os.system("firefox " + link)
 
 	# current date and time 
