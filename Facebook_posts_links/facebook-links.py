@@ -56,6 +56,9 @@ urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
      "mohammaddin.jauhar.7", "Riayat.Farooqui", "asim.allahbakhsh",
      "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
      "profile.php?id=100026041448813", "mohammad.saleem.568847"]
+
+print("Successfully logged in")
+
 for name, url in zip(names, urls):
 	counter += 1
 	print("Done: ", round((counter / len(names))*100), "% || ", counter, "out of ", len(names))
