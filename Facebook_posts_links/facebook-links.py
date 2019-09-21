@@ -65,13 +65,13 @@ for name, url in zip(names, urls):
 	browser.get(complted_url)
 	s = BeautifulSoup(browser.page_source, "lxml")
 	a = s.find("div", {"id" : "timeline_story_column"})
-    for i in a.find_all('a'):
-        try:
-            if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
-                if not i['href'] in all_links[name]:
-                    link_dict[name].append(i['href'])
-        except:
-            pass
+	for i in a.find_all('a'):
+		try:
+			if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
+				if not i['href'] in all_links[name]:
+					link_dict[name].append(i['href'])
+		except:
+			pass
 
 if not list(itertools.chain(*link_dict.values())):
     print("\n\n\nNOTE: there is no new link\n\n")
