@@ -4,7 +4,6 @@ def open_links():
 	import pickle
 	import itertools
 	import datetime
-	import time
 	# read all fresh links
 	with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "rb") as file:
 	    current_data = pickle.load(file)
