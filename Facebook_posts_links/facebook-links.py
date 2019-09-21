@@ -10,6 +10,10 @@ import itertools
 import time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
+
+# need to open links or not?
+read_or_not = input("Are you need to open new links? [y/n]")	
+
 options = Options()
 options.add_argument("--headless")
     
@@ -76,3 +80,9 @@ else:
 
 browser.close()
 os.remove("geckodriver.log")
+
+if read_or_not.lower() == "y":
+	import Open_FB_links
+	Open_FB_links.open_links()
+elif read_or_not.lower() == "n":
+	pass
