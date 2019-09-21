@@ -12,7 +12,7 @@ def open_links():
 
 	# read master data, that contain all scraped links ever
 	master_csv = pd.read_csv("/home/amir/github/working/Facebook_posts_links/links.csv")
-	existing_urls = master_csv['link'].values
+	existing_urls = list(master_csv['link'].values)
 
 	# remove all links from <current_data> that exists in <master_csv> file
 	for k,v in current_data.items():
