@@ -59,12 +59,12 @@ urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
 for name, url in zip(names, urls):
 	counter += 1
 	print("Done: ", round(counter / len(names), 2), "% || ", counter, "out of ", len(names))
-    complted_url = fb_base_url + url
-    if not name in link_dict:
-        link_dict[name] = []
-    browser.get(complted_url)
-    s = BeautifulSoup(browser.page_source, "lxml")
-    a = s.find("div", {"id" : "timeline_story_column"})
+	complted_url = fb_base_url + url
+	if not name in link_dict:
+		link_dict[name] = []
+	browser.get(complted_url)
+	s = BeautifulSoup(browser.page_source, "lxml")
+	a = s.find("div", {"id" : "timeline_story_column"})
     for i in a.find_all('a'):
         try:
             if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
