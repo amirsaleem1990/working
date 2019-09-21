@@ -19,7 +19,7 @@ options.add_argument("--headless")
     
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
-    
+print("Trying to login")   
 # browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
 browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
 #navigates you to the facebook page.
