@@ -58,7 +58,7 @@ urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
      "profile.php?id=100026041448813", "mohammad.saleem.568847"]
 for name, url in zip(names, urls):
 	counter += 1
-	print("Done: ", round(counter / len(names), 2), "% || ", counter, "out of ", len(names))
+	print("Done: ", round((counter / len(names))*100, 2), "% || ", counter, "out of ", len(names))
 	complted_url = fb_base_url + url
 	if not name in link_dict:
 		link_dict[name] = []
