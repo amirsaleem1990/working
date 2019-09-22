@@ -68,12 +68,12 @@ for name, url in zip(names, urls):
 	# for i in pickle_dict:
 	#     pickle_dict[i] = BeautifulSoup(pickle_dict[i])
 	for i in a.find_all('a'):
-        try:
-            if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
-                if not i['href'] in all_links[name]:
-                    link_dict[name].append(i['href'])
-        except:
-            pass
+		try:
+			if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
+				if not i['href'] in all_links[name]:
+					link_dict[name].append(i['href'])
+		except:
+        	pass
 
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
