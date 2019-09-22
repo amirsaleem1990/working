@@ -60,20 +60,20 @@ for name, url in zip(names, urls):
 	browser.get(complted_url)
 	s = BeautifulSoup(browser.page_source, "lxml")
 	a = s.find("div", {"id" : "timeline_story_column"})
-	pickle_dict[name] = str(a)
-with open("pickle_dict.pkl", "wb") as file:
-	pickle.dump(pickle_dict, file)
-with open("pickle_dict.pkl", "rb") as file:
-    pickle_dict = pickle.load(file)
-for i in pickle_dict:
-    pickle_dict[i] = BeautifulSoup(pickle_dict[i])
-    # for i in a.find_all('a'):
-    #     try:
-    #         if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
-    #             if not i['href'] in all_links[name]:
-    #                 link_dict[name].append(i['href'])
-    #     except:
-    #         pass
+	# 	pickle_dict[name] = str(a)
+	# with open("pickle_dict.pkl", "wb") as file:
+	# 	pickle.dump(pickle_dict, file)
+	# with open("pickle_dict.pkl", "rb") as file:
+	#     pickle_dict = pickle.load(file)
+	# for i in pickle_dict:
+	#     pickle_dict[i] = BeautifulSoup(pickle_dict[i])
+	for i in a.find_all('a'):
+        try:
+            if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
+                if not i['href'] in all_links[name]:
+                    link_dict[name].append(i['href'])
+        except:
+            pass
 
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
