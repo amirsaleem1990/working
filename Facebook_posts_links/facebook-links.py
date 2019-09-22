@@ -63,6 +63,10 @@ for name, url in zip(names, urls):
     pickle_dict[name] = str(a)
 with open("pickle_dict.pkl", "wb") as file:
 	pickle.dump(pickle_dict, file)
+with open("pickle_dict.pkl", "rb") as file:
+    pickle_dict = pickle.load(file)
+for i in pickle_dict:
+    pickle_dict[i] = BeautifulSoup(pickle_dict[i])
     # for i in a.find_all('a'):
     #     try:
     #         if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
