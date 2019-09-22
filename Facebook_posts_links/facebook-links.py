@@ -73,7 +73,7 @@ for name, url in zip(names, urls):
 				if not i['href'] in all_links[name]:
 					link_dict[name].append(i['href'])
 		except:
-        	pass
+			pass
 
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
