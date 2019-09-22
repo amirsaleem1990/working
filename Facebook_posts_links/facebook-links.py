@@ -14,6 +14,11 @@ options.add_argument("--headless")
 with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb") as file:
     all_links = pickle.load(file)
     
+all_links_list = []
+for i in all_links:
+    all_links_list += all_links[i]
+
+
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
     
@@ -53,10 +58,9 @@ urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
      "mohammaddin.jauhar.7", "Riayat.Farooqui", "asim.allahbakhsh",
      "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
      "profile.php?id=100026041448813", "mohammad.saleem.568847"]
+
 new_links = []
-all_links_list = []
-for i in all_links:
-    all_links_list += all_links[i]
+
 for name, url in zip(names, urls):
 	complted_url = fb_base_url + url
 	if not name in all_links:
@@ -66,15 +70,15 @@ for name, url in zip(names, urls):
 	a = s.find("div", {"id" : "timeline_story_column"})
 	for i in a.select('a'):
 		try:
-	        for z in i:
-	            link = z['href']
-	            if not "https://web.facebook.com" + link in all_links_list:
-		            if link != "#":
-				        if not link.startswith("/ufi"):
-				            if not link.startswith("http"):
-				                if not link.startswith("/profile"):
-				                	if "/posts/" in link:
-					                    links.append(link)
+			for z in i:
+	        	link = z['href']
+	        	if not "https://web.facebook.com" + link in all_links_list:
+	        		if link != "#":
+	        			if not link.startswith("/ufi"):
+	        				if not link.startswith("http"):
+	        					if not link.startswith("/profile"):
+	        						if "/posts/" in link:
+	        							new_links.append(link)
 		except:
 			pass
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
