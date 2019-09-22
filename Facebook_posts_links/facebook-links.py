@@ -79,6 +79,7 @@ for name, url in zip(names, urls):
 								if not link.startswith("/profile"):
 									if "/posts/" in link:
 										new_links.append(link)
+										all_links[name].append("https://web.facebook.com" + link)
 		except:
 			pass
 
