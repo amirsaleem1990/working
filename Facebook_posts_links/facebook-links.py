@@ -59,6 +59,7 @@ urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
      "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
      "profile.php?id=100026041448813", "mohammad.saleem.568847"]
 
+extected_links = []
 new_links = []
 
 for name, url in zip(names, urls):
@@ -72,20 +73,21 @@ for name, url in zip(names, urls):
 		try:
 			for z in i:
 				link = z['href']
-				if not "https://web.facebook.com" + link in all_links_list:
-					if link != "#":
-						if not link.startswith("/ufi"):
-							if not link.startswith("http"):
-								if not link.startswith("/profile"):
-									if "/posts/" in link:
-										new_links.append(link)
-										all_links[name].append("https://web.facebook.com" + link)
+				extected_links.append(link)
+				# if not "https://web.facebook.com" + link in all_links_list:
+				# 	if link != "#":
+				# 		if not link.startswith("/ufi"):
+				# 			if not link.startswith("http"):
+				# 				if not link.startswith("/profile"):
+				# 					if "/posts/" in link:
+				# 						new_links.append(link)
+				# 						all_links[name].append("https://web.facebook.com" + link)
 		except:
 			pass
 
-with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
-    pickle.dump(new_links, file)
-with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "wb") as file:
-	pickle.dump(all_links, file)
-browser.close()
-os.remove("geckodriver.log")
+# with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
+#     pickle.dump(new_links, file)
+# with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "wb") as file:
+# 	pickle.dump(all_links, file)
+# browser.close()
+# os.remove("geckodriver.log")
