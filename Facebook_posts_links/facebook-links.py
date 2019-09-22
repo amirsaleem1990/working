@@ -53,10 +53,11 @@ urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
      "mohammaddin.jauhar.7", "Riayat.Farooqui", "asim.allahbakhsh",
      "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
      "profile.php?id=100026041448813", "mohammad.saleem.568847"]
+new_links = []
 for name, url in zip(names, urls):
 	complted_url = fb_base_url + url
-	if not name in link_dict:
-		link_dict[name] = []
+	if not name in all_links:
+		all_links[name] = []
 	browser.get(complted_url)
 	s = BeautifulSoup(browser.page_source, "lxml")
 	a = s.find("div", {"id" : "timeline_story_column"})
@@ -71,12 +72,13 @@ for name, url in zip(names, urls):
 		try:
 			if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
 				if not i['href'] in all_links[name]:
-					link_dict[name].append(i['href'])
+					all_links[name].append(i['href'])
+					new_links.append(i['href'])
 		except:
 			pass
 
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
-    pickle.dump(link_dict, file)
+    pickle.dump(new_links, file)
 
 browser.close()
 os.remove("geckodriver.log")
