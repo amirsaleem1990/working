@@ -42,30 +42,34 @@ loginButton[0].click()
 link_dict = {}
 fb_base_url = "https://web.facebook.com/"
 # pages i nedd in list: "idreesazad2"
-for name, url in zip(
-    ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
+pickle_dict = {}
+names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
-	 "Abu muhammad musab", "Mahtab khan", "mohammad.saleem"], 
-     ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895", 
+	 "Abu muhammad musab", "Mahtab khan", "mohammad.saleem"]
+urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895", 
      "mohammad.f.haris", "abdullah.adam49", "hm.zubair.52", 
       "abumaryam82", "munib.hussain86", "jameelbaloch1924", 
       "theguided1", "abubakr.quddusi.3",
      "mohammaddin.jauhar.7", "Riayat.Farooqui", "asim.allahbakhsh",
      "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
-     "profile.php?id=100026041448813", "mohammad.saleem.568847"]):
-    complted_url = fb_base_url + url
-    if not name in link_dict:
-        link_dict[name] = []
-    browser.get(complted_url)
+     "profile.php?id=100026041448813", "mohammad.saleem.568847"]
+for name, url in zip(names, urls):
+	complted_url = fb_base_url + url
+	if not name in link_dict:
+		link_dict[name] = []
+	browser.get(complted_url)
     s = BeautifulSoup(browser.page_source, "lxml")
     a = s.find("div", {"id" : "timeline_story_column"})
-    for i in a.find_all('a'):
-        try:
-            if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
-                if not i['href'] in all_links[name]:
-                    link_dict[name].append(i['href'])
-        except:
-            pass
+    pickle_dict[name] = str(a)
+with open("pickle_dict.pkl", "wb") as file:
+	pickle.dump(pickle_dict, file)
+    # for i in a.find_all('a'):
+    #     try:
+    #         if (i['href'].startswith(complted_url + "/post")) and (not "comment_id" in i['href']):
+    #             if not i['href'] in all_links[name]:
+    #                 link_dict[name].append(i['href'])
+    #     except:
+    #         pass
 
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(link_dict, file)
