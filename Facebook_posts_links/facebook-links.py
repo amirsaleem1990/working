@@ -71,16 +71,17 @@ for name, url in zip(names, urls):
 	for i in a.select('a'):
 		try:
 			for z in i:
-	        	link = z['href']
-	        	if not "https://web.facebook.com" + link in all_links_list:
-	        		if link != "#":
-	        			if not link.startswith("/ufi"):
-	        				if not link.startswith("http"):
-	        					if not link.startswith("/profile"):
-	        						if "/posts/" in link:
-	        							new_links.append(link)
+				link = z['href']
+				if not "https://web.facebook.com" + link in all_links_list:
+					if link != "#":
+						if not link.startswith("/ufi"):
+							if not link.startswith("http"):
+								if not link.startswith("/profile"):
+									if "/posts/" in link:
+										new_links.append(link)
 		except:
 			pass
+
 with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
     pickle.dump(new_links, file)
 with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "wb") as file:
