@@ -60,7 +60,7 @@ for name, url in zip(names, urls):
 	browser.get(complted_url)
 	s = BeautifulSoup(browser.page_source, "lxml")
 	a = s.find("div", {"id" : "timeline_story_column"})
-    pickle_dict[name] = str(a)
+	pickle_dict[name] = str(a)
 with open("pickle_dict.pkl", "wb") as file:
 	pickle.dump(pickle_dict, file)
 with open("pickle_dict.pkl", "rb") as file:
