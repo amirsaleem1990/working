@@ -614,3 +614,11 @@ Exiting due to channel error.
 1569217211726	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1569217213193	Marionette	INFO	Listening on port 35131
 1569217213236	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14874): dconf-WARNING **: 10:40:52.449: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i-RI4/y-/l/en_US/2_Hr1sM8lOH.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeH0K_xfvIW3KV6EM8N20QWj-b3n2KwFY7VRf2U82wC9MgULJIL3IMkS72PjD2hDe8i9q4UwXSPG-RlQx29bBJxpagllKVH3jl3cCvH4gCfddA, line 39: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i-RI4/y-/l/en_US/2_Hr1sM8lOH.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeH0K_xfvIW3KV6EM8N20QWj-b3n2KwFY7VRf2U82wC9MgULJIL3IMkS72PjD2hDe8i9q4UwXSPG-RlQx29bBJxpagllKVH3jl3cCvH4gCfddA, line 39: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i-RI4/y-/l/en_US/2_Hr1sM8lOH.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeH0K_xfvIW3KV6EM8N20QWj-b3n2KwFY7VRf2U82wC9MgULJIL3IMkS72PjD2hDe8i9q4UwXSPG-RlQx29bBJxpagllKVH3jl3cCvH4gCfddA, line 39: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i-RI4/y-/l/en_US/2_Hr1sM8lOH.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeH0K_xfvIW3KV6EM8N20QWj-b3n2KwFY7VRf2U82wC9MgULJIL3IMkS72PjD2hDe8i9q4UwXSPG-RlQx29bBJxpagllKVH3jl3cCvH4gCfddA, line 39: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
