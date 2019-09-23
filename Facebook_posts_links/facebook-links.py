@@ -44,10 +44,7 @@ time.sleep(np.random.randint(3, 6))
 loginButton = browser.find_elements_by_css_selector("input[type=submit]")
 loginButton[0].click()
 
-link_dict = {}
-fb_base_url = "https://web.facebook.com/"
 # pages i nedd in list: "idreesazad2"
-pickle_dict = {}
 names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
 	 "Abu muhammad musab", "Mahtab khan", "mohammad.saleem"]
@@ -59,12 +56,13 @@ urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
      "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
      "profile.php?id=100026041448813", "mohammad.saleem.568847"]
 
+fb_base_url = "https://web.facebook.com/"
 extrected_links = []
 new_links = []
 counter = 0
 for name, url in zip(names, urls):
 	counter += 1
-	print(round((counter / len(names))*100, 2), "%")
+	print((counter / len(names))*100, "%")
 	complted_url = fb_base_url + url
 	if not name in all_links:
 		all_links[name] = []
