@@ -72,8 +72,7 @@ for name, url in zip(names, urls):
 	for i in a.select('a'):
 		for z in i:
 			try:
-				link = z['href']
-				extrected_links.append(link)
+				extrected_links.append(z['href'])
 				# if not "https://web.facebook.com" + link in all_links_list:
 				# 	if link != "#":
 				# 		if not link.startswith("/ufi"):
