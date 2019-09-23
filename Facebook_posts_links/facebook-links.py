@@ -65,7 +65,7 @@ new_links = []
 counter = 0
 for name, url in zip(names, urls):
 	counter += 1
-	print((counter / len(names))*100, "%", str(datetime.datetime.now()))
+	print(int((counter / len(names))*100), "%", str(datetime.datetime.now()))
 	complted_url = fb_base_url + url
 	if not name in all_links:
 		all_links[name] = []
@@ -73,7 +73,7 @@ for name, url in zip(names, urls):
 	s = BeautifulSoup(browser.page_source, "lxml")
 	a = s.find("div", {"id" : "timeline_story_column"})
 	try:
-		print(a.find_all('a').get('href') )
+		print(a.select('a').get('href'))
 	except:
 		pass
 	# for i in a.select('a'):
