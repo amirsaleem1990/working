@@ -545,3 +545,11 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i-RI4/y-/l/en_US/2_Hr
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1569216694094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lb1nhOH45cQ5"
+*** You are running in headless mode.
+1569216694451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569216694451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569216694451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569216694451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569216695904	Marionette	INFO	Listening on port 40349
+1569216696000	Marionette	WARN	TLS certificate errors will be ignored for this session
