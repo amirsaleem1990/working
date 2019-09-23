@@ -12,7 +12,7 @@ from selenium.webdriver.firefox.options import Options
 options = Options()
 options.add_argument("--headless")
 
-with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "rb") as file:
+with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
     all_links = pickle.load(file)
     
 all_links_list = []
