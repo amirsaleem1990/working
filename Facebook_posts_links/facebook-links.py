@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import numpy as np
 import time
+import datetime
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 options = Options()
@@ -21,7 +22,8 @@ for i in all_links:
 
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
-    
+print("Attempting to Login")
+print(str(datetime.datetime.now()))
 # browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
 browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
 #navigates you to the facebook page.
@@ -43,7 +45,8 @@ password[0].send_keys(pas)
 time.sleep(np.random.randint(3, 6))
 loginButton = browser.find_elements_by_css_selector("input[type=submit]")
 loginButton[0].click()
-
+print("Successfully Logged in")
+print(str(datetime.datetime.now()))
 # pages i nedd in list: "idreesazad2"
 names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
@@ -62,27 +65,32 @@ new_links = []
 counter = 0
 for name, url in zip(names, urls):
 	counter += 1
-	print((counter / len(names))*100, "%")
+	print((counter / len(names))*100, "%", print(str(datetime.datetime.now())))
 	complted_url = fb_base_url + url
 	if not name in all_links:
 		all_links[name] = []
 	browser.get(complted_url)
 	s = BeautifulSoup(browser.page_source, "lxml")
 	a = s.find("div", {"id" : "timeline_story_column"})
-	for i in a.select('a'):
-		for z in i:
-			try:
-				extrected_links.append(z['href'])
-				# if not "https://web.facebook.com" + link in all_links_list:
-				# 	if link != "#":
-				# 		if not link.startswith("/ufi"):
-				# 			if not link.startswith("http"):
-				# 				if not link.startswith("/profile"):
-				# 					if "/posts/" in link:
-				# 						new_links.append(link)
-				# 						all_links[name].append("https://web.facebook.com" + link)
-			except:
-				pass
+	try:
+		print(a.find_all('a').get('href') )
+	except:
+		pass
+	# for i in a.select('a'):
+	# 	for z in i:
+	# 		try:
+	# 			# extrected_links.append(z['href'])
+	# 			# print(z.get("href"))
+	# 			# if not "https://web.facebook.com" + link in all_links_list:
+	# 			# 	if link != "#":
+	# 			# 		if not link.startswith("/ufi"):
+	# 			# 			if not link.startswith("http"):
+	# 			# 				if not link.startswith("/profile"):
+	# 			# 					if "/posts/" in link:
+	# 			# 						new_links.append(link)
+	# 			# 						all_links[name].append("https://web.facebook.com" + link)
+	# 		except:
+	# 			pass
 
 # with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
 #     pickle.dump(new_links, file)

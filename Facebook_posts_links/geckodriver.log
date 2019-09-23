@@ -322,3 +322,11 @@ Exiting due to channel error.
 
 (/usr/lib/firefox/firefox:10331): dconf-WARNING **: 10:23:32.807: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
 JavaScript error: , line 0: uncaught exception: Timeout
+1569216292053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lg7luemgcRWG"
+*** You are running in headless mode.
+1569216292455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1569216292455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1569216292455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1569216292455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1569216293955	Marionette	INFO	Listening on port 43117
+1569216293961	Marionette	WARN	TLS certificate errors will be ignored for this session
