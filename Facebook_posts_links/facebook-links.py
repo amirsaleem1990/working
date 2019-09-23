@@ -81,7 +81,8 @@ for fb in FB:
 				if link.startswith("https://web.facebook.com/"):
 					if not "?comment_id=" in link:
 						if not link in all_links_list:
-							print(link)
+							all_links[fb].append(link)
+							os.system("firefox " + link)
 
 
 	except:
