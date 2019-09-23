@@ -88,25 +88,8 @@ for fb in FB:
 
 	except:
 		pass
-	# for i in a.select('a'):
-	# 	for z in i:
-	# 		try:
-	# 			# extrected_links.append(z['href'])
-	# 			# print(z.get("href"))
-	# 			# if not "https://web.facebook.com" + link in all_links_list:
-	# 			# 	if link != "#":
-	# 			# 		if not link.startswith("/ufi"):
-	# 			# 			if not link.startswith("http"):
-	# 			# 				if not link.startswith("/profile"):
-	# 			# 					if "/posts/" in link:
-	# 			# 						new_links.append(link)
-	# 			# 						all_links[name].append("https://web.facebook.com" + link)
-	# 		except:
-	# 			pass
 
-# with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
-#     pickle.dump(new_links, file)
-# with open("/home/amir/github/working/Facebook_posts_links/All_FB_links.pkl", "wb") as file:
-# 	pickle.dump(all_links, file)
-# browser.close()
-# os.remove("geckodriver.log")
+with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "wb") as file:
+	pickle.dump(all_links, file)
+browser.close()
+os.remove("geckodriver.log")
