@@ -61,8 +61,10 @@ urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
 
 extected_links = []
 new_links = []
-
+counter = 0
 for name, url in zip(names, urls):
+	counter += 1
+	print(counter / )
 	complted_url = fb_base_url + url
 	if not name in all_links:
 		all_links[name] = []
