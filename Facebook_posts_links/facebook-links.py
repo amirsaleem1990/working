@@ -59,12 +59,12 @@ urls = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
      "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
      "profile.php?id=100026041448813", "mohammad.saleem.568847"]
 
-extected_links = []
+extrected_links = []
 new_links = []
 counter = 0
 for name, url in zip(names, urls):
 	counter += 1
-	print(round((counter / len(names))*100), 2, "%")
+	print(round((counter / len(names))*100, 2), "%")
 	complted_url = fb_base_url + url
 	if not name in all_links:
 		all_links[name] = []
@@ -72,10 +72,10 @@ for name, url in zip(names, urls):
 	s = BeautifulSoup(browser.page_source, "lxml")
 	a = s.find("div", {"id" : "timeline_story_column"})
 	for i in a.select('a'):
-		try:
-			for z in i:
+		for z in i:
+			try:
 				link = z['href']
-				extected_links.append(link)
+				extrected_links.append(link)
 				# if not "https://web.facebook.com" + link in all_links_list:
 				# 	if link != "#":
 				# 		if not link.startswith("/ufi"):
@@ -84,8 +84,8 @@ for name, url in zip(names, urls):
 				# 					if "/posts/" in link:
 				# 						new_links.append(link)
 				# 						all_links[name].append("https://web.facebook.com" + link)
-		except:
-			pass
+			except:
+				pass
 
 # with open("/home/amir/github/working/Facebook_posts_links/current_data.pkl", "wb") as file:
 #     pickle.dump(new_links, file)
