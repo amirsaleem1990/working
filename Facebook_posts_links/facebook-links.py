@@ -69,6 +69,7 @@ for fb in FB:
 	print(int((counter / len(FB))*100), "%", ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
 	complted_url = fb_base_url + fb
 	if not fb in all_links:
+		print(fb)
 		all_links[fb] = []
 	browser.get(complted_url)
 	s = BeautifulSoup(browser.page_source, "lxml")
