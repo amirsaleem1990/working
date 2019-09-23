@@ -65,7 +65,7 @@ new_links = []
 counter = 0
 for name, url in zip(names, urls):
 	counter += 1
-	print((counter / len(names))*100, "%", print(str(datetime.datetime.now())))
+	print((counter / len(names))*100, "%", str(datetime.datetime.now()))
 	complted_url = fb_base_url + url
 	if not name in all_links:
 		all_links[name] = []
