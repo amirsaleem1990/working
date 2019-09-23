@@ -319,3 +319,6 @@ Exiting due to channel error.
 1569216086026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1569216087442	Marionette	INFO	Listening on port 32945
 1569216087498	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10331): dconf-WARNING **: 10:23:32.807: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: , line 0: uncaught exception: Timeout
