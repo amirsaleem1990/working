@@ -95,5 +95,5 @@ with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_cor
 browser.close()
 os.remove("geckodriver.log")
 for i in links_to_open:
-	command = f"firefox {i}"
+	command = "firefox " + i
 	os.system(command)
