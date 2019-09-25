@@ -1,8 +1,12 @@
 import pickle
-with open("All_FB_links.pkl", "rb") as file:
-    d = pickle.load(file)
-dd = {}
 import pandas as pd
+with open("All_FB_links_names_corrected.pkl", "rb") as file:
+	d = pickle.load(file)
+import datetime
+#now = datetime.datetime.now()
+#str(now)
+dd = {}
+
 for i in d:
     dd[i] = [(v, "before 20-sep-2019") for v in d[i]]
 df = pd.DataFrame()
