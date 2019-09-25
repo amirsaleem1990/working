@@ -83,7 +83,7 @@ for fb in FB:
 				if link.startswith("https://web.facebook.com/"):
 					if not "?comment_id=" in link:
 						if not link in all_links_list:
-							all_links[fb].append((link, str(now))
+							all_links[fb].append((link, str(now)))
 							links_to_open.append(link)
 
 
