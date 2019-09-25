@@ -64,6 +64,7 @@ fb_base_url = "https://web.facebook.com/"
 extrected_links = []
 new_links = []
 counter = 0
+links_to_open = []
 for fb in FB:
 	counter += 1
 	print(int((counter / len(FB))*100), "%", ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
@@ -83,7 +84,7 @@ for fb in FB:
 					if not "?comment_id=" in link:
 						if not link in all_links_list:
 							all_links[fb].append(link)
-							os.system("firefox " + link)
+							links_to_open.append(link)
 
 
 	except:
@@ -93,3 +94,5 @@ with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_cor
 	pickle.dump(all_links, file)
 browser.close()
 os.remove("geckodriver.log")
+for i in links_to_open:
+	os.system("firefox " + i)
