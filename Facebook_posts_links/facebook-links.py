@@ -11,7 +11,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 options = Options()
 options.add_argument("--headless")
-
+now = datetime.datetime.now()
 with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
     all_links = pickle.load(file)
     
@@ -83,7 +83,7 @@ for fb in FB:
 				if link.startswith("https://web.facebook.com/"):
 					if not "?comment_id=" in link:
 						if not link in all_links_list:
-							all_links[fb].append(link)
+							all_links[fb].append((link, str(now))
 							links_to_open.append(link)
 
 
