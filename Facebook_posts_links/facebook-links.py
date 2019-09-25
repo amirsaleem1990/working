@@ -11,6 +11,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 options = Options()
 options.add_argument("--headless")
+
 now = datetime.datetime.now()
 with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
     all_links = pickle.load(file)
@@ -67,6 +68,7 @@ counter = 0
 links_to_open = []
 for fb in FB:
 	counter += 1
+	n = datetime.datetime.now()
 	print(int((counter / len(FB))*100), "%", ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
 	complted_url = fb_base_url + fb
 	if not fb in all_links:
