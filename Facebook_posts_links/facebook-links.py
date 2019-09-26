@@ -94,7 +94,7 @@ for fb in FB:
 	except:
 		pass
 
-links_qty_after_addition : sum([len(all_links[i]) for i in all_links])
+links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 print("New links Qty: ", links_qty_after_addition - stroed_links_qty)
 
