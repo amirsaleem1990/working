@@ -97,6 +97,6 @@ with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_cor
 browser.close()
 print("New links Qty.: ", len(links_to_open))
 os.remove("geckodriver.log")
+
 for i in links_to_open:
-	command = "firefox " + i
-	os.system(command)
+	os.popen("firefox " + i)
