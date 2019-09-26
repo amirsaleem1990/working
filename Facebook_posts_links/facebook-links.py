@@ -16,7 +16,7 @@ now = datetime.datetime.now()
 with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
     all_links = pickle.load(file)
 
-stored_links_qty : sum([len(all_links[i]) for i in all_links])    
+stored_links_qty = sum([len(all_links[i]) for i in all_links])    
 
 all_links_list = []
 for i in all_links:
@@ -96,7 +96,7 @@ for fb in FB:
 
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
-print("New links Qty: ", links_qty_after_addition - stroed_links_qty)
+print("New links Qty: ", links_qty_after_addition - stored_links_qty)
 
 with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "wb") as file:
 	pickle.dump(all_links, file)
