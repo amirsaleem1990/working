@@ -18,11 +18,6 @@ with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_cor
 
 stored_links_qty = sum([len(all_links[i]) for i in all_links])    
 
-all_links_list = []
-for i in all_links:
-    all_links_list += all_links[i]
-
-
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
 n = datetime.datetime.now()
@@ -86,7 +81,7 @@ for fb in FB:
 			if "/posts/" in link:
 				if link.startswith("https://web.facebook.com/"):
 					if not "?comment_id=" in link:
-						if not link in all_links_list:
+						if not link in str(all_links):
 							all_links[fb].append((link, str(now)))
 							links_to_open.append(link)
 
