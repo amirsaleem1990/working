@@ -1,0 +1,1 @@
+while :; do sleep 1800; (feh -F /home/amir/github/working/rest5minuts.png  &); sleep 300 ; pkill feh; done
