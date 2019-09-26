@@ -96,7 +96,6 @@ print("New links Qty: ", links_qty_after_addition - stored_links_qty)
 with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "wb") as file:
 	pickle.dump(all_links, file)
 browser.close()
-print("New links Qty.: ", len(links_to_open))
 os.remove("geckodriver.log")
 
 for i in links_to_open:
