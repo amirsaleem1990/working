@@ -71,7 +71,7 @@ links_to_open = []
 for fb in FB:
 	counter += 1
 	n = datetime.datetime.now()
-	print(int((counter / len(FB))*100), "%", ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
+	print(int((counter / len(FB))*100), f"%  || {counter} of {len(FB)}  ||  ", ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
 	complted_url = fb_base_url + fb
 	if not fb in all_links:
 		print(fb)
