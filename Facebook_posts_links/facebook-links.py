@@ -15,7 +15,9 @@ options.add_argument("--headless")
 now = datetime.datetime.now()
 with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
     all_links = pickle.load(file)
-    
+
+stroed_links_qty : sum([len(all_links[i]) for i in all_links])    
+
 all_links_list = []
 for i in all_links:
     all_links_list += all_links[i]
