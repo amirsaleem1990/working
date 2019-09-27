@@ -23,5 +23,5 @@ for i in lst:
 # elif s < 1024*1024*1024:
 # 	print(f"{s/1024/1024} GB")
 print("KB: ", s)
-print("MB: ", s/1024)
-print("GB: ", s/1024/1024)
+print("MB: ", round(s/1024, 2))
+print("GB: ", round(s/1024/1024, 4))
