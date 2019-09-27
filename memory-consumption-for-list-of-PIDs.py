@@ -16,9 +16,12 @@ s = 0
 for i in lst:
 	a = list(os.popen("sudo pmap {} | grep total".format(i)))
 	s += int(''.join([ii for ii in a[0] if ii.isnumeric()]))
-if s < 1024:
-	print(f"{s} KB")
-elif s < 1024*1024:
-	print(f"{s/1024} MB")
-elif s < 1024*1024*1024:
-	print(f"{s/1024/1024} GB")
+# if s < 1024:
+# 	print(f"{s} KB")
+# elif s < 1024*1024:
+# 	print(f"{s/1024} MB")
+# elif s < 1024*1024*1024:
+# 	print(f"{s/1024/1024} GB")
+print("KB: ", s)
+print("MB: ", s/1024)
+print("GB: ", s/1024/1024)
