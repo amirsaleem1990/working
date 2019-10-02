@@ -56,7 +56,8 @@ FB = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895",
       "theguided1", "abubakr.quddusi.3",
      "mohammaddin.jauhar.7", "Riayat.Farooqui", "asim.allahbakhsh",
      "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
-     "profile.php?id=100026041448813", "mohammad.saleem.568847", "hammad.sarwar.9400"]
+     "profile.php?id=100026041448813", "mohammad.saleem.568847", "hammad.sarwar.9400",
+     "ajeebscenehaibhai"]
 
 fb_base_url = "https://web.facebook.com/"
 extrected_links = []
