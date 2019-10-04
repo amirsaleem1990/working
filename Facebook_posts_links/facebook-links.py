@@ -13,18 +13,25 @@ options = Options()
 options.add_argument("--headless")
 
 now = datetime.datetime.now()
-with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
+
+
+home = list(os.popen("echo $HOME"))[0].strip()
+# in kali the symbolic linc of <github> folder is at </root/amir>
+if home == "/root":
+	home = "/root/amir"
+
+with open(home + "/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
     all_links = pickle.load(file)
 
 stored_links_qty = sum([len(all_links[i]) for i in all_links])    
 
-with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
+with open(home + "/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
 n = datetime.datetime.now()
 print("Attempting to Login", ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
 
-# browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
-browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
+# browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
+browser = webdriver.Firefox(executable_path= home + "/github/working/Facebook_posts_links/geckodriver", options=options)
 #navigates you to the facebook page.
 browser.get('https://www.facebook.com/')
 
@@ -94,7 +101,7 @@ links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 print("New links Qty: ", links_qty_after_addition - stored_links_qty)
 
-with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "wb") as file:
+with open(home + "/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "wb") as file:
 	pickle.dump(all_links, file)
 browser.close()
 os.remove("geckodriver.log")
