@@ -95,7 +95,7 @@ for fb in FB:
 							c += 1
 							all_links[fb].append((link, str(now)))
 							links_to_open.append(link)
-							print(c, links)
+							print("\t", c, links)
 
 
 	except:
