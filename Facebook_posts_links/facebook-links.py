@@ -74,7 +74,8 @@ links_to_open = []
 for fb in FB:
 	counter += 1
 	n = datetime.datetime.now()
-	print(int((counter / len(FB))*100), f"%  || {counter} of {len(FB)}  ||  ", ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
+	print(int((counter / len(FB))*100), f"%  || {counter} of {len(FB)}  ||  ",
+	 ':'.join([str(i) for i in [n.hour, n.minute, n.second]]), end="")
 	complted_url = fb_base_url + fb
 	if not fb in all_links:
 		print(f"new id added: <{fb_base_url + fb}>")
@@ -84,14 +85,17 @@ for fb in FB:
 	a = s.find("div", {"id" : "timeline_story_column"})
 	try:
 		links_ = a.select('a')
+		c = 0
 		for i in links_:
 			link = i['href']
 			if "/posts/" in link:
 				if link.startswith("https://web.facebook.com/"):
 					if not "?comment_id=" in link:
 						if not link in str(all_links):
+							c += 1
 							all_links[fb].append((link, str(now)))
 							links_to_open.append(link)
+							print(c, links)
 
 
 	except:
