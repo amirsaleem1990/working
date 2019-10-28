@@ -5,8 +5,9 @@ with open("All_FB_links_names_corrected.pkl", "rb") as file:
 dd = {}
 names = []
 for i in d:
-	names += [i] * len(z)
-	for z in d[i]:
+	links = d[i]
+	names += [i] * len(links)
+	for z in links:
 		if isinstance(z, tuple):
 			if i in dd:
 				dd[i].append(z)
