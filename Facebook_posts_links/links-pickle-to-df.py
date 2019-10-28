@@ -25,4 +25,5 @@ ls = [pd.DataFrame(dd[i]) for i in dd]
 
 df = pd.concat(ls).reset_index().drop("index", axis=1)
 df['name'] = names
+df.columns = ["Link", "Tate", "Name"]
 df.to_csv("All_FB_links_names_corrected.csv", index=False)
