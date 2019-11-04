@@ -74,10 +74,9 @@ new_links = []
 counter = 0
 links_to_open = []
 for fb in FB:
+	c = 0
 	counter += 1
 	n = datetime.datetime.now()
-	print(int((counter / len(FB))*100), f"%  || {counter} of {len(FB)}  ||  ",
-							 ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
 	complted_url = fb_base_url + fb
 	if not fb in all_links:
 		print(f"new id added: <{fb_base_url + fb}>")
@@ -95,11 +94,14 @@ for fb in FB:
 						if not link in str(all_links):
 							all_links[fb].append((link, str(now)))
 							links_to_open.append(link)
-
+							c += 1
 
 	except:
 		pass
 
+	print(int((counter / len(FB))*100), f"%  || {counter} of {len(FB)}  ||  ",
+						 ':'.join([str(i) for i in [n.hour, n.minute, n.second]]),
+						 f"{c} links in {fb}")
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 print("New links Qty: ", links_qty_after_addition - stored_links_qty)
