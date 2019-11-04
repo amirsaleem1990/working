@@ -53,7 +53,9 @@ loginButton = browser.find_elements_by_css_selector("input[type=submit]")
 loginButton[0].click()
 n = datetime.datetime.now()
 print("Successfully Logged in", ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
-# pages i nedd in list: "idreesazad2"
+
+# pages i nedd in list: "idreesazad2", "itsfoss/"
+
 # names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
 # 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
 # 	 "Abu muhammad musab", "Mahtab khan", "mohammad.saleem"]
