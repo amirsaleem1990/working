@@ -99,7 +99,7 @@ for fb in FB:
 	except:
 		pass
 
-	print(f"{counter / len(FB)*100} {:>4} %  || {counter} of {len(FB)}  ||  ".format(" "),
+	print(f"{counter / len(FB) * 100} {:>4} %  || {counter} of {len(FB)}  ||  ".format(" "),
 						 ':'.join([str(i) for i in [n.hour, n.minute, n.second]]),
 						 f"{c} links in {fb}")
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
