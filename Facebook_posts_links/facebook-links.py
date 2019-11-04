@@ -101,7 +101,7 @@ for fb in FB:
 
 	print("{} {:>4} %  || {} of {}  ||  ".format(int(counter/len(FB)*100), " ", counter, len(FB)),
 						 ':'.join([str(i) for i in [n.hour, n.minute, n.second]]),
-						 f"{c} links in {fb}")
+						 f" ||  {c} links in {fb}")
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 print("New links Qty: ", links_qty_after_addition - stored_links_qty)
