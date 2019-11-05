@@ -62,7 +62,7 @@ time.sleep(np.random.randint(3, 6))
 loginButton = browser.find_elements_by_css_selector("input[type=submit]")
 loginButton[0].click()
 n = datetime.datetime.now()
-print("Successfully Logged in", ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
+print("Successfully Logged in", current_time())
 
 # pages i nedd in list: "idreesazad2", "itsfoss/"
 
