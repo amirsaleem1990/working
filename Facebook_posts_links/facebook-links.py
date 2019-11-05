@@ -38,7 +38,7 @@ stored_links_qty = sum([len(all_links[i]) for i in all_links])
 with open(home + "/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
 n = datetime.datetime.now()
-print("Attempting to Login", ':'.join([str(i) for i in [n.hour, n.minute, n.second]]))
+print("Attempting to Login", current_time())
 
 # browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
 browser = webdriver.Firefox(executable_path= home + "/github/working/Facebook_posts_links/geckodriver", options=options)
