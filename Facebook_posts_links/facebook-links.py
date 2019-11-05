@@ -109,7 +109,7 @@ for fb in FB:
 	except:
 		pass
 	perc = counter/len(FB)*100
-	print("{} {:5} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
+	print("{:4} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
 						 current_time(),
 						 f" ||  {c} links in {fb}")
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
