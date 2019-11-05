@@ -81,10 +81,12 @@ extrected_links = []
 new_links = []
 counter = 0
 links_to_open = []
+
+now = datetime.datetime.now()
+
 for fb in FB:
 	c = 0
 	counter += 1
-	n = datetime.datetime.now()
 	complted_url = fb_base_url + fb
 	if not fb in all_links:
 		print(f"new id added: <{fb_base_url + fb}>")
@@ -100,7 +102,7 @@ for fb in FB:
 				if link.startswith("https://web.facebook.com/"):
 					if not "?comment_id=" in link:
 						if not link in str(all_links):
-							all_links[fb].append((link, str(n)))
+							all_links[fb].append((link, str(now)))
 							links_to_open.append(link)
 							c += 1
 
