@@ -37,7 +37,6 @@ stored_links_qty = sum([len(all_links[i]) for i in all_links])
 
 with open(home + "/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
-n = datetime.datetime.now()
 print("Attempting to Login", current_time())
 
 # browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
@@ -101,7 +100,7 @@ for fb in FB:
 				if link.startswith("https://web.facebook.com/"):
 					if not "?comment_id=" in link:
 						if not link in str(all_links):
-							all_links[fb].append((link, str(now)))
+							all_links[fb].append((link, str(n)))
 							links_to_open.append(link)
 							c += 1
 
