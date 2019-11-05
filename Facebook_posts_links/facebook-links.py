@@ -1,4 +1,3 @@
-!clear
 import os
 import time
 import pickle
@@ -12,6 +11,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 options = Options()
 options.add_argument("--headless")
+
+os.system("clear")
 
 def current_time():
 	n = datetime.datetime.now()
