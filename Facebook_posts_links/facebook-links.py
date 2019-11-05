@@ -12,8 +12,18 @@ from selenium.webdriver.firefox.options import Options
 options = Options()
 options.add_argument("--headless")
 
-now = datetime.datetime.now()
-
+def current_time():
+	n = datetime.datetime.now()
+	t = ':'.join([str(i) for i in [n.hour, n.minute, n.second]])
+	tt = ""
+	for i in t.split(":"):
+		if len(i) == 1:
+			tt += "0" + i
+		else:
+			tt += i
+		tt += ":"
+	tt = tt.strip(":")
+	print(tt)
 
 home = list(os.popen("echo $HOME"))[0].strip()
 # in kali the symbolic linc of <github> folder is at </root/amir>
