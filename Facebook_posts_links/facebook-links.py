@@ -23,7 +23,7 @@ def current_time():
 			tt += i
 		tt += ":"
 	tt = tt.strip(":")
-	print(tt)
+	return tt
 
 home = list(os.popen("echo $HOME"))[0].strip()
 # in kali the symbolic linc of <github> folder is at </root/amir>
