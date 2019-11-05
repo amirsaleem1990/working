@@ -1,3 +1,4 @@
+!clear
 import os
 import time
 import pickle
