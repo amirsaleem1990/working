@@ -61,7 +61,6 @@ password[0].send_keys(pas)
 time.sleep(np.random.randint(3, 6))
 loginButton = browser.find_elements_by_css_selector("input[type=submit]")
 loginButton[0].click()
-n = datetime.datetime.now()
 print("Successfully Logged in", current_time())
 
 # pages i nedd in list: "idreesazad2", "itsfoss/"
@@ -110,7 +109,7 @@ for fb in FB:
 		pass
 	perc = counter/len(FB)*100
 	print("{} {:5} %  || {} of {}  ||  ".format(int(), " ", counter, len(FB)),
-						 ':'.join([str(i) for i in [n.hour, n.minute, n.second]]),
+						 current_time(),
 						 f" ||  {c} links in {fb}")
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
