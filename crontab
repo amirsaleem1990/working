@@ -1,3 +1,4 @@
+# /etc/crontab
 # 32 2 * * * root shutdown -h now # OK(amir)
 # 54 2 * * * root /bin/systemctl suspend # OK(amir)
 # * * * * *  amir /bin/script
