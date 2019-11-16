@@ -27,4 +27,4 @@ df.columns = ["Month", "Date", "Subah_sadiq", "Tulu_aaftab", "Zawal", "Asr_1", "
 df.Month = df.Month.map({"Feb" : "02", "March" : "03", "April" : "04", "June" : "06","May" : "05","Nov" : "11",
                          "Jan" : "01","Sep" : "09","Dec" : "12","Oct" : "10","Jul" : "07","Aug" : "08"})
 # df.head()
-df.to_csv("a.csv", index=False)
+df.to_csv("Namaz_2.csv", index=False)
