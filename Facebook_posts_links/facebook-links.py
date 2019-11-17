@@ -101,8 +101,8 @@ for fb in FB:
 		links_ = a.select('a')
 		for i in links_:
 			link = i['href']
-			if "/posts/" in link:
-				if link.startswith("https://web.facebook.com/"):
+			if link.startswith("https://web.facebook.com/"):
+				if "/posts/" in link:
 					if not "?comment_id=" in link:
 						if not link in str(all_links):
 							all_links[fb].append((link, str(now)))
