@@ -116,8 +116,10 @@ for fb in FB:
 						 current_time(),
 						 f" ||  {c} links in {fb}")
 for e, i in enumerate(mmz):
-	with open(e + ".txt", "w") as file:
+	with open(str(e) + ".txt", "w") as file:
 		file.write("||".join(i))
+with open("p.pkl", "wb") as file:
+	pickle.dump(mmz, file)
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 print("New links Qty: ", links_qty_after_addition - stored_links_qty)

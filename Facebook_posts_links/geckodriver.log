@@ -155,3 +155,11 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/TSwa_FPpysc.js?
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/TSwa_FPpysc.js?_nc_x=4W2AkHcxuPi, line 13: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/TSwa_FPpysc.js?_nc_x=4W2AkHcxuPi, line 13: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1573998930101	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HZ4khwSbLMf4"
+*** You are running in headless mode.
+1573998930490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573998930490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573998930490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573998930490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573998931964	Marionette	INFO	Listening on port 41443
+1573998932008	Marionette	WARN	TLS certificate errors will be ignored for this session
