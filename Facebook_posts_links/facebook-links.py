@@ -96,7 +96,7 @@ for fb in FB:
 	browser.get(complted_url)
 	s = BeautifulSoup(browser.page_source, "lxml")
 	a = s.find("div", {"id" : "timeline_story_column"})
-	mmz.append(a)
+	# mmz.append(a)
 	try:
 		links_ = a.select('a')
 		for i in links_:
@@ -116,15 +116,15 @@ for fb in FB:
 						 current_time(),
 						 f" ||  {c} links in {fb}")
 
-try:
-	with open("p.pkl", "wb") as file:
-		pickle.dump(mmz, file)
-except:
-	print("Sorry for pickle")
+# try:
+	# with open("p.pkl", "wb") as file:
+		# pickle.dump(mmz, file)
+# except:
+	# print("Sorry for pickle")
 
-for e, i in enumerate(mmz):
-	with open(str(e) + ".txt", "w") as file:
-		file.write("||".join(str(i)))
+# for e, i in enumerate(mmz):
+	# with open(str(e) + ".txt", "w") as file:
+		# file.write("||".join(str(i)))
 
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
