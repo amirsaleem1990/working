@@ -1,0 +1,1 @@
+go to /home/amir/.ipython/profile_default
