@@ -1,1 +1,3 @@
 go to /home/amir/.ipython/profile_default
+create a folder <startup> (if not exist>
+
