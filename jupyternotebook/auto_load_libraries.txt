@@ -17,3 +17,5 @@ import pandas_profiling
 pd.options.display.max_columns = 30
 pd.options.display.max_rows = 20
 
+
+
