@@ -906,3 +906,80 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y4/l/en_US/xfbR
 1574453379093	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
 1574453380094	Marionette	INFO	Listening on port 39317
 1574453380138	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:21372): dconf-WARNING **: 01:09:51.912: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1574453400898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.B12upJPaZHHz"
+*** You are running in headless mode.
+1574453401470	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574453401471	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574453401471	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574453401487	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574453401487	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574453401487	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574453401607	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574453401607	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574453401607	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574453401607	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574453401607	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574453401608	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574453401608	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574453401609	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574453401609	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574453401609	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574453401619	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574453401619	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574453402476	Marionette	INFO	Listening on port 35067
+1574453402519	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+
+(/usr/lib/firefox/firefox:21665): dconf-WARNING **: 01:10:17.932: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/8VPElspfp7z.js?_nc_x=Ij3Wp8lg5Kz, line 4: TypeError: g is null
