@@ -45,6 +45,7 @@ os.system("ipython3 links-pickle-to-df.py")
 errors = []
 df = pd.read_csv("All_FB_links_names_corrected.csv")
 for name in df.Name.unique():
+	print(name)
 	name_df = df[df.Name == name]
 	file = open(f"{name}.txt", "w")
 	for e, link in enumerate(name_df.Link):
