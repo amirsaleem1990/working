@@ -42,19 +42,21 @@ loginButton = browser.find_elements_by_css_selector("input[type=submit]")
 loginButton[0].click()
 
 os.system("ipython3 links-pickle-to-df.py")
+errors = []
 df = pd.read_csv("All_FB_links_names_corrected.csv")
-for e, name in enumerate(df.Name.unique()):
+for name in df.Name.unique():
 	name_df = df[df.Name == name]
-	os.mkdir(name)
-	os.chdir(name)
-	for link in name_df.Link:
-		browser.get(link)
-		soup = BeautifulSoup(browser.page_source, "lxml")
-		a = soup.find("div", {"class" : "_5wj-"}).text
-		if not a:
-			print("Fail: ", name, link)
-			continue
-		with open(f"{e}.txt", "w") as file:
-			file.write(a)
-		time.sleep(2)
-	os.chdir("../")
+	with open(f"{name}.txt", "w") as file:
+		for e, link in enumerate(name_df.Link):
+			browser.get(link)
+			soup = BeautifulSoup(browser.page_source, "lxml")
+			a = soup.find("div", {"class" : "_5wj-"}).text
+			if a:
+				file.write("#"*30)
+				file.write(link)
+				file.write(a)
+			else:
+				errors.append([name, link])
+if errors:
+	with open("errors.pkl", "wb") as file:
+		pickle.dump(errors, file)
