@@ -51,6 +51,7 @@ for name in df.Name.unique():
 			browser.get(link)
 			soup = BeautifulSoup(browser.page_source, "lxml")
 			a = soup.find("div", {"class" : "_5wj-"}).text
+			print(len(a),end="|")
 			if a:
 				file.write("#"*30)
 				file.write(link)
