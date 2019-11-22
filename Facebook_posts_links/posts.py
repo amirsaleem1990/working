@@ -46,18 +46,19 @@ errors = []
 df = pd.read_csv("All_FB_links_names_corrected.csv")
 for name in df.Name.unique():
 	name_df = df[df.Name == name]
-	with open(f"{name}.txt", "w") as file:
-		for e, link in enumerate(name_df.Link):
-			browser.get(link)
-			soup = BeautifulSoup(browser.page_source, "lxml")
-			a = soup.find("div", {"class" : "_5wj-"}).text
-			print(len(a),end="|")
-			if a:
-				file.write("#"*30)
-				file.write(link)
-				file.write(a)
-			else:
-				errors.append([name, link])
+	file = open(f"{name}.txt", "w+")
+	for e, link in enumerate(name_df.Link):
+		browser.get(link)
+		soup = BeautifulSoup(browser.page_source, "lxml")
+		a = soup.find("div", {"class" : "_5wj-"}).text
+		print(len(a),end="|")
+		if a:
+			file.write("#"*30)
+			file.write(link)
+			file.write(a)
+		else:
+			errors.append([name, link])
+	file.close()
 if errors:
 	with open("errors.pkl", "wb") as file:
 		pickle.dump(errors, file)
