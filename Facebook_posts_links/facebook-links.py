@@ -85,7 +85,7 @@ counter = 0
 links_to_open = []
 
 now = datetime.datetime.now()
-# mmz = []
+mmz = []
 for fb in FB:
 	c = 0
 	counter += 1
@@ -96,7 +96,7 @@ for fb in FB:
 	browser.get(complted_url)
 	s = BeautifulSoup(browser.page_source, "lxml")
 	a = s.find("div", {"id" : "timeline_story_column"})
-# 	mmz.append(a)
+	mmz.append(a)
 	try:
 		links_ = a.select('a')
 		for i in links_:
@@ -116,10 +116,14 @@ for fb in FB:
 						 current_time(),
 						 f" ||  {c} links in {fb}")
 
-# for e, i in enumerate(mmz):
-	# with open(str(e) + ".txt", "w") as file:
-		# file.write(str(i))
-
+if not links_to_open:
+	os.mkdir("check")
+	os.chdir("check/")
+	for e, i in enumerate(mmz):
+		with open(str(e) + ".txt", "w") as file:
+			file.write(str(i))
+	from termcolor import colored
+	print(colored("\n\n<check> folder created, you can check there why you not get any link\n\n", 'red'))
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 print("New links Qty: ", links_qty_after_addition - stored_links_qty)
