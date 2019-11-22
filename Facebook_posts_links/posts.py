@@ -59,6 +59,7 @@ for name in df.Name.unique():
 		else:
 			errors.append([name, link])
 	file.close()
+	
 if errors:
 	with open("errors.pkl", "wb") as file:
 		pickle.dump(errors, file)
