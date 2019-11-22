@@ -265,3 +265,5 @@ Running Firefox as root in a regular user's session is not supported.  ($HOME is
 Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/amir which is owned by amir.)
 1574449973984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WTmYTx4TYaKv"
 Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/amir which is owned by amir.)
+1574450052292	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.E2hbtFxWX8gZ"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/amir which is owned by amir.)
