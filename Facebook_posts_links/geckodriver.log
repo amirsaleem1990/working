@@ -261,3 +261,7 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/TSwa_FPpysc.js?
 Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/amir which is owned by amir.)
 1574449916644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9PAUp78fUZP3"
 Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/amir which is owned by amir.)
+1574449941369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.S1UKfypVHdse"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/amir which is owned by amir.)
+1574449973984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WTmYTx4TYaKv"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/amir which is owned by amir.)
