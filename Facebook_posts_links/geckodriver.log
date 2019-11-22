@@ -105,3 +105,47 @@ JavaScript warning: https://www.facebook.com/rsrc.php/v3iqES4/y4/l/en_US/xfbR59w
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 1574452239625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YEqWpbg6askt"
 *** You are running in headless mode.
+1574452240230	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452240230	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452240231	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452240248	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452240248	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452240248	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452240363	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452240364	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452240364	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452240364	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452240364	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452240364	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452240365	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452240365	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452240366	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452240366	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452240376	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452240376	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452241316	Marionette	INFO	Listening on port 38825
+1574452241338	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:18467): dconf-WARNING **: 00:50:54.351: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1574452262433	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ldCDNnKc2n3T"
+*** You are running in headless mode.
+1574452263038	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452263039	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452263039	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452263057	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452263057	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452263057	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452263192	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452263193	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452263193	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452263193	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452263193	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452263193	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452263195	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452263195	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452263195	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452263195	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452263206	addons.xpi-utils	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1574452263206	addons.xpi-utils	WARN	Add-on langpack-en-CA@firefox.mozilla.org is not compatible with application version.
+1574452264069	Marionette	INFO	Listening on port 42563
+1574452264142	Marionette	WARN	TLS certificate errors will be ignored for this session
