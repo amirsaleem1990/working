@@ -46,17 +46,17 @@ errors = []
 df = pd.read_csv("All_FB_links_names_corrected.csv")
 for name in df.Name.unique():
 	name_df = df[df.Name == name]
-	file = open(f"{name}.txt", "w+")
+	file = open(f"{name}.txt", "w")
 	for e, link in enumerate(name_df.Link):
 		browser.get(link)
 		soup = BeautifulSoup(browser.page_source, "lxml")
 		try:
 			a = soup.find("div", {"class" : "_5wj-"}).text
 			print(len(a),end="|")
-			if a:
-				file.write("#"*30)
-				file.write(link)
-				file.write(a)
+			if len(a) > 0:
+				file.write("#"*30 + "\n")
+				file.write(link + "\n")
+				file.write(a + "\n")
 			else:
 				errors.append([name, link])
 		except:
