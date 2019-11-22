@@ -259,3 +259,5 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/TSwa_FPpysc.js?
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 1574449769684	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.htRNF8lKOkkN"
 Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/amir which is owned by amir.)
+1574449916644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9PAUp78fUZP3"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/amir which is owned by amir.)
