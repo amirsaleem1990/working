@@ -52,6 +52,7 @@ for name in df.Name.unique():
 	if file_exist:
 		with open(file_name, "r") as file:
 			exist = file.read()
+		print(len(exist.splitlines()))
 		file = open(file_name, "a")
 	file = open(file_name, "w")
 	for e, link in enumerate(name_df.Link):
