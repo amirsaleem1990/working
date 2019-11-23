@@ -45,27 +45,30 @@ os.system("ipython3 links-pickle-to-df.py")
 errors = []
 df = pd.read_csv("All_FB_links_names_corrected.csv")
 for name in df.Name.unique():
-	print(name)
+	print("*"*30, name, "*"*30)
 	name_df = df[df.Name == name]
+	with open(f"{name}.txt", "r") as file:
+		exist = file.read()
 	file = open(f"{name}.txt", "w")
 	for e, link in enumerate(name_df.Link):
-		browser.get(link)
-		soup = BeautifulSoup(browser.page_source, "lxml")
-		try:
-			a = soup.find("div", {"class" : "_5wj-"}).text
-			print(len(a),end="|")
-			if len(a) > 0:
-				file.write("#"*30 + "\n")
-				file.write(link + "\n")
-				file.write(a + "\n")
-			else:
+		print(e, end="|")
+		if not link in exist:
+			browser.get(link)
+			soup = BeautifulSoup(browser.page_source, "lxml")
+			try:
+				a = soup.find("div", {"class" : "_5wj-"}).text
+				if len(a) > 0:
+					file.write("#"*30 + "\n")
+					file.write(link + "\n")
+					file.write(a + "\n")
+				else:
+					errors.append([name, link])
+			except:
 				errors.append([name, link])
-		except:
-			errors.append([name, link])
-			pass
+				pass
 	file.close()
 
 if errors:
 	with open("errors.pkl", "wb") as file:
 		pickle.dump(errors, file)
-	print("\n\nThere is some errors, saved in <errors.pkl>\n\n")
+	print("\n\nThere is some errors, saved in <errors.pkl>\n\nThere")
