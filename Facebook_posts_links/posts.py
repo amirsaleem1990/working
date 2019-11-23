@@ -50,7 +50,7 @@ for name in df.Name.unique():
 	file_name = f"{name}.txt"
 	file_exist =  file_name in os.listdir()
 	if file_exist:
-		with open(, "r") as file:
+		with open(file_name, "r") as file:
 			exist = file.read()
 		file = open(file_name, "a")
 	file = open(file_name, "w")
