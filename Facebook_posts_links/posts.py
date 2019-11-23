@@ -47,25 +47,31 @@ df = pd.read_csv("All_FB_links_names_corrected.csv")
 for name in df.Name.unique():
 	print("*"*30, name, "*"*30)
 	name_df = df[df.Name == name]
-	with open(f"{name}.txt", "r") as file:
-		exist = file.read()
-	file = open(f"{name}.txt", "w")
+	file_name = f"{name}.txt"
+	file_exist =  file_name in os.listdir()
+	if file_exist:
+		with open(, "r") as file:
+			exist = file.read()
+		file = open(file_name, "a")
+	file = open(file_name, "w")
 	for e, link in enumerate(name_df.Link):
 		print(e, end="|")
-		if not link in exist:
-			browser.get(link)
-			soup = BeautifulSoup(browser.page_source, "lxml")
-			try:
-				a = soup.find("div", {"class" : "_5wj-"}).text
-				if len(a) > 0:
-					file.write("#"*30 + "\n")
-					file.write(link + "\n")
-					file.write(a + "\n")
-				else:
-					errors.append([name, link])
-			except:
+		if file_exist:
+			if link in exist:
+				continue
+		browser.get(link)
+		soup = BeautifulSoup(browser.page_source, "lxml")
+		try:
+			a = soup.find("div", {"class" : "_5wj-"}).text
+			if len(a) > 0:
+				file.write("#"*30 + "\n")
+				file.write(link + "\n")
+				file.write(a + "\n")
+			else:
 				errors.append([name, link])
-				pass
+		except:
+			errors.append([name, link])
+			pass
 	file.close()
 
 if errors:
