@@ -66,7 +66,7 @@ for name in df.Name.unique():
 		try:
 			a = soup.find("div", {"class" : "_5wj-"}).text
 			if len(a) > 0:
-				file = open(file_name, "a")
+				file = open(file_name, "a+")
 				file.write("#"*30 + "\n")
 				file.write(link + "\n")
 				file.write(a + "\n")
