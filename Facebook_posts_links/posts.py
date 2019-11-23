@@ -45,13 +45,14 @@ loginButton[0].click()
 errors = []
 df = pd.read_csv("All_FB_links_names_corrected.csv")
 for name in df.Name.unique():
-	print("*"*30, name, "*"*30)
+	print("\n", "*"*30, name, "*"*30)
 	name_df = df[df.Name == name]
 	file_name = f"{name}.txt"
 	file_exist =  file_name in os.listdir()
 	if file_exist:
 		with open(file_name, "r") as file:
 			exist = file.read()
+			file.close()
 	for e, link in enumerate(name_df.Link):
 		print(e, end="|")
 		if file_exist:
