@@ -41,7 +41,7 @@ time.sleep(np.random.randint(3, 6))
 loginButton = browser.find_elements_by_css_selector("input[type=submit]")
 loginButton[0].click()
 
-os.system("ipython3 links-pickle-to-df.py")
+# os.system("ipython3 links-pickle-to-df.py")
 errors = []
 df = pd.read_csv("All_FB_links_names_corrected.csv")
 for name in df.Name.unique():
