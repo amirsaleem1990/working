@@ -59,7 +59,11 @@ for name in df.Name.unique():
 		if file_exist:
 			if link in exist:
 				continue
-		browser.get(link)
+		try:
+			browser.get(link, timeout=10.0)
+		except:
+			errors.append([name, link])
+			continue
 		soup = BeautifulSoup(browser.page_source, "lxml")
 		try:
 			a = soup.find("div", {"class" : "_5wj-"}).text
