@@ -81,4 +81,4 @@ for name in df.Name.unique():
 if errors:
 	with open("errors.pkl", "wb") as file:
 		pickle.dump(errors, file)
-	print("\n\nThere is some errors, saved in <errors.pkl>\n\nThere")
+	print("\n\nThere is some errors, saved in <errors.pkl>\n\n")
