@@ -52,9 +52,6 @@ for name in df.Name.unique():
 	if file_exist:
 		with open(file_name, "r") as file:
 			exist = file.read()
-		print(len(exist.splitlines()))
-		file = open(file_name, "a")
-	file = open(file_name, "w")
 	for e, link in enumerate(name_df.Link):
 		print(e, end="|")
 		if file_exist:
@@ -69,9 +66,11 @@ for name in df.Name.unique():
 		try:
 			a = soup.find("div", {"class" : "_5wj-"}).text
 			if len(a) > 0:
+				file = open(file_name, "a")
 				file.write("#"*30 + "\n")
 				file.write(link + "\n")
 				file.write(a + "\n")
+				file.close()
 			else:
 				errors.append([name, link])
 		except:
