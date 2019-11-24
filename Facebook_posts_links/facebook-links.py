@@ -42,7 +42,7 @@ with open(home + "/github/Amir-personal/facebook-userName-and-password.txt", "r"
 print("Attempting to Login", current_time())
 
 # browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
-browser = webdriver.Firefox(executable_path= home + "/github/working/Facebook_posts_links/geckodriver", options=options)
+browser = webdriver.Firefox(executable_path = home + "/github/working/Facebook_posts_links/geckodriver", options=options)
 #navigates you to the facebook page.
 browser.get('https://www.facebook.com/')
 
