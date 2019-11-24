@@ -117,6 +117,8 @@ for fb in FB:
 						 f" ||  {c} links in {fb}")
 
 if not links_to_open:
+	if "check" in os.listdir():
+		os.removedirs("check")
 	os.mkdir("check")
 	os.chdir("check/")
 	for e, i in enumerate(mmz):
