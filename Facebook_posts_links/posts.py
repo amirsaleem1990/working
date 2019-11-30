@@ -43,7 +43,7 @@ loginButton[0].click()
 
 # os.system("ipython3 links-pickle-to-df.py")
 errors = []
-df = pd.read_csv("All_FB_links_names_corrected.csv")
+df = pd.read_csv("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.csv")
 for name in df.Name.unique():
 	print("\n", "*"*30, name, "*"*30)
 	name_df = df[df.Name == name]
