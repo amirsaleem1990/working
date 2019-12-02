@@ -1,0 +1,52 @@
+jb coursera.org sy koi course download karna ho to is k lye coursera ny linux ka package banaya hwa h <coursera-dl>. masla ye h k jab koi course download karny ki koshish karen <eg: coursera-dl -u amirsaleem1990@hotmail.com -p YOUR_PASSWORD  model-thinking> to error aa jata h:
+
+>>> coursera-dl -u amirsaleem1990@hotmail.com -p YOUR_PASSWORD  model-thinking
+coursera_dl version 0.11.4
+Traceback (most recent call last):
+  File "/home/amir/.local/lib/python3.6/site-packages/coursera/cookies.py", line 149, in login
+    r.raise_for_status()
+  File "/home/amir/.local/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.coursera.org/api/login/v3
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/amir/.local/bin/coursera-dl", line 11, in <module>
+    sys.exit(main())
+  File "/home/amir/.local/lib/python3.6/site-packages/coursera/coursera_dl.py", line 236, in main
+    login(session, args.username, args.password)
+  File "/home/amir/.local/lib/python3.6/site-packages/coursera/cookies.py", line 158, in login
+    raise AuthenticationFailed('Cannot login on coursera.org: %s' % e)
+coursera.cookies.AuthenticationFailed: Cannot login on coursera.org: 400 Client Error: Bad Request for url: https://api.coursera.org/api/login/v3
+
+
+SOLVED;
+>>> pip3 show coursera-dl
+Name: coursera-dl
+Version: 0.11.4
+Summary: Script for downloading Coursera.org videos and naming them.
+Home-page: https://github.com/coursera-dl/coursera-dl
+Author: None
+Author-email: None
+License: LGPL
+Location: /home/amir/.local/lib/python3.6/site-packages
+Requires: requests, attrs, urllib3, beautifulsoup4, configargparse, six, pyasn1, keyring
+
+go to <Location: /home/amir/.local/lib/python3.6/site-packages>
+>>> cd /home/amir/.local/lib/python3.6/site-packages
+>>> grep 'def login(session, username, password, class_name=None):'  $(find . -name "*.py")
+./coursera/cookies.py:def login(session, username, password, class_name=None):
+>>> subl ./coursera/cookies.py
+go to <login> function
+commit this line <session.cookies.set('CAUTH', v)>
+open your browser
+press CTRL + SHIFT + C
+select <storage> option from upper panel
+select <cookies> option from left panel
+log in to <coursera.org>
+copy cell (here i consider table as df) df[df.Name == "CAUTH"]["Value"]
+close your browser
+
+go to opened text file <cookies.py>
+replace this line <session.cookies.set('CAUTH', v)> by <session.cookies.set('CAUTH', PASTE_YOUR_CAUTH_VALUE_HERE_YOU_JUST_COPIED)>
