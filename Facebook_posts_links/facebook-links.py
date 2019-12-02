@@ -134,9 +134,11 @@ with open(home + "/github/working/Facebook_posts_links/All_FB_links_names_correc
 	pickle.dump(all_links, file)
 browser.close()
 
-if "geckodriver.log" in os.listdir():
+try:
 	os.remove("geckodriver.log")
-
+except:
+	pass
+	
 if links_to_open:
     for i in links_to_open:
         os.popen("firefox " + i)
