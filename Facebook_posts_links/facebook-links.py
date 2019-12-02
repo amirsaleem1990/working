@@ -43,29 +43,32 @@ print("Attempting to Login", current_time())
 
 Successfully_logedin = True
 while Successfully_logedin:
-	# browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
-	browser = webdriver.Firefox(executable_path = home + "/github/working/Facebook_posts_links/geckodriver", options=options)
-	#navigates you to the facebook page.
-	browser.get('https://www.facebook.com/')
+	try:
+		# browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
+		browser = webdriver.Firefox(executable_path = home + "/github/working/Facebook_posts_links/geckodriver", options=options)
+		#navigates you to the facebook page.
+		browser.get('https://www.facebook.com/')
 
-	#find the username field and enter the email example@yahoo.com.
-	time.sleep(np.random.randint(3, 6))
-	username = browser.find_elements_by_css_selector("input[name=email]")
-	username[0].send_keys(usrname)
-
-
-	#find the password field and enter the password password.
-	time.sleep(np.random.randint(3, 6))
-	password = browser.find_elements_by_css_selector("input[name=pass]")
-	password[0].send_keys(pas)
+		#find the username field and enter the email example@yahoo.com.
+		time.sleep(np.random.randint(3, 6))
+		username = browser.find_elements_by_css_selector("input[name=email]")
+		username[0].send_keys(usrname)
 
 
-	#find the login button and click it.
-	time.sleep(np.random.randint(3, 6))
-	loginButton = browser.find_elements_by_css_selector("input[type=submit]")
-	loginButton[0].click()
-	print("Successfully Logged in", current_time())
-	Successfully_logedin = False
+		#find the password field and enter the password password.
+		time.sleep(np.random.randint(3, 6))
+		password = browser.find_elements_by_css_selector("input[name=pass]")
+		password[0].send_keys(pas)
+
+
+		#find the login button and click it.
+		time.sleep(np.random.randint(3, 6))
+		loginButton = browser.find_elements_by_css_selector("input[type=submit]")
+		loginButton[0].click()
+		print("Successfully Logged in", current_time())
+		Successfully_logedin = False
+	except:
+		pass
 # pages i nedd in list: "idreesazad2", "itsfoss/"
 
 # names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
