@@ -50,3 +50,9 @@ close your browser
 
 go to opened text file <cookies.py>
 replace this line <session.cookies.set('CAUTH', v)> by <session.cookies.set('CAUTH', PASTE_YOUR_CAUTH_VALUE_HERE_YOU_JUST_COPIED)>
+save your file
+
+now try again
+>>> coursera-dl -u amirsaleem1990@hotmail.com -p YOUR_PASSWORD  model-thinking
+
+PROBLUM SOLVED
