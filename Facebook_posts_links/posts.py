@@ -18,29 +18,36 @@ os.system("clear")
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
 
-# browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
-browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options= options)
-#navigates you to the facebook page.
-browser.get('https://www.facebook.com/')
+try_for_success_fully_logedin = True
+
+while try_for_success_fully_logedin:
+	try:
+		# browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
+		browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options= options)
+		#navigates you to the facebook page.
+		browser.get('https://www.facebook.com/')
 
 
-#find the username field and enter the email example@yahoo.com.
-time.sleep(np.random.randint(3, 6))
-username = browser.find_elements_by_css_selector("input[name=email]")
-username[0].send_keys(usrname)
+		#find the username field and enter the email example@yahoo.com.
+		time.sleep(np.random.randint(3, 6))
+		username = browser.find_elements_by_css_selector("input[name=email]")
+		username[0].send_keys(usrname)
 
 
-#find the password field and enter the password password.
-time.sleep(np.random.randint(3, 6))
-password = browser.find_elements_by_css_selector("input[name=pass]")
-password[0].send_keys(pas)
+		#find the password field and enter the password password.
+		time.sleep(np.random.randint(3, 6))
+		password = browser.find_elements_by_css_selector("input[name=pass]")
+		password[0].send_keys(pas)
 
 
-#find the login button and click it.
-time.sleep(np.random.randint(3, 6))
-loginButton = browser.find_elements_by_css_selector("input[type=submit]")
-loginButton[0].click()
+		#find the login button and click it.
+		time.sleep(np.random.randint(3, 6))
+		loginButton = browser.find_elements_by_css_selector("input[type=submit]")
+		loginButton[0].click()
 
+		try_for_success_fully_logedin = False
+	except:
+		pass
 # os.system("ipython3 links-pickle-to-df.py")
 errors = []
 df = pd.read_csv("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.csv")
