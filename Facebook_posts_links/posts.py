@@ -50,6 +50,7 @@ while try_for_success_fully_logedin:
 		pass
 # os.system("ipython3 links-pickle-to-df.py")
 errors = []
+succussfully_extracted = 0
 df = pd.read_csv("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.csv")
 for name in df.Name.unique():
 	print("\n", "*"*30, name, "*"*30)
@@ -78,6 +79,7 @@ for name in df.Name.unique():
 				file.write("\n" + "#"*30 + "\n")
 				file.write(link + "\n")
 				file.write(a + "\n")
+				succussfully_extracted += 1
 				file.close()
 			else:
 				errors.append([name, link])
@@ -85,8 +87,8 @@ for name in df.Name.unique():
 			errors.append([name, link])
 			pass
 	file.close()
-
+print("succussfully extracted: ", succussfully_extracted)
 if errors:
 	with open("errors.pkl", "wb") as file:
 		pickle.dump(errors, file)
-	print("\n\nThere is some errors, saved in <errors.pkl>\n\n")
+	print(f"\n\nThere is {len(errors)} errors, saved in <errors.pkl>\n\n")
