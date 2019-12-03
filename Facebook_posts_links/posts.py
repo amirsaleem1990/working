@@ -92,7 +92,7 @@ for name in df.Name.unique():
 			errors.append([name, link])
 			pass
 	file.close()
-print("succussfully extracted: ", succussfully_extracted)
+print("\n\nsuccussfully extracted: ", succussfully_extracted)
 if errors:
 	with open("errors.pkl", "wb") as file:
 		pickle.dump(errors, file)
