@@ -4728,3 +4728,7 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iaKm4/yR/l/en_US/zNPG
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iaKm4/yR/l/en_US/zNPG8cMuOXL.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeFHeZAs3Eu409weWoX4c2TEvoj7xdV9lz2uQwqeoECLZvcVCC4T2e6eYrJRQyI9ZN4XpLRTjmb-89odShaaebKW4cK3747WBIeYopMIMCE5gw, line 20: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iaKm4/yR/l/en_US/zNPG8cMuOXL.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeFHeZAs3Eu409weWoX4c2TEvoj7xdV9lz2uQwqeoECLZvcVCC4T2e6eYrJRQyI9ZN4XpLRTjmb-89odShaaebKW4cK3747WBIeYopMIMCE5gw, line 20: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+[Child 7761, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
