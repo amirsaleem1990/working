@@ -14,7 +14,12 @@ options = Options()
 options.add_argument("--headless")
 
 os.system("clear")
-
+###########################################
+import signal
+def print_linenum(signum, frame):
+    print "Currently at line", frame.f_lineno
+signal.signal(signal.SIGINT, print_linenum)
+###########################################
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
     usrname, pas = file.read().splitlines()
 
