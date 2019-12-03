@@ -66,7 +66,7 @@ for name in df.Name.unique():
 			if link in exist:
 				continue
 		try:
-			browser.get(link, timeout=60.0)
+			browser.get(link, timeout=120)
 		except:
 			errors.append([name, link])
 			continue
