@@ -113,6 +113,9 @@ for fb in FB:
 							all_links[fb].append((link, str(now)))
 							links_to_open.append(link)
 							c += 1
+		else:
+			print(complted_url)
+			print("****************************************************************************")
 
 	except:
 		pass
