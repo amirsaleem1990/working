@@ -74,23 +74,40 @@ while Successfully_logedin:
 # names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
 # 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
 # 	 "Abu muhammad musab", "Mahtab khan", "mohammad.saleem"]
-FB = ["MMushtaqYusufzai", # Muhammad Mushtaq
-	 "asif.mahmood.1671", # asif mahmood
-	  "zahid.mughal.5895", # zahid mughal
-     "mohammad.f.haris", # mohammad fahad haris
-      "abdullah.adam49", # abdullah adam 
-      "hm.zubair.52", # Hm Zubair 
-      "abumaryam82",  # Muhammad Imran (Blocked)
-      "yaldrim.khalid.9", # Muhammad Imran
-      "munib.hussain86", # munib hussain 
-      "jameelbaloch1924", # jameel baloch 
-      "theguided1", "abubakr.quddusi.3",
-     "mohammaddin.jauhar.7", #mohammad din jauhar 
-     "Riayat.Farooqui", "asim.allahbakhsh",
-     "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
-     "profile.php?id=100026041448813", "mohammad.saleem.568847", # mohammad saleem 
+FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
+	 "asif.mahmood.1671", 					# asif mahmood
+	  "zahid.mughal.5895", 					# zahid mughal
+     "mohammad.f.haris", 					# mohammad fahad haris
+      "abdullah.adam49", 					# abdullah adam 
+      "hm.zubair.52", 						# Hm Zubair 
+      "abumaryam82",  						# Muhammad Imran (Blocked)
+      "yaldrim.khalid.9", 					# Muhammad Imran
+      "munib.hussain86", 					# munib hussain 
+      "jameelbaloch1924", 					# jameel baloch 
+      "theguided1",  						# Rizwan Asad Khan
+      "abubakr.quddusi.3", 					# abubakr quddusi 
+     "mohammaddin.jauhar.7", 				# mohammad din jauhar 
+     "Riayat.Farooqui",  					# riayatullah farooqui 
+     "asim.allahbakhsh", 					# asim allahbakhsh 
+     "sohaib.naseem.3", 					# صہیب نسیم‎  
+     "idreesazaad", 						# Idrees Azad ‎
+     "Abu.Musab.98622733", 					# ابو محمد مصعب 
+     "profile.php?id=100026041448813", 
+     "mohammad.saleem.568847", 				# mohammad saleem 
      "hammad.sarwar.9400",
-     "ajeebscenehaibhai", "nouman.atd.3", "profile.php?id=100032249983289"]
+     "ajeebscenehaibhai", 
+     "nouman.atd.3", 						# Nouman Ihsan
+      "profile.php?id=100032249983289", 	# انس اسلام
+      "HamidKamaluddin.personal", 			# Hamid kamaluddin
+      "faisal.shahzad.1253236", 			# محمد فیصل شہزاد
+	"tariq.habib.969952", 					# tariq habib
+	"mahtabaziz", 							# mahtab khan
+	"suhaib.jamal.1" 						# Suhaib Jamal
+      ]
+
+
+
+
 
 fb_base_url = "https://web.facebook.com/"
 extrected_links = []
