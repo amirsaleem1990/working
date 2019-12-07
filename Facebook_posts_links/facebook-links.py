@@ -74,13 +74,22 @@ while Successfully_logedin:
 # names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
 # 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
 # 	 "Abu muhammad musab", "Mahtab khan", "mohammad.saleem"]
-FB = ["MMushtaqYusufzai", "asif.mahmood.1671", "zahid.mughal.5895", 
-     "mohammad.f.haris", "abdullah.adam49", "hm.zubair.52", 
-      "abumaryam82", "munib.hussain86", "jameelbaloch1924", 
+FB = ["MMushtaqYusufzai", # Muhammad Mushtaq
+	 "asif.mahmood.1671", # asif mahmood
+	  "zahid.mughal.5895", # zahid mughal
+     "mohammad.f.haris", # mohammad fahad haris
+      "abdullah.adam49", # abdullah adam 
+      "hm.zubair.52", # Hm Zubair 
+      "abumaryam82",  # Muhammad Imran (Blocked)
+      "yaldrim.khalid.9", # Muhammad Imran
+      "munib.hussain86", # munib hussain 
+      "jameelbaloch1924", # jameel baloch 
       "theguided1", "abubakr.quddusi.3",
-     "mohammaddin.jauhar.7", "Riayat.Farooqui", "asim.allahbakhsh",
+     "mohammaddin.jauhar.7", #mohammad din jauhar 
+     "Riayat.Farooqui", "asim.allahbakhsh",
      "sohaib.naseem.3", "idreesazaad", "Abu.Musab.98622733", 
-     "profile.php?id=100026041448813", "mohammad.saleem.568847", "hammad.sarwar.9400",
+     "profile.php?id=100026041448813", "mohammad.saleem.568847", # mohammad saleem 
+     "hammad.sarwar.9400",
      "ajeebscenehaibhai", "nouman.atd.3", "profile.php?id=100032249983289"]
 
 fb_base_url = "https://web.facebook.com/"
