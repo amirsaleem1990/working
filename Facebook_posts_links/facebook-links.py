@@ -139,9 +139,6 @@ for fb in FB:
 							all_links[fb].append((link, str(now)))
 							links_to_open.append(link)
 							c += 1
-		if not c:
-			print(complted_url)
-			print("****************************************************************************")
 
 	except:
 		pass
@@ -149,7 +146,9 @@ for fb in FB:
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
 						 current_time(),
 						 f" ||  {c} links in {fb}")
-
+	if not c:
+		print(complted_url)
+		print("****************************************************************************")
 if not links_to_open:
 	if "check" in os.listdir():
 		os.removedirs("check")
