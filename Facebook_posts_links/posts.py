@@ -56,12 +56,17 @@ while try_for_success_fully_logedin:
 os.system("ipython3 links-pickle-to-df.py")
 errors = []
 succussfully_extracted = 0
+
 df = pd.read_csv("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.csv")
+a = ''.join(list(os.popen("cat *.txt")))
+indexes = [e for e,i in enumerate(df.Link) if not i in a]
+to_scrap = df.iloc[indexes]
+
 ids_removed_from_facebook = ["abumaryam82", "hammad.sarwar.9400"]
-for name in df.Name.unique():
+for name in to_scrap.Name.unique():
 	if not name in ids_removed_from_facebook:
 		print("\n", "*"*30, name, "*"*30)
-		name_df = df[df.Name == name]
+		name_df = to_scrap[to_scrap.Name == name]
 		file_name = f"{name}.txt"
 		file_exist =  file_name in os.listdir()
 		if file_exist:
