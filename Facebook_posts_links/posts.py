@@ -57,41 +57,42 @@ os.system("ipython3 links-pickle-to-df.py")
 errors = []
 succussfully_extracted = 0
 df = pd.read_csv("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.csv")
+ids_removed_from_facebook = ["abumaryam82"]
 for name in df.Name.unique():
-	print("\n", "*"*30, name, "*"*30)
-	name_df = df[df.Name == name]
-	file_name = f"{name}.txt"
-	file_exist =  file_name in os.listdir()
-	if file_exist:
-		with open(file_name, "r") as file:
-			exist = file.read()
-		file.close()
-	for e, link in enumerate(name_df.Link):
-		print(e, end="|")
+	if not name in ids_removed_from_facebook:
+		print("\n", "*"*30, name, "*"*30)
+		name_df = df[df.Name == name]
+		file_name = f"{name}.txt"
+		file_exist =  file_name in os.listdir()
 		if file_exist:
-			if link in exist:
-				continue
-		try:
-			browser.get(link)
-		except:
-			errors.append([name, link])
-			continue
-		soup = BeautifulSoup(browser.page_source, "lxml")
-		try:
-			a = soup.find("div", {"class" : "_5wj-"}).text
-			if len(a) > 0:
-				file = open(file_name, "a+")
-				file.write("\n" + "#"*30 + "\n")
-				file.write(link + "\n")
-				file.write(a + "\n")
-				succussfully_extracted += 1
-				file.close()
-			else:
+			with open(file_name, "r") as file:
+				exist = file.read()
+			file.close()
+		for e, link in enumerate(name_df.Link):
+			print(e, end="|")
+			if file_exist:
+				if link in exist:
+					continue
+			try:
+				browser.get(link)
+			except:
 				errors.append([name, link])
-		except:
-			errors.append([name, link])
-			pass
-	file.close()
+				continue
+			soup = BeautifulSoup(browser.page_source, "lxml")
+			try:
+				a = soup.find("div", {"class" : "_5wj-"}).text
+				if len(a) > 0:
+					file = open(file_name, "a+")
+					file.write("\n" + "#"*30 + "\n")
+					file.write(link + "\n")
+					file.write(a + "\n")
+					succussfully_extracted += 1
+					file.close()
+				else:
+					errors.append([name, link])
+			except:
+				errors.append([name, link])
+				pass
 print("\n\nsuccussfully extracted: ", succussfully_extracted)
 if errors:
 	with open("errors.pkl", "wb") as file:
