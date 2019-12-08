@@ -65,7 +65,7 @@ for name in df.Name.unique():
 	if file_exist:
 		with open(file_name, "r") as file:
 			exist = file.read()
-			file.close()
+		file.close()
 	for e, link in enumerate(name_df.Link):
 		print(e, end="|")
 		if file_exist:
