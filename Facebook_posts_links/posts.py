@@ -61,7 +61,7 @@ df = pd.read_csv("/home/amir/github/working/Facebook_posts_links/All_FB_links_na
 a = ''.join(list(os.popen("cat *.txt")))
 indexes = [e for e,i in enumerate(df.Link) if not i in a]
 to_scrap = df.iloc[indexes]
-
+print(f"\nThere is {len(to_scrap)} to scrap\n")
 ids_removed_from_facebook = ["abumaryam82", "hammad.sarwar.9400"]
 for name in to_scrap.Name.unique():
 	if not name in ids_removed_from_facebook:
