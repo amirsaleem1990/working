@@ -11790,3 +11790,5 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i8594/yT/l/en_US/yqcG
 1575870188511	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:27061): dconf-WARNING **: 10:43:22.782: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1575870261896	Marionette	INFO	Stopped listening on port 34149
+[Parent 26974, Gecko_IOThread] WARNING: pipe error (66): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
