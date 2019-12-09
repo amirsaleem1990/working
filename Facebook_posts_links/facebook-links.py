@@ -170,13 +170,13 @@ for fb in FB:
 
 		except:
 			continue
-		perc = counter/len(FB)*100
-		print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
-							 current_time(),
-							 f" ||  {c} links in {fb}")
-		if not c:
-			print(complted_url)
-			print("****************************************************************************")
+	perc = counter/len(FB)*100
+	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
+						 current_time(),
+						 f" ||  {c} links in {fb}")
+	if not c:
+		print(complted_url)
+		print("****************************************************************************")
 if not links_to_open:
 	if "check" in os.listdir():
 		os.removedirs("check")
