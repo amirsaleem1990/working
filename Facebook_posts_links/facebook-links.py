@@ -127,38 +127,63 @@ links_to_open = []
 
 now = datetime.datetime.now()
 mmz = []
+errors = []
+ids_removed_from_facebook = ["abumaryam82", "hammad.sarwar.9400"]
+succussfully_extracted = 0
 for fb in FB:
 	c = 0
 	counter += 1
-	complted_url = fb_base_url + fb
-	if not fb in all_links:
-		print(f"new id added: <{fb_base_url + fb}>")
-		all_links[fb] = []
-	browser.get(complted_url)
-	s = BeautifulSoup(browser.page_source, "lxml")
-	a = s.find("div", {"id" : "timeline_story_column"})
-	mmz.append(a)
-	try:
-		links_ = a.select('a')
-		for i in links_:
-			link = i['href']
-			if link.startswith("https://web.facebook.com/"):
-				if not link in str(all_links):
-					if "/posts/" in link:
-						if not "?comment_id=" in link:
-							all_links[fb].append((link, str(now)))
-							links_to_open.append(link)
-							c += 1
+	if not fb in ids_removed_from_facebook:
+		complted_url = fb_base_url + fb
+		if not fb in all_links:
+			print(f"new id added: <{fb_base_url + fb}>")
+			all_links[fb] = []
+		browser.get(complted_url)
+		s = BeautifulSoup(browser.page_source, "lxml")
+		a = s.find("div", {"id" : "timeline_story_column"})
+		mmz.append(a)
+		try:
+			links_ = a.select('a')
+			for i in links_:
+				link = i['href']
+				if link.startswith("https://web.facebook.com/"):
+					if not link in str(all_links):
+						if "/posts/" in link:
+							if not "?comment_id=" in link:
+								all_links[fb].append((link, str(now)))
+								links_to_open.append(link)
+								c += 1
+								try:
+									browser.get(link)
+								except:
+									errors.append([fb, link])
+									continue
+								soup = BeautifulSoup(browser.page_source, "lxml")
+								try:
+									aa = soup.find("div", {"class" : "_5wj-"}).text
+									if len(aa) > 0:
+										file_name = f"{fb}.txt"
+										file = open("/home/amir/github/working/Facebook_posts_links/" + file_name, "a+")
+										file.write("\n" + "#"*30 + "\n")
+										file.write(link + "\n")
+										file.write(aa + "\n")
+										succussfully_extracted += 1
+										file.close()
+									else:
+										errors.append([fb, link])
+								except:
+									errors.append([fb, link])
+									pass
 
-	except:
-		pass
-	perc = counter/len(FB)*100
-	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
-						 current_time(),
-						 f" ||  {c} links in {fb}")
-	if not c:
-		print(complted_url)
-		print("****************************************************************************")
+		except:
+			continue
+		perc = counter/len(FB)*100
+		print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
+							 current_time(),
+							 f" ||  {c} links in {fb}")
+		if not c:
+			print(complted_url)
+			print("****************************************************************************")
 if not links_to_open:
 	if "check" in os.listdir():
 		os.removedirs("check")
