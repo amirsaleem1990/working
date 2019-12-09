@@ -37,16 +37,6 @@ def current_time():
 with open("All_FB_links_names_corrected.pkl", "rb") as file:
     all_links = pickle.load(file)
 
-# only_links = []
-# for i in all_links:
-#     a = all_links[i]
-#     for ii in a:
-#         if isinstance(ii, tuple):
-#             only_links.append(ii[0])
-#         else:
-#             only_links.append(ii)
-
-
 stored_links_qty = sum([len(all_links[i]) for i in all_links])    
 
 with open(home + "/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
