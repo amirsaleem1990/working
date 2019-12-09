@@ -12,6 +12,8 @@ from selenium.webdriver.firefox.options import Options
 options = Options()
 options.add_argument("--headless")
 
+os.chdir("/home/amir/github/working/Facebook_posts_links/")
+
 os.system("clear")
 
 def current_time():
@@ -27,12 +29,12 @@ def current_time():
 	tt = tt.strip(":")
 	return tt
 
-home = list(os.popen("echo $HOME"))[0].strip()
-# in kali the symbolic linc of <github> folder is at </root/amir>
-if home == "/root":
-	home = "/root/amir"
+# home = list(os.popen("echo $HOME"))[0].strip()
+# # in kali the symbolic linc of <github> folder is at </root/amir>
+# if home == "/root":
+# 	home = "/root/amir"
 
-with open(home + "/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
+with open("All_FB_links_names_corrected.pkl", "rb") as file:
     all_links = pickle.load(file)
 
 # only_links = []
@@ -163,7 +165,7 @@ for fb in FB:
 									aa = soup.find("div", {"class" : "_5wj-"}).text
 									if len(aa) > 0:
 										file_name = f"{fb}.txt"
-										file = open("/home/amir/github/working/Facebook_posts_links/" + file_name, "a+")
+										file = open(file_name, "a+")
 										file.write("\n" + "#"*30 + "\n")
 										file.write(link + "\n")
 										file.write(aa + "\n")
@@ -200,7 +202,7 @@ links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 print("New links Qty: ", links_qty_after_addition - stored_links_qty)
 
-with open(home + "/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "wb") as file:
+with open("All_FB_links_names_corrected.pkl", "wb") as file:
 	pickle.dump(all_links, file)
 browser.close()
 
