@@ -179,7 +179,6 @@ for fb in FB:
 		print("****************************************************************************")
 if not links_to_open:
 	if "check" in os.listdir():
-		os.removedirs("check")
 		import shutil
 		shutil.rmtree("check", ignore_errors=False)
 	os.mkdir("check")
