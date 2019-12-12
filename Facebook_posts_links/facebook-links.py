@@ -203,10 +203,10 @@ except:
 
 
 print("\n\nsuccussfully extracted: ", succussfully_extracted)
-if errors:
+if not succussfully_extracted:
 	with open("errors.txt", "w") as file:
 		for error in errors:
-			file.write(i[0] + ":  " + i[1] + "\n")
+			file.write(error[0] + ":  " + error[1] + "\n")
 	print(f"\n\nThere is {len(errors)} errors, saved in <errors.txt>\n\n")
 	
 
