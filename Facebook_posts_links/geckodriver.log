@@ -8,3 +8,6 @@
 1576126571959	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:4805): dconf-WARNING **: 09:56:26.381: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1576126661110	Marionette	INFO	Stopped listening on port 46539
+[Parent 4732, Gecko_IOThread] WARNING: pipe error (63): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
