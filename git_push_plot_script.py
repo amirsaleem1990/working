@@ -17,6 +17,7 @@ print(f'\n****  Total count: {df.Count.sum()} ****\n')
 # mng.full_screen_toggle()
 # plt.show()
 
-df["Ratio"] = df.Count / df.Count.sum() * 100
-for i in df['Ratio']:
-    print("|" * int(i))
+# df["Ratio"] = df.Count / df.Count.sum() * 100
+for i in df.iterrows():
+	row = i[1]
+	print(row['Repo'], "  ", "|" * int(row["Count"]))
