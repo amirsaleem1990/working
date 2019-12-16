@@ -190,7 +190,8 @@ if not links_to_open:
 	print(colored("\n\n<check> folder created, you can check there why you not get any link\n\n", 'red'))
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
-print("New links Qty: ", links_qty_after_addition - stored_links_qty)
+if links_qty_after_addition:
+	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
 
 with open("All_FB_links_names_corrected.pkl", "wb") as file:
 	pickle.dump(all_links, file)
@@ -214,5 +215,3 @@ if not succussfully_extracted:
 if links_to_open:
     for i in links_to_open:
         os.popen("firefox " + i)
-
-
