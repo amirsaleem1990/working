@@ -195,7 +195,7 @@ if not links_to_open:
 
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
-if links_qty_after_addition:
+if succussfully_extracted:
 	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
 	print("\n\nsuccussfully extracted: ", succussfully_extracted)
 	with open("All_FB_links_names_corrected.pkl", "wb") as file:
