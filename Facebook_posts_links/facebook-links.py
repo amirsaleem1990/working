@@ -35,12 +35,12 @@ def current_time():
 # 	home = "/root/amir"
 
 with open("All_FB_links_names_corrected.pkl", "rb") as file:
-    all_links = pickle.load(file)
+	all_links = pickle.load(file)
 
-stored_links_qty = sum([len(all_links[i]) for i in all_links])    
+stored_links_qty = sum([len(all_links[i]) for i in all_links])	
 
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
-    usrname, pas = file.read().splitlines()
+	usrname, pas = file.read().splitlines()
 
 print("Attempting to Login", current_time())
 
@@ -106,7 +106,7 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"tariq.habib.969952", 				# tariq habib
 		"mahtabaziz", 						# mahtab khan
 		"suhaib.jamal.1" 					# Suhaib Jamal
-      ]
+	  ]
 
 
 
@@ -201,8 +201,8 @@ if succussfully_extracted:
 	with open("All_FB_links_names_corrected.pkl", "wb") as file:
 		pickle.dump(all_links, file)
 	for i in links_to_open:
-        os.popen("firefox " + i)
-        
+		os.popen("firefox " + i)
+		
 else:
 	with open("errors.txt", "w") as file:
 		for error in errors:
