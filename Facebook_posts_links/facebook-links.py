@@ -72,7 +72,7 @@ while Successfully_logedin:
 		Successfully_logedin = False
 	except:
 		pass
-# pages i nedd in list: "idreesazad2", "itsfoss/"
+# pages i nedd in list: "idreesazad2", "itsfoss/", "azeemnama"
 
 # names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
 # 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
@@ -202,7 +202,7 @@ if succussfully_extracted:
 		pickle.dump(all_links, file)
 	for i in links_to_open:
 		os.popen("firefox " + i)
-		
+
 else:
 	with open("errors.txt", "w") as file:
 		for error in errors:
