@@ -177,6 +177,9 @@ for fb in FB:
 	if not c:
 		print(complted_url)
 		print("****************************************************************************")
+
+browser.close()
+
 if not links_to_open:
 	if "check" in os.listdir():
 		import shutil
@@ -188,30 +191,27 @@ if not links_to_open:
 			file.write(str(i))
 	from termcolor import colored
 	print(colored("\n\n<check> folder created, you can check there why you not get any link\n\n", 'red'))
+
+
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 if links_qty_after_addition:
 	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
+	print("\n\nsuccussfully extracted: ", succussfully_extracted)
+	with open("All_FB_links_names_corrected.pkl", "wb") as file:
+		pickle.dump(all_links, file)
 
-with open("All_FB_links_names_corrected.pkl", "wb") as file:
-	pickle.dump(all_links, file)
-browser.close()
+else:
+	with open("errors.txt", "w") as file:
+		for error in errors:
+			file.write(error[0] + ":  " + error[1] + "\n")
+	print(f"\n\nThere is {len(errors)} errors, saved in <errors.txt>\n\n")
+
 
 try:
 	os.remove("geckodriver.log")
 except:
 	pass
-
-
-print("\n\nsuccussfully extracted: ", succussfully_extracted)
-if not succussfully_extracted:
-	with open("errors.txt", "w") as file:
-		for error in errors:
-			file.write(error[0] + ":  " + error[1] + "\n")
-	print(f"\n\nThere is {len(errors)} errors, saved in <errors.txt>\n\n")
-	
-
-
 if links_to_open:
     for i in links_to_open:
         os.popen("firefox " + i)
