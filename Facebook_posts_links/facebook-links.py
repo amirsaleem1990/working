@@ -200,7 +200,9 @@ if succussfully_extracted:
 	print("\n\nsuccussfully extracted: ", succussfully_extracted)
 	with open("All_FB_links_names_corrected.pkl", "wb") as file:
 		pickle.dump(all_links, file)
-
+	for i in links_to_open:
+        os.popen("firefox " + i)
+        
 else:
 	with open("errors.txt", "w") as file:
 		for error in errors:
@@ -212,6 +214,3 @@ try:
 	os.remove("geckodriver.log")
 except:
 	pass
-if links_to_open:
-    for i in links_to_open:
-        os.popen("firefox " + i)
