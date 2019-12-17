@@ -98,6 +98,7 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"profile.php?id=100026041448813", 
 		"mohammad.saleem.568847", 			# mohammad saleem 
 		"hammad.sarwar.9400",
+		"profile.php?id=100043920022318",   # سرورالدین سرور
 		"ajeebscenehaibhai", 
 		"nouman.atd.3", 					# Nouman Ihsan
 		"profile.php?id=100032249983289", 	# انس اسلام
