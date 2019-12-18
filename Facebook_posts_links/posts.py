@@ -57,6 +57,7 @@ os.system("ipython3 links-pickle-to-df.py")
 errors = []
 succussfully_extracted = 0
 
+os.system("ipython3 /home/amir/github/working/Facebook_posts_links/links-pickle-to-df.py")
 df = pd.read_csv("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.csv")
 a = ''.join(list(os.popen("cat *.txt")))
 indexes = [e for e,i in enumerate(df.Link) if not i in a]
