@@ -197,9 +197,27 @@ if not links_to_open:
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 if succussfully_extracted:
-	print("New links Qty: ", links_qty_after_addition - stored_links_qty)import os
+	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
+	print("\n\nsuccussfully extracted: ", succussfully_extracted)
+	with open("All_FB_links_names_corrected.pkl", "wb") as file:
+		pickle.dump(all_links, file)
+	for i in links_to_open:
+		os.popen("firefox " + i)
+
+else:
+	with open("errors.txt", "w") as file:
+		for error in errors:
+			file.write(error[0] + ":  " + error[1] + "\n")
+	print(f"\n\nThere is {len(errors)} errors, saved in <errors.txt>\n\n")
 
 
+try:
+	os.remove("geckodriver.log")
+except:
+	pass
+
+
+# import os
 # import time
 # import pickle
 # import requests
@@ -399,24 +417,6 @@ if succussfully_extracted:
 
 # if succussfully_extracted:
 # 	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
-# 	print("\n\nsuccussfully extracted: ", succussfully_extracted)
-# 	with open("All_FB_links_names_corrected.pkl", "wb") as file:
-# 		pickle.dump(all_links, file)
-# 	for i in links_to_open:
-# 		os.popen("firefox " + i)
-
-# else:
-# 	with open("errors.txt", "w") as file:
-# 		for error in errors:
-# 			file.write(error[0] + ":  " + error[1] + "\n")
-# 	print(f"\n\nThere is {len(errors)} errors, saved in <errors.txt>\n\n")
-
-
-# try:
-# 	os.remove("geckodriver.log")
-# except:
-# 	pass
-
 # 	print("\n\nsuccussfully extracted: ", succussfully_extracted)
 # 	with open("All_FB_links_names_corrected.pkl", "wb") as file:
 # 		pickle.dump(all_links, file)
