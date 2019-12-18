@@ -55,4 +55,10 @@ save your file
 now try again
 >>> coursera-dl -u amirsaleem1990@hotmail.com -p YOUR_PASSWORD  model-thinking
 
-PROBLUM SOLVED
+PROBLEM SOLVED
+
+
+!!!!!!!!!!! PROBLEM NOT SOLVED?????????????
+# me ny khud hi ye dusri dafa kara to nahi chala, to me ny <login> function me ye line <r.raise_for_status()> commit kar di..!
+PROBLEM SOLVED :p
+
