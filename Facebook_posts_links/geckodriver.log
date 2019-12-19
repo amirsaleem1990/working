@@ -2049,3 +2049,5 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 1576736115944	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1576736117722	Marionette	INFO	Listening on port 38701
 1576736117830	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:19233): dconf-WARNING **: 11:15:59.262: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
