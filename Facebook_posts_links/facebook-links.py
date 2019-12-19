@@ -208,7 +208,8 @@ else:
 	with open("errors.txt", "w") as file:
 		for error in errors:
 			file.write(error[0] + ":  " + error[1] + "\n")
-	print(f"\n\nThere is {len(errors)} errors, saved in <errors.txt>\n\n")
+	print(f"""\n\nNo link was extracted succussfully, you can need bug fixing we saved all the scrapped data at: 
+		/home/amir/github/working/Facebook_posts_links/check/ \n\n""")
 
 
 try:
