@@ -201,3 +201,5 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i8594/yT/l/en_US/yqcG
 1576837101491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1576837103052	Marionette	INFO	Listening on port 45945
 1576837103117	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12441): dconf-WARNING **: 15:18:48.885: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
