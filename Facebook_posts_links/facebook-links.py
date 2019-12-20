@@ -1,3 +1,4 @@
+LPM = []
 import os
 import time
 import pickle
@@ -189,6 +190,7 @@ for fb in FB:
 	last_post_was_before_days = abs(int(str(list((last_date - crnt_time))[0]).split()[0]))
 	if not len(last_post_was_before_days):
 		last_post_was_before_days = "NA"
+	LPM.append(last_post_was_before_days)
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
 						# f"Last post: {list(previos_data[previos_data.Name == fb].tail(1).Tate)[0].split()[0]} || ",
 						# current_time(),
@@ -214,7 +216,8 @@ if not links_to_open:
 
 
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
-
+with open("LPM.txt", "w") as file:
+	file.write("\n".join(LPM))
 if succussfully_extracted:
 	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
 	print("\n\nsuccussfully extracted: ", succussfully_extracted)
