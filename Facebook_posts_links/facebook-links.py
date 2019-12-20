@@ -9,6 +9,7 @@ import time
 import datetime
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
+os.system("ipython3 links-pickle-to-df.py")
 options = Options()
 options.add_argument("--headless")
 
