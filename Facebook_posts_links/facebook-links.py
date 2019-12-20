@@ -215,7 +215,7 @@ if not links_to_open:
 
 
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
-with open("LPM.txt", "w") as file:
+with open("/home/amir/github/working/Facebook_posts_links/LPM.txt", "w") as file:
 	file.write("\n".join(LPM))
 if succussfully_extracted:
 	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
