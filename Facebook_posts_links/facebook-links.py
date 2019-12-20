@@ -9,7 +9,7 @@ import time
 import datetime
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
-
+import pandas as pd
 os.system("ipython3 links-pickle-to-df.py")
 previos_data = pd.read_csv("All_FB_links_names_corrected.csv")
 options = Options()
