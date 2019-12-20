@@ -12,6 +12,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 import pandas as pd
 
+options = Options()
+options.add_argument("--headless")
+
+os.chdir("/home/amir/github/working/Facebook_posts_links/")
 #####################################################################
 # see days since last post 
 os.system("ipython3 links-pickle-to-df.py")
@@ -21,11 +25,6 @@ crnt_time = pd.to_datetime(
 	datetime.datetime.now(),
 	infer_datetime_format=True)
 ######################################################################
-options = Options()
-options.add_argument("--headless")
-
-os.chdir("/home/amir/github/working/Facebook_posts_links/")
-
 os.system("clear")
 
 def current_time():
