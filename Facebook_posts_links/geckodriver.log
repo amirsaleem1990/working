@@ -33,3 +33,13 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeF1fJNL7VkwD0_q6M078MRllzsgmvqITC2EBY1rjZuRAxKQX7wkxnVxLUizWDbS3k6hZG6eJqHTrxlNMWJTAFSwKQ_eK0ZoZafo0EP7-aCEJw, line 4: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=4W2AkHcxuPi&_nc_eui2=AeF1fJNL7VkwD0_q6M078MRllzsgmvqITC2EBY1rjZuRAxKQX7wkxnVxLUizWDbS3k6hZG6eJqHTrxlNMWJTAFSwKQ_eK0ZoZafo0EP7-aCEJw, line 4: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1576836370663	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4OCg6qLx2CSR"
+*** You are running in headless mode.
+1576836371043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576836371043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576836371043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576836371043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576836372508	Marionette	INFO	Listening on port 33705
+1576836372572	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9767): dconf-WARNING **: 15:06:30.645: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
