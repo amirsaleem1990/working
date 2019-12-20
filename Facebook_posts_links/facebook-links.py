@@ -184,7 +184,7 @@ for fb in FB:
 			continue
 	perc = counter/len(FB)*100
 	last_date = pd.to_datetime(
-		df[df.Name == fb].tail(1).Tate.values,
+		previos_data[previos_data.Name == fb].tail(1).Tate.values,
 			infer_datetime_format=True)                                           
 	last_post_was_before_days = int(str(list((last_date - crnt_time))[0]).split()[0])
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
