@@ -185,12 +185,12 @@ for fb in FB:
 	perc = counter/len(FB)*100
 	last_date = pd.to_datetime(
 		previos_data[previos_data.Name == fb].tail(1).Tate.values,
-			infer_datetime_format=True)                                           
-	last_post_was_before_days = int(str(list((last_date - crnt_time))[0]).split()[0])
+			infer_datetime_format=True)
+	last_post_was_before_days = abs(int(str(list((last_date - crnt_time))[0]).split()[0]))
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
 						# f"Last post: {list(previos_data[previos_data.Name == fb].tail(1).Tate)[0].split()[0]} || ",
 						# current_time(),
-						f" Last post before {abs(last_post_was_before_days)} days"
+						f" Last post before {last_post_was_before_days} days"
 						f" ||  {c} links in {fb}")
 	if not c:
 		print(complted_url)
