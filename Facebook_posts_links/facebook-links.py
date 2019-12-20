@@ -177,7 +177,7 @@ for fb in FB:
 	perc = counter/len(FB)*100
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
 						f"Last post: {list(previos_data[previos_data.Name == fb].tail(1).Tate)[0].split()[0]} || ",
-						current_time(),
+						# current_time(),
 						f" ||  {c} links in {fb}")
 	if not c:
 		print(complted_url)
