@@ -221,7 +221,7 @@ try:
 except:
 	pass
 
-os.system("/home/amir/github/working/Facebook_posts_links/last_post.py")
+os.system("ipython3 /home/amir/github/working/Facebook_posts_links/last_post.py")
 
 # import os
 # import time
