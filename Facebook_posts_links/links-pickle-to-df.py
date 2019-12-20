@@ -1,6 +1,6 @@
 import pandas as pd
 import pickle
-with open("All_FB_links_names_corrected.pkl", "rb") as file:
+with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
 	d = pickle.load(file)
 dd = {}
 names = []
@@ -24,4 +24,4 @@ ls = [pd.DataFrame(dd[i]) for i in dd]
 df = pd.concat(ls).reset_index().drop("index", axis=1)
 df['name'] = names
 df.columns = ["Link", "Tate", "Name"]
-df.to_csv("All_FB_links_names_corrected.csv", index=False)
+df.to_csv("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.csv", index=False)
