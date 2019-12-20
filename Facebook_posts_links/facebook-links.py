@@ -11,7 +11,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 
 os.system("ipython3 links-pickle-to-df.py")
-
+previos_data = pd.read_csv("All_FB_links_names_corrected.csv")
 options = Options()
 options.add_argument("--headless")
 
@@ -176,8 +176,9 @@ for fb in FB:
 			continue
 	perc = counter/len(FB)*100
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
-						 current_time(),
-						 f" ||  {c} links in {fb}")
+						f"Last post: {list(previos_data[previos_data.Name == fb].tail(1).Tate)[0].split()[0]}"
+						current_time(),
+						f" ||  {c} links in {fb}")
 	if not c:
 		print(complted_url)
 		print("****************************************************************************")
