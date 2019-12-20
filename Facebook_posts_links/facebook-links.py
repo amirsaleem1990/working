@@ -10,8 +10,16 @@ import datetime
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 import pandas as pd
+
+#####################################################################
+# see days since last post 
 os.system("ipython3 links-pickle-to-df.py")
 previos_data = pd.read_csv("All_FB_links_names_corrected.csv")
+
+crnt_time = pd.to_datetime(
+	datetime.datetime.now(),
+	infer_datetime_format=True)
+######################################################################
 options = Options()
 options.add_argument("--headless")
 
@@ -175,9 +183,14 @@ for fb in FB:
 		except:
 			continue
 	perc = counter/len(FB)*100
+	last_date = pd.to_datetime(
+		df[df.Name == fb].tail(1).Tate.values,
+			infer_datetime_format=True)                                           
+	last_post_was_before_days = int(str(list((last_date - crnt_time))[0]).split()[0])
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
-						f"Last post: {list(previos_data[previos_data.Name == fb].tail(1).Tate)[0].split()[0]} || ",
+						# f"Last post: {list(previos_data[previos_data.Name == fb].tail(1).Tate)[0].split()[0]} || ",
 						# current_time(),
+						f" Last post before {last_post_was_before_days} days"
 						f" ||  {c} links in {fb}")
 	if not c:
 		print(complted_url)
