@@ -1,4 +1,3 @@
-LPM = []
 import os
 import time
 import pickle
@@ -10,21 +9,11 @@ import time
 import datetime
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
-import pandas as pd
-
 options = Options()
 options.add_argument("--headless")
 
 os.chdir("/home/amir/github/working/Facebook_posts_links/")
-#####################################################################
-# see days since last post 
-os.system("ipython3 links-pickle-to-df.py")
-previos_data = pd.read_csv("All_FB_links_names_corrected.csv")
 
-crnt_time = pd.to_datetime(
-	datetime.datetime.now(),
-	infer_datetime_format=True)
-######################################################################
 os.system("clear")
 
 def current_time():
@@ -56,10 +45,7 @@ with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", 
 print("Attempting to Login", current_time())
 
 Successfully_logedin = True
-Successfully_logedin_num = 1
 while Successfully_logedin:
-	print("login Attempt: #", Successfully_logedin_num)
-	Successfully_logedin_num += 1
 	try:
 		# browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
 		browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
@@ -186,18 +172,9 @@ for fb in FB:
 		except:
 			continue
 	perc = counter/len(FB)*100
-	last_date = pd.to_datetime(
-		previos_data[previos_data.Name == fb].tail(1).Tate.values,
-			infer_datetime_format=True)
-	last_post_was_before_days = abs(int(str(list((last_date - crnt_time))[0]).split()[0]))
-	if not len(last_post_was_before_days):
-		last_post_was_before_days = "NA"
-	LPM.append((fb, last_post_was_before_days))
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
-						# f"Last post: {list(previos_data[previos_data.Name == fb].tail(1).Tate)[0].split()[0]} || ",
-						# current_time(),
-						f" Last post before {last_post_was_before_days} days"
-						f" ||  {c} links in {fb}")
+						 current_time(),
+						 f" ||  {c} links in {fb}")
 	if not c:
 		print(complted_url)
 		print("****************************************************************************")
@@ -218,8 +195,7 @@ if not links_to_open:
 
 
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
-with open("/home/amir/github/working/Facebook_posts_links/LPM.txt", "w") as file:
-	file.write("\n".join(LPM))
+
 if succussfully_extracted:
 	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
 	print("\n\nsuccussfully extracted: ", succussfully_extracted)
