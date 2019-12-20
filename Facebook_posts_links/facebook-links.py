@@ -56,7 +56,10 @@ with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", 
 print("Attempting to Login", current_time())
 
 Successfully_logedin = True
+Successfully_logedin_num = 1
 while Successfully_logedin:
+	print("login Attempt: #", Successfully_logedin_num)
+	Successfully_logedin_num += 1
 	try:
 		# browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
 		browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
