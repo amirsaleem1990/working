@@ -50,3 +50,4 @@ Exiting due to channel error.
 1576930573166	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:14301): dconf-WARNING **: 17:16:24.772: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1576930624799	Marionette	INFO	Stopped listening on port 37641
