@@ -1904,3 +1904,13 @@ handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
 [Parent 13147, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
 1576941772041	Marionette	INFO	Stopped listening on port 37823
+1576941802555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xpSqy3PwT1ZM"
+*** You are running in headless mode.
+1576941803027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576941803027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576941803027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576941803027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576941804973	Marionette	INFO	Listening on port 32895
+1576941805107	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16971): dconf-WARNING **: 20:23:35.895: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
