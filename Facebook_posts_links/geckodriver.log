@@ -40,3 +40,13 @@ Exiting due to channel error.
 1576930542209	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:14025): dconf-WARNING **: 17:15:50.993: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1576930570084	Marionette	INFO	Stopped listening on port 38025
+1576930570956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QapfwmIwPY2Q"
+1576930571412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576930571412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576930571412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576930571412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576930573062	Marionette	INFO	Listening on port 37641
+1576930573166	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14301): dconf-WARNING **: 17:16:24.772: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
