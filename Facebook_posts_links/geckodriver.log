@@ -267,3 +267,237 @@ emit@resource://devtools/shared/event-emitter.js:190:24
 emit@resource://devtools/shared/event-emitter.js:271:18
 handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
 
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nUp@resource://devtools/client/inspector/markup/markup.js:169:37\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Up@resource://devtools/client/inspector/markup/markup.js:169:37
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
+console.error: "TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20\nDown@resource://devtools/client/inspector/markup/markup.js:175:33\n_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36\n_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nhandleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27\n"
+TypeError: this.doc is null: _selectionWalker@resource://devtools/client/inspector/markup/markup.js:1026:20
+Down@resource://devtools/client/inspector/markup/markup.js:175:33
+_onShortcut@resource://devtools/client/inspector/markup/markup.js:1187:36
+_initShortcuts/</<@resource://devtools/client/inspector/markup/markup.js:1174:39
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+handleEvent@resource://devtools/client/shared/key-shortcuts.js:268:27
+
