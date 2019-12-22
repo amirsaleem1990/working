@@ -41,23 +41,6 @@ os.chdir("/home/amir/github/working/Facebook_posts_links/")
 
 os.system("clear")
 
-def current_time():
-	n = datetime.datetime.now()
-	t = ':'.join([str(i) for i in [n.hour, n.minute, n.second]])
-	tt = ""
-	for i in t.split(":"):
-		if len(i) == 1:
-			tt += "0" + i
-		else:
-			tt += i
-		tt += ":"
-	tt = tt.strip(":")
-	return tt
-
-with open("All_FB_links_names_corrected.pkl", "rb") as file:
-	all_links = pickle.load(file)
-
-stored_links_qty = sum([len(all_links[i]) for i in all_links])	
 
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
