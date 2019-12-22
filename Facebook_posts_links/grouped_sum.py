@@ -9,5 +9,5 @@ while True:
 	pkls = [i[i.rfind("_")+1:].strip(".pkl") for i in pkls]
 	pkls = [i for i in pkls if i != "corrected"]
 	pkls = pd.Series(pkls)
-	print(pkls.value_counts().values())
+	print(pkls.value_counts().values)
 	time.sleep(60)
