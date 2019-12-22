@@ -123,3 +123,13 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1577030395848	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:3393): dconf-WARNING **: 21:00:06.465: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1577030459196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qF32XCotHOHP"
+*** You are running in headless mode.
+1577030459616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577030459616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577030459616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577030459616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577030461630	Marionette	INFO	Listening on port 33479
+1577030461703	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3929): dconf-WARNING **: 21:01:11.862: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
