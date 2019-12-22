@@ -152,3 +152,16 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1577030976968	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:6579): dconf-WARNING **: 21:09:50.555: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1577031334502	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KlIgajsdilLY"
+*** You are running in headless mode.
+1577031334915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577031334915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577031334915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577031334915	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577031336553	Marionette	INFO	Listening on port 46437
+1577031336608	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8175): dconf-WARNING **: 21:15:45.412: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 6449, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 6449, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1577031359107	Marionette	INFO	Stopped listening on port 40255
