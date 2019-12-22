@@ -2070,3 +2070,8 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1576999908011	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:24288): dconf-WARNING **: 12:31:58.832: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 24288, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
