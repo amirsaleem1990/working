@@ -123,9 +123,9 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"suhaib.jamal.1" 					# Suhaib Jamal
 	  ]
 fb_base_url = 'https://m.facebook.com/'
-all_data = []
 errors_first_page = []
 for e, fb in enumerate(FB):
+	all_data = []
 	time.sleep(np.random.randint(3, 6))
 	complted_url = fb_base_url + fb
 	print(e, len(all_data))
@@ -164,3 +164,5 @@ for e, fb in enumerate(FB):
 			next_page_link = "https://mobile.facebook.com" + s_next_page.find("div", {"id" : "u_0_3"}).find("a")['href']
 		except:
 			break
+	with open(f"{fb}_all_data.pkl", "wb") as file:
+		pickle.dump(all_data, file)
