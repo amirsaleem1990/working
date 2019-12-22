@@ -2,7 +2,7 @@ import pandas as pd
 import time
 import os
 while True:
-	time.sleep(60)
+	time.sleep(1)
 	print("*****************************************************************")
 	os.system("date +%H:%M:%S")
 	os.system("du -ch *.pkl | grep total | cut -d 'M' -f 1")
