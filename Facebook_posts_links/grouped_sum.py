@@ -2,7 +2,6 @@ import pandas as pd
 import time
 import os
 while True:
-	time.sleep(60)
 	print("*****************************************************************")
 	os.system("date +%H:%M:%S")
 	os.system("echo $(du -c -BM *.pkl | grep total | cut -d 'M' -f 1) MB")
@@ -11,3 +10,4 @@ while True:
 	pkls = [i for i in pkls if i != "corrected"]
 	pkls = pd.Series(pkls)
 	print(pkls.value_counts())
+	time.sleep(60)
