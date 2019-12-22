@@ -80,3 +80,12 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1577014825356	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:11356): dconf-WARNING **: 16:40:37.144: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 11270, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1577014900843	Marionette	INFO	Stopped listening on port 34153
+1577014912728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TPkrXVs97r2I"
+1577014913186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577014913187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577014913187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577014913187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577014914893	Marionette	INFO	Listening on port 40691
+1577014914935	Marionette	WARN	TLS certificate errors will be ignored for this session
