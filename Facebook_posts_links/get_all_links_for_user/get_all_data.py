@@ -126,6 +126,7 @@ fb_base_url = 'https://m.facebook.com/'
 all_data = []
 errors_first_page = []
 for e, fb in enumerate(FB):
+	time.sleep(np.random.randint(3, 6))
     complted_url = fb_base_url + fb
     print(e, len(all_data))
     try:
@@ -156,6 +157,7 @@ for e, fb in enumerate(FB):
     next_page_link = "https://mobile.facebook.com" + s_first_page.find("div", {"id" : "u_0_3"}).find("a")['href']
     while True:
         try:
+        	time.sleep(np.random.randint(2, 4))
             browser.get(next_page_link)
             s_next_page = BeautifulSoup(browser.page_source, "lxml")
             posts(s_next_page, fb)
