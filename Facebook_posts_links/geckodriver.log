@@ -2018,3 +2018,5 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1576997067169	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:14251): dconf-WARNING **: 11:44:38.917: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1576997227143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NvwZfCD1XiBX"
+*** You are running in headless mode.
