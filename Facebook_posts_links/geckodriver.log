@@ -56,3 +56,5 @@ IPDL protocol error: Handler returned error code!
 1577013160017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1577013161730	Marionette	INFO	Listening on port 35643
 1577013161745	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7843): dconf-WARNING **: 16:12:53.466: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
