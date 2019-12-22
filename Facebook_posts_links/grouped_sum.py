@@ -6,7 +6,7 @@ while True:
 	print("*****************************************************************")
 	os.system("date +%H:%M:%S")
 	os.system("echo -n $(du -c -BM *.pkl | grep total | cut -d 'M' -f 1)")
-	os.system("echo '    MB")
+	os.system('echo "    MB"')
 	pkls = [i for i in os.listdir() if i.endswith(".pkl")]
 	pkls = [i[i.rfind("_")+1:].strip(".pkl") for i in pkls]
 	pkls = pd.Series(pkls)
