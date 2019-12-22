@@ -14,7 +14,7 @@ options = Options()
 options.add_argument("--headless")
 
 
-def posts(soup, fb):
+def get_posts(soup, fb):
 	try:
 		a = soup.find("div", {"id" : "structured_composer_async_container"}).find("div", {"class" : "bm bn bo"})
 		posts = a.findAll("div", {"class" : "bp bq br"})
@@ -150,7 +150,7 @@ for e, fb in enumerate(FB):
 		del timeline_LINK
 		
 		s_first_page = BeautifulSoup(browser.page_source, "lxml")
-		posts(s_first_page, fb)
+		get_posts(s_first_page, fb)
 	except:
 		continue
 		
@@ -160,7 +160,7 @@ for e, fb in enumerate(FB):
 			time.sleep(np.random.randint(2, 4))
 			browser.get(next_page_link)
 			s_next_page = BeautifulSoup(browser.page_source, "lxml")
-			posts(s_next_page, fb)
+			get_posts(s_next_page, fb)
 			next_page_link = "https://mobile.facebook.com" + s_next_page.find("div", {"id" : "u_0_3"}).find("a")['href']
 		except:
 			break
