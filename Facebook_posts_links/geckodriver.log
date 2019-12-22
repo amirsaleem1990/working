@@ -1976,3 +1976,5 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1576991257320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1576991259007	Marionette	INFO	Listening on port 39537
 1576991259018	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24761): dconf-WARNING **: 10:07:49.941: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
