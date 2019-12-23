@@ -448,3 +448,9 @@ Exiting due to channel error.
 1577101383149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1577101384625	Marionette	INFO	Listening on port 34931
 1577101384709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577115536725	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oExGK0hzS4QY"
+*** You are running in headless mode.
+1577115537193	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577115537193	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577115537194	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577115537194	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
