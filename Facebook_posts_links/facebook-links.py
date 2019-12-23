@@ -179,9 +179,6 @@ for fb in FB:
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
 						 current_time(),
 						 f" ||  {c} links in {fb}")
-	if not c:
-		print(complted_url)
-		print("****************************************************************************")
 
 browser.close()
 
