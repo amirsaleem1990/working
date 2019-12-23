@@ -39,7 +39,7 @@ with open("All_FB_links_names_corrected.pkl", "rb") as file:
 
 stored_links_qty = sum([len(all_links[i]) for i in all_links])	
 
-with open("/home/amir/github/Amir-personal/facebook-userName-and-password.txt", "r") as file:
+with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
 
 print("Attempting to Login", current_time())
