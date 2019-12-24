@@ -9,3 +9,94 @@
 
 (/usr/lib/firefox/firefox:3058): dconf-WARNING **: 09:57:38.092: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
 JavaScript error: , line 0: uncaught exception: Timeout
+JavaScript error: https://web.facebook.com/, line 37: ReferenceError: requireLazy is not defined
+JavaScript error: https://web.facebook.com/, line 41: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 41: ReferenceError: requireLazy is not defined
+JavaScript error: https://web.facebook.com/, line 41: ReferenceError: requireLazy is not defined
+JavaScript error: https://web.facebook.com/, line 42: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 43: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 44: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 45: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 48: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 49: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 51: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 52: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 54: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 55: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 57: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 58: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 60: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 61: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 64: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 65: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 68: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 69: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 72: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 73: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 76: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 77: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 79: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 80: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 82: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 83: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 86: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 87: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 90: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 91: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 94: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 95: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 98: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 99: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 102: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 103: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 106: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 107: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 110: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 111: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 114: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 115: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 117: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 118: ReferenceError: require is not defined
+JavaScript error: https://web.facebook.com/, line 118: TypeError: bigPipe is undefined
+JavaScript error: https://web.facebook.com/, line 119: ReferenceError: require is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/Io1x9yQ01Dg.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeHSTvE60uGhjSx4FNZXnnh6tsNruPUSHzwMgsFNtXQ10sNeLRbYHkrXHDDH0lLV2hEi7pqodOU-jRCrymxgi8IW5-POL7ONpUKxu4YrhxVsMA, line 3: ReferenceError: __d is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iieB4/yh/l/en_GB/NJq23bXoDKE.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeEY2ZXrjtxjAjLW-0GsfXQ6SE1rG5akZQ42Jl2YENKBWRuBsEzF8J97OE62WZxN_Kdphwh_sj8ZRu6BUokBGkggCGdNnm7VZ21jyUp6eL68Lw, line 3: ReferenceError: __d is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 3: ReferenceError: __d is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i1wf4/yA/l/en_GB/Ko1xVALtk8V.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGLY8il98wE808TweLbt_sXQnwkPi0QEsp4ZyAagB9Bs6aUbnx1WI-o8acYC3_IpVFn9qlCj_yqBJRsJBIfcxKYtOETUHPDunc9F4k28-Yh5g, line 3: ReferenceError: __d is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3ijia4/ya/l/en_GB/hB5eMI_ymyI.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFZDCIxi3Nqaixqlb9Q598jnrem7m0QiYVE43Es5fMTDdQTKnzJjpyGHz4rmrJuxdfg7cZjdC1ARSsmAeVPqM-_Kf07X4C0ClBvArdZaJfjgA, line 3: ReferenceError: __d is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3izS44/y_/l/en_GB/60fOZAsJgGs.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFjGr-100ASbKEu0LwCBJjLOoa6zxtfynfOT2OTxkAMW9uFnlWXqlfYjFJ71UcRzdhA6-X26j0B-YX1tQn9oK5vxtRHHaFQAYETr7VQHb2lyQ, line 3: ReferenceError: __d is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iynf4/ym/l/en_GB/a4NO4hj08aF.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeHlNDvk4TDED-QgxDUN6SAqIE_x9ZlC3HNP9-3G_h1HeTlnzohZgAspUxLc1OtoryZDeMjV0TDt2X-Zba6VLSFfrZxVKaOwkLvLM1Om_vrkNg, line 3: ReferenceError: __d is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iLl54/yW/l/en_GB/qS5KWZbAlRQ.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeErAw9oXbRoIRuGIkKmTnPPEIP5IZJbSJBRseVMJuEsfObr9jR2U1Yec35DPKprUE6vpZN4-MZMkMCjz0fKz2l9djeyUtUtFCOHBvIGD15aEw, line 3: ReferenceError: __d is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/RWzwbAvqta9.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeEagMkR3O5qOqcg2vMPWlBysKeRpxcUHH8pw2tDDTV4UAie6xXYImFiFhQbgdG7TLOTpIZi0ZyyRDHXB1eAtkU8OPibc6GTGVJsYZSP2xI-Lg, line 3: ReferenceError: __d is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iO4J4/y4/l/en_GB/MGThZpgw41m.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeEfFVKvjTwBnjsdDPtUqcDpTJ8-cPbK7iszqYcjzsMYBhEZ_izuH5VXw5Q1KFW8SJMulWnu1hL5SqBr3GjTPXhHoAZi49QsteXxyXaeRxjt4w, line 3: ReferenceError: __d is not defined
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3irTn4/yX/l/en_GB/epmP7mfnctw.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFY8RKh3cyQS89buVD77Og91bY-bbwkaUvh3qYh-wFaumM206ABZ78WF0Z48NPlmAAHAPg4B7QYFwnbYAZ5o5O6Pt56O5SxZ8h87lHoBwiX1g, line 3: ReferenceError: __d is not defined
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7J84/y5/l/en_GB/nWaQb8wnAsL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGoL1Y_EW7vnRUHLd8Y-qD5dwqCrJkLz7HEOkdw17zzjYGIAaShymjQcgJSBfYYpatEbPNuN9Nh8_uznOA23vJh4JzvK8Az28PqwyI0G5j3lw, line 45: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
