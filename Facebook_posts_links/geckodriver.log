@@ -7,3 +7,5 @@
 [ERROR audio_thread_priority::rt_linux] setrlimit64: 1
 1577177518441	Marionette	INFO	Listening on port 45481
 1577177518505	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:1123): dconf-WARNING **: 13:52:17.893: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
