@@ -18,7 +18,7 @@ os.system("clear")
 
 def current_time():
 	n = datetime.datetime.now()
-	t = ':'.join([str(i) for i in [n.hour, n.minute, n.second]])
+	t = ':'.join([str(i) for i in [n.hour % 24, n.minute, n.second]])
 	tt = ""
 	for i in t.split(":"):
 		if len(i) == 1:
