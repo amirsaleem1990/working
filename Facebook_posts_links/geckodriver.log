@@ -162,3 +162,6 @@ Exiting due to channel error.
 1577370214349	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:7615): dconf-WARNING **: 19:23:41.505: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 7531, Gecko_IOThread] WARNING: pipe error (90): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 7531, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1577372015361	Marionette	INFO	Stopped listening on port 39025
