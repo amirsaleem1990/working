@@ -122,3 +122,7 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1577369610897	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:5833): dconf-WARNING **: 19:13:41.052: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 5750, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 5750, Gecko_IOThread] WARNING: pipe error (90): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1577369781594	Marionette	INFO	Stopped listening on port 37055
