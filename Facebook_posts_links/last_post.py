@@ -20,7 +20,7 @@ for fb in  previos_data.Name.unique():
 df_diff = pd.DataFrame([previos_data.Name.unique(), diff]).T
 df_diff.columns = ["Name", "No post since"]
 df_diff["No post since"] = df_diff["No post since"].astype(int)
-df_diff2 = df_diff[df_diff["No post since"] > 0].sort_values("No post since", ascending=False)
+df_diff2 = df_diff[df_diff["No post since"] > 2].sort_values("No post since", ascending=False)
 
 df_diff2["Link"] = "https://web.facebook.com/" + df_diff2.Name
 df_diff2 = df_diff2.reset_index().drop("index", axis=1)
