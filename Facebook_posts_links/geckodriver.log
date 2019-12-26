@@ -41,3 +41,6 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 1577364758109	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:28463): dconf-WARNING **: 17:52:47.702: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
