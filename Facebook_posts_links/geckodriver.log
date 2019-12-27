@@ -52,3 +52,4 @@
 1577441028475	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:32206): dconf-WARNING **: 15:03:57.601: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
