@@ -53,3 +53,5 @@
 
 (/usr/lib/firefox/firefox:32206): dconf-WARNING **: 15:03:57.601: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 32125, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1577464215888	Marionette	INFO	Stopped listening on port 39255
