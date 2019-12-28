@@ -30,3 +30,5 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1577558836981	Marionette	INFO	Stopped listening on port 44051
 1577558836995	Marionette	INFO	Listening on port 43513
 1577558837092	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9470): dconf-WARNING **: 23:47:27.812: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
