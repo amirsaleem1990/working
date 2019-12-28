@@ -5,3 +5,5 @@
 1577558671550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1577558673811	Marionette	INFO	Listening on port 45847
 1577558673867	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8730): dconf-WARNING **: 23:44:44.522: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
