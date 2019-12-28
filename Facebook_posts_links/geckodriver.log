@@ -123,3 +123,4 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 1577556061839	Marionette	INFO	Stopped listening on port 35047
 1577556063273	Marionette	INFO	Listening on port 45801
 1577556063328	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577556067510	Marionette	INFO	Stopped listening on port 45801
