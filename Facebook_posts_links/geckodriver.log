@@ -105,3 +105,13 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 1577555953556	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:32608): dconf-WARNING **: 22:59:24.343: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1577556005065	Marionette	INFO	Stopped listening on port 42441
+1577556006972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Uu2nQkTjGrp9"
+1577556007443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577556007443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577556007443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577556007443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577556009209	Marionette	INFO	Listening on port 35047
+1577556009285	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:520): dconf-WARNING **: 23:00:22.080: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
