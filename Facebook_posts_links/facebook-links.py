@@ -110,7 +110,8 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"faisal.shahzad.1253236", 			# محمد فیصل شہزاد
 		"tariq.habib.969952", 				# tariq habib
 		"mahtabaziz", 						# mahtab khan
-		"suhaib.jamal.1" 					# Suhaib Jamal
+		"suhaib.jamal.1", 					# Suhaib Jamal
+		"hanifsamanaa"                      # hanif samanaa
 	  ]
 
 
