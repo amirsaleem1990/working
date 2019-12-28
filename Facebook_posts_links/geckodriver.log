@@ -42,3 +42,8 @@ Exiting due to channel error.
 1577541671375	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:1824): dconf-WARNING **: 19:01:22.169: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 1694, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 1694, Gecko_IOThread] WARNING: pipe error (106): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1577541770550	Marionette	INFO	Stopped listening on port 38477
+1577541782899	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NdQ155GSCOSZ"
