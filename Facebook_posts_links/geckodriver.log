@@ -133,3 +133,11 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 1577556103023	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:1239): dconf-WARNING **: 23:01:55.868: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1577556858692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PmboyOUZC7Sq"
+*** You are running in headless mode.
+1577556859103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577556859103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577556859103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577556859103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577556860760	Marionette	INFO	Listening on port 43143
+1577556860802	Marionette	WARN	TLS certificate errors will be ignored for this session
