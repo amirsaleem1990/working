@@ -60,3 +60,12 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 (/usr/lib/firefox/firefox:13483): dconf-WARNING **: 15:25:57.781: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1577615185606	Marionette	INFO	Stopped listening on port 40435
+1577615369791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fntYtVx2cN8g"
+1577615370269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577615370269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577615370269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577615370269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577615371912	Marionette	INFO	Listening on port 38727
+1577615372001	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:14110): dconf-WARNING **: 15:29:44.055: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
