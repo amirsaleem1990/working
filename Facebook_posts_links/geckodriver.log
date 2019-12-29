@@ -34,3 +34,7 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 
 (/usr/lib/firefox/firefox:12473): dconf-WARNING **: 15:20:13.909: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 12392, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 12392, Gecko_IOThread] WARNING: pipe error (103): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1577614923834	Marionette	INFO	Stopped listening on port 45521
