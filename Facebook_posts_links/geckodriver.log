@@ -218,3 +218,7 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 1577622292888	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:29172): dconf-WARNING **: 17:25:02.822: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 29090, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 29090, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1577622368907	Marionette	INFO	Stopped listening on port 38131
