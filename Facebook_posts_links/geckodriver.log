@@ -130,3 +130,5 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 1577621490333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1577621492108	Marionette	INFO	Listening on port 37333
 1577621492170	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25930): dconf-WARNING **: 17:11:43.456: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
