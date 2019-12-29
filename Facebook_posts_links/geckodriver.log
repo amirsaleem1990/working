@@ -33,3 +33,4 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1577614804612	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:12473): dconf-WARNING **: 15:20:13.909: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
