@@ -81,3 +81,6 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 
 (/usr/lib/firefox/firefox:14495): dconf-WARNING **: 15:31:28.931: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 14415, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 14415, Gecko_IOThread] WARNING: pipe error (90): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1577615629489	Marionette	INFO	Stopped listening on port 36587
