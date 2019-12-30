@@ -1,3 +1,25 @@
+# def get_posts(soup, fb):
+#     try:
+#         a = soup.find("div", {"id" : "structured_composer_async_container"}).\
+#                 find("div", {"class" : "_7k7 storyStream _5nxi"})find("div", {"class" : "bm bn bo"})
+#         posts = a.findAll("div", {"class" : "bp bq br"})
+#     except:
+#         print(f"{fb}: Main page Error")
+#         return None
+#     for post in posts:
+#         try:
+#             date = post.find("div", {"class" : "cg ch"}).find("abbr").text
+#             post_contant = post.find("div", {"class" : "ca"}).text
+#             ab2 = post.find("a")['href'].split("story_key.")[1]
+#             post_link = f"https://web.facebook.com/{fb}/posts/" + ab2[:ab2.find("%")]
+#             Data = {"Date" : date,
+#                     "Post" : post_contant,
+#                     "Link" : post_link,
+#                     "Name" : fb}
+#         except:
+#             return None
+#     print(Data)
+    
 def next_page(link, c, fb):
     browser.get(link)
     page = BeautifulSoup(browser.page_source, "lxml")
