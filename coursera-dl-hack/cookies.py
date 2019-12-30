@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# This file located at <~/.local/lib/python3.6/site-packages/coursera/cookies.py>
 
 """
 Cookie handling module.
@@ -152,30 +151,27 @@ def login(session, username, password, class_name=None):
 		# session.cookies.set('CAUTH', v)
 		# comd ="Ulqq-b1t5kPfzsmzzpjGzXRm_dX0iEQDnoeDq3ms-EouO3JbMQqU_FOqCKTH2iOdPHdY265dLYFPlDF1GVbxog.-y1_6xhMAE4fQ6ZoXD5T9g.i7AniPV4FjIM-SNe-Wq60uqyfS7bGx2nuBOmUenCsLad4Zmes6bJgk0KiIjsDdX8e5dgKPQR5n2Y3VOPwk5y5eRjp76W1R9nlu4uD7zmmJEauUOHoDHpvX_qVk7FNCbKxJF8_EvRg2TYSoDglejCKw1e_P7qR2LelZ8WWmDsLYZW7zfiNZ_YFYM70WhnYnjd"
 		try:
-			with open("/home/amir/CAUTH.txt", "r") as file:
+			with open("/home/amir/github/working/coursera-dl-hack/CAUTH.txt", "r") as file:
 						comd = file.read().strip()
 		except:
-			comd = input("""Please Enter your CAUTH:\n 
-			(if you dont know what is this:)
-				open your browser
+			with open("/home/amir/github/working/coursera-dl-hack/CAUTH.txt", "w") as file:
+				file.wirte("""open your browser
 				press CTRL + SHIFT + C
 				select <storage> option from upper panel
 				select <cookies> option from left panel
 				log in to https://www.coursera.org
 				copy cell (here i consider table as df) df[df.Name == "CAUTH"]["Value"]
 				close your browser
-				paste that value here
-			OR
-				paste that value at /home/amir/CAUTH.txt.
-				type here: yes.\n""")
-			if comd.lower().strip() == "yes":
-				try:
-					with open("/home/amir/CAUTH.txt", "r") as file:
-						comd = file.read().strip()
-				except:
-					print("Error: File not found")
-					import sys
-					sys.exit()
+
+				remove all this content and replace your CAUTH, then save it, and exit :p""")
+
+			try:
+				with open("/home/amir/github/working/coursera-dl-hack/CAUTH.txt", "r") as file:
+					comd = file.read().strip()
+			except:
+				print("Error: File not found")
+				import sys
+				sys.exit()
 		
 		session.cookies.set('CAUTH', comd)
 	except requests.exceptions.HTTPError as e:
