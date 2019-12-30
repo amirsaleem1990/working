@@ -1,3 +1,15 @@
+def next_page(link, c, fb):
+    browser.get(link)
+    page = BeautifulSoup(browser.page_source, "lxml")
+
+    file_name = f"{folder}/{c}_{fb}.pkl"
+    with open(file_name, "wb") as file:
+        pickle.dump(str(page), file)
+    next_page_link = "https://mobile.facebook.com" + page.find("div", {"id" : "u_0_0"}).find("a")['href']
+    links.append(next_page_link)
+    print(len(set(links)), end=" | ")
+    return next_page_link
+
 import pandas as pd
 import os
 import time
@@ -13,41 +25,16 @@ from selenium.webdriver.firefox.options import Options
 options = Options()
 options.add_argument("--headless")
 
-
-def get_posts(soup, fb):
-	try:
-		a = soup.find("div", {"id" : "structured_composer_async_container"}).find("div", {"class" : "bm bn bo"})
-		posts = a.findAll("div", {"class" : "bp bq br"})
-	except:
-		print(f"{fb}: Main page Error")
-		return None
-	for post in posts:
-		try:
-			date = post.find("div", {"class" : "cg ch"}).find("abbr").text
-			post_contant = post.find("div", {"class" : "ca"}).text
-			ab2 = post.find("a")['href'].split("story_key.")[1]
-			post_link = f"https://web.facebook.com/{fb}/posts/" + ab2[:ab2.find("%")]
-			Data = {"Date" : date,
-					"Post" : post_contant,
-					"Link" : post_link,
-					"Name" : fb}
-		except:
-			return None
-	all_data.append(Data)
-
-
-
 os.chdir("/home/amir/github/working/Facebook_posts_links/")
 
 os.system("clear")
 
-
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
-	usrname, pas = file.read().splitlines()
+    usrname, pas = file.read().splitlines()
 
-print("Attempting to Login", current_time())
-# browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
-browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
+print("Attempting to Login")
+browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
+# browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
 #navigates you to the facebook page.
 browser.get('https://m.facebook.com/')
 
@@ -74,7 +61,8 @@ loginButton = browser.find_elements_by_css_selector("input[type=submit]")
 loginButton[0].click()
 
 
-print("Successfully Logged in", current_time())
+print("Successfully Logged in")
+
 FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"asif.mahmood.1671", 				# asif mahmood
 		"zahid.mughal.5895", 				# zahid mughal
@@ -94,7 +82,8 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"idreesazaad", 						# Idrees Azad ‎
 		"Abu.Musab.98622733", 				# ابو محمد مصعب 
 		"profile.php?id=100026041448813", 
-		"mohammad.saleem.568847", 			# mohammad saleem 
+		"mohammad.saleem.568847", 			# mohammad saleem (Blocked) 
+	    "profile.php?id=100010667655748", 	# mohammad saleem
 		"hammad.sarwar.9400",
 		"ajeebscenehaibhai", 
 		"nouman.atd.3", 					# Nouman Ihsan
@@ -103,49 +92,69 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"faisal.shahzad.1253236", 			# محمد فیصل شہزاد
 		"tariq.habib.969952", 				# tariq habib
 		"mahtabaziz", 						# mahtab khan
-		"suhaib.jamal.1" 					# Suhaib Jamal
-	  ]
-fb_base_url = 'https://m.facebook.com/'
-errors_first_page = []
-for e, fb in enumerate(FB):
-	all_data = []
-	time.sleep(np.random.randint(3, 6))
-	complted_url = fb_base_url + fb
-	print(e, len(all_data))
-	try:
-		browser.get(complted_url)
-		s_Main_page = BeautifulSoup(browser.page_source, "lxml")
+		"suhaib.jamal.1", 					# Suhaib Jamal
+	    "hanifsamanaa"
+      ]
 
-		for i in s_Main_page.select("div", {"class" : "cs g ch"}):
-			try:
-				link = i.find("a")['href']
-				if link.startswith(f"/{fb}?v=timeline&lst="):
-					timeline_LINK = "https://mobile.facebook.com" + link
-			except:
-				continue
-		try:
-			timeline_LINK
-		except:
-			print(f"{fb}: No timeline Link")
-			continue
-			
-		browser.get(timeline_LINK)
-		del timeline_LINK
-		
-		s_first_page = BeautifulSoup(browser.page_source, "lxml")
-		get_posts(s_first_page, fb)
-	except:
-		continue
-		
-	next_page_link = "https://mobile.facebook.com" + s_first_page.find("div", {"id" : "u_0_3"}).find("a")['href']
-	while True:
-		try:
-			time.sleep(np.random.randint(2, 4))
-			browser.get(next_page_link)
-			s_next_page = BeautifulSoup(browser.page_source, "lxml")
-			get_posts(s_next_page, fb)
-			next_page_link = "https://mobile.facebook.com" + s_next_page.find("div", {"id" : "u_0_3"}).find("a")['href']
-		except:
-			break
-	with open(f"{fb}_all_data.pkl", "wb") as file:
-		pickle.dump(all_data, file)
+fb_base_url = 'https://m.facebook.com/'
+first_page_error = []
+for fb in FB:
+    print("***********************************", fb, "***********************************")
+    links = []
+    folder = f"/home/amir/DATA/{fb}"
+    os.mkdir(folder)
+    time.sleep(4)
+    complted_url = fb_base_url + fb
+    try:
+        browser.get(complted_url)
+        s_Main_page = BeautifulSoup(browser.page_source, "lxml")
+
+        for i in s_Main_page.select("div", {"class" : "cs g ch"}):
+            try:
+                link = i.find("a")['href']
+                if link.startswith(f"/{fb}?v=timeline&lst="):
+                    timeline_LINK = "https://mobile.facebook.com" + link
+            except:
+                pass
+        try:
+            timeline_LINK
+        except:
+            try:
+                s_Main_page.find("div", {"class" : "dh f cw"})
+                for i in s_Main_page.find("div", {"class" : "dh f cw"}).select("a"):
+                    if i.text == "Timeline":
+                        timeline_LINK = "https://m.facebook.com" + i['href']
+            except:
+                pass
+                print(f"{fb}: No timeline Link")
+                continue
+
+        browser.get(timeline_LINK)
+        del timeline_LINK
+        s_first_page = BeautifulSoup(browser.page_source, "lxml")
+        file_name = f"{folder}/0_{fb}.pkl"
+        with open(file_name, "wb") as file:
+            pickle.dump(str(s_first_page), file)
+        try:
+            next_page_link = "https://mobile.facebook.com" + s_first_page.find("div", {"id" : "u_0_2"}).find("a")['href']
+        except:
+            next_page_link = "https://mobile.facebook.com" + s_first_page.find("div", {"id" : "u_0_3"}).find("a")['href']
+        c = 1
+        while True:
+            time.sleep(2)
+            c += 1
+            try:
+                next_page_link = next_page(next_page_link, c, fb)
+            except:
+                print("end of posts")
+                break
+    except:
+        first_page_error.append(fb)
+        print(fb, "First page Error")
+    if links:
+        name = f"{folder}/LINK_pages_5_posts_in_each_page_{fb}.pkl"
+        with open(name, "wb") as file:
+            pickle.dump(links, file)
+        os.system("firefox " + links[-1])
+    else:
+        print(fb, "There is no link")
