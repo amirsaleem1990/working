@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# This file located at <~/.local/lib/python3.6/site-packages/coursera/cookies.py>
 
 """
 Cookie handling module.
