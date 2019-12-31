@@ -204,3 +204,13 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3icZW4/yv/l/en_GB/FoPh
 1577791562252	Marionette	INFO	Stopped listening on port 33103
 [Parent 30546, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1577797119052	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EqOHx6ylepJk"
+*** You are running in headless mode.
+1577797119453	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577797119454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577797119454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577797119454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577797121177	Marionette	INFO	Listening on port 35555
+1577797121266	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:13745): dconf-WARNING **: 17:58:56.160: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
