@@ -1,0 +1,22 @@
+1577772714051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oexXoJb0PgA7"
+*** You are running in headless mode.
+1577772714912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577772714912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577772714912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577772714912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577772716911	Marionette	INFO	Listening on port 35261
+1577772716974	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9693): dconf-WARNING **: 11:12:14.992: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3icZW4/yv/l/en_GB/FoPh5ebjpaL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeHcUXmUT29Nx9vpq0sgYCX08VvUPv6tobFFKnPsUeJ6jK0vqzLqrZ1-qFTzKJHPc6Oe8S65EYsZDlicrsP9iewge-Jaho1D6It_6yFzr_lx0Q, line 41: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3icZW4/yv/l/en_GB/FoPh5ebjpaL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeHcUXmUT29Nx9vpq0sgYCX08VvUPv6tobFFKnPsUeJ6jK0vqzLqrZ1-qFTzKJHPc6Oe8S65EYsZDlicrsP9iewge-Jaho1D6It_6yFzr_lx0Q, line 41: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3icZW4/yv/l/en_GB/FoPh5ebjpaL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeHcUXmUT29Nx9vpq0sgYCX08VvUPv6tobFFKnPsUeJ6jK0vqzLqrZ1-qFTzKJHPc6Oe8S65EYsZDlicrsP9iewge-Jaho1D6It_6yFzr_lx0Q, line 41: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3icZW4/yv/l/en_GB/FoPh5ebjpaL.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeHcUXmUT29Nx9vpq0sgYCX08VvUPv6tobFFKnPsUeJ6jK0vqzLqrZ1-qFTzKJHPc6Oe8S65EYsZDlicrsP9iewge-Jaho1D6It_6yFzr_lx0Q, line 41: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFaCiV3uj1nMB1WHyrbYgncdjFhesYjs8mQmG32GgehMTsbp1kDoH7p_HRi-uC3TRf7WtfvXtAGnro-4K7WRffdzLV57PppkA_5BrNLmSWWEQ, line 4: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFaCiV3uj1nMB1WHyrbYgncdjFhesYjs8mQmG32GgehMTsbp1kDoH7p_HRi-uC3TRf7WtfvXtAGnro-4K7WRffdzLV57PppkA_5BrNLmSWWEQ, line 4: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFaCiV3uj1nMB1WHyrbYgncdjFhesYjs8mQmG32GgehMTsbp1kDoH7p_HRi-uC3TRf7WtfvXtAGnro-4K7WRffdzLV57PppkA_5BrNLmSWWEQ, line 4: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFaCiV3uj1nMB1WHyrbYgncdjFhesYjs8mQmG32GgehMTsbp1kDoH7p_HRi-uC3TRf7WtfvXtAGnro-4K7WRffdzLV57PppkA_5BrNLmSWWEQ, line 4: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
