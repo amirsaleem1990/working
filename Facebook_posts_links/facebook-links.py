@@ -152,14 +152,14 @@ for fb in FB:
 							try:
 								browser.get(link)
 								post = BeautifulSoup(browser.page_source).find("div", {"data-testid" : "post_message"}).text.replace("<br/>", "\n")
-								if post:	
-									file_name = f"{fb}.txt"
+								if post:
+									file_name = f"{fb.strip('/').split('/')[1]}.txt"
 									file = open(file_name, "a+")
 									file.write("\n" + "#"*30 + "\n")
 									file.write(link + "\n")
 									file.write(post + "\n")
-									succussfully_extracted += 1
 									file.close()
+									succussfully_extracted += 1
 							except:
 								errors.append([fb, link])
 				except:
