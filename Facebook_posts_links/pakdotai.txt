@@ -50,3 +50,27 @@ After a couple of weeks and a lot of coffee, here's the 1st draft of my first eb
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2567515183316690/
 Asalam O Alaikum...  Currently I am working on a project where I am using CNN MobileNet model for vegetable  classification... i am using transfer learning... i have built and android app, which on capturing a vegetable image detects and tell which vegetable it is...it provides 95% accuracy on detecting vegetable...but problem is that it provides result on a rendom image also... which is not vegetable image... i want that on capturing rendom image it should tell it is not a vegetable image...how can i solve this...    Anyone who can help me in this..? i'll pay if anyone can solve this problem... if you can solve this come inbox...
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2569765246425017/
+Open Source Investigation. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2569765246425017/
+Open Source Investigation. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2566791646722377/
+Hi, I need data set of dc/bldc motor to train nn.  I have already tried  kaggle, amazon and few others but couldn't find anything. Does anyone know of any source?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2566673360067539/
+Is there any dataset available for Pakistani students careercareer counseling?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2567512236650318/
+We're on the lookout for a Data Implementation Specialist if you have all these skills in you  👉https://marketlytics.com/…/analytics-implementation-special…, you may just be the person we're searching for.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2567512236650318/
+We're on the lookout for a Data Implementation Specialist if you have all these skills in you  👉https://marketlytics.com/…/analytics-implementation-special…, you may just be the person we're searching for.
