@@ -51,7 +51,7 @@ while Successfully_logedin:
 	if Successfully_logedin_num > 1:
 		print(f"Attempt no. {Successfully_logedin_num} to Login")
 	try:
-		# browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
+		# browser = webdriver.Firefox(executable_path=home + "/github/working/Facebook_posts_links/geckodriver")
 		browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
 		#navigates you to the facebook page.
 		browser.get('https://www.facebook.com/')
@@ -112,9 +112,12 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"tariq.habib.969952", 				# tariq habib
 		"mahtabaziz", 						# mahtab khan
 		"suhaib.jamal.1", 					# Suhaib Jamal
-		"hanifsamanaa",					 # hanif samanaa
-		"groups/pakdotai/"					# pakistan.ai
+		"hanifsamanaa"                      # hanif samanaa
 	  ]
+
+
+
+
 
 fb_base_url = "https://web.facebook.com/"
 extrected_links = []
@@ -137,72 +140,43 @@ for fb in FB:
 			all_links[fb] = []
 		browser.get(complted_url)
 		s = BeautifulSoup(browser.page_source, "lxml")
-
-		##################################################
-		# only for groups 
-		if fb.startswith("groups"):
-			for i in s.select("a"):
-				try:
-					link = i['href']
-					if link.startswith(f"/{fb}permalink/"):
-						link = "https://web.facebook.com" + link
-						if not link in str(all_links):
-							all_links[fb].append((link, str(now)))
-							links_to_open.append(link)
-							try:
-								browser.get(link)
-								post = BeautifulSoup(browser.page_source).find("div", {"data-testid" : "post_message"}).text.replace("<br/>", "\n")
-								if post:	
-									file_name = f"{fb}.txt"
-									file = open(file_name, "a+")
-									file.write("\n" + "#"*30 + "\n")
-									file.write(link + "\n")
-									file.write(post + "\n")
-									succussfully_extracted += 1
-									file.close()
-							except:
-								errors.append([fb, link])
-				except:
-					pass
-		##################################################	
-		else:
-			a = s.find("div", {"id" : "timeline_story_column"})
-			mmz.append(a)
-			try:
-				links_ = a.select('a')
-				for i in links_:
-					link = i['href']
-					if link.startswith("https://web.facebook.com/"):
-						if not link in str(all_links):
-							if "/posts/" in link:
-								if not "?comment_id=" in link:
-									all_links[fb].append((link, str(now)))
-									links_to_open.append(link)
-									c += 1
-									try:
-										browser.get(link)
-									except:
+		a = s.find("div", {"id" : "timeline_story_column"})
+		mmz.append(a)
+		try:
+			links_ = a.select('a')
+			for i in links_:
+				link = i['href']
+				if link.startswith("https://web.facebook.com/"):
+					if not link in str(all_links):
+						if "/posts/" in link:
+							if not "?comment_id=" in link:
+								all_links[fb].append((link, str(now)))
+								links_to_open.append(link)
+								c += 1
+								try:
+									browser.get(link)
+								except:
+									errors.append([fb, link])
+									continue
+								soup = BeautifulSoup(browser.page_source, "lxml")
+								try:
+									aa = soup.find("div", {"class" : "_5wj-"}).text
+									if len(aa) > 0:
+										file_name = f"{fb}.txt"
+										file = open(file_name, "a+")
+										file.write("\n" + "#"*30 + "\n")
+										file.write(link + "\n")
+										file.write(aa + "\n")
+										succussfully_extracted += 1
+										file.close()
+									else:
 										errors.append([fb, link])
-										continue
-									soup = BeautifulSoup(browser.page_source, "lxml")
-									try:
-										aa = soup.find("div", {"class" : "_5wj-"}).text
-										if len(aa) > 0:
-											file_name = f"{fb}.txt"
-											file = open(file_name, "a+")
-											file.write("\n" + "#"*30 + "\n")
-											file.write(link + "\n")
-											file.write(aa + "\n")
-											succussfully_extracted += 1
-											file.close()
-										else:
-											errors.append([fb, link])
-									except:
-										errors.append([fb, link])
-										pass
+								except:
+									errors.append([fb, link])
+									pass
 
-			except:
-				continue
+		except:
+			continue
 	perc = counter/len(FB)*100
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
 						 current_time(),
