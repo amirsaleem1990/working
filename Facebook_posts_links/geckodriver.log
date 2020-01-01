@@ -281,3 +281,10 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1577861273411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OizMVMBZoPmV"
+1577861273880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577861273880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577861273881	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577861273881	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1577861275850	Marionette	INFO	Listening on port 43097
+1577861275981	Marionette	WARN	TLS certificate errors will be ignored for this session
