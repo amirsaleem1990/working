@@ -2,3 +2,11 @@
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/1886665058068376/
 Get access to what we are doing! Click on each photo for more details.  Want us to add something else? Let us know in the comments below. Recommendations are always appreciated. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2571391556262386/
+Implementation of Facebook's FAIR's Detectron2 for instance segmentation and object localization using Mask RCNN's in windows without any Nvidia Gpu. Power of transfer Learning in Deep Learning and Limits of Computer Vision.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2573016802766528/
+Hello. This is an important information for everyone to read and beware of how technology and resources are used for invading privacy and personal gains. Try to understand and highlight it to authorities if possible Opinions and discussion welcome Full posts https://twitter.com/misterzedpk/status/1210528772472086528…
