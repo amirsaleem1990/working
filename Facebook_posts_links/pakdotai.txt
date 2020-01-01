@@ -10,3 +10,43 @@ Implementation of Facebook's FAIR's Detectron2 for instance segmentation and obj
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2573016802766528/
 Hello. This is an important information for everyone to read and beware of how technology and resources are used for invading privacy and personal gains. Try to understand and highlight it to authorities if possible Opinions and discussion welcome Full posts https://twitter.com/misterzedpk/status/1210528772472086528…
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2573016802766528/
+Hello. This is an important information for everyone to read and beware of how technology and resources are used for invading privacy and personal gains. Try to understand and highlight it to authorities if possible Opinions and discussion welcome Full posts https://twitter.com/misterzedpk/status/1210528772472086528…
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2571670489567826/
+Asalam o Alaikum  I have a twitter dataset of 280mb of json type and i want to convert it to csv for my project but i am unable to do it since every converter on internet doesnt allow file size above 50mb. Is there any other way to do it. Please helppp!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2571053189629556/
+AI books for download https://drive.google.com/…/1iB23Q0By21t6zJJxmPJbhcGlPWJfJQQs
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2573415442726664/
+Hi community, holidays are here and I want to share with you article about Open CV. Let me know what you think?⭐️❄️🎅 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2573415442726664/
+Hi community, holidays are here and I want to share with you article about Open CV. Let me know what you think?⭐️❄️🎅 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2573475059387369/
+Intelligent cars, able to detect obstacles ahead on the road and learn from it. Start-up ClearMotion has built the world’s first proactive ride system, transforming the way our cars drive, improving safety and comfort. It does for motion what noise-cancelling does for noise, mitigating road roughness within a fraction of a second. Relying on a combination of sensors and algorithms, ClearMotion predicts the road and enables cars to react, giving passengers and drivers unmatched comfort, handling and stability and safety. It also ensures longer life to our cars and less incidents #computervision #autonomousvehicles #technology #innovation
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2565638873504321/
+After a couple of weeks and a lot of coffee, here's the 1st draft of my first ebook for your path in learning data science. Leave a comment with "ebook" and I'll privately send you over the final draft early next year. The book covers: - Tips and Practical Advice to learn DS - The main data science roles - The data science tem breakdown - The data science pipeline - The basics of Machine Learning - The 7 Machine Learning algorithms - How to Craft your Data Science Portfolio - The types of DS Projects to do - How to Ace the behavioral, technical, and on-site interviews - And more free resources You can view it from the google doc here: https://lnkd.in/gMMdqU9 And if you want more free DS/ML resources, please visit my site: www.claoudml.com Hope this helps and have Merry Christmas! #datascience #machinelearning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2565638873504321/
+After a couple of weeks and a lot of coffee, here's the 1st draft of my first ebook for your path in learning data science. Leave a comment with "ebook" and I'll privately send you over the final draft early next year. The book covers: - Tips and Practical Advice to learn DS - The main data science roles - The data science tem breakdown - The data science pipeline - The basics of Machine Learning - The 7 Machine Learning algorithms - How to Craft your Data Science Portfolio - The types of DS Projects to do - How to Ace the behavioral, technical, and on-site interviews - And more free resources You can view it from the google doc here: https://lnkd.in/gMMdqU9 And if you want more free DS/ML resources, please visit my site: www.claoudml.com Hope this helps and have Merry Christmas! #datascience #machinelearning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2565638873504321/
+After a couple of weeks and a lot of coffee, here's the 1st draft of my first ebook for your path in learning data science. Leave a comment with "ebook" and I'll privately send you over the final draft early next year. The book covers: - Tips and Practical Advice to learn DS - The main data science roles - The data science tem breakdown - The data science pipeline - The basics of Machine Learning - The 7 Machine Learning algorithms - How to Craft your Data Science Portfolio - The types of DS Projects to do - How to Ace the behavioral, technical, and on-site interviews - And more free resources You can view it from the google doc here: https://lnkd.in/gMMdqU9 And if you want more free DS/ML resources, please visit my site: www.claoudml.com Hope this helps and have Merry Christmas! #datascience #machinelearning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2567515183316690/
+Asalam O Alaikum...  Currently I am working on a project where I am using CNN MobileNet model for vegetable  classification... i am using transfer learning... i have built and android app, which on capturing a vegetable image detects and tell which vegetable it is...it provides 95% accuracy on detecting vegetable...but problem is that it provides result on a rendom image also... which is not vegetable image... i want that on capturing rendom image it should tell it is not a vegetable image...how can i solve this...    Anyone who can help me in this..? i'll pay if anyone can solve this problem... if you can solve this come inbox...
