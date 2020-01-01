@@ -278,3 +278,6 @@ IPDL protocol error: Handler returned error code!
 
 JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
 1577797973760	Marionette	INFO	Stopped listening on port 39313
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
