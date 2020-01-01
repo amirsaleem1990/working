@@ -303,3 +303,10 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 1577862177974	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:25055): dconf-WARNING **: 12:03:08.655: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Exiting due to channel error.
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 0 flags 02400302 path /dev/shm/org.mozilla.ipc.25055.366
+[Child 25055, Main Thread] WARNING: failed to open shm: Input/output error: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/base/shared_memory_posix.cc, line 250
+[Child 25055, Chrome_ChildThread] WARNING: pipe error (41): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Child 25055, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
