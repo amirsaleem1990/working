@@ -141,20 +141,25 @@ for fb in FB:
 		##################################################
 		# only for groups 
 		if fb.startswith("groups"):
-			for ee, i in enumerate(s.select("a")):
+			for i in s.select("a"):
 				try:
 					link = i['href']
-					print(ee, end="|")
 					if link.startswith(f"/{fb}permalink/"):
 						link = "https://web.facebook.com" + link
+						pirnt("a". end="|")
 						if not link in str(all_links):
+							pirnt("b". end="|")
 							all_links[fb].append((link, str(now)))
 							links_to_open.append(link)
 							try:
 								browser.get(link)
+								pirnt("c". end="|")
 								post = BeautifulSoup(browser.page_source).find("div", {"data-testid" : "post_message"}).text.replace("<br/>", "\n")
+								pirnt("d". end="|")
 								if post:
+									pirnt("e". end="|")
 									file_name = f"{fb.strip('/').split('/')[1]}.txt"
+									pirnt("f". end="|")
 									file = open(file_name, "a+")
 									file.write("\n" + "#"*30 + "\n")
 									file.write(link + "\n")
