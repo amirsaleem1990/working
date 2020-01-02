@@ -141,9 +141,10 @@ for fb in FB:
 		##################################################
 		# only for groups 
 		if fb.startswith("groups"):
-			for i in s.select("a"):
+			for ee, i in enumerate(s.select("a")):
 				try:
 					link = i['href']
+					print(ee, end="|")
 					if link.startswith(f"/{fb}permalink/"):
 						link = "https://web.facebook.com" + link
 						if not link in str(all_links):
