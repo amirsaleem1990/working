@@ -146,20 +146,20 @@ for fb in FB:
 					link = i['href']
 					if link.startswith(f"/{fb}permalink/"):
 						link = "https://web.facebook.com" + link
-						print("a", end="|")
+						# print("a", end="|")
 						if not link in str(all_links):
-							print("b", end="|")
+							# print("b", end="|")
 							all_links[fb].append((link, str(now)))
 							links_to_open.append(link)
 							try:
 								browser.get(link)
-								print("c", end="|")
+								# print("c", end="|")
 								post = BeautifulSoup(browser.page_source).find("div", {"data-testid" : "post_message"}).text.replace("<br/>", "\n")
-								print("d", end="|")
+								# print("d", end="|")
 								if post:
-									print("e", end="|")
+									# print("e", end="|")
 									file_name = f"{fb.strip('/').split('/')[1]}.txt"
-									print("a", end="|")
+									# print("f", end="|")
 									file = open(file_name, "a+")
 									file.write("\n" + "#"*30 + "\n")
 									file.write(link + "\n")
