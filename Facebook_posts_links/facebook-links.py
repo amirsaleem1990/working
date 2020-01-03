@@ -111,8 +111,9 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"tariq.habib.969952", 				# tariq habib
 		"mahtabaziz", 						# mahtab khan
 		"suhaib.jamal.1", 					# Suhaib Jamal
-		"hanifsamanaa",					 # hanif samanaa
-		"groups/pakdotai/"					# pakistan.ai
+		"hanifsamanaa",						# hanif samanaa
+		"groups/pakdotai/",					# pakistan.ai
+		"atheismcrusher.pk"					# abu ibrahim
 	  ]
 
 fb_base_url = "https://web.facebook.com/"
