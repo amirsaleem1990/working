@@ -74,3 +74,23 @@ We're on the lookout for a Data Implementation Specialist if you have all these 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2567512236650318/
 We're on the lookout for a Data Implementation Specialist if you have all these skills in you  👉https://marketlytics.com/…/analytics-implementation-special…, you may just be the person we're searching for.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2568776263190582/
+Machine Learning is fundamental to develop intelligent systems and analyze data in science and engineering. It covers theoretical foundations as well as essential algorithms for supervised and unsupervised learning. Classes on theoretical and algorithmic aspects are complemented by practical lab sessions. Introducing our Machine Learning Training, registrations are now open! Hurry up! before you miss the slot. Limited seats available. Register yourself at: https://docs.google.com/…/1FAIpQLScGtJpCmugOB2bLg…/viewform…
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2565017016899840/
+Asalam O Alaikum...  Currently I am working on a project where I am using CNN MobileNet model for vehicle classification... So, right now I am facing a serious problem which looks like overfitting to me... where I am having training acc 95+ but in testing I get 3 % acc...I also tried some diff techniques as well which were in my knowledge.. but the output is still the same    Anyone who can help me in this..? I have a total count of 1703 images in which I have equally 37 classes of different cars..
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2536450206423188/
+Hi all, anyone ever worked with twitter historical data ? i need data for last 5 years using some keywords and hashtags....can it be extracted using twitter api ?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2558571107544431/
+Hello everyone, I implemented real-time visualization of a neural network recognizing digits from user's input by using a language named Processing. If you want to try this by yourself and see the details. I uploaded my code on my Github. ⠀ https://github.com/okdalto/VisualizeMNIST ⠀ Also, if you are interested in my graphics programming works, check my instagram. :) ⠀ https://www.instagram.com/okdalto/ ⠀ Thank you.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2565373040197571/
+A must-attend workshop by Facebook Developer Circle: Lahore for AI/ML enthusiasts! We'll be covering a very broad spectrum of subjects under the umbrella of AI/ML. Starting off with the theoretical foundation of what AI/ML is and its sub-disciplines, moving towards how to solve problems with AI/ML using cutting-edge frameworks like Tensorflow and than we'll talk about how to leverage the power of cloud computing to build AI solutions. Mark your calendars, you wouldn't want to miss it!
