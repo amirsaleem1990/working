@@ -1,5 +1,5 @@
 import os
-os.system('find . -name "*" > files-with-complete-path.txt')
+os.system('find . -type f -name "*" > files-with-complete-path.txt')
 with open("files-with-complete-path.txt", "r") as file:
     a = file.read().splitlines()
 
