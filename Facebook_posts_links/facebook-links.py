@@ -117,6 +117,11 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"atheismcrusher.pk"					# abu ibrahim
 	  ]
 
+ids_removed_from_facebook = {"abumaryam82" : "muhammad imran",
+							"hammad.sarwar.9400" : "",
+							"mohammad.saleem.568847": "",
+							"yaldrim.khalid.9" : "muhammad imran"}
+
 fb_base_url = "https://web.facebook.com/"
 extrected_links = []
 new_links = []
@@ -126,7 +131,7 @@ links_to_open = []
 now = datetime.datetime.now()
 mmz = []
 errors = []
-ids_removed_from_facebook = ["abumaryam82", "hammad.sarwar.9400", "mohammad.saleem.568847", "yaldrim.khalid.9"]
+
 succussfully_extracted = 0
 for fb in FB:
 	c = 0
