@@ -94,3 +94,11 @@ Hello everyone, I implemented real-time visualization of a neural network recogn
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2565373040197571/
 A must-attend workshop by Facebook Developer Circle: Lahore for AI/ML enthusiasts! We'll be covering a very broad spectrum of subjects under the umbrella of AI/ML. Starting off with the theoretical foundation of what AI/ML is and its sub-disciplines, moving towards how to solve problems with AI/ML using cutting-edge frameworks like Tensorflow and than we'll talk about how to leverage the power of cloud computing to build AI solutions. Mark your calendars, you wouldn't want to miss it!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2583603371707871/
+Calling all Data Science Enthusiasts out there in Islamabad - This is an opportunity not to be missed! Speakers : 1. Sadia Naz - Data Scientist @ Automotive AI, Berlin, Germany.  2. Hira Waqar - Technical Recruiter at Amazon. Today @ FAST - NUCES from 4 PM – 5:30 PM & Yes, its FREE! #DataScience #GlobalRecruitment #Networking
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2576081375793404/
+Innovation by #Microsoft Converting a hand drawn sketch into #HTML. Exciting times ahead for designers, they get to spend more time thinking about user interaction. #AI #MachineLearning
