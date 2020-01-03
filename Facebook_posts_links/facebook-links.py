@@ -87,7 +87,8 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"abdullah.adam49", 					# abdullah adam 
 		"hm.zubair.52", 					# Hm Zubair 
 		"abumaryam82",  					# Muhammad Imran (Blocked)
-		"yaldrim.khalid.9", 				# Muhammad Imran
+		"yaldrim.khalid.9", 				# Muhammad Imran (Blocked)
+		"muhammad.imra.100",
 		"munib.hussain86", 					# munib hussain 
 		"jameelbaloch1924", 				# jameel baloch 
 		"theguided1",  						# Rizwan Asad Khan
@@ -125,7 +126,7 @@ links_to_open = []
 now = datetime.datetime.now()
 mmz = []
 errors = []
-ids_removed_from_facebook = ["abumaryam82", "hammad.sarwar.9400", "mohammad.saleem.568847"]
+ids_removed_from_facebook = ["abumaryam82", "hammad.sarwar.9400", "mohammad.saleem.568847", "yaldrim.khalid.9"]
 succussfully_extracted = 0
 for fb in FB:
 	c = 0
