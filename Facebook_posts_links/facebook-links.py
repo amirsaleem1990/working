@@ -42,8 +42,8 @@ stored_links_qty = sum([len(all_links[i]) for i in all_links])
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
 
-print("Attempting to Login", current_time())
-
+print("Attempting to Login   ", current_time())
+	   Successfully Logged in 09:54:18
 Successfully_logedin = True
 Successfully_logedin_num = 0
 while Successfully_logedin:
