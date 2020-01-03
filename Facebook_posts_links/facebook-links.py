@@ -86,9 +86,7 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"mohammad.f.haris", 				# mohammad fahad haris
 		"abdullah.adam49", 					# abdullah adam 
 		"hm.zubair.52", 					# Hm Zubair 
-		"abumaryam82",  					# Muhammad Imran (Blocked)
-		"yaldrim.khalid.9", 				# Muhammad Imran (Blocked)
-		"muhammad.imra.100",
+		"muhammad.imra.100",				# Muhammad Imran
 		"munib.hussain86", 					# munib hussain 
 		"jameelbaloch1924", 				# jameel baloch 
 		"theguided1",  						# Rizwan Asad Khan
@@ -100,7 +98,6 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"idreesazaad", 						# Idrees Azad ‎
 		"Abu.Musab.98622733", 				# ابو محمد مصعب 
 		"profile.php?id=100026041448813", 
-		"mohammad.saleem.568847", 			# mohammad saleem (Blocked)
 		"profile.php?id=100010667655748",   # mohammad saleem 
 		"hammad.sarwar.9400",
 		"profile.php?id=100043920022318",   # سرورالدین سرور
