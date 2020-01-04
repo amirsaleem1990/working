@@ -110,3 +110,7 @@ Hi folks! We're looking to invite speakers based in Karachi that would be able t
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2580479125353629/
 Do you think M.L can be beneficial for investment strategies?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2577127292355479/
+We are looking for candidates who have * Fluency and experience in Python and Numpy (OpenCV will be plus). * Studied Computer Vision and Deep Learning * Familiarity with Deep Learning frameworks (TensorFlow, Keras, Caffe, PyTorch etc). * Practical experience of working on the Deep Learning based Object Detection and Tracking algorithms or Metric Learning or Face Recognition will be plus. * Strong programming and problem-solving skills. * Applied object-oriented programming concepts (preferably knows C++) * Graduated with a related degree in CS/EE/CE etc.(if you are graduate with a mathematics degree and even partially fulfill above requirements, do send us an email). Who are we: We are a Lahore based AI startup working on Machine Learning (Deep learning) based solutions for exciting real-world problems. We are looking for multiple positions (Senior/Junior/Internship) full-time and part-time to join our computer vision and machine learning team. Email your CV and a short paragraph about yourself at careers@imaginex.tech and mention Computer Vision in the subject line
