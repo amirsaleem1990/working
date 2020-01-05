@@ -184,7 +184,7 @@ for fb in FB:
 					print(link)
 					if link.startswith("https://web.facebook.com/"):
 						if not link in str(all_links):
-							if "/posts/" in link:
+							if ("/posts/" in link) or ("story_fbid" in link):
 								if not "?comment_id=" in link:
 									all_links[fb].append((link, str(now)))
 									links_to_open.append(link)
