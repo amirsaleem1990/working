@@ -50,8 +50,8 @@ while Successfully_logedin:
 	if Successfully_logedin_num > 1:
 		print(f"Attempt no. {Successfully_logedin_num} to Login")
 	try:
-		# browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
-		browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
+		browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
+		# browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
 		#navigates you to the facebook page.
 		browser.get('https://www.facebook.com/')
 
