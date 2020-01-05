@@ -18,3 +18,4 @@
 1578224759375	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:11936): dconf-WARNING **: 16:46:28.166: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1578224829033	Marionette	INFO	Stopped listening on port 38251
