@@ -181,6 +181,7 @@ for fb in FB:
 				links_ = a.select('a')
 				for i in links_:
 					link = i['href']
+					print(link)
 					if link.startswith("https://web.facebook.com/"):
 						if not link in str(all_links):
 							if "/posts/" in link:
