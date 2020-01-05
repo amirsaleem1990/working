@@ -138,3 +138,7 @@ Hurry up and register. Time is short.
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2580110905390451/
 Hi, guys. Traffic congestion is a burning issue in most countries due to the rapid growth of running vehicles and infrastructures with limited capacity. Congestion can be solved with Intelligent Transport Systems (ITS) and traffic management. Most traffic management measures are aimed to improve the safety and flow of traffic, reduce traffic emissions and utilize traffic artery capacity more effectively. So here we go: Road Traffic App Tutorial 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/1844645888936960/
+Hello everyone! I'm glad to announce the that "Pursuit for the Master Learning Algorithm" initiative is live! We're a think tank and research group focused on keeping a look out on the developments of the master learning algorithm! To be a part of the discussion register here: https://goo.gl/forms/CehIW5yyliSmlGa92 To view our accumulated resources follow here: https://github.com/…/in_pursuit_of_th…/blob/master/README.md Please let us know how we can make this initiative better. Feel free to comment your improvements!
