@@ -80,37 +80,38 @@ while Successfully_logedin:
 # names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
 # 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
 # 	 "Abu muhammad musab", "Mahtab khan", "mohammad.saleem"]
-FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
-		"asif.mahmood.1671", 				# asif mahmood
-		"zahid.mughal.5895", 				# zahid mughal
-		"mohammad.f.haris", 				# mohammad fahad haris
-		"abdullah.adam49", 					# abdullah adam 
-		"hm.zubair.52", 					# Hm Zubair 
-		"muhammad.imra.100",				# Muhammad Imran
-		"munib.hussain86", 					# munib hussain 
-		"jameelbaloch1924", 				# jameel baloch 
-		"theguided1",  						# Rizwan Asad Khan
-		"abubakr.quddusi.3", 				# abubakr quddusi 
-		"mohammaddin.jauhar.7", 			# mohammad din jauhar 
-		"Riayat.Farooqui",  				# riayatullah farooqui 
-		"asim.allahbakhsh", 				# asim allahbakhsh 
-		"sohaib.naseem.3", 					# صہیب نسیم‎  
-		"idreesazaad", 						# Idrees Azad ‎
-		"Abu.Musab.98622733", 				# ابو محمد مصعب 
-		"profile.php?id=100026041448813", 
-		"profile.php?id=100010667655748",   # mohammad saleem 
-		"profile.php?id=100043920022318",   # سرورالدین سرور
-		"ajeebscenehaibhai", 
-		"nouman.atd.3", 					# Nouman Ihsan
-		"profile.php?id=100032249983289", 	# انس اسلام
-		"HamidKamaluddin.personal", 		# Hamid kamaluddin
-		"faisal.shahzad.1253236", 			# محمد فیصل شہزاد
-		"tariq.habib.969952", 				# tariq habib
-		"mahtabaziz", 						# mahtab khan
-		"suhaib.jamal.1", 					# Suhaib Jamal
-		"hanifsamanaa",						# hanif samanaa
-		"groups/pakdotai/",					# pakistan.ai
-		"atheismcrusher.pk"					# abu ibrahim
+FB = [
+		# "MMushtaqYusufzai", 					# Muhammad Mushtaq
+		# "asif.mahmood.1671", 				# asif mahmood
+		# "zahid.mughal.5895", 				# zahid mughal
+		# "mohammad.f.haris", 				# mohammad fahad haris
+		# "abdullah.adam49", 					# abdullah adam 
+		# "hm.zubair.52", 					# Hm Zubair 
+		# "muhammad.imra.100",				# Muhammad Imran
+		# "munib.hussain86", 					# munib hussain 
+		# "jameelbaloch1924", 				# jameel baloch 
+		# "theguided1",  						# Rizwan Asad Khan
+		# "abubakr.quddusi.3", 				# abubakr quddusi 
+		# "mohammaddin.jauhar.7", 			# mohammad din jauhar 
+		# "Riayat.Farooqui",  				# riayatullah farooqui 
+		# "asim.allahbakhsh", 				# asim allahbakhsh 
+		# "sohaib.naseem.3", 					# صہیب نسیم‎  
+		# "idreesazaad", 						# Idrees Azad ‎
+		# "Abu.Musab.98622733", 				# ابو محمد مصعب 
+		# "profile.php?id=100026041448813", 
+		# "profile.php?id=100010667655748",   # mohammad saleem 
+		"profile.php?id=100043920022318"   # سرورالدین سرور
+		# "ajeebscenehaibhai", 
+		# "nouman.atd.3", 					# Nouman Ihsan
+		# "profile.php?id=100032249983289", 	# انس اسلام
+		# "HamidKamaluddin.personal", 		# Hamid kamaluddin
+		# "faisal.shahzad.1253236", 			# محمد فیصل شہزاد
+		# "tariq.habib.969952", 				# tariq habib
+		# "mahtabaziz", 						# mahtab khan
+		# "suhaib.jamal.1", 					# Suhaib Jamal
+		# "hanifsamanaa",						# hanif samanaa
+		# "groups/pakdotai/",					# pakistan.ai
+		# "atheismcrusher.pk"					# abu ibrahim
 	  ]
 
 ids_removed_from_facebook = {"abumaryam82" : "muhammad imran",
