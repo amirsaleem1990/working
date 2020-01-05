@@ -1,0 +1,9 @@
+https://www.explainthatstuff.com/harddrive.html
+
+
+If your computer has a 20 gigabyte (GB) hard drive, or you have a 20 GB iPod or MP3 player, it's a bit like a box containing 160 thousand million microscopically small iron nails, each of which can store one tiny piece of information called a bit. A bit is a binary digit—either a number zero or a number one. In computers, numbers are stored not as decimal (base-10) but as patterns of binary digits instead. For example, the decimal number 382 is stored as the binary number 101111110. Letters and other characters can also be stored as binary numbers. Thus, computers store a capital letter A as the decimal number 65 or the binary number 1000001. Suppose you want to store the number 1000001 in your computer in that big box of iron nails. You need to find a row of seven unused nails. You magnetize the first one (to store a 1), leave the next five demagnetized (to store five zeros), and magnetize the last one (to store a 1). 
+
+
+In your computer's hard drive, there aren't really any iron nails. There's just a large shiny, circular "plate" of magnetic material called a platter, divided into billions of tiny areas. Each one of those areas can be independently magnetized (to store a 1) or demagnetized (to store a 0). Magnetism is used in computer storage because it goes on storing information even when the power is switched off. If you magnetize a nail, it stays magnetized until you demagnetize it. In much the same way, the computerized information (or data) stored in your PC hard drive or iPod stays there even when you switch the power off. 
+
+
