@@ -182,7 +182,7 @@ for fb in FB:
 					link = i['href']
 					if link.startswith("https://web.facebook.com/"):
 						if not link in str(all_links):
-							if "/posts/" in link:
+							if "/posts/" in link: # failing to capture like this link (https://web.facebook.com/permalink.php?story_fbid=129882195152447&id=100043920022318)
 								if not "?comment_id=" in link:
 									all_links[fb].append((link, str(now)))
 									links_to_open.append(link)
