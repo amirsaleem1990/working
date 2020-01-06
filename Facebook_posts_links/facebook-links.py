@@ -102,7 +102,7 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"profile.php?id=100043920022318",   # سرورالدین سرور
 		"ajeebscenehaibhai", 
 		"nouman.atd.3", 					# Nouman Ihsan
-		"profile.php?id=100032249983289", 	# انس اسلام
+		"profile.php?id=100032249983289", 	# مالسا سنا
 		"HamidKamaluddin.personal", 		# Hamid kamaluddin
 		"faisal.shahzad.1253236", 			# دازہش لصیف دمحم
 		"tariq.habib.969952", 				# tariq habib
