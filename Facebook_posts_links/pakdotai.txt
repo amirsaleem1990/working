@@ -142,3 +142,43 @@ Hi, guys. Traffic congestion is a burning issue in most countries due to the rap
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/1844645888936960/
 Hello everyone! I'm glad to announce the that "Pursuit for the Master Learning Algorithm" initiative is live! We're a think tank and research group focused on keeping a look out on the developments of the master learning algorithm! To be a part of the discussion register here: https://goo.gl/forms/CehIW5yyliSmlGa92 To view our accumulated resources follow here: https://github.com/…/in_pursuit_of_th…/blob/master/README.md Please let us know how we can make this initiative better. Feel free to comment your improvements!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2588208764580665/
+AOA, Is it good to learn Data Base Management Systems (concepts like ER diagram, functional dependencies, normalisation, etc) for a data science student? Or just knowing the SQL, joins etc is sufficient? Need some suggestions. Thanks
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2588720341196174/
+For those looking for free #datascience and #machinelearning resources, I just revamped my site with new material.  👉 Visit: www.claoudml.com
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2587846547950220/
+Does anyone know about any Fresh Graduate jobs in Machine Learning /Data Science / Python developer/Data Analyst . I can't find any for Fresh Graduates they usually require 1year or plus experience. Location: Lahore * Open to other options if none available
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2588794664522075/
+TICKETING IS NOW LIVE! GRAB YOUR EARLY BIRDS -- AVAILABLE UNTIL 15th JAN 2020  -- PRICES HIKE BY 50% LATER Register at : rebrand.ly/karachiai_meetup_register
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2588010877933787/
+Career Opportunities
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2586894781378730/
+Here are some of points about #MachineLearning: 1. Machine Learning means learning from Data. 2. Machine = Your machine/computer Learning = Finding patterns from data 3. Machine Learning is just Data + Algorithms, but Data is more important. 4. Feature extraction is key. If total prediction power is 100% then the effort of feature engineering = 80% and the effort of the learning algorithm = 20%. 4. Overfitting is when your algorithm is memorizing instead of learning. 5. If you have small amounts of data then you’re better off using more simple models (linear&logistic regression). If you have large amounts of data you can try out more complex models (Deep Learning, etc.) 6. To avoid overfitting, always use regularization 7. Training is the most important part of Machine Learning.  8. Choose your features and hyper parameters carefully. 9. Machines don’t take decisions, people do. 10. Data cleaning is the most important part of Machine Learning. You know the saying: Garbage in Garbage out. Hope this helps! - - - ➡️ If you want more free DS/ML resources, feel free to visit my site: www.claoudml.com ➡️ Need help getting started into data science? Read my free 48 page ebook: https://lnkd.in/g4FPpam
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2586822124719329/
+FOMO?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2584731271595081/
+Pathway to become a Machine Learning Engineer.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2584748264926715/
+I need to scrape satellite images through geoJSON coordinates in Multispectral, Panchromatic and SWIR bands along with RGB, is there any free/opensource API that provides such service?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2585767044824837/
+Get this from LinkedInJob AlertIntegration Xperts is looking for Data Scientists (Location: Karachi, Pakistan) with the following capabilities: Strong problem-solving skills with an emphasis on product development.Experience using statistical computer languages (R, Python, SQL, etc.) to manipulate data and draw insights from large data sets.Experience working with and creating data architectures.Knowledge of a variety of machine learning techniques (clustering, decision tree learning, artificial neural networks, etc.) and their real-world advantages/drawbacks.Knowledge of advanced statistical techniques and concepts (regression, properties of distributions, statistical tests and proper usage, etc.) and experience with applications.Excellent written and verbal communication skills for coordinating across teams.A drive to learn and master new technologies and techniques.Interested candidates can send their resumes at yusra.shahid@integrationxperts.com#datasciencejobs #datascience
