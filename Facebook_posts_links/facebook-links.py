@@ -94,9 +94,9 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"mohammaddin.jauhar.7", 			# mohammad din jauhar 
 		"Riayat.Farooqui",  				# riayatullah farooqui 
 		"asim.allahbakhsh", 				# asim allahbakhsh 
-		"sohaib.naseem.3", 					# صہیب نسیم‎  
+		"sohaib.naseem.3", 					# میسن بیہص  
 		"idreesazaad", 						# Idrees Azad ‎
-		"Abu.Musab.98622733", 				# ابو محمد مصعب 
+		"Abu.Musab.98622733", 				# بعصم دمحم وبا 
 		"profile.php?id=100026041448813", 
 		"profile.php?id=100010667655748",   # mohammad saleem 
 		"profile.php?id=100043920022318",   # سرورالدین سرور
@@ -104,13 +104,14 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"nouman.atd.3", 					# Nouman Ihsan
 		"profile.php?id=100032249983289", 	# انس اسلام
 		"HamidKamaluddin.personal", 		# Hamid kamaluddin
-		"faisal.shahzad.1253236", 			# محمد فیصل شہزاد
+		"faisal.shahzad.1253236", 			# دازہش لصیف دمحم
 		"tariq.habib.969952", 				# tariq habib
 		"mahtabaziz", 						# mahtab khan
 		"suhaib.jamal.1", 					# Suhaib Jamal
 		"hanifsamanaa",						# hanif samanaa
 		"groups/pakdotai/",					# pakistan.ai
-		"atheismcrusher.pk"					# abu ibrahim
+		"atheismcrusher.pk", 				# abu ibrahim
+		"roxane.apolonio.773"				# کاڑھک اد ےکاک 
 	  ]
 
 ids_removed_from_facebook = {"abumaryam82" : "muhammad imran",
