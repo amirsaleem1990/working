@@ -2,9 +2,15 @@
 from tabulate import tabulate
 import os
 import pandas as pd
+import pickle
 import datetime
 os.chdir("/home/amir/github/working/Facebook_posts_links/")
 os.system("ipython3 links-pickle-to-df.py")
+
+with open("ids_removed_from_facebook.pkl", "rb") as file:
+    ids_removed_from_facebook = pickle.load(file)
+ids_removed_from_facebook = list(ids_removed_from_facebook.keys())
+
 previos_data = pd.read_csv("All_FB_links_names_corrected.csv")
 crnt_time = pd.to_datetime(
 	datetime.datetime.now(),
@@ -21,6 +27,7 @@ df_diff = pd.DataFrame([previos_data.Name.unique(), diff]).T
 df_diff.columns = ["Name", "No post since"]
 df_diff["No post since"] = df_diff["No post since"].astype(int)
 df_diff2 = df_diff[df_diff["No post since"] > 2].sort_values("No post since", ascending=False)
+df_diff2 = df_diff2[~df_diff2.Name.isin(ids_removed_from_facebook)]
 
 df_diff2["Link"] = "https://web.facebook.com/" + df_diff2.Name
 df_diff2 = df_diff2.reset_index().drop("index", axis=1)
