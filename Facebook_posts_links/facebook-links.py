@@ -114,10 +114,9 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"roxane.apolonio.773"				# کاڑھک اد ےکاک 
 	  ]
 
-ids_removed_from_facebook = {"abumaryam82" : "muhammad imran",
-							"hammad.sarwar.9400" : "",
-							"mohammad.saleem.568847": "",
-							"yaldrim.khalid.9" : "muhammad imran"}
+with open("ids_removed_from_facebook.pkl", "rb") as file:
+    ids_removed_from_facebook = pickle.load(file)
+ids_removed_from_facebook = list(ids_removed_from_facebook.keys())
 
 fb_base_url = "https://web.facebook.com/"
 extrected_links = []
