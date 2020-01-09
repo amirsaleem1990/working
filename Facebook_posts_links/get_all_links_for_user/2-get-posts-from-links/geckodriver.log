@@ -209,3 +209,7 @@ GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1138:3
 1578549309106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
 1578549309107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
 1578549309107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1578549310835	Marionette	INFO	Listening on port 44531
+1578549310894	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:20435): dconf-WARNING **: 10:55:27.711: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
