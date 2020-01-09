@@ -213,3 +213,12 @@ GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1138:3
 1578549310894	Marionette	WARN	TLS certificate errors will be ignored for this session
 
 (/usr/lib/firefox/firefox:20435): dconf-WARNING **: 10:55:27.711: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1578549612157	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Q3q3poWtQKwL"
+1578549612653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1578549612653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1578549612653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1578549612653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1578549614522	Marionette	INFO	Listening on port 41479
+1578549614592	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:21434): dconf-WARNING **: 11:00:29.904: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
