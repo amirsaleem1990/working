@@ -76,10 +76,6 @@ while Successfully_logedin:
 	except:
 		pass
 # pages i nedd in list: "idreesazad2", "itsfoss/", "azeemnama", "AkxOAwaz"
-
-# names = ["Mushtaq", "Asif mehmood", "Zahid mughal", "Mohammad Fahad Haris", "Abdullah Adam", "Hm Zubair", "Muhammad Imran", "Munib Hussain", "Jameel Baloch",
-# 	 "Rizwan Asad Khan", "Abubakr Quddusi", "Mohammad Din Jauhar", "Riayatullah Farooqui", "Asim AllahBakhsh", "Sohaib naseem", "Idrees Aazad", 
-# 	 "Abu muhammad musab", "Mahtab khan", "mohammad.saleem"]
 FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"asif.mahmood.1671", 				# asif mahmood
 		"zahid.mughal.5895", 				# zahid mughal
