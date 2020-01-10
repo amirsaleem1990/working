@@ -182,3 +182,7 @@ I need to scrape satellite images through geoJSON coordinates in Multispectral, 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2585767044824837/
 Get this from LinkedInJob AlertIntegration Xperts is looking for Data Scientists (Location: Karachi, Pakistan) with the following capabilities: Strong problem-solving skills with an emphasis on product development.Experience using statistical computer languages (R, Python, SQL, etc.) to manipulate data and draw insights from large data sets.Experience working with and creating data architectures.Knowledge of a variety of machine learning techniques (clustering, decision tree learning, artificial neural networks, etc.) and their real-world advantages/drawbacks.Knowledge of advanced statistical techniques and concepts (regression, properties of distributions, statistical tests and proper usage, etc.) and experience with applications.Excellent written and verbal communication skills for coordinating across teams.A drive to learn and master new technologies and techniques.Interested candidates can send their resumes at yusra.shahid@integrationxperts.com#datasciencejobs #datascience
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2597346867000188/
+#BigNews #PakistanAIChapterIslamabad  #DataScienceSaturdays  We are thrilled to announce that Pakistan.AI Islamabad Chapter Team is all set to bring on a series of Data Science Workshops - DS Saturdays! Register now for our First Batch ! http://bit.ly/2Nd3H4Z
