@@ -1,0 +1,22 @@
+1578911724637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3s8Sl1HzaEAv"
+*** You are running in headless mode.
+1578911725111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1578911725111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1578911725111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1578911725111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1578911727076	Marionette	INFO	Listening on port 34201
+1578911727150	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:27643): dconf-WARNING **: 15:35:42.540: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/ntJTeGbXQFO.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGcyNQKc7sH5_1xSds8Jxps0vTMtMGEPXInc9SRB_aYnddsA6fm7_bR21Uei2EIdHgu-aRSZHp6PH3V-W2FhAwxTAUTNPDu_DNaFW6NK3v8Eg, line 10: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/ntJTeGbXQFO.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGcyNQKc7sH5_1xSds8Jxps0vTMtMGEPXInc9SRB_aYnddsA6fm7_bR21Uei2EIdHgu-aRSZHp6PH3V-W2FhAwxTAUTNPDu_DNaFW6NK3v8Eg, line 10: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/ntJTeGbXQFO.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGcyNQKc7sH5_1xSds8Jxps0vTMtMGEPXInc9SRB_aYnddsA6fm7_bR21Uei2EIdHgu-aRSZHp6PH3V-W2FhAwxTAUTNPDu_DNaFW6NK3v8Eg, line 10: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yh/r/ntJTeGbXQFO.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGcyNQKc7sH5_1xSds8Jxps0vTMtMGEPXInc9SRB_aYnddsA6fm7_bR21Uei2EIdHgu-aRSZHp6PH3V-W2FhAwxTAUTNPDu_DNaFW6NK3v8Eg, line 10: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeF2Cf0xgCHUqdK8AW8eTXBfqWctIY-0oJY-DP6Y0UTBp7TvpRb5P6iyEPlMufj8Y3-_zJGixCuX9h97MlHBT6-CiTypWCj9N4HLXrfOK-5Y2Q, line 4: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeF2Cf0xgCHUqdK8AW8eTXBfqWctIY-0oJY-DP6Y0UTBp7TvpRb5P6iyEPlMufj8Y3-_zJGixCuX9h97MlHBT6-CiTypWCj9N4HLXrfOK-5Y2Q, line 4: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeF2Cf0xgCHUqdK8AW8eTXBfqWctIY-0oJY-DP6Y0UTBp7TvpRb5P6iyEPlMufj8Y3-_zJGixCuX9h97MlHBT6-CiTypWCj9N4HLXrfOK-5Y2Q, line 4: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/2VB0VDfSp1N.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeF2Cf0xgCHUqdK8AW8eTXBfqWctIY-0oJY-DP6Y0UTBp7TvpRb5P6iyEPlMufj8Y3-_zJGixCuX9h97MlHBT6-CiTypWCj9N4HLXrfOK-5Y2Q, line 4: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
