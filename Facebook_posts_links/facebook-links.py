@@ -110,7 +110,8 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"roxane.apolonio.773",				# کاڑھک اد ےکاک 
 		"anwaar456",						# ردیح راونا
 		"muhammad.bhatti.9250",				# Muhammad Bhatti
-		"Bhaihasib1"						# Haseeb Khan
+		"Bhaihasib1",						# Haseeb Khan
+		"mateen.ahmad2010"					# Syed Mateen Ahmad
 	  ]
 
 with open("ids_removed_from_facebook.pkl", "rb") as file:
