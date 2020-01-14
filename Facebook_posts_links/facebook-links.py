@@ -111,7 +111,8 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"anwaar456",						# ردیح راونا
 		"muhammad.bhatti.9250",				# Muhammad Bhatti
 		"Bhaihasib1",						# Haseeb Khan
-		"mateen.ahmad2010"					# Syed Mateen Ahmad
+		"mateen.ahmad2010",					# Syed Mateen Ahmad
+		"profile.php?id=100009666136877"	# Faizullah Khan
 	  ]
 
 with open("ids_removed_from_facebook.pkl", "rb") as file:
