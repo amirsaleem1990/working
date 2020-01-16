@@ -214,3 +214,15 @@ If some one is enrolled in bsc economic with minor statistics want to do interns
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2607650615969813/
 #DataScienceThe 3rd Annual Women in Data Science #WiDSDatathon is now live on Kaggle and the competition has begun!   The challenge is to create a model that uses data from the first 24 hours of intensive care to predict patient survival. MIT's GOSSIS community initiative, with privacy certification from the Harvard Privacy Lab, has provided a dataset of more than 130,000 hospital Intensive Care Unit (ICU) visits from patients, spanning a one-year timeframe.  Form a team, take the challenge, and make a social impact: https://lnkd.in/e8zvCk3 Brought to you by The Global WiDS team, West Big Data Innovation Hub, Kaggle, Microsoft, IBM, Walmart Labs, ICME Stanford, University of California, Berkeley, MIT Critical Data, University of Toronto
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2607889305945944/
+Work on Qlikview. Is anyone required BI or Data Analyst?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2596940383707503/
+Artificial Intelligence is not easy for a common man to understand, but it does not mean AI is not playing any role in a their life! There are many different ways AI is serving humanity. Let’s have a glance at which areas of human life are being served by Artificial Intelligence. #artificialintelligence #ai #machinelearning #technology #datascience #bigdata #deeplearning #tech #iot #robot #robotics #datascience 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/1886675241400691/
+Data Science Weekends is a study group with a cirriculum designed in correspondence from the leaders in the Industry.  Current batch "Data Analytics Certification," a 3 month course is on-going at NIC, Karachi.  Check out the syllabus, that's a mix between skills you will need in your job, plus the knowledge that will help you through the interview.  Special recognition to Muhammad Zaid, Javeria Nisar and Umair Rafique for this.  To access the above, use the link: https://github.com/PakistanAI/DS_Weekends Recommendations are appreciated.
