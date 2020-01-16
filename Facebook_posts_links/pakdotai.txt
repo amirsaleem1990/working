@@ -186,3 +186,31 @@ Get this from LinkedInJob AlertIntegration Xperts is looking for Data Scientists
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2597346867000188/
 #BigNews #PakistanAIChapterIslamabad  #DataScienceSaturdays  We are thrilled to announce that Pakistan.AI Islamabad Chapter Team is all set to bring on a series of Data Science Workshops - DS Saturdays! Register now for our First Batch ! http://bit.ly/2Nd3H4Z
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2595173433884198/
+Man, to think people like these exists... makes you appreciate the unpaid internships....to be honest the way Data science is getting saturated these days and since almost every DS position requires some exp, this might happen more often.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2594429797291895/
+We are seeking a RESEARCH ASSISTANT who can work in the line of Robotics, Machine Learning, and Artificial Intelligence (AI) at University of Central Punjab (UCP). . . Send your CV's at: hassanyousuf(at)ucp.edu.pk nabeel.hussain(at)ucp.edu.pk . . - The position requires enthusiastic and highly motivated individuals who are comfortable multitasking and working both with a team and independently. - Supervise undergraduate students with their final year projects. - Writing research proposals and help in execution of research projects. - Conduct LEGO League Competitions, IEEE RAS Workshops on Robotics and AI. . Required Qualifications: - Candidates must have completed a Bachelor’s or a Master's degree accredited by HEC in Computer Science or Information Technology. - Candidates must have working knowledge in Microsoft Office and LateX applications. - Candidates must display a willingness to be exposed to a broad research and management experience in the human robot interaction domain. - Must have experience with Robot Operating Systems (ROS) and have command over Linux. - Expertise and experience in various facets of machine learning and image processing, such as classification, information extraction, structured prediction, clustering, supervised/unsupervised learning, reinforcement learning, computer vision. - Programming experience in one or more of the following: C/C++, Python or equivalent. - Hardworking, self-starter, proven ability to manage numerous projects to strict deadlines. - Excellent interpersonal and communication skills - Hands-on experience with robots such as aerial vehicles and ground vehicles is a plus. - Hands-on experience with hardware’s such as Microsoft Kinect, Intel RealSense, Myo Armband, 3D printers, NVIDIA Jetson Kit is a plus. - Hands-on experience with flight controllers and on-board computers is a plus.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2606808469387361/
+Salam, I am thinking to start Data Science course at Frontier Technology...https://frontiertechnologyinstitute.com/data-science-courseNeed to ask that is it worth it?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2608902352511306/
+Hi, I am a PhD CS student looking for potential (1) team mate (female only) (2) Mentor (Can be male or female) to participate in Rails Girls Summer of Code #RGSoC.  My area of expertise are SQL, NoSQL, Python, DL and ML. Currently I am in Lahore and would prefer someone who lives in lhr too. I would also like to partner with someone who has prior experience in open source  development and version control tools like git.RGSoC is a 3  month long open source program (July to September), that enables participants to contribute to some super-exciting open source projects while being  paid to do so. More details can be found below.https://railsgirlssummerofcode.org/students/https://medium.com/@aggarwalakshita1/what-and-hows-of-rgsoc-d4ee14f29a0e
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2596421757092699/
+Hi everyone! We're a small team dedicated to solving the problem of diabetes in Pakistan and beyond. We promise a friendly and fun work environment. Although our immediate need with this position is for web development, there will be opportunities to work on AI in the future, and candidates are free to bring in their suggestions and proposals for this. Apply away at info@medworks.pk  Here to answer any questions you may have!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2590498577685017/
+If some one is enrolled in bsc economic with minor statistics want to do internship in business analyst or data sciences field in summers? Do you have any idea where I could apply?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2607650615969813/
+#DataScienceThe 3rd Annual Women in Data Science #WiDSDatathon is now live on Kaggle and the competition has begun!   The challenge is to create a model that uses data from the first 24 hours of intensive care to predict patient survival. MIT's GOSSIS community initiative, with privacy certification from the Harvard Privacy Lab, has provided a dataset of more than 130,000 hospital Intensive Care Unit (ICU) visits from patients, spanning a one-year timeframe.  Form a team, take the challenge, and make a social impact: https://lnkd.in/e8zvCk3 Brought to you by The Global WiDS team, West Big Data Innovation Hub, Kaggle, Microsoft, IBM, Walmart Labs, ICME Stanford, University of California, Berkeley, MIT Critical Data, University of Toronto
