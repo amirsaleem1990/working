@@ -226,3 +226,19 @@ Artificial Intelligence is not easy for a common man to understand, but it does 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/1886675241400691/
 Data Science Weekends is a study group with a cirriculum designed in correspondence from the leaders in the Industry.  Current batch "Data Analytics Certification," a 3 month course is on-going at NIC, Karachi.  Check out the syllabus, that's a mix between skills you will need in your job, plus the knowledge that will help you through the interview.  Special recognition to Muhammad Zaid, Javeria Nisar and Umair Rafique for this.  To access the above, use the link: https://github.com/PakistanAI/DS_Weekends Recommendations are appreciated.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2609570602444481/
+Interested individuals or cricket clubs from Karachi can connect with me directly to work on this interesting project.  I am working on an AI research project that involves collecting visual dataset when a bowler performs deliveries to the batsman in a net practicing setting. I am looking for Cricket enthusiasts and cricket academies to come forward and help me in creating such dataset.  Interested individuals or cricket clubs from Karachi can connect with me directly by messaging me at FB or khurram.ned@gmail.com  Students from universities, colleges or senior schools can participate in the project. It will enhance their understanding of AI while working with the team of Smart City Lab - NCAI, NED UET and Research Center for Artificial Intelligence  NED University OF Engineering and Tech. Karachi
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2610589169009291/
+Are you working on an AI/ DS/ ML/ CV related project at your workplace, a research lab, or via freelance in Pakistan or abroad? (Focus is on Pakistan but your experience in companies abroad helps) If so, please volunteer for all or some of the following questions.  - What is your institution name? - Which domain in specific are you working on? Such as computer vision etc.  - What sort of questions does your company focus on at interviews? For instance some companies are known for heavy stats based questions for data analytics interviews from a book called Statistics with R. Would appreciate your depth in this. Others just focus on tools and no clear depth on concept. This question helps us in understanding the company.  - What language, tools are used at your institution if you are willing to answer.  - Does your company hire freshies (with some projects experience)?  - Does your company conduct a test? - What is the median salary at your workplace? You can choose to not answer this. - An insight if any, you would like to share for someone trying to enter this industry.  Edit: What are the one or two things your company looks for in a candidate in terms of experience? Atleast some software development background? Some self made projects? Their degrees? (I will be collecting these in a anon survey later on, with a few more questions and a form will be released. For now, share with us about your company! Will help me out in some questions by freshies)
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2597205430347665/
+Asalam o Alaikum... How can we tackle the problem of fine grained classification problem having a less data.. like less then 2000 images
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2590707147664160/
+ins
