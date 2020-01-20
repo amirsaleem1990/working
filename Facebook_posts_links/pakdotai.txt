@@ -242,3 +242,11 @@ Asalam o Alaikum... How can we tackle the problem of fine grained classification
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2590707147664160/
 ins
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2618299421571599/
+Register Now for DS Weekends by Pakistan.AI - Islamabad Chapter!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2616607138407494/
+Anyone here who has/is working on pattern recognition etc using sound as input? Basically sound recognition in short. Since we never had any discussion over this topic, if you have worked on a similar project or have this knowledge, please tell us a bit of what you did in the comments!  The article gives a brief of how Shazam works.
