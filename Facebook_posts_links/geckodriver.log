@@ -1,0 +1,2 @@
+1579497837168	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pdXycwOzJKb9"
+*** You are running in headless mode.
