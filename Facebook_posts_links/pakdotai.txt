@@ -250,3 +250,35 @@ Register Now for DS Weekends by Pakistan.AI - Islamabad Chapter!
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2616607138407494/
 Anyone here who has/is working on pattern recognition etc using sound as input? Basically sound recognition in short. Since we never had any discussion over this topic, if you have worked on a similar project or have this knowledge, please tell us a bit of what you did in the comments!  The article gives a brief of how Shazam works.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2602411729827035/
+EMPLOYMENT OPPORTUNITIES: Greetings from Abu Dhabi, UAE - new emerging AI start-up hub (newly established AI university, established​ ministry of artificial intelligence, UAE artifical intelligence strategy 2031, etc.). Our company rapidly grows and I am searching for colleagues worldwide to join my AI software R&D team in Abu Dhabi. My company AiFi Technologies is opening multiple AI/ML and OOP programming positions. You can get more info about current openings on our company website: https://aifitechnologies.com/careeror for further opportunities ( as more job openings are coming this year)subscribeFacebook: https://www.facebook.com/AiFi.TechnologiesTwitter: https://twitter.com/AiFiTechnologInstagram: https://www.instagram.com/aifi_technologies/or linkedinhttps://www.linkedin.com/company/aifi-technologies/about/Best Lukas Pastorek Ph.D.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2611574455577429/
+My first lecture on FAST AI :)  Hope it will help few and hope lot will help me improve :)
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2614439105290964/
+PIAIC Registrations are open in karachi, Last date ka pata nh apply now iff you want to learn any one of them. 1. Artificial Intelligence 2. Blockchain 3. Cloud Native and Mobile Web Computing 4. Internet Of Things 5. 5g and Software defined Networking 6. Quantum Computing Apply online or onsite as you wish. Regards: Junaid Qureshi 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2612725722128969/
+Are there any Senior Data Scientists here with a couple of use cases under their belt and 4 to 5 years of experience. (Based in KHI)
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2607471902654351/
+Allied Bank Limited ABL Jobs January 2019: Applications are invited for positions in Information Technology department.Eligibility:  Qualification: Four (04) year’s Bachelor’s degree in Information Technology.Positions :Data Engineer: 2+ years of experience in tools and technologies of Big Data and one or more programming languages such as Python, Java, C++, etc.Big Data / Data Lake Architect: 5+ years of experience in a similar Data Architect role. Must have hands-on experience on Hadoop and Data Lake Modeling.BI Analyst: 2+ years of experience in Business Intelligence and one of Data Visualization tool such as OBIEE, Cognos, Business Objects, Qlik, Tableau, Power BI etc.Data Scientist: 2+ years of experience in statistical modeling, machine learning, data mining practice, SQL, relational databases, database concepts, dimensional modeling and database design. Should also be proficient in one or more programming languages such as Java, C++, Python, R, JavaScript, etc. We are also looking for Senior Data Scientist; PhDs are encouraged to apply.Salary: Market competitive salaryLocation: Lahore onlyLast date to apply: Tuesday, 05 February 2019Interested candidates may send their CVs vide email to careers@abl.comMust write ‘CV for Digital Banking Application – IT’ in the subject line.https://www.careerjoin.com/allied-bank-limited-abl-jobs-january-2019/
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2599101390158069/
+FTI is currently enrolling for the 2nd cohort of its Data Science Certification. Course Starting from February 1st, 2020. For queries, please contact: 0322-6197150.  #datascience #certification #training #frontiertechnology #fti
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2614697375265137/
+A humble attempt on Medium. Give it a read guys.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2610686838999524/
+"Health Care is one of the most important fields AI gonna transform"Sundar Pichai - CEO ALPHABETAs, I said last year in a post that I will be starting a series of projects for AI in health care to show and inspire developer community to develop AI for Good. Asia is lacking far behind in health care as compared to other developed countries. But now everyone has the power of changing that using AI. AI can be the best assistant of doctors in enormous cases, from helping them automate several scans and also giving best recommendations to patients. The scope of AI in health care is not just limited to doctors. It can also empower biologists and chemists to create more effective drugs or medicine based on specific type of disease. It can also lead us to try molecular level programming that will one day be a part of us saving us from different epidemics.I will be creating the projects series that will use Machine learning and Deep learning to find the best solution of different problems in health care. The project series will be open source and will be available on github. It has 2 parts:-1. Creation of models in python along with their weights .h5 file.2. Creation of Web API's and android applications from that models to show the world and get a business out of it.
