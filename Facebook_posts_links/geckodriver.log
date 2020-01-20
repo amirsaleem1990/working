@@ -489,3 +489,27 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1579515808653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1579515809955	Marionette	INFO	Listening on port 41291
 1579515809994	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/I4BJW2h2QXt.js?_nc_x=pAsM9Lw-doT, line 10: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
