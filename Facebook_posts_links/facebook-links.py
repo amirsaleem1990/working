@@ -46,16 +46,18 @@ if input("Are u need visual tracking? [y\\n]:\t").lower() == "y":
 	from selenium.webdriver.firefox.options import Options
 	options = Options()
 	options.add_argument("--headless")
-	visual = True	
+	visual = True
+else:
+	visual = False
 while Successfully_logedin:
 	Successfully_logedin_num += 1
 	if Successfully_logedin_num > 1:
 		print(f"Attempt no. {Successfully_logedin_num} to Login")
 	try:
 		if visual:
-			browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
+			browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver")
 		else:
-			browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")	
+			browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)	
 
 		#navigates you to the facebook page.
 		browser.get('https://www.facebook.com/')
