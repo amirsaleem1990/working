@@ -8,9 +8,6 @@ import numpy as np
 import time
 import datetime
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
-options = Options()
-options.add_argument("--headless")
 
 os.chdir("/home/amir/github/working/Facebook_posts_links/")
 
@@ -45,13 +42,21 @@ with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt"
 print("Attempting to Login   ", current_time())
 Successfully_logedin = True
 Successfully_logedin_num = 0
+if input("Are u need visual tracking? [y\\n]:\t").lower() == "y":
+	from selenium.webdriver.firefox.options import Options
+	options = Options()
+	options.add_argument("--headless")
+	visual = True	
 while Successfully_logedin:
 	Successfully_logedin_num += 1
 	if Successfully_logedin_num > 1:
 		print(f"Attempt no. {Successfully_logedin_num} to Login")
 	try:
-		# browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
-		browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
+		if visual:
+			browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)
+		else:
+			browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")	
+
 		#navigates you to the facebook page.
 		browser.get('https://www.facebook.com/')
 
