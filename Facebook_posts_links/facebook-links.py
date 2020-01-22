@@ -43,12 +43,13 @@ print("Attempting to Login   ", current_time())
 Successfully_logedin = True
 Successfully_logedin_num = 0
 if input("Are u need visual tracking? [y\\n]:\t").lower() == "y":
+	visual = True
+else:
 	from selenium.webdriver.firefox.options import Options
 	options = Options()
 	options.add_argument("--headless")
 	visual = False
-else:
-	visual = True
+	
 while Successfully_logedin:
 	Successfully_logedin_num += 1
 	if Successfully_logedin_num > 1:
