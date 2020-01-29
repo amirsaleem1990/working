@@ -1354,3 +1354,11 @@ Sandbox: Unexpected EOF, op 0 flags 02400302 path /dev/shm/org.mozilla.ipc.22744
 [Child 22744, Main Thread] WARNING: failed to open shm: Connection reset by peer: file /build/firefox-XRoLc6/firefox-72.0.1+build1/ipc/chromium/src/base/shared_memory_posix.cc, line 250
 [GFX1-]: Failed buffer for 0, 0, 1356, 1469
 Exiting due to channel error.
+1580282168593	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BmuPVB2cshUk"
+1580282169023	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580282169165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580282169165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580282169165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580282169165	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1580282170761	Marionette	INFO	Listening on port 43143
+1580282170845	Marionette	WARN	TLS certificate errors will be ignored for this session
