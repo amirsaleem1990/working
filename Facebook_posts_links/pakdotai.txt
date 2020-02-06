@@ -298,3 +298,27 @@ The year 2019 has been the year of AI unarguably. The succeeding year 2020 has p
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2649403018461239/
 Current State of AI programming. We need a language having syntax similar to python and speed similar to C, yes it is Swift.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2647900568611484/
+Saudi based big Data Company is hiring for its Karachi Unit: 1. ETL & Datawarehousing Specialist: Requirements: - 3 Years Experience at least - ETL tool expertise(SSIS, Pentaho, Talend),OLAP Cube, - Data Warehouse Approach/Data Modelling Design. - Strong concept in SQL. - Good Understanding of.SQL Server, Oracle & MYSQL Database Must be willing to travel to KSA, UAE and other countries occasionally for Project delivery  Location: Shahra E Faisal, Karachi  Apply at jobs@hrways.co (not com) with position and city mentioned in subject  #ETL #Datawarehousing #TechPlacements #HRWays #Karachi
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2633231053411769/
+Looking for candidates proficient in both AI and building trading strategies, equity optimisation models, stocks, forex, bonds, futures, various sorts of indicators and other derivatives. Kindly reach out if your skill set matches above mentioned domains!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2647388381996036/
+Hi everyone, I am deploying my keras tensorflow model (.pb file) into Android device for image classification problem. Below is the error which I am facing: No OpKernel was registered to support Op 'VarHandleOp' with these attrs. Registered devices: [CPU], Registered kernels: <no registered kernels> [[{{node conv2d/kernel}} = VarHandleOp[_class=["loc:@conv2d/kernel"], container="", dtype=DT_FLOAT, shape=[3,3,1,64], shared_name="conv2d/kernel"] () ]] Following are the parameters: Input Size= 100 Image Mean= 108 Image Std= 60.07f Input Name= "conv2d_3_input" Ouput Name= "activation_7/Sigmoid" Kindly suggest me the way out. Thanks in advance!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2643782059023335/
+Tania Aidrus, the new chief of Digital Pakistan Vision had a detailed technical session with senior PIAIC faculty and the best students at Kazi Rahat Ali's house at Lunch.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2634195343315340/
+project 1 (AI in health Care series): A Convolutional Neural Network to classify chest xray images of a person.This Project used tensorflow and CNN (Convolutional Neural Network) to predict about Chest X-rays scan image that whether a person has Pneumonia or he is Normal.Link to the whole project: https://lnkd.in/dVm9xBRif you like the project kindly give it a star on github and follow me to get more projects like that.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2101439189924294/
+I wrote an article explaining Neural networks with code and without numpy and matrices(to make things simpler) :P Have a look at it and do give your reviews on medium. Thanks. 
