@@ -42,13 +42,13 @@ with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt"
 print("Attempting to Login   ", current_time())
 Successfully_logedin = True
 Successfully_logedin_num = 0
-if input("Are u need visual tracking? [y\\n]:\t").lower() == "y":
-	visual = True
-else:
-	from selenium.webdriver.firefox.options import Options
-	options = Options()
-	options.add_argument("--headless")
-	visual = False
+# if input("Are u need visual tracking? [y\\n]:\t").lower() == "y":
+	# visual = True
+# else:
+from selenium.webdriver.firefox.options import Options
+options = Options()
+options.add_argument("--headless")
+visual = False
 	
 while Successfully_logedin:
 	Successfully_logedin_num += 1
