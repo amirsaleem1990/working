@@ -84,48 +84,49 @@ while Successfully_logedin:
 	except:
 		pass
 # pages i nedd in list: "idreesazad2", "itsfoss/", "azeemnama", "AkxOAwaz"
-FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
-		"asif.mahmood.1671", 				# asif mahmood
-		"zahid.mughal.5895", 				# zahid mughal
-		"mohammad.f.haris", 				# mohammad fahad haris
-		"abdullah.adam49", 					# abdullah adam 
-		"hm.zubair.52", 					# Hm Zubair 
-		"muhammad.imra.100",				# Muhammad Imran
-		"munib.hussain86", 					# munib hussain 
-		"jameelbaloch1924", 				# jameel baloch 
-		"theguided1",  						# Rizwan Asad Khan
-		"abubakr.quddusi.3", 				# abubakr quddusi 
-		"mohammaddin.jauhar.7", 			# mohammad din jauhar 
-		"Riayat.Farooqui",  				# riayatullah farooqui 
-		"asim.allahbakhsh", 				# asim allahbakhsh 
-		"sohaib.naseem.3", 					# میسن بیہص  
-		"idreesazaad", 						# Idrees Azad ‎
-		"Abu.Musab.98622733", 				# بعصم دمحم وبا 
-		"profile.php?id=100026041448813", 
-		"profile.php?id=100010667655748",   # mohammad saleem 
-		"profile.php?id=100043920022318",   # سرورالدین سرور
-		"ajeebscenehaibhai", 
-		"nouman.atd.3", 					# Nouman Ihsan
-		"profile.php?id=100032249983289", 	# مالسا سنا
-		"HamidKamaluddin.personal", 		# Hamid kamaluddin
-		"faisal.shahzad.1253236", 			# دازہش لصیف دمحم
-		"tariq.habib.969952", 				# tariq habib
-		"mahtabaziz", 						# mahtab khan
-		"suhaib.jamal.1", 					# Suhaib Jamal
-		"hanifsamanaa",						# hanif samanaa
-		"groups/pakdotai/",					# pakistan.ai
-		"atheismcrusher.pk", 				# abu ibrahim
-		"roxane.apolonio.773",				# کاڑھک اد ےکاک 
-		"anwaar456",						# ردیح راونا
-		"muhammad.bhatti.9250",				# Muhammad Bhatti
-		"Bhaihasib1",						# Haseeb Khan
-		"mateen.ahmad2010",					# Syed Mateen Ahmad
-		"profile.php?id=100009666136877",	# Faizullah Khan
-		"profile.php?id=100004721416966",	# Dr-Muhammad Shahbaz Manj
-		"profile.php?id=100010345081577",	# Ali Imran
-		"zeeshan1857",						# Zeeshan Waraich
-		"jamilasgharjaami"					# jamil asghar jaami 
-	  ]
+FB = ["MMushtaqYusufzai"]
+# FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
+# 		"asif.mahmood.1671", 				# asif mahmood
+# 		"zahid.mughal.5895", 				# zahid mughal
+# 		"mohammad.f.haris", 				# mohammad fahad haris
+# 		"abdullah.adam49", 					# abdullah adam 
+# 		"hm.zubair.52", 					# Hm Zubair 
+# 		"muhammad.imra.100",				# Muhammad Imran
+# 		"munib.hussain86", 					# munib hussain 
+# 		"jameelbaloch1924", 				# jameel baloch 
+# 		"theguided1",  						# Rizwan Asad Khan
+# 		"abubakr.quddusi.3", 				# abubakr quddusi 
+# 		"mohammaddin.jauhar.7", 			# mohammad din jauhar 
+# 		"Riayat.Farooqui",  				# riayatullah farooqui 
+# 		"asim.allahbakhsh", 				# asim allahbakhsh 
+# 		"sohaib.naseem.3", 					# میسن بیہص  
+# 		"idreesazaad", 						# Idrees Azad ‎
+# 		"Abu.Musab.98622733", 				# بعصم دمحم وبا 
+# 		"profile.php?id=100026041448813", 
+# 		"profile.php?id=100010667655748",   # mohammad saleem 
+# 		"profile.php?id=100043920022318",   # سرورالدین سرور
+# 		"ajeebscenehaibhai", 
+# 		"nouman.atd.3", 					# Nouman Ihsan
+# 		"profile.php?id=100032249983289", 	# مالسا سنا
+# 		"HamidKamaluddin.personal", 		# Hamid kamaluddin
+# 		"faisal.shahzad.1253236", 			# دازہش لصیف دمحم
+# 		"tariq.habib.969952", 				# tariq habib
+# 		"mahtabaziz", 						# mahtab khan
+# 		"suhaib.jamal.1", 					# Suhaib Jamal
+# 		"hanifsamanaa",						# hanif samanaa
+# 		"groups/pakdotai/",					# pakistan.ai
+# 		"atheismcrusher.pk", 				# abu ibrahim
+# 		"roxane.apolonio.773",				# کاڑھک اد ےکاک 
+# 		"anwaar456",						# ردیح راونا
+# 		"muhammad.bhatti.9250",				# Muhammad Bhatti
+# 		"Bhaihasib1",						# Haseeb Khan
+# 		"mateen.ahmad2010",					# Syed Mateen Ahmad
+# 		"profile.php?id=100009666136877",	# Faizullah Khan
+# 		"profile.php?id=100004721416966",	# Dr-Muhammad Shahbaz Manj
+# 		"profile.php?id=100010345081577",	# Ali Imran
+# 		"zeeshan1857",						# Zeeshan Waraich
+# 		"jamilasgharjaami"					# jamil asghar jaami 
+# 	  ]
 
 with open("ids_removed_from_facebook.pkl", "rb") as file:
     ids_removed_from_facebook = pickle.load(file)
@@ -193,7 +194,7 @@ for fb in FB:
 				links_ = a.select('a')
 				for i in links_:
 					link = i['href']
-					if link.startswith("https://web.facebook.com/"):
+					if link.startswith("https://www.facebook.com/"):
 						if not link in str(all_links):
 							if "/posts/" in link: # failing to capture like this link (https://web.facebook.com/permalink.php?story_fbid=129882195152447&id=100043920022318)
 								if not "?comment_id=" in link:
