@@ -151,7 +151,7 @@ for fb in FB:
 			print(f"new id added: <{fb_base_url + fb}>")
 			all_links[fb] = []
 		browser.get(complted_url)
-		s = BeautifulSoup(browser.page_source, "lxml")
+		s = BeautifulSoup(browser.page_source, "lxml", features="lxml")
 
 		##################################################
 		# only for groups 
@@ -205,7 +205,7 @@ for fb in FB:
 									except:
 										errors.append([fb, link])
 										continue
-									soup = BeautifulSoup(browser.page_source, "lxml")
+									soup = BeautifulSoup(browser.page_source, "lxml", features="lxml")
 									try:
 										aa = soup.find("div", {"class" : "_5wj-"}).text
 										if len(aa) > 0:
