@@ -56,10 +56,11 @@ while try_for_success_fully_logedin:
 
 errors = []
 succussfully_extracted = 0
-os.chdir("/home/amir/github/working/Facebook_posts_links/")
+
 os.system("ipython3 /home/amir/github/working/Facebook_posts_links/links-pickle-to-df.py")
 df = pd.read_csv("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.csv")
 
+os.chdir("/home/amir/github/working/Facebook_posts_links/")
 a = ''.join(list(os.popen("cat *.txt")))
 indexes = [e for e,i in enumerate(df.Link) if not i in a]
 to_scrap = df.iloc[indexes]
