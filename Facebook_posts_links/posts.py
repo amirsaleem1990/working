@@ -53,7 +53,7 @@ while try_for_success_fully_logedin:
 		try_for_success_fully_logedin = False
 	except:
 		pass
-os.system("ipython3 links-pickle-to-df.py")
+
 errors = []
 succussfully_extracted = 0
 
