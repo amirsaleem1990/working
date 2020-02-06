@@ -322,3 +322,19 @@ project 1 (AI in health Care series): A Convolutional Neural Network to classify
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2101439189924294/
 I wrote an article explaining Neural networks with code and without numpy and matrices(to make things simpler) :P Have a look at it and do give your reviews on medium. Thanks. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2615197311881810/
+Dawaai.pk is looking to hire the following for its Product Team: Data Scientist - 1 position - with 1+ year of experience. Working Proficiency in MySQL and knowledge of either Python for Data Science or R is required. The candidate should also be familiar with ML concepts.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2649396191795255/
+PHC Global is looking for an experienced AI & Full Stack Developer.  Those who wants to apply please share your CVs at hr@phcglobal.org
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2650268221708052/
+The year 2019 has been the year of AI unarguably. The succeeding year 2020 has promised many more miracles to come. Have a look at top 10 AI trends to watch in 2020. #artificialintelligence #ai #iot #machinelearning #deeplearning #datascience #blockchain #fintech #technology #automation #businessprocessautomation #trends #top10 #year2020 #robot #robotics #bigdata #healthcare 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2649403018461239/
+Current State of AI programming. We need a language having syntax similar to python and speed similar to C, yes it is Swift.
