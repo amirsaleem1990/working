@@ -282,3 +282,19 @@ A humble attempt on Medium. Give it a read guys.
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2610686838999524/
 "Health Care is one of the most important fields AI gonna transform"Sundar Pichai - CEO ALPHABETAs, I said last year in a post that I will be starting a series of projects for AI in health care to show and inspire developer community to develop AI for Good. Asia is lacking far behind in health care as compared to other developed countries. But now everyone has the power of changing that using AI. AI can be the best assistant of doctors in enormous cases, from helping them automate several scans and also giving best recommendations to patients. The scope of AI in health care is not just limited to doctors. It can also empower biologists and chemists to create more effective drugs or medicine based on specific type of disease. It can also lead us to try molecular level programming that will one day be a part of us saving us from different epidemics.I will be creating the projects series that will use Machine learning and Deep learning to find the best solution of different problems in health care. The project series will be open source and will be available on github. It has 2 parts:-1. Creation of models in python along with their weights .h5 file.2. Creation of Web API's and android applications from that models to show the world and get a business out of it.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2615197311881810/
+Dawaai.pk is looking to hire the following for its Product Team: Data Scientist - 1 position - with 1+ year of experience. Working Proficiency in MySQL and knowledge of either Python for Data Science or R is required. The candidate should also be familiar with ML concepts.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2649396191795255/
+PHC Global is looking for an experienced AI & Full Stack Developer.  Those who wants to apply please share your CVs at hr@phcglobal.org
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2650268221708052/
+The year 2019 has been the year of AI unarguably. The succeeding year 2020 has promised many more miracles to come. Have a look at top 10 AI trends to watch in 2020. #artificialintelligence #ai #iot #machinelearning #deeplearning #datascience #blockchain #fintech #technology #automation #businessprocessautomation #trends #top10 #year2020 #robot #robotics #bigdata #healthcare 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2649403018461239/
+Current State of AI programming. We need a language having syntax similar to python and speed similar to C, yes it is Swift.
