@@ -128,3 +128,4 @@ JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: 
 1581057281330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1581057283356	Marionette	INFO	Listening on port 42193
 1581057283432	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581057332906	Marionette	INFO	Stopped listening on port 42193
