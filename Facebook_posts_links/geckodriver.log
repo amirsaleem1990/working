@@ -628,3 +628,4 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 1581079514742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1581079516096	Marionette	INFO	Listening on port 38043
 1581079516671	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
