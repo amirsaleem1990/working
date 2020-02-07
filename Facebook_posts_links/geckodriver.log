@@ -598,3 +598,5 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1581078584871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1581078589690	Marionette	INFO	Listening on port 37571
 1581078589719	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1581078914361	Marionette	INFO	Stopped listening on port 37571
