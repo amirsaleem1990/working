@@ -576,3 +576,5 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1581078119410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1581078120718	Marionette	INFO	Listening on port 32891
 1581078120794	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1581078189897	Marionette	INFO	Stopped listening on port 32891
