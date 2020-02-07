@@ -362,3 +362,11 @@ project 1 (AI in health Care series): A Convolutional Neural Network to classify
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2101439189924294/
 I wrote an article explaining Neural networks with code and without numpy and matrices(to make things simpler) :P Have a look at it and do give your reviews on medium. Thanks. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2652460378155503/
+Does anyone have any experience with object tracking using TensorFlow?Does anyone have any experience with object tracking using TensorFlow?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2649530335115174/
+#Cresta #Zaydenam 
