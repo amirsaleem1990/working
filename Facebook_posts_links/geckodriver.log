@@ -61,3 +61,5 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
 GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1136:3
 
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1581055366040	Marionette	INFO	Stopped listening on port 39017
