@@ -496,3 +496,5 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 1581074236227	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
 1581074330596	Marionette	INFO	Stopped listening on port 34831
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1581074719745	Marionette	INFO	Stopped listening on port 35529
