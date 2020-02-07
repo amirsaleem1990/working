@@ -600,3 +600,11 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1581078589719	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
 1581078914361	Marionette	INFO	Stopped listening on port 37571
+1581078991070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IGLh86gq6wP0"
+1581078991466	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581078991580	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581078991580	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581078991580	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581078991580	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581078992949	Marionette	INFO	Listening on port 38161
+1581078992981	Marionette	WARN	TLS certificate errors will be ignored for this session
