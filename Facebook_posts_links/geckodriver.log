@@ -16,3 +16,9 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1581052305962	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1581052307352	Marionette	INFO	Listening on port 42493
 1581052307524	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:11888): IBUS-WARNING **: 10:16:30.021: Create input context failed: The connection is closed.
+Gdk-Message: 10:16:30.084: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Exiting due to channel error.
+Exiting due to channel error.
