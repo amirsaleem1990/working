@@ -246,3 +246,4 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1581062048460	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
 1581066483651	Marionette	INFO	Stopped listening on port 32937
+1581066546786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wQezupS6IlTC"
