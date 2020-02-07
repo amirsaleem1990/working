@@ -92,7 +92,7 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"hm.zubair.52", 					# Hm Zubair 
 		"muhammad.imra.100",				# Muhammad Imran
 		"munib.hussain86", 					# munib hussain 
-		"jameelbaloch1924", 				# jameel baloch 
+		"jameelbaloch1924", 				# jameel baloch           #Blocked
 		"theguided1",  						# Rizwan Asad Khan
 		"abubakr.quddusi.3", 				# abubakr quddusi 
 		"mohammaddin.jauhar.7", 			# mohammad din jauhar 
@@ -106,7 +106,7 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"profile.php?id=100043920022318",   # سرورالدین سرور
 		"ajeebscenehaibhai", 
 		"nouman.atd.3", 					# Nouman Ihsan
-		"profile.php?id=100032249983289", 	# مالسا سنا
+		"profile.php?id=100032249983289", 	# مالسا سنا              (Blocked)
 		"anas.islam.3551"                   # مالسا سنا
 		"HamidKamaluddin.personal", 		# Hamid kamaluddin
 		"faisal.shahzad.1253236", 			# دازہش لصیف دمحم
