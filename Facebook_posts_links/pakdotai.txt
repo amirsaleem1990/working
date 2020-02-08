@@ -370,3 +370,15 @@ Does anyone have any experience with object tracking using TensorFlow?Does anyon
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2649530335115174/
 #Cresta #Zaydenam 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2655168221218052/
+I'm developing an Urdu speech chatbot in python which can generally comprehend a conversation with a human regardless of any domain. Can anyone help me regarding dataset collection for this project....
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2652948224773385/
+We're Proud to announce Pakistan.AI as our "Outreach Supporter" for Fedora 31 Release Party Karachi. Thank You very much for your Support. The Event is on 15th Feb, 2-5 PM at The Nest I/O. Haven't registered yet, Here's the Link : https://forms.gle/7jUsmKay9ivo51Jd9
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2655102254557982/
+https://machinelearningknowledge.ai/online-jupyter-notebook-cloud-platforms-gpu-no-setup-needed/
