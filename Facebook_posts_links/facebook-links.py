@@ -92,7 +92,7 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"hm.zubair.52", 					# Hm Zubair 
 		"muhammad.imra.100",				# Muhammad Imran
 		"munib.hussain86", 					# munib hussain 
-		"jameelbaloch1924", 				# jameel baloch           #Blocked
+		"jameelbaloch1924", 				# jameel baloch           
 		"theguided1",  						# Rizwan Asad Khan
 		"abubakr.quddusi.3", 				# abubakr quddusi 
 		"mohammaddin.jauhar.7", 			# mohammad din jauhar 
