@@ -382,3 +382,31 @@ We're Proud to announce Pakistan.AI as our "Outreach Supporter" for Fedora 31 Re
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2655102254557982/
 https://machinelearningknowledge.ai/online-jupyter-notebook-cloud-platforms-gpu-no-setup-needed/
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2658603107541230/
+TensorFlow in Practice Specialization | Coursera There are 4 Courses in this Specialization: 1)Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning. 2)Convolutional Neural Networks in TensorFlow. 3)Natural Language Processing in TensorFlow. 4)Sequences, Time Series and Prediction. http://bit.ly/2G6qCL5
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2656127524455455/
+Hi, I have ~350K text examples and around ~100K are labelled. Anyone can suggest what technique should I choose to label other examples. I have tried basic techniques/algorithms like clustering, ML model but results are not good. Any suggestions?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2656736054394602/
+To everyone who thinks learning Python will make you a Data Scientist.  Don't stay away from the reality what classic Statistics (Frequentist, Bayesian) do to your real data.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2657114397690101/
+A friend, a graduate engineer from The University of Mississippi is looking out for a remote job as a data analyst/database engineer or related position. I’d appreciate any advice  or leads. Skills are and not limited to PowerBI, SQL, Phyton, MySQL, MS Excel and MATLAB. Thank you in advance.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2657224211012453/
+Since the outbreak, healthcare organizations were utmostly stressed. In such desperate times, AI stepped forward to assist in the life-saving struggle.#coronavirus #artificialintelligence #ai #healthcare #machinelearning #deeplearning #virology #drugdiscovery #drugdevelopment #drugdesign #technologyhttps://thinkml.ai/coronavirus-ai-is-making-the-difference/
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2656055611129313/
+Fellow ML/AI enthusiasts - At NexDegree we believe in solving some of the most challenging data problems in retail, finance, healthcare, machine vision, law and government (to name just a few) both domestically and around the globe - If you have a curious mind, like to ask lots of questions, are looking to make an impact and seeking a real challenge by working with us as we grow in our Karachi office - shoot us a message at liberate@nexdegree.com.In the subject line write "Pakistan.AI Challenge Me!" and in the body include both your resume/CV and a sentence as to why you think you're awesome! We look forward to connecting!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2642079622526912/
+Attention all applicants : "DS Weekends by Pakistan.AI - Machine Learning for Data Science" Anyone who has still not received follow up application process email, please DM me your email ID. University students: If you submitted your university email ID and you have still not received the follow-up application process email, DM me your alternative email ID.
