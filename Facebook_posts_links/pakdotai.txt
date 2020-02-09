@@ -414,3 +414,19 @@ Attention all applicants : "DS Weekends by Pakistan.AI - Machine Learning for Da
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2659092154158992/
 #MachineLearning for #DataScience! #Take1: Intro to Python for DataScience First things first! A big #shoutout to all the finalized Data Science Enthusiasts for 6-weeks workshop series of "DS Weekends-Machine Learning for DataScience"! conducted by Pakistan.AI in Islamabad!  Pakistan.AI received an overwhelming response of almost 200 applicants and shortlisting final applicants to 40 was itself a daunting task as it proved to be immensely competitive! #Congratulate yourself and pat your back for making it this far and we are #thrilled to have you #on-board! And now - Just a glimpse of today's immersive 6-hours boot-camp: "Intro to Python for Data Science" It was truly an an exhilarating experience to have an immensely dedicated pool of enthusiastic techies ranging from students & professionals to faculty & techpreneurs! While Abeer Noor & Saad Zia led the technical lead of #Python for #DataScience, we also had Muneeba Sirshar, Miss Saba Rasheed Malik (Global Lead of Academia/Students @ Pakistani Women In Computing - PWiC) & Anqa Akram as our Academic Facilitators throughout our day packed activities! And last but not the least, Team National University Computing Society thumbs up for providing all the venue necessities! P.S : DataScience Enthusiasts - You will soon be enrolled in Piazza Community and bombarded with a tons of Machine Learning Coding Challenges that you must complete before we embark on our next "Machine Learning for Data Science" workshop's journey - So keep a sharp eye on your inbox! DS Weekends - Machine Learning for Data Science: http://bit.ly/39jYWyW  #PakistanAI #DSWeekends - Machine Learning for DataScience #PWiC #NUCS #PythonforDataScience #InteractiveLearning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2643967672338107/
+k
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2648403858561155/
+What is best online course for  Database systems which covers both SQL and database designing? P.S i'm more interested in theoretical part of course like architecture and designing of database etc.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2658583660876508/
+SFI Centre for Research Training (CRT) in Artificial Intelligence..Fully Funded PhD positions (30-35 posts) across 5 Irish Universities https://datascienceinstitute.ie/…/SFI_Centre_for_Research_T…
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2276345365767008/
+So much of the study I did assumed I had data. Well, now I don't and I can't seem to find a guide on how to label images like these so excuse this basic question.How do I label these cracks? Should I use lines or the brush tool? Do I tag them as cracks afterward? What I have seen done is that a different class of objects is made like kiwi and lemons. Do I make a class for cracks and road? Many thanks. *The end goal is segmentation.
