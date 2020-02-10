@@ -50,7 +50,7 @@ while Successfully_logedin:
 		pass
 
 errors = []
-df = pd.read_csv("../Links.csv")
+df = pd.read_csv("/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/1-facebook-users-all-posts-links/Links.csv")
 for unique_name in df.Name.unique():
 	if not unique_name in ["mohammad.f.haris", "Riayat.Farooqui", "theguided1", "hm.zubair.52", "munib.hussain86"]:
 		print("************************************************************************")
