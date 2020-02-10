@@ -87,4 +87,3 @@ for unique_name in df.Name.unique():
 					pass
 	except:
 		print(f"Error: {name}")
-
