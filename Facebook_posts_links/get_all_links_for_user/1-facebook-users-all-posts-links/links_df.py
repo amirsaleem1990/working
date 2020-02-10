@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 from bs4 import BeautifulSoup
 orignal_dir = os.getcwd()
-os.chdir("Extracted")
+os.chdir("/home/amir/Extracted")
 folders = os.listdir()
 LINKS = []
 for fb in folders:
