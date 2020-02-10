@@ -430,3 +430,23 @@ SFI Centre for Research Training (CRT) in Artificial Intelligence..Fully Funded 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2276345365767008/
 So much of the study I did assumed I had data. Well, now I don't and I can't seem to find a guide on how to label images like these so excuse this basic question.How do I label these cracks? Should I use lines or the brush tool? Do I tag them as cracks afterward? What I have seen done is that a different class of objects is made like kiwi and lemons. Do I make a class for cracks and road? Many thanks. *The end goal is segmentation.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2660836483984559/
+Use this One Weird Trick to make your Python code blindingly fast: from numba import jit @jit def loops():         a = 0         for i in range(1000):                 for j in range(1000):                         for k in range(1000):                                 a += i * j * k         return a  print(loops()) What to watch for: 1. If there's a Numpy function that already does what you want, use that. 2. Numba covers most of native Python and Numpy functions, but not 100%. 3. jit-ted code is a bit trickier to debug, so save @jit for decorating your processing bottlenecks.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2659050710829803/
+We are looking for a Data Engineer to work on ETL pipelines, entity resolution, automated ml, web scraping and a lot of other cool stacks. We use BigQuery, Data Build Tool (DBT), Google Could Platform, Python etc. This job is for our Karachi based office. Interested people please feel free to contact us here, or send in your CVs at uroosa@marketlytics.com Cheers!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2661041820630692/
+Does anyone have this pdf?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2661031903965017/
+An intro clustering using Shaply Additive Explanation.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2660729577328583/
+Hello everyone, it's been long since I posted my last article. Currently I have created more than ten(10) deep learning based products with/without big data, and sharing details and research of one of my product "Voice Cloning"keywords : Tacotron-2, Wave Net, Wave Glow, FFMPEGPlease refer to link below.https://github.com/elacsoft/Voice-Cloning
