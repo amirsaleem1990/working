@@ -14,7 +14,7 @@ options.add_argument("--headless")
 
 
 os.system("clear")
-with open("../facebook-userName-and-password_3.txt", "r") as file:
+with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
 Successfully_logedin = True
 Successfully_logedin_num = 0
