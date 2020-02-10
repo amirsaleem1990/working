@@ -70,7 +70,7 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"jamilasgharjaami"					# jamil asghar jaami 
 	  ]
 
-with open("All_FB_links_names_corrected.pkl", "rb") as file:
+with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
 	all_links = pickle.load(file)
 
 stored_links_qty = sum([len(all_links[i]) for i in all_links])	
@@ -120,7 +120,7 @@ while Successfully_logedin:
 		pass
     
 
-with open("ids_removed_from_facebook.pkl", "rb") as file:
+with open("/home/amir/github/working/Facebook_posts_links/ids_removed_from_facebook.pkl", "rb") as file:
 	ids_removed_from_facebook = pickle.load(file)
 ids_removed_from_facebook = list(ids_removed_from_facebook.keys())
 
@@ -165,7 +165,7 @@ def get_next_page_link(LINK):
 for fb in FB:
     try:
         print(fb)
-        folder_name = "/home/amir/PKL/" + fb
+        folder_name = "/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/0-get-timeline-and-further-links/PKL/" + fb
         os.mkdir(folder_name)
         complted_url = fb_base_url + fb
 
