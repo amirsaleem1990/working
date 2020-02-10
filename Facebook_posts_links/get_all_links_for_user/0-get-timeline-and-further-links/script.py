@@ -26,11 +26,6 @@ def current_time():
 	tt = tt.strip(":")
 	return tt
 
-# home = list(os.popen("echo $HOME"))[0].strip()
-# # in kali the symbolic linc of <github> folder is at </root/amir>
-# if home == "/root":
-# 	home = "/root/amir"
-
 FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"asif.mahmood.1671", 				# asif mahmood
 		"zahid.mughal.5895", 				# zahid mughal
