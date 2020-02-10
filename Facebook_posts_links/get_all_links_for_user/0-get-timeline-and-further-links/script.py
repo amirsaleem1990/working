@@ -9,7 +9,7 @@ import time
 import datetime
 from selenium.webdriver.common.keys import Keys
 
-os.chdir("/home/amir/github/working/Facebook_posts_links/")
+os.chdir("/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/0-get-timeline-and-further-links")
 
 os.system("clear")
 
