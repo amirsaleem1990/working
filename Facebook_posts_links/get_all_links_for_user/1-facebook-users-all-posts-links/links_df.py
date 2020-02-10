@@ -31,3 +31,4 @@ df = df.drop_duplicates()
 df.columns = ["Name", "Link"]
 
 df.to_csv("Links.csv", index=False)
+gopen("Links.csv")
