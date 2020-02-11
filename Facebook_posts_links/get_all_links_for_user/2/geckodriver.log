@@ -223,3 +223,6 @@ JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/FFsB_XOcYEA.js?_n
 JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 92: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
 JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 92: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
 JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 92: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 303: TypeError: this._timeouts.remove is not a function
