@@ -450,3 +450,11 @@ An intro clustering using Shaply Additive Explanation.
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2660729577328583/
 Hello everyone, it's been long since I posted my last article. Currently I have created more than ten(10) deep learning based products with/without big data, and sharing details and research of one of my product "Voice Cloning"keywords : Tacotron-2, Wave Net, Wave Glow, FFMPEGPlease refer to link below.https://github.com/elacsoft/Voice-Cloning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2665111306890410/
+We are excited for the Chai & AI Meetup happening this weekend at NIC! Who all will I meet there?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2617383661663175/
+Anyone who has worked with time series forecasting, specifically Solar PV power output forecasts?  Please do comment!
