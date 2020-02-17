@@ -474,3 +474,51 @@ Can anyone recommend online data science course preferably no code/low code.. I 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2663805280354346/
 Anyone heard of this place or done the modules? Its tuition free so is It a good place to get started. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2671205242947683/
+Thanks we already got over 50+ CVs . Plz consider this post as close . Thanks to Pakistan AI and all of you. We are looking for 2-3 internees (ML and CV) , we will teach and train them and this internship will lead to a job.Location is Bahria town phase 4 , RWPInternship is in Machine Learning and Computer Vision. Plz just send ur CV on FB Msg Thanks
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2672731109461763/
+Hi guys, I hope you are enjoying great health. I have great passion for robotics, especially Humanoids and have started developing my own as a learning curve. I will be sharing the progress through Vlogs on my youtube channel. If you like the video, kindly subscribe to the channel as well:https://www.youtube.com/watch?v=DEy0i7FsDH8
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2674916839243190/
+face-api.js — JavaScript API for Face Recognition
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2674654532602754/
+Had fun moderating a panel at GDG Kolachi's event yesterday- #ChaiAndAI over the state and future of AI Industry in Pakistan with the panelists who are some of the leading experts in this Industry. Hussain Mehmood from MarketLytics, Zia Saleem from Integration Experts, and Noman Khalid from LFD.  The conclusion of the panel talk: We identified a few challenges that the Industry faces i.e High demand of resources but less supply of quality resources, aversity to enter this Industry from potential clients, lack of proper data due to not a proper infrastructure etc. The panelists shared how they have gone above and beyond to fix the challenges above by training people for supply and demand side, by spending a decent amount of time with clients to help them not only believe how data centered processes can increase their efficiacy but also adjusting to their environments to deliver the solution the client wants.  A lot of different industries approach AI/ML companies just because their counterpart industries did something similar, without knowing why they need it. But the AI/Ml companies bear a huge responsibility educating such industries and helping them derive a solution that offers efficiency above cost- and sales matter. One crucial advice for people aspiring to enter this fiend was "Do not enter this field just because you think its the end of the world if you dont study anything AI/ ML related- do it because you like it." If you are that keen on learning, still identify your passion first- it could be psychology, marketing anything and then figure out how you can apply AI in this domain. Yes this field has been around for a long time but innovations has been more lately. As Zia Saleem quoted, "If you were interested in data science a few years back, you probably would have been doing a BBA," and Noman Khalid said, "Do a BBA" :P and yes finish what you have started, don't jump here and there- begin and finish. There are different learning tracks leading you to the same thing often, but pick one and go through entirely. Be consistent. And yes, as we say again and again and again- "YOU CANNOT BECOME A DATA SCIENTIST IN ONE MONTH, NOT EVEN IF UDACITY CLAIMS IT." Overall, we have some great people in the Industry trying to equip the generation for the 4th Industrial wave. There are challenges, it will take time, but these people understand the ins and out and are working tirelessly and will full believe to make things happen. There was a lot more to learn. If anybody else attended, please do quote. Lastly, there were still a lot of people confused between AI, ML, DS and the differences between all- if you are confused please take a lot at our announcements at the 'Pakistan.AI Bank'. We have maintained all this on our Github.  This last year I tried to focus on professional growth (as you know, I am a software engineer at Systems) but oh how much have I missed community work!!!! Thanks to GDG Kolachi for a well organized and content rich event P.S: If anybody knows Zia Saleem, please do invite him to join this group. ^_^
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2672673909467483/
+Huge turn out for great panel discussion and talks today at Chai & AI - February 2020 meetup by GDG Kolachi in Karachi
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2672975269437347/
+Someone think Machine Learning 🤖 is only writing code 💻 But... Reality!! Maths Matter 😂
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2672742779460596/
+A short review of ML
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2673913319343542/
+Managing ML Dev Cycle.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2672718819462992/
+#ProjectBasedOpportunity  #RapidMiner #DataScience A company is looking for an expert in RapidMiner for a short-term project based opportunity.  DM with a brief paragraph about your relevant expertise in RapidMiner.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2671597806241760/
+This is how Tesla's self driving cars Identfiy objects through its camera. The same technology is supposed to be used in medical field to identify cancer patterns or other anomalies in imagery.  The very advanced technology, very rarely implemented and its applications are limitless.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2672491769485697/
+How to train a new language model from scratch using Transformers and Tokenizers. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2670858352982372/
+https://www.kaggle.com/docs/tpu?utm_medium=social&utm_source=twitter&utm_campaign=tpu-announcement-1
