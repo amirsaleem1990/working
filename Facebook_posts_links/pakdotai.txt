@@ -534,3 +534,7 @@ how python pyc file can be decompiled?
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2679419782126229/
 Facebook recently announced a hackathon in AI, Messaging and AR, having a combined prize pool of $21,000 and a chance to win a fully-funded trip to the F8 hackathon (hosted in San Jose a.k.a Silicon Valley). It's a great opportunity for you to showcase your skills!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2680940071974200/
+We're looking for someone with senior experience to jump into a sea of data and derive value from it!
