@@ -1,7 +1,9 @@
 import requests
 import os
 from bs4 import BeautifulSoup
-url = input("paste your URL: ")
+import sys
+# url = input("paste your URL: ")
+url = sys.argv[1]
 soup = BeautifulSoup(requests.get(url).text, "lxml")
 for i in soup.select("a"):
     try:
