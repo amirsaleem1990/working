@@ -522,3 +522,15 @@ How to train a new language model from scratch using Transformers and Tokenizers
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2670858352982372/
 https://www.kaggle.com/docs/tpu?utm_medium=social&utm_source=twitter&utm_campaign=tpu-announcement-1
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2677633322304875/
+کرونا وائرس کی روک تھام کے لیے پاکستانی طلبہ کی ایپ کراچی کے طلبہ کی جانب سے بنائی گئی یہ ایپ آرٹیفیشل انٹیلی جنس کی مدد سے یہ بتائے گی کہ دنیا کہ کس شہر یا علاقے میں کرونا وائرس پھیل رہا ہے اور اس بڑی وجوہات کیا ہیں۔ مزید: https://www.independenturdu.com/node/29381/
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2678000728934801/
+how python pyc file can be decompiled?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2679419782126229/
+Facebook recently announced a hackathon in AI, Messaging and AR, having a combined prize pool of $21,000 and a chance to win a fully-funded trip to the F8 hackathon (hosted in San Jose a.k.a Silicon Valley). It's a great opportunity for you to showcase your skills!
