@@ -558,3 +558,15 @@ What would be the best university choice to pursue AI in Lahore.  I've done my r
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2681335135268027/
 Recommendations for any good Masters data science in karachi ?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2681335135268027/?spotlight=1
+Recommendations for any good Masters data science in karachi ?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2679790382089169/
+High accuracy pedestrian detection based on #RPN and #synthetic #dataset. The most exciting feature in RPN is anchor boxes. I used K-means clustering for anchor boxes generation because If the size of Anchor boxes is selected well, then it will be easier for the network to learn. The red dots in the anchor box position are positive samples (area of interest) and the black dots are negative samples that all belongs to background.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2681497108585163/
+https://www.businessinsider.com/elon-musk-criticizes-openai…
