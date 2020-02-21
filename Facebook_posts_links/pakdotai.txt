@@ -570,3 +570,19 @@ High accuracy pedestrian detection based on #RPN and #synthetic #dataset. The mo
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2681497108585163/
 https://www.businessinsider.com/elon-musk-criticizes-openai…
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2683553388379535/
+How to access 25 million free data sets of google ?  Check this for more >> https://youtu.be/2dK4JqY0Xco Google datasets search https://datasetsearch.research.google.com/
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2683097118425162/
+I am trying to build tensorflow from source for cude compute 3.0. The minimum supported in prebuilt is 3.5. It is horrifying with tons of errors, been trying for 3 weeks now... Frustrated kinda. If someone has wheel file of v1.15 with 3.0 and 10.1 sdk. Let me know
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2683757065025834/
+Here's my conversation with Andrew Ng, one of the most impactful educators, researchers, innovators, and leaders in the history of artificial intelligence. He has helped educate and inspire millions of people including me: 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2683343258400548/
+need help want to calculate maximum likelihood estimator* (MLE) and *maximum a posteriori* (MAP) estimator for Polynomial regression without python statsmodel library but did not find any good  materiel so if anyone  have please recommend me thanks in advance
