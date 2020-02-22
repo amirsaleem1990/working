@@ -586,3 +586,7 @@ Here's my conversation with Andrew Ng, one of the most impactful educators, rese
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2683343258400548/
 need help want to calculate maximum likelihood estimator* (MLE) and *maximum a posteriori* (MAP) estimator for Polynomial regression without python statsmodel library but did not find any good  materiel so if anyone  have please recommend me thanks in advance
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2685766971491510/
+#DevelopersWithSigns 
