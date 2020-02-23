@@ -626,3 +626,31 @@ Dear Friends, I am Prof. Arti Ramesh from SUNY Binghamton. To help students arou
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2685677151500492/
 too dangerous to release to public, or just an illusion of intelligence.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2689643464437194/
+I am offering a course on Microsoft Excel at ITU's Professional Development Centre. This course will teach participants to work efficiently with numerical and text data in Excel. By the end of the course, learners will have acquired the skills to extract meaningful information from data, and to communicate their insights using clear and effective visualizations - dynamic tables and charts. We will start from basic operations and go on to cover some of the more advanced functionality of Excel. All along, the techniques and best practices will be introduced with easy to understand hands-on exercises, developing participants' data analysis skills. More details about the course, along with my brief profile, can be found here: https://itu.edu.pk/…/microsoft-excel-essentials-for-busine…/ This is a 5-6 week course, starting in the first week of March. We will have classes twice a week, after 5 PM on weekdays. Fee: 10,000 PKR/- (No Registration Fee) If anyone is interested, they can register for the course here: https://itu.edu.pk/sct/courses/ Please share with anyone who you think might be interested, or would find the course useful.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2689850074416533/
+Building artificial intelligence into your products, services, and processes can make you smarter, faster, and better able to compete. But building smart systems using machine learning is not like buying an accounting package or an enterprise resource planning system.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2689505084451032/
+Sign Language Recognition with Deep Learning and PyTorch
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2687487947986079/
+And It marks the completion of our 2nd Machine Learning Workshop in Islamabad! Our journey of "DS Weekends - Machine Learning for Data Science" began from 20th January with registrations eventually converging to competitive shortlisting of applicants from a pool of around 200 candidates to 40! The application process itself proved to be a daunting task as it proved to be immensely competitive!  A big #shoutout to all onboard enthusiastic techies ranging from students & faculty (from universities including Iqra University, Arid University, FJWU, Bahria University, Dr. A. Q. Khan Institute of Computer Science and Information Technology, Comsats, IIUI & FAST) to professionals from renowned industrial backgrounds of Telecom, AI & #emerging startups! All #enthusiasts #onboard - Your enthusiasm is simply #phenomenal! Sustain your energy levels! We will soon be uploading Machine Learning coding challenges in Piazza Community! And now - Just a glimpse of today's immersive boot-camp session! #Take2: - "#DSWeekends by Pakistan.AI- Machine Learning for Data Science" Absolutely exhilarating experience - A series of #handson immersive activities starting from data manipulation with Pandas and converging to Machine Learning! Note : #Applications have been #closed for "DS Weekends - Machine Learning for Data Science" and our #slots are completely #filled In case you have #missed the #opportunity, stay tuned for upcoming similar opportunities in near future!  P.S - Check out event page to stay updated with workshop series - "DS Weekends - Machine Learning for Data Science" : http://bit.ly/2HKOdC6 #PakistanAI #DSWeekends - #MLforDataScience #PWiC #NUCS #ApplcationSlotsFilled #EmergeTogether! #InteractiveLearning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2688620461206161/
+Anyone who integrate Tensorflow model into Android device? Let me know!  Thanks!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2687331081335099/
+need help  i have data set(title and tags) which is unlabeled so is there any deep learning technique exists that predicts tags for the title's  thanks in advance
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2685771128157761/
+Introducing UBL’s Tech Talent Hunt program. Eligibility Criteria: Fresh Graduates from Bachelors and Masters Programs, from HEC Recognized Universities Minimum CGPA: 2.8 - Preferred Disciplines / Majors: - Information Technology - Computer Sciences / Engineering - Software Development & Software Engineering - Network Engineering - Data Sciences Candidates with IT / Computer Science background with up to 1-2 years of relevant experience may also apply. Location: Karachi, Lahore & Islamabad To register and play the game please visit the following link: www.ubldigital.com/techtalent2020 #TechTalent2020 #TheHuntIsOn #TechSetGo #UBLCareers #UBL
