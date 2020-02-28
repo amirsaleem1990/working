@@ -694,3 +694,7 @@ Assalam o Alaikum Anyone got selected for the Kamyab Jawan Data Sciences course 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2694860997248774/
 Great talks and competitions for the audience in this community- for all students!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2697689500299257/
+Hi.  Anyone here who has worked with telegrambots (python API)? I have a small project. I have a python script that generates some data pointers that needs to be integrated with the telegrambot so user recieves the data pointers conditionally.  Anyone who can do drop a message with your quote   I'm a bit short on time to do it myself.
