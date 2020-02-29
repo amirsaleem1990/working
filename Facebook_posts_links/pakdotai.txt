@@ -702,3 +702,11 @@ Hi.  Anyone here who has worked with telegrambots (python API)? I have a small p
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2698787530189454/
 How to stop from touching your face ? Open for Ideas and would love to collaborate to build such an app.Coordinates of the current position where you are standing  = xCoordinates of the position at which your hand is  = yCond 1 :- If the distance between your x and y is < some number calculated empirically with +- some nCond 2 :- Estimate the height of the watch from the ground (The height of the person to be configured in the app)If both Cond 1 and Cond 2 is True , trigger a vibration in the app.This would help reduce touching hands on to the face.Challenges.How to calculate GPS with this much accuracy, I don’t think it works that way.How to measure the height. Maybe smart watches do have sensors to do it ?? If not, what could be a good way to measure the height ?Constraints while thinking about the solution :-Should be configured on Smartwatches that are avl in the market at a lower price.Need to work with existing devices, no additional hardwares to be added.P.S : Please share this post to people/groups who could help build such a thing.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2698701660198041/
+TensorFlow 2.0 is now easier than ever to learn. This tutorial goes over the basics of TensorFlow and teaches you how to build two different neural networks for classifying images as well as text using TensorFlow 2.0
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2699691316765742/
+Here we will go through a simplest way to train a Resnet34 Classifier for live kaggle competition.  This is to encourage you to bring new ideas and start competing with the world.  Let me know if you have any ideas or questions.  Link to Video : 
