@@ -710,3 +710,15 @@ TensorFlow 2.0 is now easier than ever to learn. This tutorial goes over the bas
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2699691316765742/
 Here we will go through a simplest way to train a Resnet34 Classifier for live kaggle competition.  This is to encourage you to bring new ideas and start competing with the world.  Let me know if you have any ideas or questions.  Link to Video : 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2698144570253750/
+Hello everyone, I am a senior year BSCS student. I have done 4 course projects related to data science and machine learning. Now I am looking for an internship in data-science/machine-learning to primarily get an idea of day to day tasks and how things are actually done in these areas.  I have submitted my resume to every AI related company I came across in past few months but no one responded. So I need your suggestions/tips on what to do next.  Thanks in advance :)
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2698144570253750/?spotlight=1
+Hello everyone, I am a senior year BSCS student. I have done 4 course projects related to data science and machine learning. Now I am looking for an internship in data-science/machine-learning to primarily get an idea of day to day tasks and how things are actually done in these areas.  I have submitted my resume to every AI related company I came across in past few months but no one responded. So I need your suggestions/tips on what to do next.  Thanks in advance :)
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2701669586567915/
+Auto Machine Learning with GML - Ghalat Machine LearningHello everyone!!I have developed an automated machine learning package in python!which can automates machine learning process in your projects or competitions!You just provide it the data and it will prepare it, train it on multiple machine learning models and neural network, calculate the cross validation accuracy, rank models based on CV scores, and return the best model.! Automatic hyper parameter tunning, more neural networks and many more things will also be added in future updates!install,live demo and guidelines: https://github.com/Muhammad4hmed/Ghalat-Machine-Learninginstallation command: pip install GMLstar the repo if you like it :)admin please approve the post.
