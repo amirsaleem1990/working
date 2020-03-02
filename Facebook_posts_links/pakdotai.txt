@@ -750,3 +750,27 @@ Hello everyone, I am a senior year BSCS student. I have done 4 course projects r
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2698144570253750/?spotlight=1
 Hello everyone, I am a senior year BSCS student. I have done 4 course projects related to data science and machine learning. Now I am looking for an internship in data-science/machine-learning to primarily get an idea of day to day tasks and how things are actually done in these areas.  I have submitted my resume to every AI related company I came across in past few months but no one responded. So I need your suggestions/tips on what to do next.  Thanks in advance :)
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2701669586567915/
+Auto Machine Learning with GML - Ghalat Machine LearningHello everyone!!I have developed an automated machine learning package in python!which can automates machine learning process in your projects or competitions!You just provide it the data and it will prepare it, train it on multiple machine learning models and neural network, calculate the cross validation accuracy, rank models based on CV scores, and return the best model.! Automatic hyper parameter tunning, more neural networks and many more things will also be added in future updates!install,live demo and guidelines: https://github.com/Muhammad4hmed/Ghalat-Machine-Learninginstallation command: pip install GMLstar the repo if you like it :)admin please approve the post.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2701113929956814/
+AOA seniors need help i am working on classification of Pneumonia and tuberculosis from chest x-rays but my model is overfitting added dropout in it and batch normalization layer but still it is giving poor results in testing phase now the problem i find out is my model is facing severe class imbalance problem the Tuberculosis set have only 394 images and pneumonia and normal xrays are more than thousand i cant even augment the xrays because they are medical images so i decided to use GAN to generate synthetic data but the problem is i cannot understand what exactly i should give input to generator module what type of input is given in it please anyone help me what should i do its quite confusing for me as iam new to GAN your help will be appreciated
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2702141103187430/
+pip install face_recognition i get this error.  Building wheel for dlib (setup.py) ... error
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2701451799923027/
+https://machinelearningknowledge.ai/nlp-datasets-beginners…/
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2698701826864691/
+I've started a YouTube channel regarding Data Science with Python. Here is the link to Video to start competing in a Live Kaggle Competition. https://youtu.be/TaGi2410AFE Compete with me to learn new ways to solve deep learning problems. Share your ideas as well so that we can learn together. Share this link with your fellows.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2693361744065366/
+Some one has asked me for 2 Positions: - Junior Data Analytics  ( Excellent in Stats) - Experienced Computer       Vision required 2 years       LOCATION: Karachi   Inbox the CV.
