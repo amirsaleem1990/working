@@ -786,3 +786,19 @@ Here's an ultimate collection for everything Python on #DataScience and #Machine
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2707712905963583/
 How many Data Scientist does it take to change a bulb? Well, if we had 100 Data Scientists to do this task: - half of them would ignore the main problem and come up with different ways of creating light in the room - half of the rest would dive straight into arxiv.org, claiming a Wasserstein type of GAN, transferring knowledge from screws to bulbs, would probably get some practical results, hopefully - we’re down to 25 Data Scientists, and nobody has even seen the bulb yet - 12 would say the bulb is written in Python, and they are more an R person - 3 would say the real problem of the client is, that they don’t use LED panels, so what are you going to do about it? - 2 would refuse to work on this problem, since the number of bulbs prevents them from creating any meaningful statistical analysis - 2 would accidentally mislabel the data, and claim the problem is already solved - which leaves only 6 Data Scientists at this point - 5 of them would either forget to save their work, or to run the experiments log, or datasets journal, so their results wouldn’t be reproducible - and maybe 1 Data Scientist would finally change the bulb. Probably an intern. Credit: Lukasz Kuncewicz Head of Data Science at Enigma Pattern Inc
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2707941472607393/
+Excited to share some of our recent work at Massachusetts Institute of Technology (MIT)! We present the first algorithm capable of training autonomous vehicles entirely end-to-end in simulation for direct deployment onto full-scale vehicles in the real-world without any supervision, human imitation, or domain adaptation!  Checkout the full paper here: ⭐️ https://www.mit.edu/~amini/learning-in-simulation-vista.pdf ⭐️
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2705894546145419/
+Hi All, I have made a video series in which i am trying to explain linear regression from a maximum likelihood approach. Please do give your reviews on this video and also what improvements can I do in the future videos. Thanks in advance. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2707233032678237/
+Hey guys, I'm working on a final year project and it's on neural networks. Could you guys maybe help me out pointing me to the sources and codes for a basic Echo state network. I know what it does in theory I have to observe how it actually works in code, any help would be appreciated! Kudos to y'all!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2197342190333993/
+Word of Advice: So I have been conducting interviews for positions of Junior ML engineers and I have been observing people here claiming that 50K is a low pay for Data Scientists. So here is my 2 cents on the two topics: -Candidates come up claiming to know ML and DS, but they do not know how to handle null values. -Candidates are unable to distinguish between Deep Learning and Machine Learning (yes the two are different). -Just knowing how to build a model is not enough to get 50K+, you should know other skills, for e.g. linux, web services, NoSQL, etc. -Do not grade yourself too high on a skill you barely know, people have been giving themselve 4/5 on linux, but they barely know the command for copy or the switch to use when they need to know access rights. P.S: The above is a generalization of the candidates I have interviewed, there were some good ones too and we made them appropriate offers. So if you really want 50+ as a Data Scientist, make sure you know all of your stuff, not just neural networks.
