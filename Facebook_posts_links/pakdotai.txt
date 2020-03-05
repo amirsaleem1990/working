@@ -810,3 +810,23 @@ Registration Link: http://softecnu.org/TeamRegistration Are you Software Enginee
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2705395299528677/
 "Ciklum Pakistan is looking for a Senior Databricks Developer for one of our leading international clients. The position will be based at our Islamabad office.  Responsibilities: ● Creation of Databricks notebooks,  ● incorporation of machine learning models,  ● Python and PySpark development. Requirements: ● PySpark knowledge; ● Databricks; ● good understanding of Azure Data Lake gen2; ● SQL; ● Python; ● Azure DevOps platform including CI/CD Pipelines; Desirable: You should have an idea of the subject and its parts. Can explain and have hands-on working experience with the required skills. Additionally: ● general experience of data project; ● familiarity with Agile Scrum; ● understanding of principles of DevOps. Personal skills (soft skills): ● Curious mind and willingness to work with client in consultative manner to find areas to improve; ● Intermediate +++ English; ● Good analytical skills; ● Good team player, motivated to develop and solve complex tasks; ● Self-motivated, self-disciplined and result-oriented; ● Strong attention to details and accuracy. Interested applicants can share their resume' directly at rso@ciklum.com by mentioned the position title in the subject line."
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2710039532397587/
+Urgent! My model's code is on Google colaboratory. I want to get input from android app,send it to the model, and display the results of my model on my app. How can I integrate my android app with the colaboratory code? Is there a way?  Kindly suggest something.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2707892299278977/
+Data Analyst Required in SBP
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2709760002425540/
+Anybody ever had a chance to use Linear Mixed effects models for a business use-case? Would be grateful to know some use case and how it helped.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2709950652406475/
+AUTO Feature Engineering & AUTO Machine Learning with GML - Ghalat Machine LearningHere is the second update of GML!first of all, thanks to all, the first update of GML got over 300+ users and over 3k views on github repository!There are many new things in second update!!AUTO Feature Engineering:Filling missing data(with most common and useful techniques) or dropping column if necessary.Encoding categorical data with target mean encoding using stratified k-folds technique to avoid overfitting.Generating new useful featuresFeature SelectionAUTO Machine Learning:First data will be normalized then there will be 2 rounds of AUTO ML, in first round, all the machine learning algorithms and neural network will compete for TOP 5 place and in second round the TOP 5 algorithms will compete for number one position. and then the best model will be returned to you :)INSTALL:pip install GMLDEMO/Guidelines: https://github.com/Muhammad4hmed/Ghalat-Machine-LearningFuture updates will include, automatic hyper parameter tuning using Bayesian optimization and many more cool things!.I was working on this project since last few months, and I would love to see contributions :) and stars on repository too :pFeel free to ask questions, report bugs, give suggestions etc.. :)admin please approve the post.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2708422782559262/
+Anybody here who used SortedManyToManyField in django? Django handle manytomanyfield itself. I want to get the 'sort_value' from the joining table of many2manyfield. I want to play with the sequence of entries that's why I used SortedManyToManyField instead of Many2manyfield.
