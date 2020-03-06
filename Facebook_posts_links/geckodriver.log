@@ -989,3 +989,19 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4f
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4fw5Mo5CU.js?_nc_x=pAsM9Lw-doT, line 19: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4fw5Mo5CU.js?_nc_x=pAsM9Lw-doT, line 19: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4fw5Mo5CU.js?_nc_x=pAsM9Lw-doT, line 19: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4fw5Mo5CU.js?_nc_x=pAsM9Lw-doT, line 19: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4fw5Mo5CU.js?_nc_x=pAsM9Lw-doT, line 19: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4fw5Mo5CU.js?_nc_x=pAsM9Lw-doT, line 19: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4fw5Mo5CU.js?_nc_x=pAsM9Lw-doT, line 19: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4fw5Mo5CU.js?_nc_x=pAsM9Lw-doT, line 19: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4fw5Mo5CU.js?_nc_x=pAsM9Lw-doT, line 19: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yU/l/en_GB/Qp4fw5Mo5CU.js?_nc_x=pAsM9Lw-doT, line 19: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1583472445733	Marionette	INFO	Stopped listening on port 41337
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB20006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
