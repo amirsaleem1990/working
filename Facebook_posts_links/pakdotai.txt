@@ -878,3 +878,15 @@ Hello community. If Anyone have resources of "Probabilistic Graphical Model" by 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2713165678751639/
 Which supervised ML algo will be best for  classification of vehicle when dataset is small (800 data points), provided attribute of data is numerical (attributes are numeric like: Compactness, Axis aspect ration, etc)
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2721483731253167/
+We are looking for a Computer Vision & Machine Learning Engineer. Please refer if you know anyTechnical Skills:– Experienced in Machine Learning using Python & TensorFlow– Experienced with Computer Vision (Object Identification) Models– Good knowledge of Natural Language ProcessingJust Send Me Your Resume: faisal.shahbaz@mikaels.com
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2252070694861142/
+Some thoughts for DS related people... Some months ago, I applied in some companies/software houses for DS related opportunities. I have Masters in Electronics degree from UoK, so, most of them even didn't bother to call me for an interview. So, recently, I was interviewing some candidates for SE related position. I came to interview a candidate from the same company where I had applied. First of all, I asked him what was his background. He told me that he is working as a Data Scientist at that company. I then asked him some questions related to DS, and to my astonishment, he miserably failed to answer even basic questions. He even didn't know why do we use a box plot, how SVM works, didn't know whether Logistic Regression was for classification or regression. So, my advice for companies working in DS domain is to remain up to the par with their hiring strategies. Keep it up! Keep idolizing institutes like IBA, LUMS, HU, FAST etc. Again keep it up!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2721585694576304/
+La Kop (from the Google Developers community, Singapore) will be on YouTube live next week! Join and hear google developers share about their data science projects. Register now and receive the streaming link for the event. RSVP here → https://goo.gle/lakopi-march #kopifromhome #sorrynopizzathismonth #YouTubeLive
