@@ -890,3 +890,11 @@ Some thoughts for DS related people... Some months ago, I applied in some compan
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2721585694576304/
 La Kop (from the Google Developers community, Singapore) will be on YouTube live next week! Join and hear google developers share about their data science projects. Register now and receive the streaming link for the event. RSVP here → https://goo.gle/lakopi-march #kopifromhome #sorrynopizzathismonth #YouTubeLive
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2720537158014491/
+Assalam o alaikum Can someone suggest me a database for FCC or CE certification of products or a reliable API? I need it to work on a product classifier related project
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2720103614724512/
+Deep Medics is coming up with Data driven Disease outbreak reporting system. Working on a system with volunteer ML/AI researchers from Harvard and MIT.
