@@ -830,3 +830,39 @@ AUTO Feature Engineering & AUTO Machine Learning with GML - Ghalat Machine Learn
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2708422782559262/
 Anybody here who used SortedManyToManyField in django? Django handle manytomanyfield itself. I want to get the 'sort_value' from the joining table of many2manyfield. I want to play with the sequence of entries that's why I used SortedManyToManyField instead of Many2manyfield.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2716868408381366/
+deepmedics 🇵🇰 claims a new AI engine that can detect pneumonia in X-Ray of patients chests with #93% accuracy against viral cases which can further be classified to diagnose #Corona_Virus at the very early stage. https://deepmedics.blogspot.com/…/ai-system-for-diagnosing-… https://www.facebook.com/deepmedics/?eid=ARBXcEjyUOpNp-S6KEpR5EdFDBeIxi-y_Q0GmjJGfKeqg8zjQgQ4AGl_OWd1rnh6WKdU4goHJwQoyFCR
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2714124601989080/
+Serious question experts please help What statistical terms,methods etc are necessary to understand machine learning and deep learning??
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2720167758051431/
+Is there any one  who has worked on Style Gans.I need some assistance regarding the training. Which online GPU resource best suits for training (Aws or Gcp) and which instance would be useful in training Style GANs Thanks in advance!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2720164104718463/
+Facebook took down more than 600 accounts tied to The Epoch Times, a media outlet that has spent heavily on digital ads to push pro-Trump conspiracy theories.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2701975393204001/
+Most of my fellows try to compete but don't have enough resources like me :D So here we will use Google Colab to train our Resnet for Kaggle Competition. We will follow the simplest way to do this.  Here is the link to video : 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2719256778142529/
+A group of scientist at Harvard/MIT have started an organization to take action against the coronavirus, because we feel that most governments are not acting fast enough. We could really use an army of data scientists/ML engineers to help us create content. If you are interested, please join us: https://www.endcoronavirus.org/signupCheck out our website if you are interested. We currently have a few hundred volunteers around the globe, but we could really use several thousand. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2717721128296094/
+this is the dataset i have and the scatter plot is of column 2 with indexes, i wanna achieve that line to detect outliers, how do i do that... anyone? any kinda help
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2717005648367642/
+This is why I hate Udemy and sites like it, how someone copied content from my employer and Udemy profited from it but did nothing to verify ithttps://twitter.com/PyImageSearch/status/1235921807682818048
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2717113661690174/
+Any help here?
