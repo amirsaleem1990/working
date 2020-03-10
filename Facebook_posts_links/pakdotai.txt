@@ -866,3 +866,15 @@ This is why I hate Udemy and sites like it, how someone copied content from my e
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2717113661690174/
 Any help here?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2715832365151637/
+Beginning our #competitive #journey from 20th January of shortlisting 40 #enthusiasts from a pool of around 200 applicants, today marks the #completion of our 3rd workshop of  "DS Weekends - Machine Learning for Data Science"! #progressing #forwards ! #PakistanAICommunity - #Islamabad chapter A big #shoutout to all onboard enthusiastic techies ranging from #students & #faculty (from universities including Iqra University, Arid University, FJWU, Bahria University, Dr. A. Q. Khan Institute of Computer Science and Information Technology, Comsats, IIUI & FAST) to #professionals from renowned industrial backgrounds of #Telecom, #AI & #emerging #startups! All #enthusiasts #onboard - Your enthusiasm is simply #phenomenal! Sustain your energy levels! We will soon be uploading Machine Learning coding challenges in Piazza Community! And now - Just a glimpse of today's immersive boot-camp session! #Take3: - "#DSWeekends by Pakistan.AI- Machine Learning for Data Science" A series of #immersive hands-on activities ranging from key Machine Learning concepts to unraveling it all about nitty-gritty details of K-Nearest Neighbor! Note : #Applications have been #closed for "DS Weekends - Machine Learning for Data Science" and our #slots are completely #filled In case you have #missed the #opportunity, stay tuned for upcoming similar opportunities in near future! #PakistanAI #DSWeekends-#MLforDataScience #PWiC #NUCS #EmergeTogether! Pakistan.AI Samrah Syed Anas Ayubi Abeer Noor Muneeba Sirshar Saad Zia Pakistani Women In Computing - PWiC Ma'am Saba Rasheed Malik National University Computing Society Zubaria Ayub Muhammad Anas Azam Bhatti Muhammad Athar Piyush Kumar Ammad Umar #InteractiveLearning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2715599761841564/
+Hello community. If Anyone have resources of "Probabilistic Graphical Model" by Daphne Koller kindly share links in the comment box . This course once offered by stanford.edu. Hoping to get positive response. Thanks.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2713165678751639/
+Which supervised ML algo will be best for  classification of vehicle when dataset is small (800 data points), provided attribute of data is numerical (attributes are numeric like: Compactness, Axis aspect ration, etc)
