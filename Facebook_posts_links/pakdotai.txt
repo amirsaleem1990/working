@@ -898,3 +898,7 @@ Assalam o alaikum Can someone suggest me a database for FCC or CE certification 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2720103614724512/
 Deep Medics is coming up with Data driven Disease outbreak reporting system. Working on a system with volunteer ML/AI researchers from Harvard and MIT.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2721804981221042/
+Assalam-mu-Alaikum: Currently working on Urdu hand written letters like mnist i used some of arabic letter and and converted to missing urdu letter which are not in arabic like "bay"(arabic letter) converted into "pay"(urdu letter)  and genrated its almost 600 images per letter through image augmentation now i have urdu data set with 600 images per letter  after converting to gray scale when i am trainig them using ANN on training accuracy is increasing and loss decreasing but not as much as accuracy incrasing for example accuracy is increasing 3-5 % per epoch but loss should also be decreas 3-5% but decresing 0.05 and got accuracy and loss on training 0.89 and 0.73, and on testing accuracy around 0.79 and loss is  0.73 . When i use CNNs on same datset so on testing loss is 2.33 something and accuracy is around 0.025.  I also aside validation set and train through validation but results are not quite different.... I don't  know what i did wrong please need your help wiill be highly appreciated...
