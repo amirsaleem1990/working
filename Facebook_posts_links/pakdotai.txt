@@ -906,3 +906,35 @@ Assalam-mu-Alaikum: Currently working on Urdu hand written letters like mnist i 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2717413898326817/
 A friend of mine is offering a part time job in AI!! If someone is interested please DM me.  This job will be a good learning experience and as well as you will get the chance to work with ph.D doctor
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2724257054309168/
+:D
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2720908247977382/
+Don't get trapped in the idea of "I know nothing compared to them". You could be a student, getting your PH.D, or even a Kaggle Expert. You may never have competed in a Kaggle competition. May never have "real industry" experience. Never worked on your first "real" dataset. Or never have used fancy tools like "Spark" or "Hadoop". And still feel like you're far behind from being a Data Scientist. The truth is: you'll never be "ready". There's always something new to learn and each new level of expertise requires a new way of thinking. Don't get disappointed and compare yourself to others. Instead, focus on learning and doing more.  We all have our own paths. All of us have done something great in the past and stories that we feel most proud of. And this is what you should be focusing on: your achievements. It's those small victories that will lead to your big wins. Just recently, I wrote my first ebook and built a website for people to learn data science. And I'm proud to say that it's one of the most rewarding experience to help people grow.  Your story doesn't need to be fancy. You don't have to change the world. It just needs to be important for yourself.  www.claoudml.com
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2718395131562027/
+Am I a bad programmer if I look at documentation often instead of having the libraries memorized? Should I get help from documentation or memorize the libraries?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2724359487632258/
+Assalam o alaikum Is it possible to generate tiff/psd output from GAN or any of its variants? Or any other way to transform a png/jpeg/jgp file into tiff/psd?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2342318799169664/
+For my Final Year Project, I am making video chat simulator which requires GAN (Generative Adversarial Network) and Few Shot Learning Algorithm to run. My Question is do I need to buy a high powered hardware with multiple gpus or using open source tools for deep learning (Google Colab or Kaggle) would do the work for me? What will be pros and cons of each? If I have to use open source tools, which one will be the best?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2724071574327716/
+For those who have taken Andrew NG sequence models course, I would like to ask how can we take variable length input in the machine translation model with attention.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2723225651078975/
+I remember my Theory of Automata professor talking about students using deep learning (NN) to predict stock market prices as part of their FYP project and how they should have used Time Series instead. I guess as students when we study the next thing, we are programmed to forget the previous or treat it as outdated. But this is not the case and we need reminders.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2723714611030079/
+People saying AI will take over the world.  Meanwhile my Neural Network Detecting Face 😤
