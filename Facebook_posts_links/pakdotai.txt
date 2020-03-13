@@ -942,3 +942,11 @@ People saying AI will take over the world.  Meanwhile my Neural Network Detectin
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/1717848424950041/
 Do apply
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2726057590795781/
+Hy Folks! I want to dive into the digital image processing What are the pre-requistes for Dip? Is it necessary to have knowledge about Machine learning before starting DIP? Or we can learn machine learning algorithm along?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2725423147525892/
+Asslam o Alikum,I am working on binary classification using CNNs. I am using Google Colab. While training my ConvNet following error occurs." UserWarning: The input 40 could not be retrieved. It could be because a worker has died.   UserWarning) "The training stops after first epoch and I am unable to train this further. I saw some solutions on Stack-overflow but problem is that I am able to use the same dataset in another colab notebook. I just can not figure our what is the problem. If someone has some solution please guide.Thanks
