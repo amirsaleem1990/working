@@ -974,3 +974,15 @@ Salam everyone,I am thinking to work on project,the goal is to analyse the Corun
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2732060426862164/
 For the AI geeks.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2731378166930390/
+#PakistanAI #throwback - #techtalk Throw back to AI & Data Science Talk by Abeer Noor as a #Guest #Speaker from Pakistan.AI - #IslamabadChapter Abeer Noor journeyed through the key concepts of AI & Data Science during his utterly engaging session with the DAE students of  Construction Technology Training Institute, Islamabad ((CTTI)) in his insightful talk and presentation on “An Introduction to AI & Data Science”! Key highlights of session included disruptive power of AI and Data Science and their quick transition from future technologies to one that surrounds us in our daily lives. Thank you CTTI for being a great host! It was a pleasure to interact with students and faculty.  #PakistanAIIslamabadChapter  #AI #DataScience #MachineLearning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2729523790449161/
+My latest blog: “Multi Variable Regression” by Umair Khan https://link.medium.com/x7RhW0y6x4 More to follow on Occasional dose on investigating data https://medium.com/listening-data
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2725504234184450/
+I have init a project examing the chest CT scans to identify nConv impacts on lungs and further train data to make application. I have chosen the DeepLabv3 plus Atrous convolution which is more fullfilling the unet-models. Anyone want to contribute. I ll further keep guiding through out the process.  One part of Examining Viral Infections x-ray and comparing with normal is already done. Further our approach is to segment the for correct interpretations. https://github.com/…/Atrous-Convolution-CT-Scan-Image-Segme…
