@@ -950,3 +950,27 @@ Hy Folks! I want to dive into the digital image processing What are the pre-requ
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2725423147525892/
 Asslam o Alikum,I am working on binary classification using CNNs. I am using Google Colab. While training my ConvNet following error occurs." UserWarning: The input 40 could not be retrieved. It could be because a worker has died.   UserWarning) "The training stops after first epoch and I am unable to train this further. I saw some solutions on Stack-overflow but problem is that I am able to use the same dataset in another colab notebook. I just can not figure our what is the problem. If someone has some solution please guide.Thanks
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2731686693566204/
+“My contribution towards society” Generating Synthetic Antigens for COVID’19 / Deep Leaning  COVID’19 the new threat to the world, as you know that this new nCov is a global problem The outbreak started in China in late 2019 and by March 2020 the disease has spread to over 148 countries around the world.  I got inspired by Suraj Raval deep learning corona virus 🦠 competition Then I started working on this . The project began with the clone of Topazape repo but then the idea changed , instead of finding the best drug i started to generate the best fit antibodies still you can have a look at it : https://github.com/topazape/LSTM_Chem Purpose : To find the best possible way to cure / treat the virus this process it included algorithms that was obtained from the database of approximately 4 million known molecules and compounds to discover those with the most potential in treating COVID-19, as well as generate entirely new perfectly binding antibodies Generating a RNN model and applying transfer learning and Genetic algorithms to find the best match. It took around 4 days to fully train the baseline model i used NVIDIA CUDA GPU to train it i took help from Github repository it all started after cloning it, but then i changed it according to my research. A big shout out to all of them without them this wouldn’t be possible as i have 0% medical background! Final results : The Corona virus 🦠 is same like a crown with porcupine like spikes on its surface and when it enters your body it sticks to your protein building blocks . Once the vaccine delivers the genetic materials into your body cells the cells follow the instructions to fight that virus . Take it as a puzzle 🧩 or a  🔐 you need an exact match to proceed further. An antibody is a large protein that recognises A small part of a foreign invader called the antigen , it can be anything from viruses, bacteria, fungi etc. While one end of the antibody binds to its antigen the other ends stick out and it changes the shape/structure of your protein block/molecule. PS: i am still on it need some more time and research to come to a final decision.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2730539837014223/
+New Python 4.0 will support print statement emojis 😈☠⚔👁💥 . Now it will be more fun 😋
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2728155527252654/
+Suggestions required  FYP ideas using deep learning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2732242870177253/
+#LAHORE_JOB: Python engineers in Lahore office - 5 positions. Please email your resume to careers@bigbyteinsights.com
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2731397553595118/
+Salam everyone,I am thinking to work on project,the goal is to analyse the Coruna Virus dataset (either image or CSV Data) ,and if the dataset is such that in which their is a target value/class label as well,than that will make it more interesting. The goal is to perform a research and present a solution based on our work,findings and our predictions. I tried to find datasets but so far havent been able to figure out a detailed dataset,so I am looking for someone who wants to collaborate with me in this task,it will be a detailed one and a lot of learning in that. Let me know if someone is interested and can spend quality time on this task. Thank You #CorunaVirus #ResearchnDev #Unpaid #ForPracticenlearning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2732060426862164/
+For the AI geeks.
