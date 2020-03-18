@@ -986,3 +986,23 @@ My latest blog: “Multi Variable Regression” by Umair Khan https://link.mediu
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2725504234184450/
 I have init a project examing the chest CT scans to identify nConv impacts on lungs and further train data to make application. I have chosen the DeepLabv3 plus Atrous convolution which is more fullfilling the unet-models. Anyone want to contribute. I ll further keep guiding through out the process.  One part of Examining Viral Infections x-ray and comparing with normal is already done. Further our approach is to segment the for correct interpretations. https://github.com/…/Atrous-Convolution-CT-Scan-Image-Segme…
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2737837959617744/
+Some of you may remember at one point Facebook banned our open leukemia research database which mostly was peer reviewed papers and hospitals at that time. Well Facebook's AI has really messed up this time. Yann LeCun  Facebook VP and Chief AI Scientist shared a research paper about COVID-19 which I shared, Facebook has just taken my share of it down saying it breaks community standards, and also another link to a COVID-19 related research paper. This is the second time I know of that FB have banned scientific research.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2736028213132052/
+AOA need help iam deploying my image classification model on flask i want to ask if i have to pass image to my model.predict() function should i resize the image ? or pass the full image to model predict function in colab predict function is easily taking whole image but in flask when i pass the image it is giving error on its dimensions i dont know why
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2736381399763400/
+Asalamualikum everyone, I performed a trend analysis of #COVID19 in Pakistan. I completed this at the day end of 16 March 2020 because I did not find much covered in regards to Pakistan. As a relevant domain expert in analytics, I felt I should speak up. The video is made in Urdu to keep the general public informed and educated on the situation (in the hope they take the matter more seriously). If you are in agreement that this post deserves to be shared, please spread the word so that it reaches more people. The situation looks dangerous, please stay home and take it seriously. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2730350533699820/
+Here's 7 statistical & machine learning concepts that you should know for #DataScience: 1. Tree Based Methods a. Decision Trees - https://lnkd.in/gBtCk9G b. Random Forest - https://lnkd.in/g9FkczK c. Gradient Boosting Trees - https://lnkd.in/gFPFGsk 2. Linear (Regularized) Models a. Lasso & Ridge - https://lnkd.in/g3dJT-g b. Linear Regression - https://lnkd.in/g7AS6Ar c. Logistic Regression - https://lnkd.in/gq4EyJc 3. Hypothesis Testing & confidence a. A/B Testing - https://lnkd.in/gmeijHV b. Chi Square Test - https://lnkd.in/gG6vz2T c. Statistical Tests - https://lnkd.in/gJcfTsq 4. Resampling Methods a. Bootstrapping and Bagging - https://lnkd.in/gPmm4by c. Cross Validation - https://lnkd.in/gsfsE6y 5. Clustering K-means https://lnkd.in/gvNsp8N 6. Feature Selection https://lnkd.in/gdCBWpB 7. Evaluation Metrics a. Classification Metrics - https://lnkd.in/gxeyC6n b. Regression Metrics - https://lnkd.in/gj4Eg9p ---- Hope this helps! 👉 If you want more free resources, visit my site: www.claoudml.com
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2734355659965974/
+https://youtu.be/Kas0tIxDvrg For math purists
