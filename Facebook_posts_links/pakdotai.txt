@@ -1006,3 +1006,7 @@ Here's 7 statistical & machine learning concepts that you should know for #DataS
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2734355659965974/
 https://youtu.be/Kas0tIxDvrg For math purists
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2739299626138244/
+#COVID19Proceedings #MLProjectCOVID19 #17DaysCodingChallenge #DSWeekends by Pakistan.AI- Machine Learning for Data Science All #DSEnthusiasts #enrolled for "DS Weekends by Pakistan.AI- Machine Learning for Data Science", proceedings for upcoming workshops and to ensure your productivity in the mean time have been posted in detail on Piazza! We have posted complete details of #17DaysCodingChallenge & #MLProject related to #COVID19 - Take the pledge & begin!  Stay tuned to Piazza to ensure you are always updated regarding workshop proceedings!
