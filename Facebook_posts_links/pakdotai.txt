@@ -1058,3 +1058,15 @@ Interesting visualization of Coronavirus in Pakistanhttps://www.covid19pk.info/
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2746863758715164/
 Need HELP! I want to make a tracker which scraps online data through a python function. All set. How how do I run this python function and display data in a HTML page? Client has just asked me to give him a HTML page which tracks online data. He will embed the page on his site.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2745993262135547/
+Data simulation on what happens when we stay at home and when we don't. Example of data visualisation and social good #covid19 Edit: https://github.com/matifq/covid-19-spread-simulator
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2746499048751635/
+I assume all the predictions regarding nConv in Pakistan by all Data scientists are wrong in comparison with other affected countries. Not enough Data yet available. Its not just putting and distributing data on 2D space and making linear and non linear regression models. There are multiple key indicators to be considered and thoroughly assessed while making predictions which are still not available.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2744771868924353/
+Anyone good at visualizing data in matplotlib? I am having issue while plotting class probablities correctly in form of image in plt.imshow, if anyone is willing to help me find issue, please comment. I am kind of pressed for time, so I need to fix it urgently.
