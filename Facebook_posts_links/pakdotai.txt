@@ -1070,3 +1070,7 @@ I assume all the predictions regarding nConv in Pakistan by all Data scientists 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2744771868924353/
 Anyone good at visualizing data in matplotlib? I am having issue while plotting class probablities correctly in form of image in plt.imshow, if anyone is willing to help me find issue, please comment. I am kind of pressed for time, so I need to fix it urgently.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2749200591814814/
+How the Virus Got Out
