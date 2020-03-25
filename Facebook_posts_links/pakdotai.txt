@@ -1110,3 +1110,11 @@ https://youtu.be/e9VYOWWP6zM Learn about Linear Regression in ML Subscribe now ð
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2748160728585467/
 A Brief Overview of a Modern Data Scientist Role
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2750483271686546/
+Has anyone used gluonts library for time series forecasting? had some confusions with regards to its implementation so needed some help.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2748525951882278/
+Can any data science practitioner answer my question which is what is the best way to analyze time series to make prediction out of it ?since i am a newbie at ML and stuck when applying regression to corona virus data i gathered.Looking forward for easiest technique to learn.
