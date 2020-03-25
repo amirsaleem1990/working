@@ -1118,3 +1118,7 @@ Has anyone used gluonts library for time series forecasting? had some confusions
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2748525951882278/
 Can any data science practitioner answer my question which is what is the best way to analyze time series to make prediction out of it ?since i am a newbie at ML and stuck when applying regression to corona virus data i gathered.Looking forward for easiest technique to learn.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2749522008449339/
+PM Imran Khan Facial Expression Recognition using Deep Learning ! Is the PM Khan telling us the truth about the Coronavirus? Let’s analyse  his facial’ expressions during his recent speech on COVID'19 outbreak in Pakistan and Lockdown. In the initial stage i have trained CNN on Kaggle dataset The training set consists of 28,709 examples(up to 78% accuracy!) The data consists of 48x48 pixel grayscale images of faces. The faces have been automatically registered so that the face is more or less centred and occupies about the same amount of space in each image. The task is to categorise each face based on the emotion shown in the facial expression in to one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). I have also made a pie chart illustration on basis of his expressions which clearly states that (he seems sad and he is worried about the current situation) Hope everything gets better soon! PS: The video is in time elapse format.
