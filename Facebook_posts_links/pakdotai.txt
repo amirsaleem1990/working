@@ -1086,3 +1086,27 @@ is this correct formula for sensitivity?
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2746474292087444/
 Anyone know which hospitals are treating COVID-19 patients in Pakistan. Is there any way to contact them and obtain xrays of positive patients ?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2746867492048124/
+Can someone tell me the difference between Aggregated Jaccard Index (AJI) and Jaccard Index? Is AJI just mean of all Jaccard Indexes?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2750645391670334/
+On the behalf of assumption that majority of individuals in this group are earning through Data Science from some software house or owing startup,i want to take a career advice as a newbie in data science i am very much interested in it and feel enthusiasm while solving data related problem but on initial level as i mention.The question is whether a data science practitioner could get a job on the behalf of data pre processing and/or data mining and/or modeling skills standalone or he also has to posses some other skills like writing a server using Django to get/post data before/after data processing or to know how to develop a front end using Flask and or owing some app development skills etc.Please give me advice iff you are practicing in the field as i am confused to make a road map for data science journey.Looking forward.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2733582776709929/
+What is the best way to look for AI resources for hiring in pakistan? Any specific job portals?What is the best way to look for AI resources for hiring in pakistan? Any specific job portals?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2750788004989406/
+Assalam o alaikum everyone  I have query about tensorflow  Tensorflow provides ML model deployement with android application to perform different AI task, but i don't know how to deploye my own text classification model to android application using it because the material i have seen about it is not helpful to me  Can anyone help, thanks
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2732561390145401/
+https://youtu.be/e9VYOWWP6zM Learn about Linear Regression in ML Subscribe now 👍 Show your love ❤
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2748160728585467/
+A Brief Overview of a Modern Data Scientist Role
