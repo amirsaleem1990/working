@@ -1138,3 +1138,7 @@ Anyone here who has used NVIDIA DeepStream SDK or NVIDIA Transfer Learning Toolk
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2755408024527404/
 Hi, Everyone.  Any one has knowledge about VGG16 model?  How it works and its accuracy?  Secondly can anyone tell me about epoch and batch?  Deep learning.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2754241691310704/
+How to spot a fake data scientist. Excellent post: 
