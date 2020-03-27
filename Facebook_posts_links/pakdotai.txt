@@ -1142,3 +1142,7 @@ Hi, Everyone.  Any one has knowledge about VGG16 model?  How it works and its ac
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2754241691310704/
 How to spot a fake data scientist. Excellent post: 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2756176094450597/
+Which companies/Software houses/ Banking sectors are working on Data Science/Machine Learning?
