@@ -420,3 +420,12 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/5Kt0XvZAPPl.js?
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 1585496624169	Marionette	INFO	Stopped listening on port 35873
+1585502408261	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3dpF7pXTvZFE"
+*** You are running in headless mode.
+1585502408709	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585502409383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585502409383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585502409383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585502409383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1585502411000	Marionette	INFO	Listening on port 37137
+1585502411090	Marionette	WARN	TLS certificate errors will be ignored for this session
