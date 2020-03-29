@@ -1222,3 +1222,11 @@ Hi, I have traffic violations and ticket data for almost 2 years ( daily). I hav
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2759439694124237/
 Hi, I have traffic violations and ticket data for almost 2 years ( daily). I have two things ask since I am little new to AI, 1- what the best way I can utilise this data, what kind of results can I extract from it? (I have my own ideas but I would know what else can be done..) 2- which library and techniques to use? I would also be very happy to get some one on board so we both can work on it...!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2762024893865717/
+Generated Deepfake from a single source Image. Was a quickie, could have easily done better.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2759439694124237/
+Hi, I have traffic violations and ticket data for almost 2 years ( daily). I have two things ask since I am little new to AI, 1- what the best way I can utilise this data, what kind of results can I extract from it? (I have my own ideas but I would know what else can be done..) 2- which library and techniques to use? I would also be very happy to get some one on board so we both can work on it...!
