@@ -429,3 +429,9 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 1585502409383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1585502411000	Marionette	INFO	Listening on port 37137
 1585502411090	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/2kb2KjdgL-1.js?_nc_x=pAsM9Lw-doT, line 4: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/2kb2KjdgL-1.js?_nc_x=pAsM9Lw-doT, line 4: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/2kb2KjdgL-1.js?_nc_x=pAsM9Lw-doT, line 4: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/2kb2KjdgL-1.js?_nc_x=pAsM9Lw-doT, line 4: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
