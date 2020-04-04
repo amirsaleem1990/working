@@ -7,3 +7,15 @@
 1586030272642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1586030274314	Marionette	INFO	Listening on port 35735
 1586030274468	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/ljTx_oYgA2X.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFnr1eJwVq7iIQ9sUjH6I9bi-eeQkEje4uL555CQSN7i8ZsFJe2VJ0cCtVcHlB2WG2FWC510CAgetkn1OhMQeVJ, line 4: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/ljTx_oYgA2X.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFnr1eJwVq7iIQ9sUjH6I9bi-eeQkEje4uL555CQSN7i8ZsFJe2VJ0cCtVcHlB2WG2FWC510CAgetkn1OhMQeVJ, line 4: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/ljTx_oYgA2X.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFnr1eJwVq7iIQ9sUjH6I9bi-eeQkEje4uL555CQSN7i8ZsFJe2VJ0cCtVcHlB2WG2FWC510CAgetkn1OhMQeVJ, line 4: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/ljTx_oYgA2X.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeFnr1eJwVq7iIQ9sUjH6I9bi-eeQkEje4uL555CQSN7i8ZsFJe2VJ0cCtVcHlB2WG2FWC510CAgetkn1OhMQeVJ, line 4: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yy/l/en_GB/bvAF_B_U_oy.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGWc_7uYs4SGOtYHj0NcZ95PzTFMpJAzvA_NMUykkDO8Ejo8FB96dVkia09UR6npLUZalJcKy6HJ1rI4wP5csoB, line 17: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yy/l/en_GB/bvAF_B_U_oy.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGWc_7uYs4SGOtYHj0NcZ95PzTFMpJAzvA_NMUykkDO8Ejo8FB96dVkia09UR6npLUZalJcKy6HJ1rI4wP5csoB, line 17: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yy/l/en_GB/bvAF_B_U_oy.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGWc_7uYs4SGOtYHj0NcZ95PzTFMpJAzvA_NMUykkDO8Ejo8FB96dVkia09UR6npLUZalJcKy6HJ1rI4wP5csoB, line 17: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yy/l/en_GB/bvAF_B_U_oy.js?_nc_x=pAsM9Lw-doT&_nc_eui2=AeGWc_7uYs4SGOtYHj0NcZ95PzTFMpJAzvA_NMUykkDO8Ejo8FB96dVkia09UR6npLUZalJcKy6HJ1rI4wP5csoB, line 17: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
