@@ -1278,3 +1278,39 @@ https://web.facebook.com/groups/pakdotai/permalink/2767698383298368/
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2767796039955269/
 A great resource on AI by Google and Oxford University. Highly recommended!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2773109342757272/
+Hi, I have few questions regarding Gradient Descent. While implementing linear regression in python using scikit learn, can we compute gradient descent or is it already implemented in scikit to minimize the cost function. In case if yes, then it means we dont have to do anything. 2. Can we use mean squared error for every model like classification, regression      etc. or is this specific to regression models.3. In case of object detection, what will be my cost function.4. Is gradient descent used for all ML algos minimize the cost functions. Can someone please confirm. Thank you.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2767428069992066/
+My book is be available online (amazon store)  from 27.03.2020. In collaboration with Suresh Kumar ( PhD lab mate ). Have a look. Thanks. Link: https://www.amazon.in/Hands-Exploratory-Data-A…/…/1789537258 #Datascience  #visualization  #Machinelearning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2772837002784506/
+Can someone here do a project related to OpenCV ?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2774176462650560/
+I have a question: I am trying to fit a Gaussian model on MNIST data. I need the inverse of the Covariance matrix. Since the pixels values are mostly zero at the corners of each image, I cannot find the inverse, because the covariance matrix becomes a 'Singular Matrix' ie, the determinant is zero. Any suggestions on what I can do?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2772588999475973/
+Every Data Scientist should keep this with him/her @https://blog.datasciencedojo.com/covid19-dunning-kruger-eff…
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2766196706781869/
+Good opportunity to start research in Corona virus from HEC
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2772315649503308/
+Hello World of Data Science: Introduction to Data Science and Kaggle. Solving famous titanic dataset using basic EDA, feature engineering and a simple machine learning algorithm after that, getting into top 14%. This tutorial is specially for beginners with little or no experience with data science. In this article, we will go from very basic things to some advance techniques used in data science competitions. And you will make your first submission on KAGGLE! http://competitivedatascience.com/hello-world-of-data-scie…/  #datascience #machinelearning #ml #kaggle #artificialintelligence #beginners #tutorial #datascientist #dataanalysts #ai #python
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2769627186438821/
+In this 1 video I discuss some of the most important sub fields of Computer Vision.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2771893816212158/
+Hi. I was wondering if anyone can point me to good resources for Bayesian Neural Networks - particularly something that clarifies Hamiltonian Monte Carlo and its use in BNNs.  I'd like to understand the theory :) Thank you.
