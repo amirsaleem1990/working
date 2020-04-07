@@ -127,9 +127,9 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"zeeshan1857",						# Zeeshan Waraich
 		"jamilasgharjaami",					# jamil asghar jaami 
 		"athar.w.azeem",					# Athar Waqar Azeem
-		"Nassim.Haramein.official",          # Nassim Haramein
-		"rehan.umar.165"                    # rehan umar
-		"groups/2963990780318681/"
+		"Nassim.Haramein.official",         # Nassim Haramein
+		"rehan.umar.165",                   # rehan umar
+		"groups/2963990780318681/"          # nayyer taban (paranting group)
 	  ]
 
 with open("ids_removed_from_facebook.pkl", "rb") as file:
