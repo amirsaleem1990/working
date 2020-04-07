@@ -7,3 +7,11 @@
 1586243475098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1586243476534	Marionette	INFO	Listening on port 34307
 1586243476629	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: TypeError: The expression cannot be converted to return the specified type.
+JavaScript error: , line 0: TypeError: The expression cannot be converted to return the specified type.
+JavaScript error: , line 0: TypeError: The expression cannot be converted to return the specified type.
+JavaScript error: , line 0: TypeError: The expression cannot be converted to return the specified type.
+JavaScript error: , line 0: TypeError: The expression cannot be converted to return the specified type.
+JavaScript error: , line 0: TypeError: The expression cannot be converted to return the specified type.
