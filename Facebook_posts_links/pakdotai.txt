@@ -1370,3 +1370,23 @@ In just 10 min, you'll learn to build and deploy classification, pose detection 
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2409809589087251/
 Looking for candidates who are capable to work with PowerBI/Tableau.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2780627125338827/
+Hi Seniors, I want your guidance If you could please help me answer some questions as I am a beginner and I have to make a project in which I have to detect objects of Office Inventory e.g. Keyboard, mouse, laptops etc. from real time video (mobile phone camera or any camera). I have done some research as which methods can detect objects. Following are my questions: 1) Can I use Faster RCNN and Yolo for my project 2) Are Faster RCNN and Yolo models already trained on some dataset 3) I have to generate my own data, my approach will be to make videos of office inventory and then take frames from those videos, augment the data and annotate them. Is this approach right. 4) In case above approach is correct then how can I annotate my image dataset as It will be huge dataset and using dark label or any other software will take a lot of time If I annotate every image manually. 5) How much image dataset should I have to train my model 6) To check the accuracy of my model, can I use mean average precision and intersection over union or are there any methods which I can use. Can I say mAP and IOU are my cost functions. Could you please be kind to guide me and clear my confusions and questions. Your guidance in this regard will be appreciated. Thank you.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2780747745326765/
+Assalam o alaikum I'm trying to run a flask app on google colab using flask-ngrok But keep getting this error Can somebody help?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/1886675238067358/
+Calling out all those interested in research!  AI Journal Club is geared towards exposing participants to the latest in AI Research where members of the community present research they are exploring or writing.  Special recognition to Zubair Ahmed and Ali Shoaib for this.  To access the above, use the link: https://github.com/PakistanAI/Journal_club Recommendations are appreciated.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2780116858723187/
+laugharithmic scale 😂
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2780117288723144/
+#AI #Medicine #AndrewNg  In anticipation of deeplearning.ai’s new AI For Medicine Specialization, I’ll be speaking at our online event with Eric Topol, Lily Peng, and Pranav Rajpurkar about this fast-growing application area. You can register here:  https://www.eventbrite.com/e/online-pie-ai-real-world-ai-ap…
