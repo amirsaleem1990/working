@@ -230,10 +230,10 @@ for fb in FB:
 
 			except:
 				continue
-	perc = counter/len(FB)*100
-	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
-						 current_time(),
-						 f" ||  {c} links in {fb}")
+		perc = counter/len(FB)*100
+		print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
+							 current_time(),
+							 f" ||  {c} links in {fb}")
 
 browser.close()
 
