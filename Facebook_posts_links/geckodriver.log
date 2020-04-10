@@ -37,3 +37,6 @@ Exiting due to channel error.
 1586517793678	Marionette	INFO	Listening on port 32971
 1586517793750	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
