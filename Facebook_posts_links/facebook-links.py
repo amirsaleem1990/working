@@ -18,7 +18,7 @@ def write_to_file(link, post):
 	file.close()
 	succussfully_extracted += 1
 
-	
+
 os.chdir("/home/amir/github/working/Facebook_posts_links/")
 
 os.system("clear")
@@ -158,7 +158,6 @@ errors = []
 
 succussfully_extracted = 0
 for fb in FB:
-	print(fb)
 	c = 0
 	counter += 1
 	if not fb in ids_removed_from_facebook:
@@ -229,9 +228,7 @@ for fb in FB:
 			except:
 				continue
 	perc = counter/len(FB)*100
-	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
-						 current_time(),
-						 f" ||  {c} links in {fb}")
+	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),current_time(),f" ||  {c} links in {fb}")
 
 browser.close()
 
