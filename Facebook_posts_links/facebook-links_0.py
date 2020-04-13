@@ -9,6 +9,16 @@ import time
 import datetime
 from selenium.webdriver.common.keys import Keys
 
+def write_to_file(link, post):
+	global succussfully_extracted
+	file = open(file_name, "a+")
+	file.write("\n" + "#"*30 + "\n")
+	file.write(link + "\n")
+	file.write(post + "\n")
+	file.close()
+	succussfully_extracted += 1
+
+
 os.chdir("/home/amir/github/working/Facebook_posts_links/")
 
 os.system("clear")
@@ -177,15 +187,8 @@ for fb in FB:
 								post = BeautifulSoup(browser.page_source, features="lxml").find("div", {"data-testid" : "post_message"}).text.replace("<br/>", "\n")
 								# print("d", end="|")
 								if post:
-									# print("e", end="|")
 									file_name = f"{fb.strip('/').split('/')[1]}.txt"
-									# print("f", end="|")
-									file = open(file_name, "a+")
-									file.write("\n" + "#"*30 + "\n")
-									file.write(link + "\n")
-									file.write(post + "\n")
-									file.close()
-									succussfully_extracted += 1
+									write_to_file(file_name, link, post)
 							except:
 								errors.append([fb, link])
 				except:
@@ -215,12 +218,7 @@ for fb in FB:
 										aa = soup.find("div", {"class" : "_5wj-"}).text
 										if len(aa) > 0:
 											file_name = f"{fb}.txt"
-											file = open(file_name, "a+")
-											file.write("\n" + "#"*30 + "\n")
-											file.write(link + "\n")
-											file.write(aa + "\n")
-											succussfully_extracted += 1
-											file.close()
+											write_to_file(file_name, link, aa)
 										else:
 											errors.append([fb, link])
 									except:
@@ -230,9 +228,7 @@ for fb in FB:
 			except:
 				continue
 	perc = counter/len(FB)*100
-	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),
-						 current_time(),
-						 f" ||  {c} links in {fb}")
+	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),current_time(),f" ||  {c} links in {fb}")
 
 browser.close()
 
