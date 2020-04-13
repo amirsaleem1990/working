@@ -1426,3 +1426,39 @@ https://web.facebook.com/groups/pakdotai/permalink/2782529885148551/
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2782534201814786/
 Original post by Dr. Isaac Faber at: https://www.linkedin.com/…/urn:li:activity:665346289993322…/
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2784396538295219/
+Assalamualikum, My name is Abdul Muqsit Abbasi and I have been handed over the responsibility by the Ministry of Science and Technology of Pakistan to bring together all the Practitioners who are working in the field of Artificial Intelligence directly and have hands on experience.  As this group is one of the most used groups by AI Enthusiasts, I am hence sharing this with you here.  All those people who are currently working in the area of AI, are requested to join the following WhatsApp Group: https://chat.whatsapp.com/JhKMgQkrRkk4eBo8afeLpB https://chat.whatsapp.com/IkRL965Z4aGIctOtCQ3eJe The sole purpose of this group is to bring together and make a National Pool of people who are trying to promote the 4th Industrial Revolution in Pakistan.  No time commitment is required from any of you who joins the group.  Rather, the Government Of Pakistan wants to know of and promote those people who can work alongside them for a greater cause.  Hoping to see you all.  Regards.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2788074984594041/
+My implementation of the Semantic Segmentation model for Multi-organ Nucleus Segmentation Challenge (MoNuSeg) 2018 dataset. I have used multiple models that comprise of U-Net, SegNet, and DeepLabv3+. Feel free to have a look: https://lnkd.in/gZXf5Kq #deeplearning #machinelearning #computervision #artificialintelligence #artificialintelligence #neuralnetworks #neuralnetworks #keras #opencv #imageprocessing #histopathology #histology #medicalimaging #segmentation #neuralnetwork
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2792551624146377/
+Hi everyone  We are doing a few virtual activities in the coming weeks before Ramadan on the Pakistan.AI group, some will be interactive as well depending on the speaker. These will be tech talks, workshops etc. Few are already lined up, but if you have a tech talk that you are particularly looking forward to, please comment below and we will try to arrange if it lines with the interest of the community.  Pour in some interesting suggestions down below. Looking for more mediocore level talks.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2787303611337845/
+If you are a beginner in Data Science then it will be helpful for you. Do give it a read :) 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2789523741115832/
+Normalize | Standardize before or after train-test split? Because Andrew NG say's before while alot of the posts on stackoverflow and discussions on kaggle say after.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2791817167553156/
+Hello, Anyone here who did work on Myriad X or (NCS 2). Need help regarding that. Thank you
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2792540110814195/
+Guys this Github link has some AI based research papers (Top 2% ~ Top 35%, Q1 and Q2 ranked journals) implementation with supported tutorials on YouTube and trained models data on GoogleDrive.  Main topic is #Video_Summarization with touch of security (image encoding decoding) and some others too. Models contains > image memorability computation, suspicious objects detection, LSTMs and bi-directional LSTMs,  I hope it may help some of you... 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2791077180960488/
+Aoa. I'm practicibg classification algorithms these days, can anyone guide me where to find datasets for some practice problems. thankyou.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2789621971106009/
+Guys give it a look 😃
