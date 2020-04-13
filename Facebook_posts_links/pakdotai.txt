@@ -1462,3 +1462,31 @@ Aoa. I'm practicibg classification algorithms these days, can anyone guide me wh
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2789621971106009/
 Guys give it a look 😃
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2791020194299520/
+#Tableau #datavisualisation #datascience #dataanalysis Tableau is offering 90 days of free eLearning! Checkout https://lnkd.in/e-wMZ5C for further details!
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2791286017606271/
+We all know how neural networks can learn their weights and biases using the gradient descent algorithm. In this article, I'll explain a fast algorithm for computing such gradients, an algorithm known as backpropagation. You will see what's the algorithm doing in simple terms and will be able to use it for your projects.https://learnml.today/making-backpropagation-autograd-mnist-classifier-from-scratch-in-Python-5?utm_source=fb&utm_medium=social
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2790036471064559/
+#BackOnTheTrack! #DataScienceOnline #OnlineLearning The #journey of "DS Weekends - Machine Learning for Data Science" itself #began from #20thJanuary with registrations eventually converging to competitive shortlisting of applicants from a pool of around 200 candidates to 40!  And we converge to our 5th Machine Learning Workshop - conducted #online ! A big #shoutout to all onboard enthusiastic techies ranging from #students & #faculty (from universities including Iqra University, Arid University, FJWU, Bahria University, Dr. A. Q. Khan Institute of Computer Science and Information Technology, Comsats, IIUI & FAST) to #professionals from renowned industrial backgrounds of Telecom, AI & emerging startups! And now - Just a glimpse of today's immersive boot-camp session! #Take5: - "#DSWeekends by Pakistan.AI- Machine Learning for Data Science" A complete walk through and interactive QA session of #Bayesian Classification & #Regression Models! Note : #Applications have been #closed for "DS Weekends - Machine Learning for Data Science" and our slots are completely filled In case you have missed the opportunity, stay tuned for upcoming similar opportunities in near future! P.S - Check out event page to stay updated with workshop series - "DS Weekends - Machine Learning for Data Science" : http://bit.ly/2HKOdC6 #PakistanAI #Islamabad #Chapter #PWiC #NUCS Ma'am Saba Rasheed Malik Saad Zia Abeer Noor Muneeba Sirshar #EmergeTogether! #InteractiveLearning
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2789870337747839/
+https://www.youtube.com/watch?v=OhCzX0iLnOc
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2791363067598566/
+Old article but still relevant. Well worth a read for aspiring data scientists. 
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2787483827986490/
+I want to create a model-based movie recommender system  i used memory  based recommender(cosine similarity) but its super slow Iam  newbie to ML i don't know what algorithms to use to accomplish this task but if anyone of you can guide me it will be very helpful
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2785346348200238/
+A team of Microsoft and Huazhong University researchers this week open-sourced an AI object detector
