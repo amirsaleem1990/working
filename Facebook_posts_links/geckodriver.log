@@ -7,3 +7,10 @@
 1586763811563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1586763813052	Marionette	INFO	Listening on port 33561
 1586763813138	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: Error in body stream
+JavaScript error: , line 0: TypeError: Error in body stream
+JavaScript error: , line 0: TypeError: Error in body stream
+JavaScript error: , line 0: TypeError: Error in body stream
+JavaScript error: , line 0: TypeError: Error in body stream
+JavaScript error: , line 0: TypeError: Error in body stream
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
