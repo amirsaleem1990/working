@@ -1,10 +1,10 @@
-groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2792551624146377/
 groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2784396538295219/
+groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2788074984594041/
+groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2792551624146377/
+groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2787303611337845/
 groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2789523741115832/
 groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2791817167553156/
-groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2787303611337845/
 groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2792540110814195/
-groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2788074984594041/
 groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2791077180960488/
 groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2789621971106009/
 groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2791020194299520/
@@ -15,6 +15,5 @@ groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2772941069
 groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2791363067598566/
 groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2787483827986490/
 groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2785346348200238/
-groups/pakdotai/:  https://web.facebook.com/groups/pakdotai/permalink/2785645041503702/
 groups/2963990780318681/:  https://web.facebook.com/groups/2963990780318681/permalink/3053413968043028/
 groups/2963990780318681/:  https://web.facebook.com/groups/2963990780318681/permalink/3055673927817032/
