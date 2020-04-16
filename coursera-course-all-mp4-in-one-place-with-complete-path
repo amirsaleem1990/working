@@ -1,28 +1,36 @@
 #!/bin/bash
-# coursera ka course download kya, or phir content ko is structure me rakah:
-#	week-n
-#		subject_1
-#			MP4
-#				mp4_1.mp4
-#				mp4_2.mp4
-#				mp4_n.mp4
-#			HTML
-#				html_1.mp4
-#				html_2.mp4
-#				html_n.mp4			
-#			TXT
-#				txt_1.mp4
-#				txt_2.mp4
-#				txt_n.mp4
-#			PDF
-#				pdf_1.mp4
-#				pdf_2.mp4
-#				pdf_n.mp4
-#		subject_2
-#			...
-#		subject_n
+echo "
+coursera ka course download kya, or phir content ko is structure me rakah:
+week-n
+	subject_1
+		MP4
+			mp4_1.mp4
+			mp4_2.mp4
+			mp4_n.mp4
+		HTML
+			html_1.mp4
+			html_2.mp4
+			html_n.mp4			
+		TXT
+			txt_1.mp4
+			txt_2.mp4
+			txt_n.mp4
+		PDF
+			pdf_1.mp4
+			pdf_2.mp4
+			pdf_n.mp4
+	subject_2
+		...
+	subject_n
 			...
 # ab masla ye tha k each MP4 folders me vidoes bohot kam thin, to bohot mushkil ho rahi thi, to my ny sab videos ko 1 hi jaga copy kar dya, or un ka full address bhi un k new names me include kar dya
+
+"
+
+read -p "Are you need to proceed [y|n]: " request
+if [[ $request = "n" ]] ; then
+	exit
+fi
 
 IFS=$'\n'
 for i in `find . -name "*.mp4"`
