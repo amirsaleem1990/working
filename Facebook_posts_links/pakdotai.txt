@@ -1490,3 +1490,59 @@ I want to create a model-based movie recommender system  i used memory  based re
 ##############################
 https://web.facebook.com/groups/pakdotai/permalink/2785346348200238/
 A team of Microsoft and Huazhong University researchers this week open-sourced an AI object detector
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2822093304525542/
+Hello Everyone, I am looking for suggestions regarding a hiring and development app powered with AI/ML tools. 1. The app will work as a specialised hiring platform with intelligent matching. It will work on the basis of benchmark data, such as compensation, experience and specialization etc. 2. Also based on these tailored tools it will identify the career goals. It will recommend training and development courses on the basis of skill gap. 3. The app will work as a community building platform and will enable peer to peer learning. Kindly let me know if there is an app based on these features or if anyone has the experience with it. The reference of software houses will also be preferred. Thanks
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2820953584639514/
+Hi, guys made a new Tutorial 🙂
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2819272971474242/
+Helmut Veith Stipend for Female Master’s Students in Computer Science The Helmut Veith Stipend is awarded annually to motivated female students in the field of computer science who pursue (or plan to pursue) one of the master’s programs in Computer Science at TU Wien taught in English. Students who are awarded the Helmut Veith Stipend, receive: -EUR 6000 annually for a duration of up to two years. -Waiver of all tuition fees at TU Wien. 1. Applicants must be eligible for admission to one of the master’s programs in computer science at TU Wien that are taught in English. In 2019/2020 and 2020/2021 those are: • Master in Logic and Computation • Master in Business Informatics • European Master in Computational Logic • Master in Computer Engineering (Technische Informatik) • Master in Data Science • Master in Media and Human-Centered Computing 2. While applications for funding can be filed before or in parallel with the admissions process, the funding will only be awarded to applicants who have been unconditionally admitted to the master’s program. An application for funding does not replace the admissions process; neither does a conditional offer of funding entitle the applicant to study at TU Wien. 3. Female students who meet the following conditions are eligible to apply for the stipend: • Bachelor’s degree in Computer Science or Mathematics (Bologna first cycle) or equivalent degree • Extensive knowledge and interest in (at least one of) Helmut Veith’s areas of research:     -Logic in Computer Science     -Formal Methods and Verification     -Foundations of Artificial Intelligence     -Complexity Theory     -Computer Security • Proficiency in English Students are required to submit the following documents: • Cover Letter, describing the type of funding the student is applying for, and all other aspects the student deems relevant for the application • Curriculum Vitae • Motivation Letter, describing the reasons why the student wants to study in the program Logic and Computation, why funding is necessary, and with which groups of the faculty the student would be interested to work with during their master’s thesis and why. • Reports on university examinations (transcripts) • Diplomas and/or certificates (first degree, bachelor degree, or higher). If the final academic certificate is not yet available at the time of the application deadline, a preliminary certificate (indicating the type of degree and the expected graduation date) signed and stamped by the degree-awarding university must be provided. • Contact details of two referees (for letters of recommendation) • English language certificate (TOEFL or similar) • Copy of passport A certified translation needs to be provided for documents that are not in German or English. Your application must be submitted electronically to master@logic-cs.at with a subject “Application” as a single PDF document. The name of the PDF file needs to be “document.pdf” The annual deadline for applications is November 30th.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2821034607964745/
+Hi there. Calling out all #entrepreneurs of Pakistan to become a part of National Incubation Center, Karachi Applications are now open for #cohort5 Fill in the form and our team will get in touch with you for further details: https://forms.gle/y4djjNBsapdANcW16 Share and tag #startupcommunity #founders #techstartup #startupecosystem For any inquiries or assistance feel free to write to me at nrizwan@lmkt.com
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2821393404595532/
+New blog for the beginners. predicting-bike-sharing Forecasting with a simple Neural Network
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2811356462265893/
+Despite the advancement of OCR in different languages, Urdu still lacks an open-source comprehensive OCR system. In an attempt to contribute to the domain, we are publically releasing "Qaida" (A large scale multi-font printed Urdu data set). I would also love to hear the suggestions for the next phase of the project. For now the plan is to release baseline pre-trained models, and launch a competition on Kaggle. Github Page: https://github.com/AtiqueUrRehman/qaida Dataset on Kaggle: https://www.kaggle.com/atique/qaida-dataset
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2818068158261390/
+Hello everyone. Is there any way I can get historical traffic data by cities in Pakistan?  Thanks.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2817139081687631/
+Neuromatch Academy 2020 An online school for Computational Neuroscience A 3 week online tutorials based conference in Computational Neuroscience from July 13 - 31, 2020 organized by Neuromatch academy to train neuroscientists to learn computational tools, to make connections to real-world neuroscience problems, and to promote networking with researchers. The syllabus is mentioned here https://docs.google.com/…/15HQC_UMT8BZBpPwbkID5l8pNOV…/edit… Prerequisite · Python, basic math, introductory neuroscience (no need to worry they would also provide reading list/tutorials soon!) Price: Small or free of change (most probably would be free of charge and even if charges apply, they would be waived) Note: If you are an expert in this domain then you can also apply for a Teaching Assistant (TA) or a Mentor. All the details including registration links(for students, TAs, mentors), organizers,  and syllabus are mentioned on the original website. https://neuromatch.io/academy/
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2817522031649336/
+The first version of Apple and Google's jointly developed, cross-platform contact tracing API should be available to developers as of next week.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2815929391808600/
+Start your career in Data Science with Atique Ur Rehman Pakistan.AI #DSWeekends (ML for Data Science Islamabad) workshop series concludes today (Thursday, 23rd April-2020). We are honored to have valuable presence of Atique Ur Rehman as our Guest Speaker! He is presently serving as CTO and Senior Research Scientist at Automotive Artificial Intelligence (GmbH).  We are proud to be supported by 10Pearls University for today's webinar. Join us right now on Zoom for an interactive session: https://10pearls.zoom.us/j/98732953833… Meeting ID 987-3295-3833 Meeting Password 366132
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2814268091974730/
+We will be concluding Pakistan.AI #DS #Weekends (ML for Data Science) workshop series today (Thursday, 23rd April-2020), 2020.  We are honored to have valuable presence of Sir Atique Ur Rehman as our Guest Speaker! He is presently serving as CTO and Senior Research Scientist at Automotive Artificial Intelligence (GmbH).  Note :#Enrolled/shortlisted DS enthusiasts of DS Weekends DONOT need to register. We have already reserved your seats :)  We have reserved a few more seats for folks apart from enrolled DS enthusiasts. So grab your opportunity to meet one of the most finest AI Experts! We have limited seats and registrations would be closing soon! Topic: "Starting your Data Science career". Event Time: 19.00 - 20.00 pm (sharp 19:00) Thursday, 23rd April 2020. Registration Link : https://bit.ly/34W3Wcc We look forward to your participation.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2814372051964334/
+AWS DeepRacer Beginner Challenge Community Race 2020Winner’s prize has increased from $100 to $1000 in AWS credits! Top 50 racers are rewarded with prizes in AWS credits. Refer here for more prize details.Comprehensive guide on how to get started with this community race are published on both the AWS DeepRacer community blog and Medium as below.https://medium.com/@juvchan/train-a-viable-model-in-45-minutes-aws-deepracer-beginner-challenge-virtual-community-race-2020-2792a1314dcehttps://blog.deepracing.io/2020/04/19/train-a-viable-model-in-45-minutes-for-aws-deepracer-beginner-challenge-virtual-community-race-2020/Look forward to your active participation!The race ends on 31st May 2020.
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2811577498910456/
+Has anyone worked with voice cloning?  I want to create my voice clone, so it can speak any text I provide it in my voice. Can anyone guide me how can I create it? and how much training data I will need?
+
+##############################
+https://web.facebook.com/groups/pakdotai/permalink/2812900238778182/
+Anyone who has expertise in chat bot. Need some guidance...
