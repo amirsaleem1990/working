@@ -115,17 +115,17 @@ for fb in FB:
 			c += 1 
 			get_next_page_link(pages_links[-1])
 			time.sleep(2)
-            if next_page_error > 2:
-                break
+			if next_page_error > 2:
+				break
 		pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
-        print(f"succussfully COMPLETED {fb}")
+		print(f"succussfully COMPLETED {fb}")
 	except:
 		Errors_dict["another Error"].append(fb)
 		pass
 
 print("\n\n\n")
 for i in Errors_dict:
-    if Errors_dict[i]:
-    	print(i)
-    	print(Errors_dict[i])
-    	print("******************************")
+	if Errors_dict[i]:
+		print(i)
+		print(Errors_dict[i])
+		print("******************************")
