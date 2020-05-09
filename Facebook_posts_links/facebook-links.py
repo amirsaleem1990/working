@@ -135,8 +135,7 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 		"groups/2963990780318681/"          # nayyer taban (paranting group)
 	  ]
 
-with open("ids_removed_from_facebook.pkl", "rb") as file:
-    ids_removed_from_facebook = pickle.load(file)
+ids_removed_from_facebook = pickle.load(open("ids_removed_from_facebook.pkl", "rb"))
 ids_removed_from_facebook = list(ids_removed_from_facebook.keys())
 
 fb_base_url = "https://web.facebook.com/"
@@ -232,8 +231,7 @@ if not links_to_open:
 	os.mkdir("check")
 	os.chdir("check/")
 	for e, i in enumerate(mmz):
-		with open(str(e) + ".txt", "w") as file:
-			file.write(str(i))
+		open(str(e) + ".txt", "w").write(str(i))
 	from termcolor import colored
 	print(colored("\n\n<check> folder created, you can check there why you not get any link\n\n", 'red'))
 
@@ -245,8 +243,7 @@ procecced = 0
 if succussfully_extracted:
 	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
 	print("\n\nsuccussfully extracted: ", succussfully_extracted)
-	with open("All_FB_links_names_corrected.pkl", "wb") as file:
-		pickle.dump(all_links, file)
+	pickle.dump(all_links, open("All_FB_links_names_corrected.pkl", "wb"))
 
 	for i in links_to_open:
 		procecced += 1
