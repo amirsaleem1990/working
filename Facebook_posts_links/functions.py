@@ -1,4 +1,7 @@
 def LOGIN(usrname, pas):
+	from selenium import webdriver
+	import time
+	import numpy as np
 	print("Attempting to Login   ", current_time())
 	Successfully_logedin = True
 	Successfully_logedin_num = 0
