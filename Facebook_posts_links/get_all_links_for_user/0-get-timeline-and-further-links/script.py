@@ -73,59 +73,55 @@ def get_next_page_link(LINK):
 		next_page_error += 1
 		Errors_dict["next page Error"].append(LINK)
 
-Errors_dict = {"another Error" : [], 
-				"next page Error" : [], 
+Errors_dict = {	"next page Error" : [], 
 				"ID not found" : [],
-                "timeline linke Error" : []}
+				"timeline linke Error" : []}
 
 
 FB = [i for i in FB if i in ["profile.php?id=100026041448813", "profile.php?id=100032249983289", "anas.islam.3551", "tariq.habib.969952", "groups/pakdotai/", "profile.php?id=100010345081577", "groups/2963990780318681/"]]
+
 for fb in FB:
 	next_page_error = 0
+	print(fb)
+	folder_name = "/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/Extracted/" + fb
 	try:
-		print(fb)
-		folder_name = "/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/Extracted/" + fb
-		try:
-			os.mkdir(folder_name)
-		except:
+		os.mkdir(folder_name)
+	except:
+		pass
+
+	complted_url = fb_base_url + fb
+
+	try:
+		browser.get(complted_url)
+	except:
+		Errors_dict["ID not found"].append(fb)
+		continue # sys.exit()
+	s = BeautifulSoup(browser.page_source, "lxml")
+
+	for i in s.find("div", {"class" : "bl"}).select("div", {"class" : "cv"}):
+		try: 
+			link_ = i.find("a")['href']
+			if "timeline&lst" in link_:
+				time_line_link = fb_base_url.strip("/") + link_
+				break
+		except: 
 			pass
 
-		complted_url = fb_base_url + fb
-
-		try:
-			browser.get(complted_url)
-		except:
-			Errors_dict["ID not found"].append(fb)
-			continue # sys.exit()
-		s = BeautifulSoup(browser.page_source, "lxml")
-
-		for i in s.find("div", {"class" : "bl"}).select("div", {"class" : "cv"}):
-			try: 
-				link_ = i.find("a")['href']
-				if "timeline&lst" in link_:
-					time_line_link = fb_base_url.strip("/") + link_
-					break
-			except: 
-				pass
-
-        try:
-            pages_links = [time_line_link]
-        except:
-            Errors_dict["timeline linke Error"].append(fb)
-            continue
-
-		c = 0
-		while c < qty_of_pages: # only first few pages
-			c += 1 
-			get_next_page_link(pages_links[-1])
-			time.sleep(2)
-			if next_page_error > 2:
-				break
-		pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
-		print(f"*************************** Succussfully COMPLETED {fb}")
+	try:
+		pages_links = [time_line_link]
 	except:
-		Errors_dict["another Error"].append(fb)
-		pass
+		Errors_dict["timeline linke Error"].append(fb)
+		continue
+
+	c = 0
+	while c < qty_of_pages: # only first few pages
+		c += 1 
+		get_next_page_link(pages_links[-1])
+		time.sleep(2)
+		if next_page_error > 2:
+			break
+	pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
+	print(f"*************************** Succussfully COMPLETED {fb}")
 
 print("\n\n\n")
 for i in Errors_dict:
