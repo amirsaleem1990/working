@@ -15,6 +15,8 @@ from functions import *
 
 # os.chdir("/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/0-get-timeline-and-further-links")
 
+qty_of_pages = int(input("Enter pages Qty for each profile: "))
+
 os.system("clear")
 
 FB = [i.split("\t")[0].strip() for i in open("/home/amir/github/working/Facebook_posts_links/FB.txt", "r").read().splitlines()]
@@ -102,8 +104,8 @@ for fb in FB:
 		pages_links.append(time_line_link)
 
 		c = 0
-        
-		while c < 20: # only first few pages
+
+        while c < qty_of_pages: # only first few pages
 			get_next_page_link(pages_links[-1])
 			time.sleep(2)
 			c += 1 
