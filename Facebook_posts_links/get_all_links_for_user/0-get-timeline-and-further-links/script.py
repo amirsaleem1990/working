@@ -8,7 +8,7 @@ import numpy as np
 import time
 import datetime
 from selenium.webdriver.common.keys import Keys
-
+from functions import LOGIN
 os.chdir("/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/0-get-timeline-and-further-links")
 
 os.system("clear")
@@ -36,8 +36,8 @@ stored_links_qty = sum([len(all_links[i]) for i in all_links])
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
 
-LOGIN()
-    
+browser = LOGIN(usrname, pas)
+
 
 with open("/home/amir/github/working/Facebook_posts_links/ids_removed_from_facebook.pkl", "rb") as file:
 	ids_removed_from_facebook = pickle.load(file)
