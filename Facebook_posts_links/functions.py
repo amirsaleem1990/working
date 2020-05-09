@@ -43,6 +43,7 @@ def LOGIN(usrname, pas):
 
 
 def current_time():
+	import datetime
 	n = datetime.datetime.now()
 	
 	a = str(n).split()[1].split(".")[0]
