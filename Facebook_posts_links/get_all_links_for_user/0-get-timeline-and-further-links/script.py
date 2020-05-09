@@ -109,11 +109,10 @@ for fb in FB:
 				pass
 
         try:
-            time_line_link
+            pages_links = [time_line_link]
         except:
             Errors_dict["timeline linke Error"].append(fb)
-		pages_links = []
-		pages_links.append(time_line_link)
+            continue
 
 		c = 0
 		while c < qty_of_pages: # only first few pages
