@@ -73,14 +73,18 @@ for fb in FB:
     try:
         print(fb)
         folder_name = "/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/Extracted/" + fb
-        os.mkdir(folder_name)
+        try:
+	        os.mkdir(folder_name)
+	    except:
+	    	pass
+
         complted_url = fb_base_url + fb
 
         try:
             browser.get(complted_url)
         except:
             print("ID not found", fb)
-            sys.exit()
+            continue # sys.exit()
         s = BeautifulSoup(browser.page_source, "lxml")
 
         for i in s.find("div", {"class" : "bl"}).select("div", {"class" : "cv"}):
@@ -97,10 +101,10 @@ for fb in FB:
 
         c = 0
 
-        while c < 20:
+        while c < 20: # only first few pages
             get_next_page_link(pages_links[-1])
             time.sleep(2)
-            c += 1 # only first few pages
+            c += 1 
         pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
 
     except:
