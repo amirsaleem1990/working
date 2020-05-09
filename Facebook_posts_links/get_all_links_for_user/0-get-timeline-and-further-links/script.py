@@ -78,7 +78,7 @@ Errors_dict = {"another Error" : [],
 				"ID not found" : []}
 
 
-FB = [i for i in FB if i in ["MMushtaqYusufzai", "profile.php?id=100026041448813", "profile.php?id=100032249983289", "anas.islam.3551", "tariq.habib.969952", "groups/pakdotai/", "profile.php?id=100010345081577", "athar.w.azeem", "Nassim.Haramein.official", "rehan.umar.165", "groups/2963990780318681/"]]
+FB = [i for i in FB if i in ["profile.php?id=100026041448813", "profile.php?id=100032249983289", "anas.islam.3551", "tariq.habib.969952", "groups/pakdotai/", "profile.php?id=100010345081577", "Nassim.Haramein.official", "rehan.umar.165", "groups/2963990780318681/"]]
 for fb in FB:
 	next_page_error = 0
 	try:
