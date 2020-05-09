@@ -72,9 +72,6 @@ def get_next_page_link(LINK):
 	except:
 		next_page_error += 1
 		Errors_dict["next page Error"].append(LINK)
-	if next_page_error > 2:
-		import sys
-		sys.exit(1)
 
 Errors_dict = {"another Error" : [], 
 				"next page Error" : [], 
@@ -114,11 +111,12 @@ for fb in FB:
 		pages_links.append(time_line_link)
 
 		c = 0
-
 		while c < qty_of_pages: # only first few pages
+			c += 1 
 			get_next_page_link(pages_links[-1])
 			time.sleep(2)
-			c += 1 
+            if next_page_error > 2:
+                break
 		pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
 
 	except:
