@@ -1,2 +1,9 @@
 1589026433374	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UbdGT6MYcSBX"
 *** You are running in headless mode.
+1589026433722	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589026434401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589026434401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589026434401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589026434402	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589026435631	Marionette	INFO	Listening on port 34089
+1589026435683	Marionette	WARN	TLS certificate errors will be ignored for this session
