@@ -105,7 +105,7 @@ for fb in FB:
 
 		c = 0
 
-        while c < qty_of_pages: # only first few pages
+		while c < qty_of_pages: # only first few pages
 			get_next_page_link(pages_links[-1])
 			time.sleep(2)
 			c += 1 
