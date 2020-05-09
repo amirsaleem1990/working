@@ -205,7 +205,7 @@ if not fb in ids_removed_from_facebook:
 									browser.get(link)
 								except:
 									errors.append([fb, link])
-									continue
+									pass # continue
 								soup = BeautifulSoup(browser.page_source, "lxml")
 								try:
 									aa = soup.find("div", {"class" : "_5wj-"}).text
@@ -219,7 +219,7 @@ if not fb in ids_removed_from_facebook:
 									pass
 
 		except:
-			continue
+			pass #continue
 perc = counter/len(FB)*100
 print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),current_time(),f" ||  {c} links in {fb}")
 

@@ -600,3 +600,6 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1589027036878	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZBDqU0SS61fr"
+*** You are running in headless mode.
+1589027037188	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
