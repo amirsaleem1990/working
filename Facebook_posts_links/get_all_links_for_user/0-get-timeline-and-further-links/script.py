@@ -102,7 +102,7 @@ for fb in FB:
 		pages_links.append(time_line_link)
 
 		c = 0
-
+        
 		while c < 20: # only first few pages
 			get_next_page_link(pages_links[-1])
 			time.sleep(2)
