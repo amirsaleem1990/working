@@ -26,49 +26,7 @@ def current_time():
 	tt = tt.strip(":")
 	return tt
 
-FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
-		"asif.mahmood.1671", 				# asif mahmood
-		"zahid.mughal.5895", 				# zahid mughal
-		"mohammad.f.haris", 				# mohammad fahad haris
-		"abdullah.adam49", 					# abdullah adam 
-		"hm.zubair.52", 					# Hm Zubair 
-		"muhammad.imra.100",				# Muhammad Imran
-		"munib.hussain86", 					# munib hussain 
-		"jameelbaloch1924", 				# jameel baloch           #Blocked
-		"theguided1",  						# Rizwan Asad Khan
-		"abubakr.quddusi.3", 				# abubakr quddusi 
-		"mohammaddin.jauhar.7", 			# mohammad din jauhar 
-		"Riayat.Farooqui",  				# riayatullah farooqui 
-		"asim.allahbakhsh", 				# asim allahbakhsh 
-		"sohaib.naseem.3", 					# میسن بیہص  
-		"idreesazaad", 						# Idrees Azad ‎
-		"Abu.Musab.98622733", 				# بعصم دمحم وبا 
-		"profile.php?id=100026041448813", 
-		"profile.php?id=100010667655748",   # mohammad saleem 
-		"profile.php?id=100043920022318",   # سرورالدین سرور
-		"ajeebscenehaibhai", 
-		"nouman.atd.3", 					# Nouman Ihsan
-		"profile.php?id=100032249983289", 	# مالسا سنا              (Blocked)
-		"anas.islam.3551",                  # مالسا سنا
-		"HamidKamaluddin.personal", 		# Hamid kamaluddin
-		"faisal.shahzad.1253236", 			# دازہش لصیف دمحم
-		"tariq.habib.969952", 				# tariq habib
-		"mahtabaziz", 						# mahtab khan
-		"suhaib.jamal.1", 					# Suhaib Jamal
-		"hanifsamanaa",						# hanif samanaa
-		"groups/pakdotai/",					# pakistan.ai
-		"atheismcrusher.pk", 				# abu ibrahim
-		"roxane.apolonio.773",				# کاڑھک اد ےکاک 
-		"anwaar456",						# ردیح راونا
-		"muhammad.bhatti.9250",				# Muhammad Bhatti
-		"Bhaihasib1",						# Haseeb Khan
-		"mateen.ahmad2010",					# Syed Mateen Ahmad
-		"profile.php?id=100009666136877",	# Faizullah Khan
-		"profile.php?id=100004721416966",	# Dr-Muhammad Shahbaz Manj
-		"profile.php?id=100010345081577",	# Ali Imran
-		"zeeshan1857",						# Zeeshan Waraich
-		"jamilasgharjaami"					# jamil asghar jaami 
-	  ]
+FB = [i.split("\t")[0].strip() for i in open("/home/amir/github/working/Facebook_posts_links/FB.txt", "r").read().splitlines()]
 
 with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
 	all_links = pickle.load(file)
