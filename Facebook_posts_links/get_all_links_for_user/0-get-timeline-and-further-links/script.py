@@ -8,7 +8,11 @@ import numpy as np
 import time
 import datetime
 from selenium.webdriver.common.keys import Keys
+
+import sys
+sys.path.insert(0,'/home/amir/github/working/Facebook_posts_links/')
 from functions import LOGIN
+
 os.chdir("/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/0-get-timeline-and-further-links")
 
 os.system("clear")
