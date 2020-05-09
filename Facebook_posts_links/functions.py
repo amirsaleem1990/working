@@ -44,13 +44,17 @@ def LOGIN(usrname, pas):
 
 def current_time():
 	n = datetime.datetime.now()
-	t = ':'.join([str(i) for i in [n.hour % 12, n.minute, n.second]])
-	tt = ""
-	for i in t.split(":"):
-		if len(i) == 1:
-			tt += "0" + i
-		else:
-			tt += i
-		tt += ":"
-	tt = tt.strip(":")
+	
+	a = str(n).split()[1].split(".")[0]
+	tt  = a if not int(a.split(":")[0]) > 11 else  (str(int(a.split(":")[0])-12) + a[a.find(":"):])
+	
+	# t = ':'.join([str(i) for i in [n.hour % 12, n.minute, n.second]])
+	# tt = ""
+	# for i in t.split(":"):
+	# 	if len(i) == 1:
+	# 		tt += "0" + i
+	# 	else:
+	# 		tt += i
+	# 	tt += ":"
+	# tt = tt.strip(":")
 	return tt
