@@ -72,7 +72,7 @@ def get_next_page_link(LINK):
 for fb in FB:
     try:
         print(fb)
-        folder_name = "/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/0-get-timeline-and-further-links/Extracted/" + fb
+        folder_name = "/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/Extracted/" + fb
         os.mkdir(folder_name)
         complted_url = fb_base_url + fb
 
