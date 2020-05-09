@@ -149,79 +149,81 @@ mmz = []
 errors = []
 
 succussfully_extracted = 0
-for fb in FB:
-	print(len(links_to_open))
-	c = 0
-	counter += 1
-	if not fb in ids_removed_from_facebook:
-		complted_url = fb_base_url + fb
-		if not fb in all_links:
-			print(f"new id added: <{fb_base_url + fb}>")
-			all_links[fb] = []
-		browser.get(complted_url)
-		s = BeautifulSoup(browser.page_source, "lxml")
+# for fb in FB:
+fb = "MMushtaqYusufzai"
+c = 0
+counter += 1
+if not fb in ids_removed_from_facebook:
+	complted_url = fb_base_url + fb
+	if not fb in all_links:
+		print(f"new id added: <{fb_base_url + fb}>")
+		all_links[fb] = []
+	browser.get(complted_url)
+	s = BeautifulSoup(browser.page_source, "lxml")
 
-		##################################################
-		# only for groups 
-		if fb.startswith("groups"):
-			for i in s.select("a"):
-				try:
-					link = i['href']
-					if link.startswith(f"/{fb}permalink/"):
-						link = "https://web.facebook.com" + link
-						# print("a", end="|")
-						if not link in str(all_links):
-							# print("b", end="|")
-							all_links[fb].append((link, str(now)))
-							links_to_open.append(link)
-							try:
-								browser.get(link)
-								# print("c", end="|")
-								post = BeautifulSoup(browser.page_source, features="lxml").find("div", {"data-testid" : "post_message"}).text.replace("<br/>", "\n")
-								# print("d", end="|")
-								if post:
-									file_name = f"{fb.strip('/').split('/')[1]}.txt"
-									write_to_file(file_name, link, post)
-							except:
-								errors.append([fb, link])
-				except:
-					pass
-		##################################################	
-		else:
-			a = s.find("div", {"id" : "timeline_story_column"})
-			mmz.append(a)
+	##################################################
+	# only for groups 
+	if fb.startswith("groups"):
+		for i in s.select("a"):
 			try:
-				links_ = a.select('a')
-				for i in links_:
-					link = i['href']
-					if (link.startswith("https://www.facebook.com/")) or (link.startswith("https://web.facebook.com/")):
-						if not link in str(all_links):
-							if "/posts/" in link: # failing to capture like this link (https://web.facebook.com/permalink.php?story_fbid=129882195152447&id=100043920022318)
-								if not "?comment_id=" in link:
-									all_links[fb].append((link, str(now)))
-									links_to_open.append(link)
-									c += 1
-									try:
-										browser.get(link)
-									except:
-										errors.append([fb, link])
-										continue
-									soup = BeautifulSoup(browser.page_source, "lxml")
-									try:
-										aa = soup.find("div", {"class" : "_5wj-"}).text
-										if len(aa) > 0:
-											file_name = f"{fb}.txt"
-											write_to_file(file_name, link, aa)
-										else:
-											errors.append([fb, link])
-									except:
-										errors.append([fb, link])
-										pass
-
+				link = i['href']
+				if link.startswith(f"/{fb}permalink/"):
+					link = "https://web.facebook.com" + link
+					# print("a", end="|")
+					if not link in str(all_links):
+						# print("b", end="|")
+						all_links[fb].append((link, str(now)))
+						links_to_open.append(link)
+						try:
+							browser.get(link)
+							# print("c", end="|")
+							post = BeautifulSoup(browser.page_source, features="lxml").find("div", {"data-testid" : "post_message"}).text.replace("<br/>", "\n")
+							# print("d", end="|")
+							if post:
+								file_name = f"{fb.strip('/').split('/')[1]}.txt"
+								write_to_file(file_name, link, post)
+						except:
+							errors.append([fb, link])
 			except:
-				continue
-	perc = counter/len(FB)*100
-	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),current_time(),f" ||  {c} links in {fb}")
+				pass
+	##################################################	
+	else:
+		a = s.find("div", {"id" : "timeline_story_column"})
+		mmz.append(a)
+		try:
+			links_ = a.select('a')
+			for i in links_:
+				link = i['href']
+				if (link.startswith("https://www.facebook.com/")) or (link.startswith("https://web.facebook.com/")):
+					if not link in str(all_links):
+						if "/posts/" in link: # failing to capture like this link (https://web.facebook.com/permalink.php?story_fbid=129882195152447&id=100043920022318)
+							if not "?comment_id=" in link:
+								all_links[fb].append((link, str(now)))
+								links_to_open.append(link)
+								c += 1
+								try:
+									browser.get(link)
+								except:
+									errors.append([fb, link])
+									continue
+								soup = BeautifulSoup(browser.page_source, "lxml")
+								try:
+									aa = soup.find("div", {"class" : "_5wj-"}).text
+									if len(aa) > 0:
+										file_name = f"{fb}.txt"
+										write_to_file(file_name, link, aa)
+									else:
+										errors.append([fb, link])
+								except:
+									errors.append([fb, link])
+									pass
+
+		except:
+			continue
+perc = counter/len(FB)*100
+print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),current_time(),f" ||  {c} links in {fb}")
+
+
 
 browser.close()
 
