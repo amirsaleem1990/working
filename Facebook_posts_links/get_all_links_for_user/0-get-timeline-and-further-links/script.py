@@ -126,7 +126,7 @@ for fb in FB:
 print("\n\n\n")
 for i in Errors_dict:
 	if Errors_dict[i]:
-		print(i)
+		print("\t\t\tError type:", i, "\n")
 		for error in Errors_dict[i]:
 			print(error)
 		print("******************************")
