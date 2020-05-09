@@ -40,3 +40,17 @@ def LOGIN(usrname, pas):
 		except:
 			pass
 	return browser
+
+
+def current_time():
+	n = datetime.datetime.now()
+	t = ':'.join([str(i) for i in [n.hour % 12, n.minute, n.second]])
+	tt = ""
+	for i in t.split(":"):
+		if len(i) == 1:
+			tt += "0" + i
+		else:
+			tt += i
+		tt += ":"
+	tt = tt.strip(":")
+	return tt
