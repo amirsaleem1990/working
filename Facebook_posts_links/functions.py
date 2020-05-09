@@ -37,7 +37,7 @@ def LOGIN(usrname, pas, fb_base_url):
 			okButton = browser.find_elements_by_css_selector("input[type=submit]")
 			okButton[0].click()
 
-			print("Successfully Logged in", current_time())
+			print("Successfully Logged in", current_time(), "\n\n\n")
 			Successfully_logedin = False
 		except:
 			pass
