@@ -48,6 +48,8 @@ succussfully_extracted = 0
 
 def get_next_page_link(LINK):
 	global c
+    global next_page_error
+    global Errors_dict
 	c += 1
 	try:
 		browser.get(LINK)
@@ -66,14 +68,19 @@ def get_next_page_link(LINK):
 
 		to_save = str(s)
 		pickle.dump(to_save, open(f"{folder_name}/{len(pages_links)}_{fb}.pkl", "wb"))
-
+        next_page_error = 0
 	except:
-		print("ERROR: ",fb, LINK)
-		import sys
-		sys.exit()
+        next_page_error += 1
+        Errors_dict["next page Error"].append(LINK)
+    if next_page_error > 2:
+    	import sys
+    	sys.exit(1)
 
-
+Errors_dict = {"another Error" : [], 
+                "next page Error" : [], 
+                "ID not found" : []}
 for fb in FB:
+    next_page_error = 0
 	try:
 		print(fb)
 		folder_name = "/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/Extracted/" + fb
@@ -87,7 +94,7 @@ for fb in FB:
 		try:
 			browser.get(complted_url)
 		except:
-			print("ID not found", fb)
+			Errors_dict["ID not found"].append(fb)
 			continue # sys.exit()
 		s = BeautifulSoup(browser.page_source, "lxml")
 
@@ -112,5 +119,5 @@ for fb in FB:
 		pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
 
 	except:
-		print("Error in: ", fb)
+        Errors_dict["another Error"].append(fb)
 		pass
