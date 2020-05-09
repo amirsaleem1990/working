@@ -11,49 +11,31 @@ from selenium.webdriver.common.keys import Keys
 
 import sys
 sys.path.insert(0,'/home/amir/github/working/Facebook_posts_links/')
-from functions import LOGIN
+from functions import *
 
-os.chdir("/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/0-get-timeline-and-further-links")
+# os.chdir("/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/0-get-timeline-and-further-links")
 
 os.system("clear")
 
-def current_time():
-	n = datetime.datetime.now()
-	t = ':'.join([str(i) for i in [n.hour % 12, n.minute, n.second]])
-	tt = ""
-	for i in t.split(":"):
-		if len(i) == 1:
-			tt += "0" + i
-		else:
-			tt += i
-		tt += ":"
-	tt = tt.strip(":")
-	return tt
-
 FB = [i.split("\t")[0].strip() for i in open("/home/amir/github/working/Facebook_posts_links/FB.txt", "r").read().splitlines()]
 
-with open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb") as file:
-	all_links = pickle.load(file)
+all_links = pickle.load(open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb"))
+ids_removed_from_facebook = pickle.load(
+	open("/home/amir/github/working/Facebook_posts_links/ids_removed_from_facebook.pkl", "rb"))
+usrname, pas = open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r").read().splitlines()
 
 stored_links_qty = sum([len(all_links[i]) for i in all_links])	
 
-with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
-	usrname, pas = file.read().splitlines()
-
 browser = LOGIN(usrname, pas)
 
-
-with open("/home/amir/github/working/Facebook_posts_links/ids_removed_from_facebook.pkl", "rb") as file:
-	ids_removed_from_facebook = pickle.load(file)
 ids_removed_from_facebook = list(ids_removed_from_facebook.keys())
-
 
 extrected_links = []
 new_links = []
 counter = 0
 links_to_open = []
 
-now = datetime.datetime.now()
+
 mmz = []
 errors = []
 
@@ -76,9 +58,10 @@ def get_next_page_link(LINK):
                 except:
                     next_page_link = fb_base_url.strip("/")  + s.find("div", {"id" : "u_0_1"}).find("a")['href']
         pages_links.append(next_page_link)
-        with open(f"{folder_name}/{len(pages_links)}_{fb}.pkl", "wb") as file:
-            to_save = str(s)
-            pickle.dump(to_save, file)
+
+        to_save = str(s)
+        pickle.dump(to_save, open(f"{folder_name}/{len(pages_links)}_{fb}.pkl", "wb"))
+
     except:
         print("ERROR: ",fb, LINK)
         import sys
@@ -118,8 +101,8 @@ for fb in FB:
             get_next_page_link(pages_links[-1])
             time.sleep(2)
             c += 1 # only first few pages
-        with open(f"{folder_name}/LINKS.pkl", "wb") as file:
-            pickle.dump(pages_links, file)
+        pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
+
     except:
         print("Error in: ", fb)
         pass
