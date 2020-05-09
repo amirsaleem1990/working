@@ -123,8 +123,9 @@ for fb in FB:
 		Errors_dict["another Error"].append(fb)
 		pass
 
-
+print("\n\n\n")
 for i in Errors_dict:
-	print(i)
-	print(Errors_dict[i])
-	print("******************************")
+    if Errors_dict[i]:
+    	print(i)
+    	print(Errors_dict[i])
+    	print("******************************")
