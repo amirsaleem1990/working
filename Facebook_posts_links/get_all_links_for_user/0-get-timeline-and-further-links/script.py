@@ -118,7 +118,7 @@ for fb in FB:
             if next_page_error > 2:
                 break
 		pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
-
+        print(f"succussfully COMPLETED {fb}")
 	except:
 		Errors_dict["another Error"].append(fb)
 		pass
