@@ -35,13 +35,13 @@ ids_removed_from_facebook = list(ids_removed_from_facebook.keys())
 
 extrected_links = []
 new_links = []
-counter = 0
+mmz = []
+errors = []
 links_to_open = []
 
 
-mmz = []
-errors = []
 
+counter = 0
 succussfully_extracted = 0
 
 def get_next_page_link(LINK):
