@@ -1,11 +1,10 @@
-def LOGIN(usrname, pas):
+def LOGIN(usrname, pas, fb_base_url):
 	from selenium import webdriver
 	import time
 	import numpy as np
 	print("Attempting to Login   ", current_time())
 	Successfully_logedin = True
 	Successfully_logedin_num = 0
-	fb_base_url = "https://m.facebook.com/" # "https://web.facebook.com/"
 	while Successfully_logedin:
 		Successfully_logedin_num += 1
 		if Successfully_logedin_num > 1:
