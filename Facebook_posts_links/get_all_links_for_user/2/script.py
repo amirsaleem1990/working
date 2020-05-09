@@ -13,41 +13,16 @@ options = Options()
 options.add_argument("--headless")
 
 
+import sys
+sys.path.insert(0,'/home/amir/github/working/Facebook_posts_links/')
+from functions import *
+
 os.system("clear")
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
-Successfully_logedin = True
-Successfully_logedin_num = 0
-while Successfully_logedin:
-	Successfully_logedin_num += 1
-	if Successfully_logedin_num > 1:
-		print(f"Attempt no. {Successfully_logedin_num} to Login")
-	try:
-		browser = webdriver.Firefox(executable_path="/home/amir/github/working/Facebook_posts_links/geckodriver")
-		# browser = webdriver.Firefox(executable_path = "../geckodriver", options=options)
-		#navigates you to the facebook page.
-		browser.get('https://www.facebook.com/')
 
-		#find the username field and enter the email example@yahoo.com.
-		time.sleep(np.random.randint(3, 6))
-		username = browser.find_elements_by_css_selector("input[name=email]")
-		username[0].send_keys(usrname)
-
-
-		#find the password field and enter the password password.
-		time.sleep(np.random.randint(3, 6))
-		password = browser.find_elements_by_css_selector("input[name=pass]")
-		password[0].send_keys(pas)
-
-
-		#find the login button and click it.
-		time.sleep(np.random.randint(3, 6))
-		loginButton = browser.find_elements_by_css_selector("input[type=submit]")
-		loginButton[0].click()
-		print("Successfully Logged in")
-		Successfully_logedin = False
-	except:
-		pass
+fb_base_url = "https://www.facebook.com/"
+browser = LOGIN(usrname, pas, fb_base_url)
 
 errors = []
 df = pd.read_csv("/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/1-facebook-users-all-posts-links/Links.csv")
