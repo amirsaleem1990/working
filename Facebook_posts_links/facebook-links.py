@@ -224,16 +224,16 @@ for fb in FB:
 
 browser.close()
 
-if not links_to_open:
-	if "check" in os.listdir():
-		import shutil
-		shutil.rmtree("check", ignore_errors=False)
-	os.mkdir("check")
-	os.chdir("check/")
-	for e, i in enumerate(mmz):
-		open(str(e) + ".txt", "w").write(str(i))
-	from termcolor import colored
-	print(colored("\n\n</home/amir/github/working/Facebook_posts_links/check> folder created, you can check there why you not get any link\n\n", 'red'))
+# if not links_to_open:
+if "check" in os.listdir():
+	import shutil
+	shutil.rmtree("check", ignore_errors=False)
+os.mkdir("check")
+os.chdir("check/")
+for e, i in enumerate(mmz):
+	open(str(e) + ".txt", "w").write(str(i))
+from termcolor import colored
+print(colored("\n\n</home/amir/github/working/Facebook_posts_links/check> folder created, you can check there why you not get any link\n\n", 'red'))
 
 
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
