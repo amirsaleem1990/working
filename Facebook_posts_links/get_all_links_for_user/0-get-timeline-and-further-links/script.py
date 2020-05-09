@@ -124,3 +124,9 @@ for fb in FB:
 	except:
         Errors_dict["another Error"].append(fb)
 		pass
+
+
+for i in Errors_dict:
+    print(i)
+    print(Errors_dict[i])
+    print("******************************")
