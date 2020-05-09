@@ -716,3 +716,5 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?
 1589029677669	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
 1589029677669	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
 1589029677669	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589029679356	Marionette	INFO	Listening on port 39381
+1589029679375	Marionette	WARN	TLS certificate errors will be ignored for this session
