@@ -43,70 +43,70 @@ errors = []
 succussfully_extracted = 0
 
 def get_next_page_link(LINK):
-    global c
-    c += 1
-    try:
-        browser.get(LINK)
-        s = BeautifulSoup(browser.page_source, "lxml")
-        try:
-            next_page_link = fb_base_url.strip("/")  + s.find("div", {"id" : "u_0_3"}).find("a")['href']
-        except:
-            try:
-                next_page_link = fb_base_url.strip("/")  + s.find("div", {"id" : "u_0_0"}).find("a")['href']
-            except:
-                try:
-                    next_page_link = fb_base_url.strip("/")  + s.find("div", {"id" : "u_0_2"}).find("a")['href']
-                except:
-                    next_page_link = fb_base_url.strip("/")  + s.find("div", {"id" : "u_0_1"}).find("a")['href']
-        pages_links.append(next_page_link)
+	global c
+	c += 1
+	try:
+		browser.get(LINK)
+		s = BeautifulSoup(browser.page_source, "lxml")
+		try:
+			next_page_link = fb_base_url.strip("/")  + s.find("div", {"id" : "u_0_3"}).find("a")['href']
+		except:
+			try:
+				next_page_link = fb_base_url.strip("/")  + s.find("div", {"id" : "u_0_0"}).find("a")['href']
+			except:
+				try:
+					next_page_link = fb_base_url.strip("/")  + s.find("div", {"id" : "u_0_2"}).find("a")['href']
+				except:
+					next_page_link = fb_base_url.strip("/")  + s.find("div", {"id" : "u_0_1"}).find("a")['href']
+		pages_links.append(next_page_link)
 
-        to_save = str(s)
-        pickle.dump(to_save, open(f"{folder_name}/{len(pages_links)}_{fb}.pkl", "wb"))
+		to_save = str(s)
+		pickle.dump(to_save, open(f"{folder_name}/{len(pages_links)}_{fb}.pkl", "wb"))
 
-    except:
-        print("ERROR: ",fb, LINK)
-        import sys
-        sys.exit()
+	except:
+		print("ERROR: ",fb, LINK)
+		import sys
+		sys.exit()
 
 
 for fb in FB:
-    try:
-        print(fb)
-        folder_name = "/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/Extracted/" + fb
-        try:
-	        os.mkdir(folder_name)
-	    except:
-	    	pass
+	try:
+		print(fb)
+		folder_name = "/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/Extracted/" + fb
+		try:
+			os.mkdir(folder_name)
+		except:
+			pass
 
-        complted_url = fb_base_url + fb
+		complted_url = fb_base_url + fb
 
-        try:
-            browser.get(complted_url)
-        except:
-            print("ID not found", fb)
-            continue # sys.exit()
-        s = BeautifulSoup(browser.page_source, "lxml")
+		try:
+			browser.get(complted_url)
+		except:
+			print("ID not found", fb)
+			continue # sys.exit()
+		s = BeautifulSoup(browser.page_source, "lxml")
 
-        for i in s.find("div", {"class" : "bl"}).select("div", {"class" : "cv"}):
-            try: 
-                link_ = i.find("a")['href']
-                if "timeline&lst" in link_:
-                    time_line_link = fb_base_url.strip("/") + link_
-                    break
-            except: 
-                pass
+		for i in s.find("div", {"class" : "bl"}).select("div", {"class" : "cv"}):
+			try: 
+				link_ = i.find("a")['href']
+				if "timeline&lst" in link_:
+					time_line_link = fb_base_url.strip("/") + link_
+					break
+			except: 
+				pass
 
-        pages_links = []
-        pages_links.append(time_line_link)
+		pages_links = []
+		pages_links.append(time_line_link)
 
-        c = 0
+		c = 0
 
-        while c < 20: # only first few pages
-            get_next_page_link(pages_links[-1])
-            time.sleep(2)
-            c += 1 
-        pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
+		while c < 20: # only first few pages
+			get_next_page_link(pages_links[-1])
+			time.sleep(2)
+			c += 1 
+		pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
 
-    except:
-        print("Error in: ", fb)
-        pass
+	except:
+		print("Error in: ", fb)
+		pass
