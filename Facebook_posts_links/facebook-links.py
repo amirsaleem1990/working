@@ -233,7 +233,7 @@ os.chdir("check/")
 for e, i in enumerate(mmz):
 	open(str(e) + ".txt", "w").write(str(i))
 from termcolor import colored
-print(colored("\n\n<check> folder created, you can check there why you not get any link\n\n", 'red'))
+print(colored("\n\n</home/amir/github/working/Facebook_posts_links/check> folder created, you can check there why you not get any link\n\n", 'red'))
 
 
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
