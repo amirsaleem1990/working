@@ -5,7 +5,7 @@ def LOGIN(usrname, pas):
 	print("Attempting to Login   ", current_time())
 	Successfully_logedin = True
 	Successfully_logedin_num = 0
-	fb_base_url = "https://www.facebook.com/" # "https://web.facebook.com/"
+	fb_base_url = "https://m.facebook.com/" # "https://web.facebook.com/"
 	while Successfully_logedin:
 		Successfully_logedin_num += 1
 		if Successfully_logedin_num > 1:

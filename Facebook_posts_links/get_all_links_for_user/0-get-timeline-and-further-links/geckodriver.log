@@ -47,3 +47,4 @@ Exiting due to channel error.
 1589047590416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1589047592403	Marionette	INFO	Listening on port 43185
 1589047592431	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589047626879	Marionette	INFO	Stopped listening on port 43185
