@@ -138,7 +138,7 @@ FB = ["MMushtaqYusufzai", 					# Muhammad Mushtaq
 ids_removed_from_facebook = pickle.load(open("ids_removed_from_facebook.pkl", "rb"))
 ids_removed_from_facebook = list(ids_removed_from_facebook.keys())
 
-fb_base_url = "https://web.facebook.com/"
+fb_base_url = "https://www.facebook.com/"
 extrected_links = []
 new_links = []
 counter = 0
@@ -224,16 +224,16 @@ for fb in FB:
 
 browser.close()
 
-# if not links_to_open:
-if "check" in os.listdir():
-	import shutil
-	shutil.rmtree("check", ignore_errors=False)
-os.mkdir("check")
-os.chdir("check/")
-for e, i in enumerate(mmz):
-	open(str(e) + ".txt", "w").write(str(i))
-from termcolor import colored
-print(colored("\n\n</home/amir/github/working/Facebook_posts_links/check> folder created, you can check there why you not get any link\n\n", 'red'))
+if not links_to_open:
+	if "check" in os.listdir():
+		import shutil
+		shutil.rmtree("check", ignore_errors=False)
+	os.mkdir("check")
+	os.chdir("check/")
+	for e, i in enumerate(mmz):
+		open(str(e) + ".txt", "w").write(str(i))
+	from termcolor import colored
+	print(colored("\n\n</home/amir/github/working/Facebook_posts_links/check> folder created, you can check there why you not get any link\n\n", 'red'))
 
 
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
