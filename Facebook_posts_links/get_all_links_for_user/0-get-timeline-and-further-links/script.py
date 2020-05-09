@@ -76,7 +76,7 @@ def get_next_page_link(LINK):
 Errors_dict = {"another Error" : [], 
 				"next page Error" : [], 
 				"ID not found" : [],
-                "timeline linke Error" : []}
+				"timeline linke not found" : []}
 
 
 FB = [i for i in FB if i in ["profile.php?id=100026041448813", "profile.php?id=100032249983289", "anas.islam.3551", "tariq.habib.969952", "groups/pakdotai/", "profile.php?id=100010345081577", "groups/2963990780318681/"]]
@@ -108,11 +108,11 @@ for fb in FB:
 			except: 
 				pass
 
-        try:
-            pages_links = [time_line_link]
-        except:
-            Errors_dict["timeline linke Error"].append(fb)
-            continue
+		try:
+			pages_links = [time_line_link]
+		except:
+			Errors_dict["timeline linke not found"].append(fb)
+			continue
 
 		
 
