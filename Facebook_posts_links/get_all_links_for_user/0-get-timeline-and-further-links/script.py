@@ -48,8 +48,8 @@ succussfully_extracted = 0
 
 def get_next_page_link(LINK):
 	global c
-    global next_page_error
-    global Errors_dict
+	global next_page_error
+	global Errors_dict
 	c += 1
 	try:
 		browser.get(LINK)
@@ -68,22 +68,22 @@ def get_next_page_link(LINK):
 
 		to_save = str(s)
 		pickle.dump(to_save, open(f"{folder_name}/{len(pages_links)}_{fb}.pkl", "wb"))
-        next_page_error = 0
+		next_page_error = 0
 	except:
-        next_page_error += 1
-        Errors_dict["next page Error"].append(LINK)
-    if next_page_error > 2:
-    	import sys
-    	sys.exit(1)
+		next_page_error += 1
+		Errors_dict["next page Error"].append(LINK)
+	if next_page_error > 2:
+		import sys
+		sys.exit(1)
 
 Errors_dict = {"another Error" : [], 
-                "next page Error" : [], 
-                "ID not found" : []}
+				"next page Error" : [], 
+				"ID not found" : []}
 
 
 FB = [i for i in FB if i in ["MMushtaqYusufzai", "profile.php?id=100026041448813", "profile.php?id=100032249983289", "anas.islam.3551", "tariq.habib.969952", "groups/pakdotai/", "profile.php?id=100010345081577", "athar.w.azeem", "Nassim.Haramein.official", "rehan.umar.165", "groups/2963990780318681/"]]
 for fb in FB:
-    next_page_error = 0
+	next_page_error = 0
 	try:
 		print(fb)
 		folder_name = "/home/amir/github/working/Facebook_posts_links/get_all_links_for_user/Extracted/" + fb
@@ -122,11 +122,11 @@ for fb in FB:
 		pickle.dump(pages_links,  open(f"{folder_name}/LINKS.pkl", "wb"))
 
 	except:
-        Errors_dict["another Error"].append(fb)
+		Errors_dict["another Error"].append(fb)
 		pass
 
 
 for i in Errors_dict:
-    print(i)
-    print(Errors_dict[i])
-    print("******************************")
+	print(i)
+	print(Errors_dict[i])
+	print("******************************")
