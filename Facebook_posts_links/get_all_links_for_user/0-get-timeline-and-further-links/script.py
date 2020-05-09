@@ -98,7 +98,8 @@ for fb in FB:
 		continue # sys.exit()
 	s = BeautifulSoup(browser.page_source, "lxml")
 
-	for i in s.find("div", {"class" : "bl"}).select("div", {"class" : "cv"}):
+    _ = s.find("div", {"class" : "bl"}).select("div", {"class" : "cv"})
+	for i in _:
 		try: 
 			link_ = i.find("a")['href']
 			if "timeline&lst" in link_:
