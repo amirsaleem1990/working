@@ -124,3 +124,5 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1589052758635	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
 1589052837694	Marionette	INFO	Stopped listening on port 46213
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1589052902294	Marionette	INFO	Stopped listening on port 38615
