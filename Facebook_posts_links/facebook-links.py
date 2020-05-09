@@ -150,6 +150,7 @@ errors = []
 
 succussfully_extracted = 0
 for fb in FB:
+	print(len(links_to_open))
 	c = 0
 	counter += 1
 	if not fb in ids_removed_from_facebook:
