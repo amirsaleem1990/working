@@ -253,13 +253,11 @@ if succussfully_extracted:
 			input("\n\nPress Enter\n\n")
 			procecced = 0
 else:
-	pass
-	
-with open("errors.txt", "w") as file:
-	for error in errors:
-		file.write(error[0] + ":  " + error[1] + "\n")
-print(f"""\n\nNo link was extracted succussfully, you can need bug fixing we saved all the scrapped data at: 
-	/home/amir/github/working/Facebook_posts_links/check/ \n\n""")
+	with open("errors.txt", "w") as file:
+		for error in errors:
+			file.write(error[0] + ":  " + error[1] + "\n")
+	print(f"""\n\nNo link was extracted succussfully, you can need bug fixing we saved all the scrapped data at: 
+		/home/amir/github/working/Facebook_posts_links/check/ \n\n""")
 
 
 try:
