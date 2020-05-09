@@ -28,6 +28,7 @@ usrname, pas = open("/home/amir/github/Amir-personal/facebook-userName-and-passw
 stored_links_qty = sum([len(all_links[i]) for i in all_links])	
 
 fb_base_url = "https://m.facebook.com/"
+
 browser = LOGIN(usrname, pas, fb_base_url)
 
 ids_removed_from_facebook = list(ids_removed_from_facebook.keys())
