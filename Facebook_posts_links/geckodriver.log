@@ -670,3 +670,15 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?
 1589028979085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1589028982071	Marionette	INFO	Listening on port 39201
 1589028982098	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?_nc_x=Ij3Wp8lg5Kz, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?_nc_x=Ij3Wp8lg5Kz, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?_nc_x=Ij3Wp8lg5Kz, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?_nc_x=Ij3Wp8lg5Kz, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?_nc_x=Ij3Wp8lg5Kz, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?_nc_x=Ij3Wp8lg5Kz, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?_nc_x=Ij3Wp8lg5Kz, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/EoigeNnpYSt.js?_nc_x=Ij3Wp8lg5Kz, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
