@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import numpy as np
-import time
+import sys
 import datetime
 from selenium.webdriver.common.keys import Keys
 
@@ -22,6 +22,7 @@ FB = [i.split("\t")[0].strip() for i in open("/home/amir/github/working/Facebook
 all_links = pickle.load(open("/home/amir/github/working/Facebook_posts_links/All_FB_links_names_corrected.pkl", "rb"))
 ids_removed_from_facebook = pickle.load(
 	open("/home/amir/github/working/Facebook_posts_links/ids_removed_from_facebook.pkl", "rb"))
+
 usrname, pas = open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r").read().splitlines()
 
 stored_links_qty = sum([len(all_links[i]) for i in all_links])	
@@ -79,7 +80,6 @@ for fb in FB:
             browser.get(complted_url)
         except:
             print("ID not found", fb)
-            import sys
             sys.exit()
         s = BeautifulSoup(browser.page_source, "lxml")
 
