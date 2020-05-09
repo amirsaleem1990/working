@@ -40,8 +40,7 @@ all_links = pickle.load(open("/home/amir/github/working/Facebook_posts_links/All
 
 stored_links_qty = sum([len(all_links[i]) for i in all_links])	
 
-with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
-	usrname, pas = file.read().splitlines()
+usrname, pas = open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r").read().splitlines()
 
 print("Attempting to Login   ", current_time())
 Successfully_logedin = True
