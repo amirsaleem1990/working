@@ -102,18 +102,18 @@ for fb in FB:
 		s = BeautifulSoup(browser.page_source, "lxml")
 
 		for i in s.select("a"):
-		    try:
-		        link_ = i['href']
-		        if (link_.startswith("/" + fb + "?v=timeline&ls")):
-		            time_line_link = fb_base_url.strip("/") + link_
-		            break
-		    except:
-		        pass
-		            
+			try:
+				link_ = i['href']
+				if (link_.startswith("/" + fb + "?v=timeline&ls")):
+					time_line_link = fb_base_url.strip("/") + link_
+					break
+			except:
+				pass
+					
 		try:
-		    pages_links = [time_line_link]
+			pages_links = [time_line_link]
 		except:
-		    Errors_dict["timeline linke not found"].append(fb)
+			Errors_dict["timeline linke not found"].append(fb)
 			continue		
 
 		c = 0
