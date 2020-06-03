@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os
 import time
 import pickle
@@ -79,7 +80,7 @@ Errors_dict = {"another Error" : [],
 				"timeline linke not found" : []}
 
 
-FB = [i for i in FB if i in ["profile.php?id=100026041448813", "profile.php?id=100032249983289", "anas.islam.3551", "tariq.habib.969952", "groups/pakdotai/", "profile.php?id=100010345081577", "groups/2963990780318681/"]]
+# FB = [i for i in FB if i in ["profile.php?id=100026041448813", "profile.php?id=100032249983289", "anas.islam.3551", "tariq.habib.969952", "groups/pakdotai/", "profile.php?id=100010345081577", "groups/2963990780318681/"]]
 for fb in FB:
 	next_page_error = 0
 	try:
