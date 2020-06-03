@@ -165,3 +165,5 @@ Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
 GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1167:3
 
 1591194580823	Marionette	INFO	Stopped listening on port 41503
+1591195305603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TEJ2DIhvOSho"
+1591195305976	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
