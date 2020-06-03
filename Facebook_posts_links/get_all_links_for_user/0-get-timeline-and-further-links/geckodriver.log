@@ -153,3 +153,11 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1590149744013	Marionette	INFO	Listening on port 40119
 1590149744433	Marionette	WARN	TLS certificate errors will be ignored for this session
 1590149784405	Marionette	INFO	Stopped listening on port 40119
+1591194539326	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.j69JLkIQg8nW"
+1591194539729	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591194540374	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591194540374	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591194540375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591194540375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1591194541853	Marionette	INFO	Listening on port 41503
+1591194541944	Marionette	WARN	TLS certificate errors will be ignored for this session
