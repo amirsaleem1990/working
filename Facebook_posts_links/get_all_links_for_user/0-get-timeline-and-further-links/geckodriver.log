@@ -253,3 +253,8 @@ Exiting due to channel error.
 1591197300985	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
 1591199754896	Marionette	INFO	Stopped listening on port 38467
+Gdk-Message: 20:58:42.351: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
