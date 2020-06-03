@@ -224,3 +224,5 @@ GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1167:3
 1591195551049	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1591195552366	Marionette	INFO	Listening on port 45617
 1591195552381	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1591195603589	Marionette	INFO	Stopped listening on port 34301
