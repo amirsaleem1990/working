@@ -98,24 +98,23 @@ for fb in FB:
 		except:
 			Errors_dict["ID not found"].append(fb)
 			continue # sys.exit()
+
 		s = BeautifulSoup(browser.page_source, "lxml")
 
-		for i in s.find("div", {"class" : "bl"}).select("div", {"class" : "cv"}):
-			try: 
-				link_ = i.find("a")['href']
-				if "timeline&lst" in link_:
-					time_line_link = fb_base_url.strip("/") + link_
-					break
-			except: 
-				pass
-
+		for i in s.select("a"):
+		    try:
+		        link_ = i['href']
+		        if (link_.startswith("/" + fb + "?v=timeline&ls")):
+		            time_line_link = fb_base_url.strip("/") + link_
+		            break
+		    except:
+		        pass
+		            
 		try:
-			pages_links = [time_line_link]
+		    pages_links = [time_line_link]
 		except:
-			Errors_dict["timeline linke not found"].append(fb)
-			continue
-
-		
+		    Errors_dict["timeline linke not found"].append(fb)
+			continue		
 
 		c = 0
 		while c < qty_of_pages: # only first few pages
