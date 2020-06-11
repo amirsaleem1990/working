@@ -73,49 +73,19 @@ for fb in FB:
 			all_links[fb] = []
 		browser.get(complted_url)
 		s = BeautifulSoup(browser.page_source, "lxml")
+		for i in s.select("a"):
+		    try:
+		        link = i['href']
+		        if (link.startswith("/" + fb + "/posts/")) and (not link in links_to_open):
+	                if not link in str(all_links) and (not "?comment_id=" in link):
+	                	link = "https://www.facebook.com" + link
+                        all_links[fb].append((link, str(now)))
+						links_to_open.append(link)
+		    except:
+		        pass
+		c += 1
 
-		##################################################
-		# only for groups 
-		if fb.startswith("groups"):
-			for i in s.select("a"):
-				try:
-					link = i['href']
-					if link.startswith(f"/{fb}permalink/"):
-						link = "https://web.facebook.com" + link
-						# print("a", end="|")
-						if not link in str(all_links):
-							# print("b", end="|")
-							all_links[fb].append((link, str(now)))
-							links_to_open.append(link)
-							try:
-								browser.get(link)
-								# print("c", end="|")
-								post = BeautifulSoup(browser.page_source, features="lxml").find("div", {"data-testid" : "post_message"}).text.replace("<br/>", "\n")
-								# print("d", end="|")
-								if post:
-									file_name = f"{fb.strip('/').split('/')[1]}.txt"
-									write_to_file(file_name, link, post)
-							except:
-								errors.append([fb, link])
-				except:
-					pass
-		##################################################	
-		else:
-			try:
-				for i in s.select("a"):
-				    try:
-				        link = i['href']
-				        if (link.startswith("/" + fb + "/posts/")) and (not link in links_to_open):
-			                if not link in str(all_links) and (not "?comment_id=" in link):
-		                        all_links[fb].append((link, str(now)))
-								links_to_open.append(link)
-				    except:
-				        pass
-				c += 1
-				else: # for else , if <for> not True even one time then this else is executed
-					continue
 for i in links_to_open:
-
 	try:
 		browser.get(link)
 	except:
