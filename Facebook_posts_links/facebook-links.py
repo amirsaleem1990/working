@@ -3,12 +3,10 @@ import time
 import pickle
 import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
 import numpy as np
 import time
 import datetime
-from selenium.webdriver.common.keys import Keys
-
+from login import LOGIN
 def write_to_file(link, post):
 	global succussfully_extracted
 	file = open(file_name, "a+")
@@ -46,53 +44,7 @@ with open("All_FB_links_names_corrected.pkl", "rb") as file:
 
 stored_links_qty = sum([len(all_links[i]) for i in all_links])	
 
-with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
-	usrname, pas = file.read().splitlines()
-
-print("Attempting to Login   ", current_time())
-Successfully_logedin = True
-Successfully_logedin_num = 0
-# if input("Are u need visual tracking? [y\\n]:\t").lower() == "y":
-	# visual = True
-# else:
-from selenium.webdriver.firefox.options import Options
-options = Options()
-options.add_argument("--headless")
-visual = False
-	
-while Successfully_logedin:
-	Successfully_logedin_num += 1
-	if Successfully_logedin_num > 1:
-		print(f"Attempt no. {Successfully_logedin_num} to Login")
-	try:
-		if visual:
-			browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver")
-		else:
-			browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options=options)	
-
-		#navigates you to the facebook page.
-		browser.get('https://www.facebook.com/')
-
-		#find the username field and enter the email example@yahoo.com.
-		time.sleep(np.random.randint(3, 6))
-		username = browser.find_elements_by_css_selector("input[name=email]")
-		username[0].send_keys(usrname)
-
-
-		#find the password field and enter the password password.
-		time.sleep(np.random.randint(3, 6))
-		password = browser.find_elements_by_css_selector("input[name=pass]")
-		password[0].send_keys(pas)
-
-
-		#find the login button and click it.
-		time.sleep(np.random.randint(3, 6))
-		loginButton = browser.find_elements_by_css_selector("input[type=submit]")
-		loginButton[0].click()
-		print("Successfully Logged in", current_time())
-		Successfully_logedin = False
-	except:
-		pass
+browser = LOGIN()
 # pages i nedd in list: "idreesazad2", "itsfoss/", "azeemnama", "AkxOAwaz"
 FB = [i.split("\t")[0].strip() for i in open("/home/amir/github/working/Facebook_posts_links/FB.txt", "r").read().splitlines()]
 
@@ -159,30 +111,30 @@ for fb in FB:
 								links_to_open.append(link)
 				    except:
 				        pass
-				else:
-					continue
 				c += 1
-				try:
-					browser.get(link)
-				except:
-					errors.append([fb, link])
+				else: # for else , if <for> not True even one time then this else is executed
 					continue
-				soup = BeautifulSoup(browser.page_source, "lxml")
-				try:
-					aa = soup.find("div", {"class" : "_5wj-"}).text
-					if len(aa) > 0:
-						file_name = f"{fb}.txt"
-						write_to_file(file_name, link, aa)
-					else:
-						errors.append([fb, link])
-				except:
-					errors.append([fb, link])
-					pass
+for i in links_to_open:
 
-			except:
-				continue
-	perc = counter/len(FB)*100
-	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),current_time(),f" ||  {c} links in {fb}")
+	try:
+		browser.get(link)
+	except:
+		errors.append([fb, link])
+		continue
+	soup = BeautifulSoup(browser.page_source, "lxml")
+	try:
+		aa = soup.find("div", {"class" : "_5wj-"}).text
+		if len(aa) > 0:
+			file_name = f"{fb}.txt"
+			write_to_file(file_name, link, aa)
+		else:
+			errors.append([fb, link])
+	except:
+		errors.append([fb, link])
+		pass
+
+		perc = counter/len(FB)*100
+		print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),current_time(),f" ||  {c} links in {fb}")
 
 browser.close()
 
