@@ -49,7 +49,7 @@ browser = LOGIN()
 FB = [i.split("\t")[0].strip() for i in open("/home/amir/github/working/Facebook_posts_links/FB.txt", "r").read().splitlines()]
 
 with open("ids_removed_from_facebook.pkl", "rb") as file:
-    ids_removed_from_facebook = pickle.load(file)
+	ids_removed_from_facebook = pickle.load(file)
 ids_removed_from_facebook = list(ids_removed_from_facebook.keys())
 
 fb_base_url = "https://web.facebook.com/"
@@ -74,15 +74,15 @@ for fb in FB:
 		browser.get(complted_url)
 		s = BeautifulSoup(browser.page_source, "lxml")
 		for i in s.select("a"):
-		    try:
-		        link = i['href']
-		        if (link.startswith("/" + fb + "/posts/")) and (not link in links_to_open):
-	                if not link in str(all_links) and (not "?comment_id=" in link):
-	                	link = "https://www.facebook.com" + link
-                        # all_links[fb].append((link, str(now)))
+			try:
+				link = i['href']
+				if (link.startswith("/" + fb + "/posts/")) and (not link in links_to_open):
+					if not link in str(all_links) and (not "?comment_id=" in link):
+						link = "https://www.facebook.com" + link
+						# all_links[fb].append((link, str(now)))
 						links_to_open.append(link)
-		    except:
-		        pass
+			except:
+				pass
 		c += 1
 
 open("/home/amir/a.txt", 'w').write("\n".join(links_to_open))
