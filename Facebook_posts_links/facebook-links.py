@@ -7,7 +7,7 @@ import numpy as np
 import time
 import datetime
 from login import LOGIN
-def write_to_file(link, post):
+def write_to_file(file_name, link, post):
 	global succussfully_extracted
 	file = open(file_name, "a+")
 	file.write("\n" + "#"*30 + "\n")
