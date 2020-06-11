@@ -4,7 +4,7 @@ zahid.mughal.5895 					# zahid mughal
 mohammad.f.haris 					# mohammad fahad haris
 abdullah.adam49 					# abdullah adam 
 hm.zubair.52 						# Hm Zubair 
-muhammad.imra.100					# Muhammad Imran
+profile.php?id=100048189032732		# Muhammad Imran
 munib.hussain86 					# munib hussain 
 jameelbaloch1924 					# jameel baloch		   
 theguided1  						# Rizwan Asad Khan
@@ -53,3 +53,13 @@ jamal.abdullah.33					# jamal abdullah usman
 ahsan.kohati						# sylani
 engrshahzad11						# shehzad hussain
 atiflys								# atif ilyas
+profile.php?id=100021660772500		# زبیر منضوری
+profile.php?id=100004721416966		# Dr-Muhammad Shahbaz Manj
+ComputerVision						# usman EM
+hewad.mir							# اما ضافی
+aisha.ghazi							# aisha ghazi
+profile.php?id=100011593626903		واضل واسطی
+profile.php?id=100048357649201		اطہر وقار
+nigar.zaheer.5						ڈاكٹر نگار ظہیر سجاد
+numan.bukhari						# نعمامن بخاری
+profile.php?id=100043957301860		# abu aminah
