@@ -73,13 +73,25 @@ for fb in FB:
 			all_links[fb] = []
 		browser.get(complted_url)
 		s = BeautifulSoup(browser.page_source, "lxml")
+		mmz.append(s)
 		for i in s.select("a"):
 			try:
 				link = i['href']
-				if (link.startswith("/" + fb + "/posts/")) and (not link in str(all_links)) and (not "?comment_id=" in link):
+				if (link.startswith("/" + fb + "/posts/")) and (not link in str(all_links)) and (not "?comment_id=" in link) and (not link in all_links[fb]):
 					link = "https://www.facebook.com" + link
-					# all_links[fb].append((link, str(now)))
-					links_to_open.append(link)
+					all_links[fb].append((link, str(now)))
+					browser.get(link)
+					soup = BeautifulSoup(browser.page_source, "lxml")
+					try:
+						aa = soup.find("div", {"class" : "_5wj-"}).text
+						if len(aa) > 0:
+							file_name = f"{fb}.txt"
+							write_to_file(file_name, link, aa)
+						else:
+							errors.append([fb, link])
+					except:
+						errors.append([fb, link])
+						pass
 			except:
 				pass
 	c += 1
@@ -88,23 +100,8 @@ for fb in FB:
 
 links_to_open = list(set(links_to_open))
 
-for link in links_to_open:
-	try:
-		browser.get(link)
-	except:
-		errors.append([fb, link])
-		continue
-	soup = BeautifulSoup(browser.page_source, "lxml")
-	try:
-		aa = soup.find("div", {"class" : "_5wj-"}).text
-		if len(aa) > 0:
-			file_name = f"{fb}.txt"
-			write_to_file(file_name, link, aa)
-		else:
-			errors.append([fb, link])
-	except:
-		errors.append([fb, link])
-		pass
+
+
 
 
 # browser.close()
