@@ -45,7 +45,7 @@ with open("All_FB_links_names_corrected.pkl", "rb") as file:
 stored_links_qty = sum([len(all_links[i]) for i in all_links])	
 
 browser = LOGIN()
-pages i nedd in list: "idreesazad2", "itsfoss/", "azeemnama", "AkxOAwaz"
+# pages i nedd in list: "idreesazad2", "itsfoss/", "azeemnama", "AkxOAwaz"
 FB = [i.split("\t")[0].strip() for i in open("/home/amir/github/working/Facebook_posts_links/FB.txt", "r").read().splitlines()]
 
 with open("ids_removed_from_facebook.pkl", "rb") as file:
