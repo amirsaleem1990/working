@@ -37,7 +37,7 @@ Bhaihasib1							# Haseeb Khan
 mateen.ahmad2010					# Syed Mateen Ahmad
 profile.php?id=100009666136877		# Faizullah Khan
 profile.php?id=100004721416966		# Dr-Muhammad Shahbaz Manj
-profile.php?id=100010345081577		# Ali Imran
+aliimransahar						# Ali Imran
 zeeshan1857							# Zeeshan Waraich
 jamilasgharjaami					# jamil asghar jaami 
 athar.w.azeem						# Athar Waqar Azeem
@@ -63,3 +63,7 @@ profile.php?id=100048357649201		اطہر وقار
 nigar.zaheer.5						ڈاكٹر نگار ظہیر سجاد
 numan.bukhari						# نعمامن بخاری
 profile.php?id=100043957301860		# abu aminah
+profile.php?id=100014491804817		# وسیم گل
+usman.shani.7568					usman.shani.7568
+ammar.nasir.71						عمار خان ناضر
+
