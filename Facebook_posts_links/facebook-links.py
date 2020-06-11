@@ -80,6 +80,7 @@ for fb in FB:
 				if (link.startswith("/" + fb + "/posts/")) and (not link in str(all_links)) and (not "?comment_id=" in link) and (not link in all_links[fb]):
 					link = "https://www.facebook.com" + link
 					all_links[fb].append((link, str(now)))
+					links_to_open.append(link)
 					browser.get(link)
 					soup = BeautifulSoup(browser.page_source, "lxml")
 					try:
@@ -98,55 +99,49 @@ for fb in FB:
 	perc = counter/len(FB)*100
 	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),current_time(),f" ||  {c} links in {fb}")
 
-links_to_open = list(set(links_to_open))
-
-
-
-
-
 # browser.close()
 
-# if not links_to_open:
-# 	if "check" in os.listdir():
-# 		import shutil
-# 		shutil.rmtree("check", ignore_errors=False)
-# 	os.mkdir("check")
-# 	os.chdir("check/")
-# 	for e, i in enumerate(mmz):
-# 		with open(str(e) + ".txt", "w") as file:
-# 			file.write(str(i))
-# 	from termcolor import colored
-# 	print(colored("\n\n<check> folder created, you can check there why you not get any link\n\n", 'red'))
+if not links_to_open:
+	if "check" in os.listdir():
+		import shutil
+		shutil.rmtree("check", ignore_errors=False)
+	os.mkdir("check")
+	os.chdir("check/")
+	for e, i in enumerate(mmz):
+		with open(str(e) + ".txt", "w") as file:
+			file.write(str(i))
+	from termcolor import colored
+	print(colored("\n\n<check> folder created, you can check there why you not get any link\n\n", 'red'))
 
 
-# links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
+links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 
-# procecced = 0
-# if succussfully_extracted:
-# 	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
-# 	print("\n\nsuccussfully extracted: ", succussfully_extracted)
-# 	with open("All_FB_links_names_corrected.pkl", "wb") as file:
-# 		pickle.dump(all_links, file)
+procecced = 0
+if succussfully_extracted:
+	print("New links Qty: ", links_qty_after_addition - stored_links_qty)
+	print("\n\nsuccussfully extracted: ", succussfully_extracted)
+	with open("All_FB_links_names_corrected.pkl", "wb") as file:
+		pickle.dump(all_links, file)
 
-# 	for i in links_to_open:
-# 		procecced += 1
-# 		os.popen("firefox " + i)
+	for i in links_to_open:
+		procecced += 1
+		os.popen("firefox " + i)
 		
-# 		if procecced > 20:
-# 			input("\n\nPress Enter\n\n")
-# 			procecced = 0
-# else:
-# 	with open("errors.txt", "w") as file:
-# 		for error in errors:
-# 			file.write(error[0] + ":  " + error[1] + "\n")
-# 	print(f"""\n\nNo link was extracted succussfully, you can need bug fixing we saved all the scrapped data at: 
-# 		/home/amir/github/working/Facebook_posts_links/check/ \n\n""")
+		if procecced > 20:
+			input("\n\nPress Enter\n\n")
+			procecced = 0
+else:
+	with open("errors.txt", "w") as file:
+		for error in errors:
+			file.write(error[0] + ":  " + error[1] + "\n")
+	print(f"""\n\nNo link was extracted succussfully, you can need bug fixing we saved all the scrapped data at: 
+		/home/amir/github/working/Facebook_posts_links/check/ \n\n""")
 
 
-# try:
-# 	os.remove("geckodriver.log")
-# except:
-# 	pass
+try:
+	os.remove("geckodriver.log")
+except:
+	pass
 
 # os.system("ipython3 /home/amir/github/working/Facebook_posts_links/last_post.py")
