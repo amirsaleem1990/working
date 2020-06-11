@@ -45,7 +45,7 @@ with open("All_FB_links_names_corrected.pkl", "rb") as file:
 stored_links_qty = sum([len(all_links[i]) for i in all_links])	
 
 browser = LOGIN()
-# pages i nedd in list: "idreesazad2", "itsfoss/", "azeemnama", "AkxOAwaz"
+pages i nedd in list: "idreesazad2", "itsfoss/", "azeemnama", "AkxOAwaz"
 FB = [i.split("\t")[0].strip() for i in open("/home/amir/github/working/Facebook_posts_links/FB.txt", "r").read().splitlines()]
 
 with open("ids_removed_from_facebook.pkl", "rb") as file:
@@ -82,30 +82,30 @@ for fb in FB:
 					links_to_open.append(link)
 			except:
 				pass
-		c += 1
+	c += 1
+	perc = counter/len(FB)*100
+	print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),current_time(),f" ||  {c} links in {fb}")
+
 links_to_open = list(set(links_to_open))
-open("/home/amir/a.txt", 'w').write("\n".join())
 
-# for i in links_to_open:
-# 	try:
-# 		browser.get(link)
-# 	except:
-# 		errors.append([fb, link])
-# 		continue
-# 	soup = BeautifulSoup(browser.page_source, "lxml")
-# 	try:
-# 		aa = soup.find("div", {"class" : "_5wj-"}).text
-# 		if len(aa) > 0:
-# 			file_name = f"{fb}.txt"
-# 			write_to_file(file_name, link, aa)
-# 		else:
-# 			errors.append([fb, link])
-# 	except:
-# 		errors.append([fb, link])
-# 		pass
+for link in links_to_open:
+	try:
+		browser.get(link)
+	except:
+		errors.append([fb, link])
+		continue
+	soup = BeautifulSoup(browser.page_source, "lxml")
+	try:
+		aa = soup.find("div", {"class" : "_5wj-"}).text
+		if len(aa) > 0:
+			file_name = f"{fb}.txt"
+			write_to_file(file_name, link, aa)
+		else:
+			errors.append([fb, link])
+	except:
+		errors.append([fb, link])
+		pass
 
-# 		perc = counter/len(FB)*100
-# 		print("{:3} {} %  || {:2} of {}  ||  ".format(int(perc), " ", counter, len(FB)),current_time(),f" ||  {c} links in {fb}")
 
 # browser.close()
 
