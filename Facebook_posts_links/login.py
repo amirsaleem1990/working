@@ -4,6 +4,7 @@ from selenium.webdriver.common.keys import Keys
 
 with open("/home/amir/github/Amir-personal/facebook-userName-and-password_3.txt", "r") as file:
 	usrname, pas = file.read().splitlines()
+
 def current_time():
 	import datetime
 	n = datetime.datetime.now()
@@ -17,7 +18,10 @@ def current_time():
 		tt += ":"
 	tt = tt.strip(":")
 	return tt
+
 def LOGIN():
+	import numpy as np
+	import time
 	print("Attempting to Login   ", current_time())
 	Successfully_logedin = True
 	Successfully_logedin_num = 0
