@@ -76,16 +76,15 @@ for fb in FB:
 		for i in s.select("a"):
 			try:
 				link = i['href']
-				if (link.startswith("/" + fb + "/posts/")) and (not link in links_to_open):
-					if not link in str(all_links) and (not "?comment_id=" in link):
-						link = "https://www.facebook.com" + link
-						# all_links[fb].append((link, str(now)))
-						links_to_open.append(link)
+				if (link.startswith("/" + fb + "/posts/")) and (not link in str(all_links)) and (not "?comment_id=" in link):
+					link = "https://www.facebook.com" + link
+					# all_links[fb].append((link, str(now)))
+					links_to_open.append(link)
 			except:
 				pass
 		c += 1
-
-open("/home/amir/a.txt", 'w').write("\n".join(links_to_open))
+links_to_open = list(set(links_to_open))
+open("/home/amir/a.txt", 'w').write("\n".join())
 
 # for i in links_to_open:
 # 	try:
