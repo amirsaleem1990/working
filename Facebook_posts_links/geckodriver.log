@@ -820,3 +820,6 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iUtE4/yT/l/en_GB/OONS
 1591874771793	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gjcI1EVQp6G5"
 1591874774112	Marionette	INFO	Listening on port 35309
 1591874774205	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/Xzoi3bwhRtX.js?_nc_x=HqK83NO7NOT, line 42: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/Xzoi3bwhRtX.js?_nc_x=HqK83NO7NOT, line 42: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/Xzoi3bwhRtX.js?_nc_x=HqK83NO7NOT, line 42: unreachable code after return statement
