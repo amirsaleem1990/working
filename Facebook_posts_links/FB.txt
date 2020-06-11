@@ -58,12 +58,12 @@ profile.php?id=100004721416966		# Dr-Muhammad Shahbaz Manj
 ComputerVision						# usman EM
 hewad.mir							# اما ضافی
 aisha.ghazi							# aisha ghazi
-profile.php?id=100011593626903		واضل واسطی
-profile.php?id=100048357649201		اطہر وقار
-nigar.zaheer.5						ڈاكٹر نگار ظہیر سجاد
+profile.php?id=100011593626903		# واضل واسطی
+profile.php?id=100048357649201		# اطہر وقار
+nigar.zaheer.5						# ڈاكٹر نگار ظہیر سجاد
 numan.bukhari						# نعمامن بخاری
 profile.php?id=100043957301860		# abu aminah
 profile.php?id=100014491804817		# وسیم گل
-usman.shani.7568					usman.shani.7568
-ammar.nasir.71						عمار خان ناضر
-
+usman.shani.7568					# usman.shani.7568
+ammar.nasir.71						# عمار خان ناضر
+zoohaib.zaibi						# zoohaib zaibi
