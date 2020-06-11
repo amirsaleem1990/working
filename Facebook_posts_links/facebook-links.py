@@ -159,6 +159,8 @@ for fb in FB:
 								links_to_open.append(link)
 				    except:
 				        pass
+				else:
+					continue
 				c += 1
 				try:
 					browser.get(link)
