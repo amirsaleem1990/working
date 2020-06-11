@@ -767,3 +767,8 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/zPj_uQ3NPIZ.js?
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/zPj_uQ3NPIZ.js?_nc_x=HqK83NO7NOT, line 19: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/zPj_uQ3NPIZ.js?_nc_x=HqK83NO7NOT, line 19: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1591871359855	Marionette	INFO	Stopped listening on port 46069
+1591871365668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Aro0aPDMhzTV"
+1591871368630	Marionette	INFO	Listening on port 34663
+1591871368695	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
