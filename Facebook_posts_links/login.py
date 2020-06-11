@@ -31,7 +31,7 @@ def LOGIN():
 	from selenium.webdriver.firefox.options import Options
 	options = Options()
 	options.add_argument("--headless")
-	visual = True
+	visual = False
 		
 	while Successfully_logedin:
 		Successfully_logedin_num += 1
