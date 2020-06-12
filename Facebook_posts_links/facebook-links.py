@@ -77,7 +77,7 @@ for fb in FB:
 		for i in s.select("a"):
 			try:
 				link = i['href']
-				if (link.startswith("/" + fb + "/posts/")) and (not link in str(all_links)) and (not "?comment_id=" in link) and (not link in all_links[fb]):
+				if (link.startswith("/" + fb + "/posts/")) and (not link in str(all_links)) and (not "?comment_id=" in link): # and (not link in all_links[fb]):
 					link = "https://www.facebook.com" + link
 					all_links[fb].append((link, str(now)))
 					links_to_open.append(link)
