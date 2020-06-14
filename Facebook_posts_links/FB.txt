@@ -68,3 +68,6 @@ usman.shani.7568						# usman.shani.7568
 ammar.nasir.71							# عمار خان ناضر
 zoohaib.zaibi							# zoohaib zaibi
 riaz.alikhattak							# Riaz Ali Khattak
+SoulsHacker								# Inam Ul Haq(آزاد قیدی)
+aijaz.rasool.3194						# Aijaz Rasool
+sara.ibrahim.16121471					# sara ibrahim
