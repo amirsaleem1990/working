@@ -2,3 +2,20 @@
 *** You are running in headless mode.
 1592139001597	Marionette	INFO	Listening on port 37757
 1592139001711	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1592139031234	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YXDoWiUhGw48"
+*** You are running in headless mode.
+1592139031585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.adMFsxuAqK60"
+*** You are running in headless mode.
+1592139032255	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.q2yo5Vr55pPw"
+*** You are running in headless mode.
+1592139032514	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rluki5NVnwkg"
+*** You are running in headless mode.
+1592139032691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Vyc4B2CTS1ot"
+*** You are running in headless mode.
+1592139032876	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.o8XkQ3Msz2SN"
+*** You are running in headless mode.
+1592139033076	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SNQsxyAZI1W8"
+*** You are running in headless mode.
