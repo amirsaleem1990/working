@@ -2,3 +2,30 @@
 *** You are running in headless mode.
 1592254775675	Marionette	INFO	Listening on port 42469
 1592254775733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=Ij3Wp8lg5Kz, line 9: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=Ij3Wp8lg5Kz, line 9: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=Ij3Wp8lg5Kz, line 9: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=Ij3Wp8lg5Kz, line 9: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/ljTx_oYgA2X.js?_nc_x=HqK83NO7NOT, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/ljTx_oYgA2X.js?_nc_x=HqK83NO7NOT, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/ljTx_oYgA2X.js?_nc_x=HqK83NO7NOT, line 4: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/ljTx_oYgA2X.js?_nc_x=HqK83NO7NOT, line 4: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=HqK83NO7NOT, line 9: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=HqK83NO7NOT, line 9: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=HqK83NO7NOT, line 9: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=HqK83NO7NOT, line 9: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/3ZgfEvZQUiT.js?_nc_x=HqK83NO7NOT, line 46: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/3ZgfEvZQUiT.js?_nc_x=HqK83NO7NOT, line 46: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/3ZgfEvZQUiT.js?_nc_x=HqK83NO7NOT, line 46: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=HqK83NO7NOT, line 9: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=HqK83NO7NOT, line 9: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=HqK83NO7NOT, line 9: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/hNyP_cMVoBQ.js?_nc_x=HqK83NO7NOT, line 9: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
