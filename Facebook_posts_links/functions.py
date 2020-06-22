@@ -1,4 +1,8 @@
 def LOGIN(usrname, pas, fb_base_url):
+	from selenium.webdriver.firefox.options import Options
+	options = Options()
+	options.add_argument("--headless")
+
 	from selenium import webdriver
 	import time
 	import numpy as np
@@ -10,7 +14,8 @@ def LOGIN(usrname, pas, fb_base_url):
 		if Successfully_logedin_num > 1:
 			print(f"Attempt no. {Successfully_logedin_num} to Login")
 		try:
-			browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver")
+			# browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver")
+			browser = webdriver.Firefox(executable_path = "/home/amir/github/working/Facebook_posts_links/geckodriver", options= options)
 			
 			#navigates you to the facebook page.
 			browser.get(fb_base_url)
