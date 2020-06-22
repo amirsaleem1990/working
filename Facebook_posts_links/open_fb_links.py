@@ -16,4 +16,4 @@ for i in links_to_open:
 		else:
 			procecced = 0
 links_to_open = [i for i in links_to_open if not i in links_opened]
-pickle.dump(links_to_open, open(file_, "wb")
+pickle.dump(links_to_open, open(file_, "wb"))
