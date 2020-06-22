@@ -118,7 +118,7 @@ links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
 if links_to_open:
 	file_ = "/home/amir/github/working/Facebook_posts_links/links_to_open.pkl"
-	if os.path,exists(file_):
+	if os.path.exists(file_):
 		links_to_open_pickle_file = pickle.load(open(file_, "rb"))
 	else:
 		links_to_open_pickle_file = []
