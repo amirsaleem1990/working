@@ -116,6 +116,14 @@ if not links_to_open:
 
 links_qty_after_addition = sum([len(all_links[i]) for i in all_links])
 
+if links_to_open:
+	file_ = "/home/amir/github/working/Facebook_posts_links/links_to_open.pkl"
+	if os.path,exists(file_):
+		links_to_open_pickle_file = pickle.load(open(file_, "rb"))
+	else:
+		links_to_open_pickle_file = []
+	links_to_open_pickle_file += links_to_open
+	pickle.dump(links_to_open_pickle_file, open(file_, "wb"))
 
 procecced = 0
 if succussfully_extracted:
@@ -123,14 +131,6 @@ if succussfully_extracted:
 	print("\n\nsuccussfully extracted: ", succussfully_extracted)
 	with open("All_FB_links_names_corrected.pkl", "wb") as file:
 		pickle.dump(all_links, file)
-
-	for i in links_to_open:
-		procecced += 1
-		os.popen("firefox " + i)
-		
-		if procecced > 20:
-			input("\n\nPress Enter\n\n")
-			procecced = 0
 else:
 	with open("errors.txt", "w") as file:
 		for error in errors:
