@@ -73,3 +73,4 @@ aijaz.rasool.3194						# Aijaz Rasool
 sara.ibrahim.16121471					# sara ibrahim
 aziz.ibnulhasan							# Aziz Ibnul Hasan
 profile.php?id=100024753752674			# farooq baloch
+MuftiSyedAdnanKakakhail                 # عدنان كاكاخیل
