@@ -11,6 +11,7 @@ for i in links_to_open:
 	os.popen("firefox " + i)
 	links_opened.append(i)
 	if procecced > 20:
+		print(f"There is {len(links_to_open) - procecced} left")
 		ans = input("\nPress Enter for procecced, for EXIT Enter q\n")
 		if ans == 'q':
 			break
