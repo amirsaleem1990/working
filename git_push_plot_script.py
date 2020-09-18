@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pprint
 df=pd.read_csv('~/git_counts.csv')
 df = df[df.Count > 0].sort_values('Count', ascending=False).reset_index().drop('index', axis=1)
-df['%'] = df.Count / round(df.Count.sum()*100)
+df['Perc'] = round(df.Count / df.Count.sum()*100)
 pprint.pprint(df)
 print(f'\n****  Total count: {df.Count.sum()} ****\n')
 plot = plt.bar(df.Repo, df.Count)
