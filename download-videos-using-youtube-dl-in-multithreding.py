@@ -4,7 +4,7 @@ import multiprocessing.dummy
 import subprocess
 
 
-arr = [{'url' : i} for i in open("mp4_links.txt", "r").read().splitlines() if i.strip()]
+arr = [{'url' : i} for i in set(open("mp4_links.txt", "r").read().splitlines()) if i.strip()]
 try:
 	downloaded = open("downloaded.txt", "r").read().splitlines()
 	arr = [i for i in arr if not i['url'] in  downloaded]
