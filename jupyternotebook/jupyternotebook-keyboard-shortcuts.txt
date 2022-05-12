@@ -84,3 +84,6 @@ Ctrl-Shift-M : R: Inserts the magrittr pipe operator (%>%)
 F1 : R: Shows the manpage for the item under the cursor
 Down : move cursor down
 Up : move cursor up
+z : undo cell operation (if you just deleted a cell, you can recover it by pressing 'z' one time)
+x : redo cell operation
+
