@@ -1,0 +1,7 @@
+########## Using Jupyter Notebook in Virtual Environment
+$ python3 -m venv virtual_env
+$ source virtual_env/bin/activate
+$ ipython3 kernel install --user --name=virtual_env
+# Now run jupyter-lab and change the kernel.
+#########################################################
+
