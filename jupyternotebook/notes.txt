@@ -1,0 +1,1 @@
+# pylint for jupyter ........... pip3 install nbqa pylint ; nbqa pylint my_notebook.ipynb
