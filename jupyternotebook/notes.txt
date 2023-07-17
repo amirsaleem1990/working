@@ -1,1 +1,3 @@
 # pylint for jupyter ........... pip3 install nbqa pylint ; nbqa pylint my_notebook.ipynb
+# save file in the hard disk from within jupyter notebook: in a cell write `%%file your_file_name_goes_here.py` and from the second line start writing what you want to save in the file, and then execute the cell.
+ 
