@@ -29,9 +29,9 @@ def LOGIN(visual=False):
 			print(f"Attempt no. {Successfully_logedin_num} to Login")
 		try:
 			if visual:
-				browser = webdriver.Firefox(executable_path = "/home/amir/github/Daily_facebook/geckodriver")
+				browser = webdriver.Firefox(executable_path = "/home/amir/github/Linux/bin/functional/geckodriver")
 			else:
-				browser = webdriver.Firefox(executable_path = "/home/amir/github/Daily_facebook/geckodriver", options=options)	
+				browser = webdriver.Firefox(executable_path = "/home/amir/github/Linux/bin/functional/geckodriver", options=options)	
 
 			#navigates you to the facebook page.
 			browser.get('https://www.facebook.com/')
