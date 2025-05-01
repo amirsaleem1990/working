@@ -1,0 +1,2535 @@
+availableMerchantForLimit
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_availableMerchantForLimit_index` ON `availableMerchantForLimit` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+accountslist
+(pymysql.err.OperationalError) (1059, "Identifier name 'name\ttype\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variable' is too long")
+[SQL: 
+CREATE TABLE accountslist (
+	`index` BIGINT, 
+	`name	type	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+appinstalllog
+(pymysql.err.OperationalError) (1059, "Identifier name 'Package\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variable' is too long")
+[SQL: 
+CREATE TABLE appinstalllog (
+	`index` BIGINT, 
+	`Package	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+signupQuestionnaireResponse
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_signupQuestionnaireResponse_index` ON `signupQuestionnaireResponse` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+location
+(pymysql.err.OperationalError) (1059, "Identifier name 'TimeStamp_\tlatitude\tlongitude\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tdb_matching_vari' is too long")
+[SQL: 
+CREATE TABLE location (
+	`index` BIGINT, 
+	`TimeStamp_	latitude	longitude	ID	timestamp	Epoch	process_date	process_hour	isActive	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+insuranceProvider
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_insuranceProvider_index` ON `insuranceProvider` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+customerWallet
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_customerWallet_index` ON `customerWallet` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+DAPPunjabData
+(pymysql.err.ProgrammingError) (1166, "Incorrect column name 'Plant Center '")
+[SQL: 
+CREATE TABLE `DAPPunjabData` (
+	`index` BIGINT, 
+	`Year` BIGINT, 
+	`District` TEXT, 
+	`Cotton` FLOAT(53), 
+	`Maize` FLOAT(53), 
+	`Rice` FLOAT(53), 
+	`Sugarcane` FLOAT(53), 
+	`Wheat` FLOAT(53), 
+	`Sales` FLOAT(53), 
+	`Plant Center ` BIGINT, 
+	`Prices` FLOAT(53), 
+	`Zones` TEXT, 
+	`City` BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+------------------
+
+DAPSindhData
+(pymysql.err.ProgrammingError) (1166, "Incorrect column name 'City '")
+[SQL: 
+CREATE TABLE `DAPSindhData` (
+	`index` BIGINT, 
+	`Year` BIGINT, 
+	`District` TEXT, 
+	`Cotton` FLOAT(53), 
+	`Maize` FLOAT(53), 
+	`Rice` FLOAT(53), 
+	`Sugarcane` FLOAT(53), 
+	`Wheat` FLOAT(53), 
+	`Total Area` FLOAT(53), 
+	`Sales` FLOAT(53), 
+	`Plant Center Urea` BIGINT, 
+	`Prices` FLOAT(53), 
+	`Zones` TEXT, 
+	`Plant Center` BIGINT, 
+	`City ` BIGINT, 
+	`Political` BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+------------------
+
+streamdefinitions
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX ix_streamdefinitions_index ON streamdefinitions (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+userAdvancePolicy
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_userAdvancePolicy_index` ON `userAdvancePolicy` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+userClaim
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_userClaim_index` ON `userClaim` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+userPolicy
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_userPolicy_index` ON `userPolicy` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+bundledInsuranceMapping
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_bundledInsuranceMapping_index` ON `bundledInsuranceMapping` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+calendarevents
+(pymysql.err.OperationalError) (1059, "Identifier name 'title\tdescription\tallowReminders\tdTStart\tdTEnd\tallDay\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\ti' is too long")
+[SQL: 
+CREATE TABLE calendarevents (
+	level_0 TEXT, 
+	level_1 BIGINT, 
+	level_2 TEXT, 
+	level_3 BIGINT, 
+	`title	description	allowReminders	dTStart	dTEnd	allDay	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+calllog
+(pymysql.err.OperationalError) (1059, "Identifier name 'number\tType\tDuration\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_vari' is too long")
+[SQL: 
+CREATE TABLE calllog (
+	`index` BIGINT, 
+	`number	Type	Duration	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+DELIVERY2021Q2
+(pymysql.err.InternalError) (3, "Error writing file '/tmp/MLfd=38' (OS errno 28 - No space left on device)")
+[SQL: INSERT INTO `DELIVERY2021Q2` (`index`, `HHD_ORDER_NUMBER`, `ORDER_TYPE`, `DELIVERYMAN_ID`, `BRANCH`, `TERRITORY_ID`, `SALESREP_ID`, `VAN`, `REGION`, `TERR_GROUP`, `ACCOUNT_NUMBER`, `PARTY_NAME`, `LOCATIONID`, `ORG_ID`, `BND`, `PRODUCTID`, `PRODUCTCODE`, `DESCRIPTION`, `ORDERED_DATE`, `ORDER_NUMBER`, `ORDERED_ITEM`, `GRAMAGE`, `PACK_SIZE`, `CHENNAL`, `SALE_QTY`, `DISC`, `NET_VALUE`, `TOTAL`, `V_GROSS`, `TAX_VALUE`, `HEADER_ID`, `LINE_ID`, `TIMELINE`) VALUES (%(index)s, %(HHD_ORDER_NUMBER)s, %(ORDER_TYPE)s, %(DELIVERYMAN_ID)s, %(BRANCH)s, %(TERRITORY_ID)s, %(SALESREP_ID)s, %(VAN)s, %(REGION)s, %(TERR_GROUP)s, %(ACCOUNT_NUMBER)s, %(PARTY_NAME)s, %(LOCATIONID)s, %(ORG_ID)s, %(BND)s, %(PRODUCTID)s, %(PRODUCTCODE)s, %(DESCRIPTION)s, %(ORDERED_DATE)s, %(ORDER_NUMBER)s, %(ORDERED_ITEM)s, %(GRAMAGE)s, %(PACK_SIZE)s, %(CHENNAL)s, %(SALE_QTY)s, %(DISC)s, %(NET_VALUE)s, %(TOTAL)s, %(V_GROSS)s, %(TAX_VALUE)s, %(HEADER_ID)s, %(LINE_ID)s, %(TIMELINE)s)]
+[parameters: ({'index': 0, 'HHD_ORDER_NUMBER': 13210525003113, 'ORDER_TYPE': 'Normal', 'DELIVERYMAN_ID': 100099226, 'BRANCH': 'BPD Gulshan Liquid', 'TERRITORY_ID': 129957, 'SALESREP_ID': 100099216, 'VAN': 'Gul L-WS-2', 'REGION': 'Karachi A', 'TERR_GROUP': 'GULQ_1', 'ACCOUNT_NUMBER': 262035, 'PARTY_NAME': 'STAR TRADERS', 'LOCATIONID': 310, 'ORG_ID': 223, 'BND': 'Nestle Milkpak', 'PRODUCTID': 125977.0, 'PRODUCTCODE': 303, 'DESCRIPTION': 'MILKPAK 27x250ml PRO', 'ORDERED_DATE': '05/24/2021', 'ORDER_NUMBER': 307404, 'ORDERED_ITEM': 2000327, 'GRAMAGE': 250.0, 'PACK_SIZE': 27, 'CHENNAL': 'WHOLESALE', 'SALE_QTY': 27.0, 'DISC': 4.99986, 'NET_VALUE': 1064.74014, 'TOTAL': 1069.74, 'V_GROSS': 1069.74, 'TAX_VALUE': 0.0, 'HEADER_ID': 50124142, 'LINE_ID': 198541949, 'TIMELINE': '202104-202106'}, {'index': 1, 'HHD_ORDER_NUMBER': 13210525005028, 'ORDER_TYPE': 'Normal', 'DELIVERYMAN_ID': 100099258, 'BRANCH': 'BPD Gulshan Liquid', 'TERRITORY_ID': 129923, 'SALESREP_ID': 100099232, 'VAN': 'Gul L-RT-2', 'REGION': 'Karachi A', 'TERR_GROUP': 'GULQ_1', 'ACCOUNT_NUMBER': 2040, 'PARTY_NAME': 'ARIYANA', 'LOCATIONID': 310, 'ORG_ID': 223, 'BND': 'Nesvita Hclf', 'PRODUCTID': 687.0, 'PRODUCTCODE': 306, 'DESCRIPTION': 'NESVITA HCLF 24x200ml', 'ORDERED_DATE': '05/24/2021', 'ORDER_NUMBER': 307413, 'ORDERED_ITEM': 2000009, 'GRAMAGE': 200.0, 'PACK_SIZE': 24, 'CHENNAL': 'RETAIL', 'SALE_QTY': 24.0, 'DISC': 0.0, 'NET_VALUE': 1018.8, 'TOTAL': 1018.8, 'V_GROSS': 1018.8, 'TAX_VALUE': 0.0, 'HEADER_ID': 50124222, 'LINE_ID': 198542457, 'TIMELINE': '202104-202106'}, {'index': 2, 'HHD_ORDER_NUMBER': 13210525005028, 'ORDER_TYPE': 'Normal', 'DELIVERYMAN_ID': 100099258, 'BRANCH': 'BPD Gulshan Liquid', 'TERRITORY_ID': 129923, 'SALESREP_ID': 100099232, 'VAN': 'Gul L-RT-2', 'REGION': 'Karachi A', 'TERR_GROUP': 'GULQ_1', 'ACCOUNT_NUMBER': 2040, 'PARTY_NAME': 'ARIYANA', 'LOCATIONID': 310, 'ORG_ID': 223, 'BND': 'Nestle Milkpak', 'PRODUCTID': 125977.0, 'PRODUCTCODE': 303, 'DESCRIPTION': 'MILKPAK 27x250ml PRO', 'ORDERED_DATE': '05/24/2021', 'ORDER_NUMBER': 307413, 'ORDERED_ITEM': 2000327, 'GRAMAGE': 250.0, 'PACK_SIZE': 27, 'CHENNAL': 'RETAIL', 'SALE_QTY': 27.0, 'DISC': 0.0, 'NET_VALUE': 1069.74, 'TOTAL': 1069.74, 'V_GROSS': 1069.74, 'TAX_VALUE': 0.0, 'HEADER_ID': 50124222, 'LINE_ID': 198542461, 'TIMELINE': '202104-202106'}, {'index': 3, 'HHD_ORDER_NUMBER': 13210525105968, 'ORDER_TYPE': 'Normal', 'DELIVERYMAN_ID': 100099285, 'BRANCH': 'BPD Gulshan Liquid', 'TERRITORY_ID': 129921, 'SALESREP_ID': 100098998, 'VAN': 'Gul L-RT-1', 'REGION': 'Karachi A', 'TERR_GROUP': 'GULQ_1', 'ACCOUNT_NUMBER': 3080, 'PARTY_NAME': 'AL REHMAN BAKERY', 'LOCATIONID': 310, 'ORG_ID': 223, 'BND': 'Fruita Vital', 'PRODUCTID': 145312.0, 'PRODUCTCODE': 2466, 'DESCRIPTION': 'Royal Mangoes 24x200ml', 'ORDERED_DATE': '05/25/2021', 'ORDER_NUMBER': 307678, 'ORDERED_ITEM': 2000353, 'GRAMAGE': 200.0, 'PACK_SIZE': 24, 'CHENNAL': 'RETAIL', 'SALE_QTY': 24.0, 'DISC': 10.00008, 'NET_VALUE': 757.88992, 'TOTAL': 767.89, 'V_GROSS': 642.0, 'TAX_VALUE': 125.89, 'HEADER_ID': 50146194, 'LINE_ID': 198655496, 'TIMELINE': '202104-202106'}, {'index': 4, 'HHD_ORDER_NUMBER': 13210525105968, 'ORDER_TYPE': 'Normal', 'DELIVERYMAN_ID': 100099285, 'BRANCH': 'BPD Gulshan Liquid', 'TERRITORY_ID': 129921, 'SALESREP_ID': 100098998, 'VAN': 'Gul L-RT-1', 'REGION': 'Karachi A', 'TERR_GROUP': 'GULQ_1', 'ACCOUNT_NUMBER': 3080, 'PARTY_NAME': 'AL REHMAN BAKERY', 'LOCATIONID': 310, 'ORG_ID': 223, 'BND': 'Fruita Vital', 'PRODUCTID': 751.0, 'PRODUCTCODE': 308, 'DESCRIPTION': 'Apple Nectar 24x200ml', 'ORDERED_DATE': '05/25/2021', 'ORDER_NUMBER': 307678, 'ORDERED_ITEM': 2000073, 'GRAMAGE': 200.0, 'PACK_SIZE': 24, 'CHENNAL': 'RETAIL', 'SALE_QTY': 72.0, 'DISC': 30.00024, 'NET_VALUE': 2273.62976, 'TOTAL': 2303.63, 'V_GROSS': 1926.0, 'TAX_VALUE': 377.63, 'HEADER_ID': 50146194, 'LINE_ID': 198655502, 'TIMELINE': '202104-202106'}, {'index': 5, 'HHD_ORDER_NUMBER': 13210525105968, 'ORDER_TYPE': 'Normal', 'DELIVERYMAN_ID': 100099285, 'BRANCH': 'BPD Gulshan Liquid', 'TERRITORY_ID': 129921, 'SALESREP_ID': 100098998, 'VAN': 'Gul L-RT-1', 'REGION': 'Karachi A', 'TERR_GROUP': 'GULQ_1', 'ACCOUNT_NUMBER': 3080, 'PARTY_NAME': 'AL REHMAN BAKERY', 'LOCATIONID': 310, 'ORG_ID': 223, 'BND': 'Milkpak Cream', 'PRODUCTID': 170331.0, 'PRODUCTCODE': 2555, 'DESCRIPTION': 'MILKPAK Cream Fat 24x180ml', 'ORDERED_DATE': '05/25/2021', 'ORDER_NUMBER': 307678, 'ORDERED_ITEM': 2000374, 'GRAMAGE': 180.0, 'PACK_SIZE': 24, 'CHENNAL': 'RETAIL', 'SALE_QTY': 6.0, 'DISC': 0.0, 'NET_VALUE': 566.54, 'TOTAL': 566.54, 'V_GROSS': 501.36, 'TAX_VALUE': 65.18, 'HEADER_ID': 50146194, 'LINE_ID': 198655507, 'TIMELINE': '202104-202106'}, {'index': 6, 'HHD_ORDER_NUMBER': 13210525105968, 'ORDER_TYPE': 'Normal', 'DELIVERYMAN_ID': 100099285, 'BRANCH': 'BPD Gulshan Liquid', 'TERRITORY_ID': 129921, 'SALESREP_ID': 100098998, 'VAN': 'Gul L-RT-1', 'REGION': 'Karachi A', 'TERR_GROUP': 'GULQ_1', 'ACCOUNT_NUMBER': 3080, 'PARTY_NAME': 'AL REHMAN BAKERY', 'LOCATIONID': 310, 'ORG_ID': 223, 'BND': 'Fruita Vital', 'PRODUCTID': 762.0, 'PRODUCTCODE': 310, 'DESCRIPTION': 'Chaunsa Nectar 24x200ml', 'ORDERED_DATE': '05/25/2021', 'ORDER_NUMBER': 307678, 'ORDERED_ITEM': 2000084, 'GRAMAGE': 200.0, 'PACK_SIZE': 24, 'CHENNAL': 'RETAIL', 'SALE_QTY': 24.0, 'DISC': 10.00008, 'NET_VALUE': 757.88992, 'TOTAL': 767.89, 'V_GROSS': 642.0, 'TAX_VALUE': 125.89, 'HEADER_ID': 50146194, 'LINE_ID': 198655527, 'TIMELINE': '202104-202106'}, {'index': 7, 'HHD_ORDER_NUMBER': 13210525105968, 'ORDER_TYPE': 'Normal', 'DELIVERYMAN_ID': 100099285, 'BRANCH': 'BPD Gulshan Liquid', 'TERRITORY_ID': 129921, 'SALESREP_ID': 100098998, 'VAN': 'Gul L-RT-1', 'REGION': 'Karachi A', 'TERR_GROUP': 'GULQ_1', 'ACCOUNT_NUMBER': 3080, 'PARTY_NAME': 'AL REHMAN BAKERY', 'LOCATIONID': 310, 'ORG_ID': 223, 'BND': 'Nesvita Hclf', 'PRODUCTID': 687.0, 'PRODUCTCODE': 306, 'DESCRIPTION': 'NESVITA HCLF 24x200ml', 'ORDERED_DATE': '05/25/2021', 'ORDER_NUMBER': 307678, 'ORDERED_ITEM': 2000009, 'GRAMAGE': 200.0, 'PACK_SIZE': 24, 'CHENNAL': 'RETAIL', 'SALE_QTY': 48.0, 'DISC': 0.0, 'NET_VALUE': 2037.6, 'TOTAL': 2037.6, 'V_GROSS': 2037.6, 'TAX_VALUE': 0.0, 'HEADER_ID': 50146194, 'LINE_ID': 198655552, 'TIMELINE': '202104-202106'}  ... displaying 10 of 685370 total bound parameter sets ...  {'index': 685368, 'HHD_ORDER_NUMBER': 13210627604335, 'ORDER_TYPE': 'Normal', 'DELIVERYMAN_ID': 100189797, 'BRANCH': 'NPD Shan SITE 1', 'TERRITORY_ID': 41199, 'SALESREP_ID': 100056059, 'VAN': 'ST1-GT4', 'REGION': 'SOUTH', 'TERR_GROUP': 'RETAIL', 'ACCOUNT_NUMBER': 132095, 'PARTY_NAME': 'ASIF ST', 'LOCATIONID': 101, 'ORG_ID': 225, 'BND': 'Shan', 'PRODUCTID': 268596.0, 'PRODUCTCODE': 30190010067, 'DESCRIPTION': 'KHALIS HALDEE 100 GM + TEZ LAL MIRCH 10 GM FREE', 'ORDERED_DATE': '06/30/2021', 'ORDER_NUMBER': 501264, 'ORDERED_ITEM': 201000921, 'GRAMAGE': 100.0, 'PACK_SIZE': 48, 'CHENNAL': 'RETAIL', 'SALE_QTY': 3.0, 'DISC': 10.3104, 'NET_VALUE': 194.2296, 'TOTAL': 204.54, 'V_GROSS': 171.84, 'TAX_VALUE': 32.7, 'HEADER_ID': 50750080, 'LINE_ID': 201654553, 'TIMELINE': '202104-202106'}, {'index': 685369, 'HHD_ORDER_NUMBER': 13210627604335, 'ORDER_TYPE': 'Normal', 'DELIVERYMAN_ID': 100189797, 'BRANCH': 'NPD Shan SITE 1', 'TERRITORY_ID': 41199, 'SALESREP_ID': 100056059, 'VAN': 'ST1-GT4', 'REGION': 'SOUTH', 'TERR_GROUP': 'RETAIL', 'ACCOUNT_NUMBER': 132095, 'PARTY_NAME': 'ASIF ST', 'LOCATIONID': 101, 'ORG_ID': 225, 'BND': 'Shan', 'PRODUCTID': 228586.0, 'PRODUCTCODE': 30560010003, 'DESCRIPTION': 'Tez Lal Mirch Powder 10GM 288', 'ORDERED_DATE': '06/30/2021', 'ORDER_NUMBER': 501264, 'ORDERED_ITEM': 201000773, 'GRAMAGE': 25.0, 'PACK_SIZE': 144, 'CHENNAL': 'RETAIL', 'SALE_QTY': 12.0, 'DISC': 8.2512, 'NET_VALUE': 155.4288, 'TOTAL': 163.68, 'V_GROSS': 137.52, 'TAX_VALUE': 26.16, 'HEADER_ID': 50750080, 'LINE_ID': 201654557, 'TIMELINE': '202104-202106'})]
+(Background on this error at: https://sqlalche.me/e/14/2j85)
+------------------
+
+availableMerchantForLimit
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_availableMerchantForLimit_index` ON `availableMerchantForLimit` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+accountslist
+(pymysql.err.OperationalError) (1059, "Identifier name 'name\ttype\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variable' is too long")
+[SQL: 
+CREATE TABLE accountslist (
+	`index` BIGINT, 
+	`name	type	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+availableMerchantForLimit
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_availableMerchantForLimit_index` ON `availableMerchantForLimit` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+accountslist
+(pymysql.err.OperationalError) (1059, "Identifier name 'name\ttype\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variable' is too long")
+[SQL: 
+CREATE TABLE accountslist (
+	`index` BIGINT, 
+	`name	type	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+availableMerchantForLimit
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_availableMerchantForLimit_index` ON `availableMerchantForLimit` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+accountslist
+(pymysql.err.OperationalError) (1059, "Identifier name 'name\ttype\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variable' is too long")
+[SQL: 
+CREATE TABLE accountslist (
+	`index` BIGINT, 
+	`name	type	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+appinstalllog
+(pymysql.err.OperationalError) (1059, "Identifier name 'Package\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variable' is too long")
+[SQL: 
+CREATE TABLE appinstalllog (
+	`index` BIGINT, 
+	`Package	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+signupQuestionnaireResponse
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_signupQuestionnaireResponse_index` ON `signupQuestionnaireResponse` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+location
+(pymysql.err.OperationalError) (1059, "Identifier name 'TimeStamp_\tlatitude\tlongitude\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tdb_matching_vari' is too long")
+[SQL: 
+CREATE TABLE location (
+	`index` BIGINT, 
+	`TimeStamp_	latitude	longitude	ID	timestamp	Epoch	process_date	process_hour	isActive	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+streamdefinitions
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX ix_streamdefinitions_index ON streamdefinitions (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+userAdvancePolicy
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_userAdvancePolicy_index` ON `userAdvancePolicy` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+bundledInsuranceMapping
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_bundledInsuranceMapping_index` ON `bundledInsuranceMapping` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+calendarevents
+(pymysql.err.OperationalError) (1059, "Identifier name 'title\tdescription\tallowReminders\tdTStart\tdTEnd\tallDay\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\ti' is too long")
+[SQL: 
+CREATE TABLE calendarevents (
+	level_0 TEXT, 
+	level_1 BIGINT, 
+	level_2 TEXT, 
+	level_3 BIGINT, 
+	`title	description	allowReminders	dTStart	dTEnd	allDay	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+calllog
+(pymysql.err.OperationalError) (1059, "Identifier name 'number\tType\tDuration\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_vari' is too long")
+[SQL: 
+CREATE TABLE calllog (
+	`index` BIGINT, 
+	`number	Type	Duration	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+userClaim
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_userClaim_index` ON `userClaim` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+userPromotionalOffer
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_userPromotionalOffer_index` ON `userPromotionalOffer` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+walletTransaction
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_walletTransaction_index` ON `walletTransaction` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+yrandomforest
+(pymysql.err.OperationalError) (1060, "Duplicate column name 'Index'")
+[SQL: 
+CREATE TABLE yrandomforest (
+	`index` BIGINT, 
+	`Unnamed: 0` BIGINT, 
+	`RMSE` FLOAT(53), 
+	`Below_15_perc` FLOAT(53), 
+	`Index` BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+finaldfcreatedfromzipfiles
+(pymysql.err.OperationalError) (1060, "Duplicate column name 'Body_nunique'")
+[SQL: 
+CREATE TABLE finaldfcreatedfromzipfiles (
+	`index` BIGINT, 
+	displyname_nunique BIGINT, 
+	contacts_qty BIGINT, 
+	number_as_name_qty BIGINT, 
+	number_as_name_ratio FLOAT(53), 
+	engslish_contacts_qty BIGINT, 
+	engslish_contacts_ratio FLOAT(53), 
+	arabic_contacts_qty FLOAT(53), 
+	arabic_contacts_ratio FLOAT(53), 
+	`picture_count_Downloads` BIGINT, 
+	`audio_count_Downloads` BIGINT, 
+	`video_count_Downloads` BIGINT, 
+	`others_count_Downloads` BIGINT, 
+	`_count_Downloads` BIGINT, 
+	`unique_extention_count_Downloads` BIGINT, 
+	`picture_count_Documents` BIGINT, 
+	`audio_count_Documents` BIGINT, 
+	`video_count_Documents` BIGINT, 
+	`others_count_Documents` BIGINT, 
+	`_count_Documents` BIGINT, 
+	`unique_extention_count_Documents` BIGINT, 
+	`picture_count_Images` BIGINT, 
+	`audio_count_Images` BIGINT, 
+	`video_count_Images` BIGINT, 
+	`others_count_Images` BIGINT, 
+	`_count_Images` BIGINT, 
+	`unique_extention_count_Images` BIGINT, 
+	`picture_count_Videos` BIGINT, 
+	`audio_count_Videos` BIGINT, 
+	`video_count_Videos` BIGINT, 
+	`others_count_Videos` BIGINT, 
+	`_count_Videos` BIGINT, 
+	`unique_extention_count_Videos` BIGINT, 
+	`INBOX_count` FLOAT(53), 
+	`SENT_count` FLOAT(53), 
+	null_count FLOAT(53), 
+	`INBOX_count_perc` FLOAT(53), 
+	`SENT_count_perc` FLOAT(53), 
+	null_count_perc FLOAT(53), 
+	`INBOX_weekend_min` FLOAT(53), 
+	`INBOX_weekday_min` FLOAT(53), 
+	`SENT_weekend_min` FLOAT(53), 
+	`SENT_weekday_min` FLOAT(53), 
+	null_weekend_min FLOAT(53), 
+	null_weekday_min FLOAT(53), 
+	`INBOX_weekend_max` FLOAT(53), 
+	`INBOX_weekday_max` FLOAT(53), 
+	`SENT_weekend_max` FLOAT(53), 
+	`SENT_weekday_max` FLOAT(53), 
+	null_weekend_max FLOAT(53), 
+	null_weekday_max FLOAT(53), 
+	`INBOX_weekend_mean` FLOAT(53), 
+	`INBOX_weekday_mean` FLOAT(53), 
+	`SENT_weekend_mean` FLOAT(53), 
+	`SENT_weekday_mean` FLOAT(53), 
+	null_weekend_mean FLOAT(53), 
+	null_weekday_mean FLOAT(53), 
+	`INBOX_weekend_std` FLOAT(53), 
+	`INBOX_weekday_std` FLOAT(53), 
+	`SENT_weekend_std` FLOAT(53), 
+	`SENT_weekday_std` FLOAT(53), 
+	null_weekend_std FLOAT(53), 
+	null_weekday_std FLOAT(53), 
+	`INBOX_count_Normal_user` FLOAT(53), 
+	`INBOX_count_company` FLOAT(53), 
+	`SENT_count_Normal_user` FLOAT(53), 
+	`SENT_count_company` FLOAT(53), 
+	`null_count_Normal_user` FLOAT(53), 
+	null_count_company FLOAT(53), 
+	`INBOX_mean_Normal_user` FLOAT(53), 
+	`INBOX_mean_company` FLOAT(53), 
+	`SENT_mean_Normal_user` FLOAT(53), 
+	`SENT_mean_company` FLOAT(53), 
+	`null_mean_Normal_user` FLOAT(53), 
+	null_mean_company FLOAT(53), 
+	body_nunique FLOAT(53), 
+	mean_body_unique_count FLOAT(53), 
+	max_body_unique_count FLOAT(53), 
+	median_body_unique_count FLOAT(53), 
+	std_body_unique_count FLOAT(53), 
+	`Body_nunique` FLOAT(53), 
+	average_body_repeat FLOAT(53), 
+	`INBOX_body_nunique_min` FLOAT(53), 
+	`INBOX_body_nunique_max` FLOAT(53), 
+	`INBOX_body_nunique_mean` FLOAT(53), 
+	`INBOX_body_nunique_median` FLOAT(53), 
+	`INBOX_body_nunique_std` FLOAT(53), 
+	`SENT_body_nunique_min` FLOAT(53), 
+	`SENT_body_nunique_max` FLOAT(53), 
+	`SENT_body_nunique_mean` FLOAT(53), 
+	`SENT_body_nunique_median` FLOAT(53), 
+	`SENT_body_nunique_std` FLOAT(53), 
+	null_body_nunique_min FLOAT(53), 
+	null_body_nunique_max FLOAT(53), 
+	null_body_nunique_mean FLOAT(53), 
+	null_body_nunique_median FLOAT(53), 
+	null_body_nunique_std FLOAT(53), 
+	days_since_older_msg FLOAT(53), 
+	`weekend_sms_sent_log_Count_min` FLOAT(53), 
+	`weekend_sms_sent_log_Count_max` FLOAT(53), 
+	`weekend_sms_sent_log_Count_count` FLOAT(53), 
+	`weekend_sms_sent_log_Count_std` FLOAT(53), 
+	`weekend_sms_sent_log_Count_mean` FLOAT(53), 
+	`weekday_sms_sent_log_Count_min` FLOAT(53), 
+	`weekday_sms_sent_log_Count_max` FLOAT(53), 
+	`weekday_sms_sent_log_Count_count` FLOAT(53), 
+	`weekday_sms_sent_log_Count_std` FLOAT(53), 
+	`weekday_sms_sent_log_Count_mean` FLOAT(53), 
+	`sms_sent_Count_min` FLOAT(53), 
+	`sms_sent_Count_max` FLOAT(53), 
+	`sms_sent_Count_mean` FLOAT(53), 
+	`sms_sent_Count_median` FLOAT(53), 
+	`sms_sent_Count_std` FLOAT(53), 
+	`sms_sent_Count_sum` FLOAT(53), 
+	days_since_first_sms_sent FLOAT(53), 
+	most_duplicated_account_count FLOAT(53), 
+	accounts_count FLOAT(53), 
+	unique_accounts_count FLOAT(53), 
+	duplicated_accounts_qty FLOAT(53), 
+	average_account_repeated FLOAT(53), 
+	packages_count FLOAT(53), 
+	unique_packages_count FLOAT(53), 
+	duplicated_packages_qty FLOAT(53), 
+	average_packages_repeated FLOAT(53), 
+	non_english_packages_qty FLOAT(53), 
+	non_english_packages_ratio FLOAT(53), 
+	max_unique_numbers FLOAT(53), 
+	count_unique_numbers FLOAT(53), 
+	median_unique_numbers FLOAT(53), 
+	mean_unique_numbers FLOAT(53), 
+	numbers_qty FLOAT(53), 
+	`call_log_count_OUTGOING` FLOAT(53), 
+	`call_log_count_MISSED` FLOAT(53), 
+	`call_log_count_INCOMING` FLOAT(53), 
+	call_log_count_null FLOAT(53), 
+	`call_log_ratio_OUTGOING` FLOAT(53), 
+	`call_log_ratio_MISSED` FLOAT(53), 
+	`call_log_ratio_INCOMING` FLOAT(53), 
+	call_log_ratio_null FLOAT(53), 
+	`max_INCOMING` FLOAT(53), 
+	`max_MISSED` FLOAT(53), 
+	`max_OUTGOING` FLOAT(53), 
+	max_null FLOAT(53), 
+	`mean_INCOMING` FLOAT(53), 
+	`mean_MISSED` FLOAT(53), 
+	`mean_OUTGOING` FLOAT(53), 
+	mean_null FLOAT(53), 
+	`std_INCOMING` FLOAT(53), 
+	`std_MISSED` FLOAT(53), 
+	`std_OUTGOING` FLOAT(53), 
+	std_null FLOAT(53), 
+	`median_INCOMING` FLOAT(53), 
+	`median_MISSED` FLOAT(53), 
+	`median_OUTGOING` FLOAT(53), 
+	median_null FLOAT(53), 
+	`min_call_Duration` FLOAT(53), 
+	`max_call_Duration` FLOAT(53), 
+	`mean_call_Duration` FLOAT(53), 
+	`std_call_Duration` FLOAT(53), 
+	`median_call_Duration` FLOAT(53), 
+	social_count FLOAT(53), 
+	dangerous_count FLOAT(53), 
+	darkweb_count FLOAT(53), 
+	wallet_count FLOAT(53), 
+	banking_count FLOAT(53), 
+	lending_count FLOAT(53), 
+	rosca_count FLOAT(53), 
+	social_count_ratio FLOAT(53), 
+	dangerous_count_ratio FLOAT(53), 
+	darkweb_count_ratio FLOAT(53), 
+	wallet_count_ratio FLOAT(53), 
+	banking_count_ratio FLOAT(53), 
+	lending_count_ratio FLOAT(53), 
+	rosca_count_ratio FLOAT(53), 
+	calendar_events FLOAT(53), 
+	title_count FLOAT(53), 
+	title_unique_counts FLOAT(53), 
+	title_repeated_values_qty FLOAT(53), 
+	english_title_counts_qty FLOAT(53), 
+	english_title_counts_ratio FLOAT(53), 
+	non_english_title_counts_qty FLOAT(53), 
+	non_english_title_counts_ratio FLOAT(53), 
+	path_duplicated_count FLOAT(53), 
+	path_duplicated_ratio FLOAT(53), 
+	path_unique_count FLOAT(53), 
+	path_unique_ratio FLOAT(53), 
+	img_count FLOAT(53), 
+	fb_count FLOAT(53), 
+	screenshot_count FLOAT(53), 
+	face_count FLOAT(53), 
+	others FLOAT(53), 
+	picture FLOAT(53), 
+	audio FLOAT(53), 
+	video FLOAT(53), 
+	min_timestamp TEXT, 
+	max_timestamp TEXT, 
+	days_since_older_file FLOAT(53), 
+	min_timestamp_count FLOAT(53), 
+	max_timestamp_count FLOAT(53), 
+	mean_timestamp_count FLOAT(53), 
+	std_timestamp_count FLOAT(53), 
+	median_timestamp_count FLOAT(53), 
+	`+1_files_in_one_day_qty` FLOAT(53), 
+	`1_file_in_one_day_qty` FLOAT(53), 
+	`+1_files_in_one_day_ratio` FLOAT(53), 
+	`1_file_in_one_day_ratio` FLOAT(53), 
+	brand TEXT, 
+	`deviceSoftware` TEXT, 
+	ram FLOAT(53), 
+	storage_size FLOAT(53), 
+	`numberOfWifiStored` FLOAT(53), 
+	outgoing_call_logs_weekdays_std FLOAT(53), 
+	calendar_events_count FLOAT(53), 
+	`outgoind_call_log_COUNT_min` FLOAT(53), 
+	outgoing_call_logs_weekdays_max FLOAT(53), 
+	`outgoind_call_log_COUNT_mean` FLOAT(53), 
+	`outgoind_call_log_COUNT_median` FLOAT(53), 
+	outgoing_call_logs_weekends_mean FLOAT(53), 
+	count_of_days_no_outgoing_call FLOAT(53), 
+	days_since_last_outgoing_call FLOAT(53), 
+	`outgoind_call_log_COUNT_max` FLOAT(53), 
+	outgoing_call_logs_weekends_max FLOAT(53), 
+	outgoing_call_logs_weekends_std FLOAT(53), 
+	outgoing_call_logs_weekends_min FLOAT(53), 
+	`outgoind_call_log_COUNT_std` FLOAT(53), 
+	outgoing_call_logs_weekdays_mean FLOAT(53), 
+	outgoing_call_logs_weekdays_min FLOAT(53), 
+	days_between_first_and_last_day_outgoing_call FLOAT(53), 
+	file_name TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+gallerydata
+(pymysql.err.OperationalError) (1059, "Identifier name 'title\ttimestamp\tpath\tID\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variable' is too long")
+[SQL: 
+CREATE TABLE gallerydata (
+	`index` BIGINT, 
+	`title	timestamp	path	ID	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+beneficiary
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX ix_beneficiary_index ON beneficiary (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+contactslist
+(pymysql.err.OperationalError) (1059, "Identifier name 'displayName\tphone\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variabl' is too long")
+[SQL: 
+CREATE TABLE contactslist (
+	`index` BIGINT, 
+	`displayName	phone	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+dfwithalltranformations
+(pymysql.err.OperationalError) (1060, "Duplicate column name 'Body_nunique'")
+[SQL: 
+CREATE TABLE dfwithalltranformations (
+	`index` BIGINT, 
+	displyname_nunique FLOAT(53), 
+	contacts_qty FLOAT(53), 
+	number_as_name_qty FLOAT(53), 
+	number_as_name_ratio FLOAT(53), 
+	engslish_contacts_qty FLOAT(53), 
+	engslish_contacts_ratio FLOAT(53), 
+	arabic_contacts_qty FLOAT(53), 
+	arabic_contacts_ratio FLOAT(53), 
+	`picture_count_Downloads` FLOAT(53), 
+	`audio_count_Downloads` FLOAT(53), 
+	`video_count_Downloads` FLOAT(53), 
+	`others_count_Downloads` FLOAT(53), 
+	`_count_Downloads` FLOAT(53), 
+	`unique_extention_count_Downloads` FLOAT(53), 
+	`picture_count_Documents` FLOAT(53), 
+	`audio_count_Documents` FLOAT(53), 
+	`video_count_Documents` FLOAT(53), 
+	`others_count_Documents` FLOAT(53), 
+	`_count_Documents` FLOAT(53), 
+	`unique_extention_count_Documents` FLOAT(53), 
+	`picture_count_Images` FLOAT(53), 
+	`audio_count_Images` FLOAT(53), 
+	`video_count_Images` FLOAT(53), 
+	`others_count_Images` FLOAT(53), 
+	`_count_Images` FLOAT(53), 
+	`unique_extention_count_Images` FLOAT(53), 
+	`picture_count_Videos` FLOAT(53), 
+	`audio_count_Videos` FLOAT(53), 
+	`video_count_Videos` FLOAT(53), 
+	`others_count_Videos` FLOAT(53), 
+	`_count_Videos` FLOAT(53), 
+	`unique_extention_count_Videos` FLOAT(53), 
+	`INBOX_count` FLOAT(53), 
+	`SENT_count` FLOAT(53), 
+	null_count FLOAT(53), 
+	`INBOX_count_perc` FLOAT(53), 
+	`SENT_count_perc` FLOAT(53), 
+	null_count_perc FLOAT(53), 
+	`INBOX_weekend_min` FLOAT(53), 
+	`INBOX_weekday_min` FLOAT(53), 
+	`SENT_weekend_min` FLOAT(53), 
+	`SENT_weekday_min` FLOAT(53), 
+	null_weekend_min FLOAT(53), 
+	null_weekday_min FLOAT(53), 
+	`INBOX_weekend_max` FLOAT(53), 
+	`INBOX_weekday_max` FLOAT(53), 
+	`SENT_weekend_max` FLOAT(53), 
+	`SENT_weekday_max` FLOAT(53), 
+	null_weekend_max FLOAT(53), 
+	null_weekday_max FLOAT(53), 
+	`INBOX_weekend_mean` FLOAT(53), 
+	`INBOX_weekday_mean` FLOAT(53), 
+	`SENT_weekend_mean` FLOAT(53), 
+	`SENT_weekday_mean` FLOAT(53), 
+	null_weekend_mean FLOAT(53), 
+	null_weekday_mean FLOAT(53), 
+	`INBOX_weekend_std` FLOAT(53), 
+	`INBOX_weekday_std` FLOAT(53), 
+	`SENT_weekend_std` FLOAT(53), 
+	`SENT_weekday_std` FLOAT(53), 
+	null_weekend_std FLOAT(53), 
+	null_weekday_std FLOAT(53), 
+	`INBOX_count_Normal_user` FLOAT(53), 
+	`INBOX_count_company` FLOAT(53), 
+	`SENT_count_Normal_user` FLOAT(53), 
+	`SENT_count_company` FLOAT(53), 
+	`null_count_Normal_user` FLOAT(53), 
+	null_count_company FLOAT(53), 
+	`INBOX_mean_Normal_user` FLOAT(53), 
+	`INBOX_mean_company` FLOAT(53), 
+	`SENT_mean_Normal_user` FLOAT(53), 
+	`SENT_mean_company` FLOAT(53), 
+	`null_mean_Normal_user` FLOAT(53), 
+	null_mean_company FLOAT(53), 
+	body_nunique FLOAT(53), 
+	mean_body_unique_count FLOAT(53), 
+	max_body_unique_count FLOAT(53), 
+	median_body_unique_count FLOAT(53), 
+	std_body_unique_count FLOAT(53), 
+	`Body_nunique` FLOAT(53), 
+	average_body_repeat FLOAT(53), 
+	`INBOX_body_nunique_min` FLOAT(53), 
+	`INBOX_body_nunique_max` FLOAT(53), 
+	`INBOX_body_nunique_mean` FLOAT(53), 
+	`INBOX_body_nunique_median` FLOAT(53), 
+	`INBOX_body_nunique_std` FLOAT(53), 
+	`SENT_body_nunique_min` FLOAT(53), 
+	`SENT_body_nunique_max` FLOAT(53), 
+	`SENT_body_nunique_mean` FLOAT(53), 
+	`SENT_body_nunique_median` FLOAT(53), 
+	`SENT_body_nunique_std` FLOAT(53), 
+	null_body_nunique_min FLOAT(53), 
+	null_body_nunique_max FLOAT(53), 
+	null_body_nunique_mean FLOAT(53), 
+	null_body_nunique_median FLOAT(53), 
+	null_body_nunique_std FLOAT(53), 
+	days_since_older_msg FLOAT(53), 
+	`weekend_sms_sent_log_Count_min` FLOAT(53), 
+	`weekend_sms_sent_log_Count_max` FLOAT(53), 
+	`weekend_sms_sent_log_Count_count` FLOAT(53), 
+	`weekend_sms_sent_log_Count_std` FLOAT(53), 
+	`weekend_sms_sent_log_Count_mean` FLOAT(53), 
+	`weekday_sms_sent_log_Count_min` FLOAT(53), 
+	`weekday_sms_sent_log_Count_max` FLOAT(53), 
+	`weekday_sms_sent_log_Count_count` FLOAT(53), 
+	`weekday_sms_sent_log_Count_std` FLOAT(53), 
+	`weekday_sms_sent_log_Count_mean` FLOAT(53), 
+	`sms_sent_Count_min` FLOAT(53), 
+	`sms_sent_Count_max` FLOAT(53), 
+	`sms_sent_Count_mean` FLOAT(53), 
+	`sms_sent_Count_median` FLOAT(53), 
+	`sms_sent_Count_std` FLOAT(53), 
+	`sms_sent_Count_sum` FLOAT(53), 
+	days_since_first_sms_sent FLOAT(53), 
+	most_duplicated_account_count FLOAT(53), 
+	accounts_count FLOAT(53), 
+	unique_accounts_count FLOAT(53), 
+	duplicated_accounts_qty FLOAT(53), 
+	average_account_repeated FLOAT(53), 
+	packages_count FLOAT(53), 
+	unique_packages_count FLOAT(53), 
+	duplicated_packages_qty FLOAT(53), 
+	average_packages_repeated FLOAT(53), 
+	non_english_packages_qty FLOAT(53), 
+	non_english_packages_ratio FLOAT(53), 
+	max_unique_numbers FLOAT(53), 
+	count_unique_numbers FLOAT(53), 
+	median_unique_numbers FLOAT(53), 
+	mean_unique_numbers FLOAT(53), 
+	numbers_qty FLOAT(53), 
+	`call_log_count_OUTGOING` FLOAT(53), 
+	`call_log_count_MISSED` FLOAT(53), 
+	`call_log_count_INCOMING` FLOAT(53), 
+	call_log_count_null FLOAT(53), 
+	`call_log_ratio_OUTGOING` FLOAT(53), 
+	`call_log_ratio_MISSED` FLOAT(53), 
+	`call_log_ratio_INCOMING` FLOAT(53), 
+	call_log_ratio_null FLOAT(53), 
+	`max_INCOMING` FLOAT(53), 
+	`max_MISSED` FLOAT(53), 
+	`max_OUTGOING` FLOAT(53), 
+	max_null FLOAT(53), 
+	`mean_INCOMING` FLOAT(53), 
+	`mean_MISSED` FLOAT(53), 
+	`mean_OUTGOING` FLOAT(53), 
+	mean_null FLOAT(53), 
+	`std_INCOMING` FLOAT(53), 
+	`std_MISSED` FLOAT(53), 
+	`std_OUTGOING` FLOAT(53), 
+	std_null FLOAT(53), 
+	`median_INCOMING` FLOAT(53), 
+	`median_MISSED` FLOAT(53), 
+	`median_OUTGOING` FLOAT(53), 
+	median_null FLOAT(53), 
+	`min_call_Duration` FLOAT(53), 
+	`max_call_Duration` FLOAT(53), 
+	`mean_call_Duration` FLOAT(53), 
+	`std_call_Duration` FLOAT(53), 
+	`median_call_Duration` FLOAT(53), 
+	social_count FLOAT(53), 
+	dangerous_count FLOAT(53), 
+	darkweb_count FLOAT(53), 
+	wallet_count FLOAT(53), 
+	banking_count FLOAT(53), 
+	lending_count FLOAT(53), 
+	rosca_count FLOAT(53), 
+	social_count_ratio FLOAT(53), 
+	dangerous_count_ratio FLOAT(53), 
+	darkweb_count_ratio FLOAT(53), 
+	wallet_count_ratio FLOAT(53), 
+	banking_count_ratio FLOAT(53), 
+	lending_count_ratio FLOAT(53), 
+	rosca_count_ratio FLOAT(53), 
+	calendar_events FLOAT(53), 
+	title_count FLOAT(53), 
+	title_unique_counts FLOAT(53), 
+	title_repeated_values_qty FLOAT(53), 
+	english_title_counts_qty FLOAT(53), 
+	english_title_counts_ratio FLOAT(53), 
+	non_english_title_counts_qty FLOAT(53), 
+	non_english_title_counts_ratio FLOAT(53), 
+	path_duplicated_count FLOAT(53), 
+	path_duplicated_ratio FLOAT(53), 
+	path_unique_count FLOAT(53), 
+	path_unique_ratio FLOAT(53), 
+	img_count FLOAT(53), 
+	fb_count FLOAT(53), 
+	screenshot_count FLOAT(53), 
+	face_count FLOAT(53), 
+	others FLOAT(53), 
+	picture FLOAT(53), 
+	audio FLOAT(53), 
+	video FLOAT(53), 
+	days_since_older_file FLOAT(53), 
+	min_timestamp_count FLOAT(53), 
+	max_timestamp_count FLOAT(53), 
+	mean_timestamp_count FLOAT(53), 
+	std_timestamp_count FLOAT(53), 
+	median_timestamp_count FLOAT(53), 
+	`+1_files_in_one_day_qty` FLOAT(53), 
+	`1_file_in_one_day_qty` FLOAT(53), 
+	`+1_files_in_one_day_ratio` FLOAT(53), 
+	`1_file_in_one_day_ratio` FLOAT(53), 
+	`deviceSoftware` FLOAT(53), 
+	ram FLOAT(53), 
+	storage_size FLOAT(53), 
+	`numberOfWifiStored` FLOAT(53), 
+	outgoing_call_logs_weekdays_std FLOAT(53), 
+	calendar_events_count FLOAT(53), 
+	`outgoind_call_log_COUNT_min` FLOAT(53), 
+	outgoing_call_logs_weekdays_max FLOAT(53), 
+	`outgoind_call_log_COUNT_mean` FLOAT(53), 
+	`outgoind_call_log_COUNT_median` FLOAT(53), 
+	outgoing_call_logs_weekends_mean FLOAT(53), 
+	count_of_days_no_outgoing_call FLOAT(53), 
+	days_since_last_outgoing_call FLOAT(53), 
+	`outgoind_call_log_COUNT_max` FLOAT(53), 
+	outgoing_call_logs_weekends_max FLOAT(53), 
+	outgoing_call_logs_weekends_std FLOAT(53), 
+	outgoing_call_logs_weekends_min FLOAT(53), 
+	`outgoind_call_log_COUNT_std` FLOAT(53), 
+	outgoing_call_logs_weekdays_mean FLOAT(53), 
+	outgoing_call_logs_weekdays_min FLOAT(53), 
+	days_between_first_and_last_day_outgoing_call FLOAT(53), 
+	min_timestamp TEXT, 
+	brand TEXT, 
+	file_name TEXT, 
+	min_timestamp_year BIGINT, 
+	min_timestamp_month FLOAT(53), 
+	min_timestamp_day FLOAT(53), 
+	max_timestamp_year BIGINT, 
+	max_timestamp_month FLOAT(53), 
+	max_timestamp_day FLOAT(53), 
+	displyname_nunique_sqrt FLOAT(53), 
+	displyname_nunique_standriezed FLOAT(53), 
+	displyname_nunique_log FLOAT(53), 
+	poly_2_displyname_nunique FLOAT(53), 
+	poly_3_displyname_nunique FLOAT(53), 
+	contacts_qty_sqrt FLOAT(53), 
+	contacts_qty_standriezed FLOAT(53), 
+	contacts_qty_log FLOAT(53), 
+	poly_2_contacts_qty FLOAT(53), 
+	poly_3_contacts_qty FLOAT(53), 
+	number_as_name_qty_sqrt FLOAT(53), 
+	number_as_name_qty_standriezed FLOAT(53), 
+	number_as_name_qty_log FLOAT(53), 
+	poly_2_number_as_name_qty FLOAT(53), 
+	poly_3_number_as_name_qty FLOAT(53), 
+	number_as_name_ratio_sqrt FLOAT(53), 
+	number_as_name_ratio_standriezed FLOAT(53), 
+	number_as_name_ratio_log FLOAT(53), 
+	poly_2_number_as_name_ratio FLOAT(53), 
+	poly_3_number_as_name_ratio FLOAT(53), 
+	engslish_contacts_qty_sqrt FLOAT(53), 
+	engslish_contacts_qty_standriezed FLOAT(53), 
+	engslish_contacts_qty_log FLOAT(53), 
+	poly_2_engslish_contacts_qty FLOAT(53), 
+	poly_3_engslish_contacts_qty FLOAT(53), 
+	engslish_contacts_ratio_sqrt FLOAT(53), 
+	engslish_contacts_ratio_standriezed FLOAT(53), 
+	engslish_contacts_ratio_log FLOAT(53), 
+	poly_2_engslish_contacts_ratio FLOAT(53), 
+	poly_3_engslish_contacts_ratio FLOAT(53), 
+	arabic_contacts_qty_sqrt FLOAT(53), 
+	arabic_contacts_qty_standriezed FLOAT(53), 
+	arabic_contacts_qty_log FLOAT(53), 
+	poly_2_arabic_contacts_qty FLOAT(53), 
+	poly_3_arabic_contacts_qty FLOAT(53), 
+	arabic_contacts_ratio_sqrt FLOAT(53), 
+	arabic_contacts_ratio_standriezed FLOAT(53), 
+	arabic_contacts_ratio_log FLOAT(53), 
+	poly_2_arabic_contacts_ratio FLOAT(53), 
+	poly_3_arabic_contacts_ratio FLOAT(53), 
+	`picture_count_Downloads_sqrt` FLOAT(53), 
+	`picture_count_Downloads_standriezed` FLOAT(53), 
+	`picture_count_Downloads_log` FLOAT(53), 
+	`poly_2_picture_count_Downloads` FLOAT(53), 
+	`poly_3_picture_count_Downloads` FLOAT(53), 
+	`audio_count_Downloads_sqrt` FLOAT(53), 
+	`audio_count_Downloads_standriezed` FLOAT(53), 
+	`audio_count_Downloads_log` FLOAT(53), 
+	`poly_2_audio_count_Downloads` FLOAT(53), 
+	`poly_3_audio_count_Downloads` FLOAT(53), 
+	`video_count_Downloads_sqrt` FLOAT(53), 
+	`video_count_Downloads_standriezed` FLOAT(53), 
+	`video_count_Downloads_log` FLOAT(53), 
+	`poly_2_video_count_Downloads` FLOAT(53), 
+	`poly_3_video_count_Downloads` FLOAT(53), 
+	`others_count_Downloads_sqrt` FLOAT(53), 
+	`others_count_Downloads_standriezed` FLOAT(53), 
+	`others_count_Downloads_log` FLOAT(53), 
+	`poly_2_others_count_Downloads` FLOAT(53), 
+	`poly_3_others_count_Downloads` FLOAT(53), 
+	`_count_Downloads_sqrt` FLOAT(53), 
+	`_count_Downloads_standriezed` FLOAT(53), 
+	`_count_Downloads_log` FLOAT(53), 
+	`poly_2__count_Downloads` FLOAT(53), 
+	`poly_3__count_Downloads` FLOAT(53), 
+	`unique_extention_count_Downloads_sqrt` FLOAT(53), 
+	`unique_extention_count_Downloads_standriezed` FLOAT(53), 
+	`unique_extention_count_Downloads_log` FLOAT(53), 
+	`poly_2_unique_extention_count_Downloads` FLOAT(53), 
+	`poly_3_unique_extention_count_Downloads` FLOAT(53), 
+	`picture_count_Documents_sqrt` FLOAT(53), 
+	`picture_count_Documents_standriezed` FLOAT(53), 
+	`picture_count_Documents_log` FLOAT(53), 
+	`poly_2_picture_count_Documents` FLOAT(53), 
+	`poly_3_picture_count_Documents` FLOAT(53), 
+	`audio_count_Documents_sqrt` FLOAT(53), 
+	`audio_count_Documents_standriezed` FLOAT(53), 
+	`audio_count_Documents_log` FLOAT(53), 
+	`poly_2_audio_count_Documents` FLOAT(53), 
+	`poly_3_audio_count_Documents` FLOAT(53), 
+	`video_count_Documents_sqrt` FLOAT(53), 
+	`video_count_Documents_standriezed` FLOAT(53), 
+	`video_count_Documents_log` FLOAT(53), 
+	`poly_2_video_count_Documents` FLOAT(53), 
+	`poly_3_video_count_Documents` FLOAT(53), 
+	`others_count_Documents_sqrt` FLOAT(53), 
+	`others_count_Documents_standriezed` FLOAT(53), 
+	`others_count_Documents_log` FLOAT(53), 
+	`poly_2_others_count_Documents` FLOAT(53), 
+	`poly_3_others_count_Documents` FLOAT(53), 
+	`_count_Documents_sqrt` FLOAT(53), 
+	`_count_Documents_standriezed` FLOAT(53), 
+	`_count_Documents_log` FLOAT(53), 
+	`poly_2__count_Documents` FLOAT(53), 
+	`poly_3__count_Documents` FLOAT(53), 
+	`unique_extention_count_Documents_sqrt` FLOAT(53), 
+	`unique_extention_count_Documents_standriezed` FLOAT(53), 
+	`unique_extention_count_Documents_log` FLOAT(53), 
+	`poly_2_unique_extention_count_Documents` FLOAT(53), 
+	`poly_3_unique_extention_count_Documents` FLOAT(53), 
+	`picture_count_Images_sqrt` FLOAT(53), 
+	`picture_count_Images_standriezed` FLOAT(53), 
+	`picture_count_Images_log` FLOAT(53), 
+	`poly_2_picture_count_Images` FLOAT(53), 
+	`poly_3_picture_count_Images` FLOAT(53), 
+	`audio_count_Images_sqrt` FLOAT(53), 
+	`audio_count_Images_standriezed` FLOAT(53), 
+	`audio_count_Images_log` FLOAT(53), 
+	`poly_2_audio_count_Images` FLOAT(53), 
+	`poly_3_audio_count_Images` FLOAT(53), 
+	`video_count_Images_sqrt` FLOAT(53), 
+	`video_count_Images_standriezed` FLOAT(53), 
+	`video_count_Images_log` FLOAT(53), 
+	`poly_2_video_count_Images` FLOAT(53), 
+	`poly_3_video_count_Images` FLOAT(53), 
+	`others_count_Images_sqrt` FLOAT(53), 
+	`others_count_Images_standriezed` FLOAT(53), 
+	`others_count_Images_log` FLOAT(53), 
+	`poly_2_others_count_Images` FLOAT(53), 
+	`poly_3_others_count_Images` FLOAT(53), 
+	`_count_Images_sqrt` FLOAT(53), 
+	`_count_Images_standriezed` FLOAT(53), 
+	`_count_Images_log` FLOAT(53), 
+	`poly_2__count_Images` FLOAT(53), 
+	`poly_3__count_Images` FLOAT(53), 
+	`unique_extention_count_Images_sqrt` FLOAT(53), 
+	`unique_extention_count_Images_standriezed` FLOAT(53), 
+	`unique_extention_count_Images_log` FLOAT(53), 
+	`poly_2_unique_extention_count_Images` FLOAT(53), 
+	`poly_3_unique_extention_count_Images` FLOAT(53), 
+	`picture_count_Videos_sqrt` FLOAT(53), 
+	`picture_count_Videos_standriezed` FLOAT(53), 
+	`picture_count_Videos_log` FLOAT(53), 
+	`poly_2_picture_count_Videos` FLOAT(53), 
+	`poly_3_picture_count_Videos` FLOAT(53), 
+	`audio_count_Videos_sqrt` FLOAT(53), 
+	`audio_count_Videos_standriezed` FLOAT(53), 
+	`audio_count_Videos_log` FLOAT(53), 
+	`poly_2_audio_count_Videos` FLOAT(53), 
+	`poly_3_audio_count_Videos` FLOAT(53), 
+	`video_count_Videos_sqrt` FLOAT(53), 
+	`video_count_Videos_standriezed` FLOAT(53), 
+	`video_count_Videos_log` FLOAT(53), 
+	`poly_2_video_count_Videos` FLOAT(53), 
+	`poly_3_video_count_Videos` FLOAT(53), 
+	`others_count_Videos_sqrt` FLOAT(53), 
+	`others_count_Videos_standriezed` FLOAT(53), 
+	`others_count_Videos_log` FLOAT(53), 
+	`poly_2_others_count_Videos` FLOAT(53), 
+	`poly_3_others_count_Videos` FLOAT(53), 
+	`_count_Videos_sqrt` FLOAT(53), 
+	`_count_Videos_standriezed` FLOAT(53), 
+	`_count_Videos_log` FLOAT(53), 
+	`poly_2__count_Videos` FLOAT(53), 
+	`poly_3__count_Videos` FLOAT(53), 
+	`unique_extention_count_Videos_sqrt` FLOAT(53), 
+	`unique_extention_count_Videos_standriezed` FLOAT(53), 
+	`unique_extention_count_Videos_log` FLOAT(53), 
+	`poly_2_unique_extention_count_Videos` FLOAT(53), 
+	`poly_3_unique_extention_count_Videos` FLOAT(53), 
+	`INBOX_count_sqrt` FLOAT(53), 
+	`INBOX_count_standriezed` FLOAT(53), 
+	`INBOX_count_log` FLOAT(53), 
+	`poly_2_INBOX_count` FLOAT(53), 
+	`poly_3_INBOX_count` FLOAT(53), 
+	`SENT_count_sqrt` FLOAT(53), 
+	`SENT_count_standriezed` FLOAT(53), 
+	`SENT_count_log` FLOAT(53), 
+	`poly_2_SENT_count` FLOAT(53), 
+	`poly_3_SENT_count` FLOAT(53), 
+	null_count_sqrt FLOAT(53), 
+	null_count_standriezed FLOAT(53), 
+	null_count_log FLOAT(53), 
+	poly_2_null_count FLOAT(53), 
+	poly_3_null_count FLOAT(53), 
+	`INBOX_count_perc_sqrt` FLOAT(53), 
+	`INBOX_count_perc_standriezed` FLOAT(53), 
+	`INBOX_count_perc_log` FLOAT(53), 
+	`poly_2_INBOX_count_perc` FLOAT(53), 
+	`poly_3_INBOX_count_perc` FLOAT(53), 
+	`SENT_count_perc_sqrt` FLOAT(53), 
+	`SENT_count_perc_standriezed` FLOAT(53), 
+	`SENT_count_perc_log` FLOAT(53), 
+	`poly_2_SENT_count_perc` FLOAT(53), 
+	`poly_3_SENT_count_perc` FLOAT(53), 
+	null_count_perc_sqrt FLOAT(53), 
+	null_count_perc_standriezed FLOAT(53), 
+	null_count_perc_log FLOAT(53), 
+	poly_2_null_count_perc FLOAT(53), 
+	poly_3_null_count_perc FLOAT(53), 
+	`INBOX_weekend_min_sqrt` FLOAT(53), 
+	`INBOX_weekend_min_standriezed` FLOAT(53), 
+	`INBOX_weekend_min_log` FLOAT(53), 
+	`poly_2_INBOX_weekend_min` FLOAT(53), 
+	`poly_3_INBOX_weekend_min` FLOAT(53), 
+	`INBOX_weekday_min_sqrt` FLOAT(53), 
+	`INBOX_weekday_min_standriezed` FLOAT(53), 
+	`INBOX_weekday_min_log` FLOAT(53), 
+	`poly_2_INBOX_weekday_min` FLOAT(53), 
+	`poly_3_INBOX_weekday_min` FLOAT(53), 
+	`SENT_weekend_min_sqrt` FLOAT(53), 
+	`SENT_weekend_min_standriezed` FLOAT(53), 
+	`SENT_weekend_min_log` FLOAT(53), 
+	`poly_2_SENT_weekend_min` FLOAT(53), 
+	`poly_3_SENT_weekend_min` FLOAT(53), 
+	`SENT_weekday_min_sqrt` FLOAT(53), 
+	`SENT_weekday_min_standriezed` FLOAT(53), 
+	`SENT_weekday_min_log` FLOAT(53), 
+	`poly_2_SENT_weekday_min` FLOAT(53), 
+	`poly_3_SENT_weekday_min` FLOAT(53), 
+	null_weekend_min_sqrt FLOAT(53), 
+	null_weekend_min_standriezed FLOAT(53), 
+	null_weekend_min_log FLOAT(53), 
+	poly_2_null_weekend_min FLOAT(53), 
+	poly_3_null_weekend_min FLOAT(53), 
+	null_weekday_min_sqrt FLOAT(53), 
+	null_weekday_min_standriezed FLOAT(53), 
+	null_weekday_min_log FLOAT(53), 
+	poly_2_null_weekday_min FLOAT(53), 
+	poly_3_null_weekday_min FLOAT(53), 
+	`INBOX_weekend_max_sqrt` FLOAT(53), 
+	`INBOX_weekend_max_standriezed` FLOAT(53), 
+	`INBOX_weekend_max_log` FLOAT(53), 
+	`poly_2_INBOX_weekend_max` FLOAT(53), 
+	`poly_3_INBOX_weekend_max` FLOAT(53), 
+	`INBOX_weekday_max_sqrt` FLOAT(53), 
+	`INBOX_weekday_max_standriezed` FLOAT(53), 
+	`INBOX_weekday_max_log` FLOAT(53), 
+	`poly_2_INBOX_weekday_max` FLOAT(53), 
+	`poly_3_INBOX_weekday_max` FLOAT(53), 
+	`SENT_weekend_max_sqrt` FLOAT(53), 
+	`SENT_weekend_max_standriezed` FLOAT(53), 
+	`SENT_weekend_max_log` FLOAT(53), 
+	`poly_2_SENT_weekend_max` FLOAT(53), 
+	`poly_3_SENT_weekend_max` FLOAT(53), 
+	`SENT_weekday_max_sqrt` FLOAT(53), 
+	`SENT_weekday_max_standriezed` FLOAT(53), 
+	`SENT_weekday_max_log` FLOAT(53), 
+	`poly_2_SENT_weekday_max` FLOAT(53), 
+	`poly_3_SENT_weekday_max` FLOAT(53), 
+	null_weekend_max_sqrt FLOAT(53), 
+	null_weekend_max_standriezed FLOAT(53), 
+	null_weekend_max_log FLOAT(53), 
+	poly_2_null_weekend_max FLOAT(53), 
+	poly_3_null_weekend_max FLOAT(53), 
+	null_weekday_max_sqrt FLOAT(53), 
+	null_weekday_max_standriezed FLOAT(53), 
+	null_weekday_max_log FLOAT(53), 
+	poly_2_null_weekday_max FLOAT(53), 
+	poly_3_null_weekday_max FLOAT(53), 
+	`INBOX_weekend_mean_sqrt` FLOAT(53), 
+	`INBOX_weekend_mean_standriezed` FLOAT(53), 
+	`INBOX_weekend_mean_log` FLOAT(53), 
+	`poly_2_INBOX_weekend_mean` FLOAT(53), 
+	`poly_3_INBOX_weekend_mean` FLOAT(53), 
+	`INBOX_weekday_mean_sqrt` FLOAT(53), 
+	`INBOX_weekday_mean_standriezed` FLOAT(53), 
+	`INBOX_weekday_mean_log` FLOAT(53), 
+	`poly_2_INBOX_weekday_mean` FLOAT(53), 
+	`poly_3_INBOX_weekday_mean` FLOAT(53), 
+	`SENT_weekend_mean_sqrt` FLOAT(53), 
+	`SENT_weekend_mean_standriezed` FLOAT(53), 
+	`SENT_weekend_mean_log` FLOAT(53), 
+	`poly_2_SENT_weekend_mean` FLOAT(53), 
+	`poly_3_SENT_weekend_mean` FLOAT(53), 
+	`SENT_weekday_mean_sqrt` FLOAT(53), 
+	`SENT_weekday_mean_standriezed` FLOAT(53), 
+	`SENT_weekday_mean_log` FLOAT(53), 
+	`poly_2_SENT_weekday_mean` FLOAT(53), 
+	`poly_3_SENT_weekday_mean` FLOAT(53), 
+	null_weekend_mean_sqrt FLOAT(53), 
+	null_weekend_mean_standriezed FLOAT(53), 
+	null_weekend_mean_log FLOAT(53), 
+	poly_2_null_weekend_mean FLOAT(53), 
+	poly_3_null_weekend_mean FLOAT(53), 
+	null_weekday_mean_sqrt FLOAT(53), 
+	null_weekday_mean_standriezed FLOAT(53), 
+	null_weekday_mean_log FLOAT(53), 
+	poly_2_null_weekday_mean FLOAT(53), 
+	poly_3_null_weekday_mean FLOAT(53), 
+	`INBOX_weekend_std_sqrt` FLOAT(53), 
+	`INBOX_weekend_std_standriezed` FLOAT(53), 
+	`INBOX_weekend_std_log` FLOAT(53), 
+	`poly_2_INBOX_weekend_std` FLOAT(53), 
+	`poly_3_INBOX_weekend_std` FLOAT(53), 
+	`INBOX_weekday_std_sqrt` FLOAT(53), 
+	`INBOX_weekday_std_standriezed` FLOAT(53), 
+	`INBOX_weekday_std_log` FLOAT(53), 
+	`poly_2_INBOX_weekday_std` FLOAT(53), 
+	`poly_3_INBOX_weekday_std` FLOAT(53), 
+	`SENT_weekend_std_sqrt` FLOAT(53), 
+	`SENT_weekend_std_standriezed` FLOAT(53), 
+	`SENT_weekend_std_log` FLOAT(53), 
+	`poly_2_SENT_weekend_std` FLOAT(53), 
+	`poly_3_SENT_weekend_std` FLOAT(53), 
+	`SENT_weekday_std_sqrt` FLOAT(53), 
+	`SENT_weekday_std_standriezed` FLOAT(53), 
+	`SENT_weekday_std_log` FLOAT(53), 
+	`poly_2_SENT_weekday_std` FLOAT(53), 
+	`poly_3_SENT_weekday_std` FLOAT(53), 
+	null_weekend_std_sqrt FLOAT(53), 
+	null_weekend_std_standriezed FLOAT(53), 
+	null_weekend_std_log FLOAT(53), 
+	poly_2_null_weekend_std FLOAT(53), 
+	poly_3_null_weekend_std FLOAT(53), 
+	null_weekday_std_sqrt FLOAT(53), 
+	null_weekday_std_standriezed FLOAT(53), 
+	null_weekday_std_log FLOAT(53), 
+	poly_2_null_weekday_std FLOAT(53), 
+	poly_3_null_weekday_std FLOAT(53), 
+	`INBOX_count_Normal_user_sqrt` FLOAT(53), 
+	`INBOX_count_Normal_user_standriezed` FLOAT(53), 
+	`INBOX_count_Normal_user_log` FLOAT(53), 
+	`poly_2_INBOX_count_Normal_user` FLOAT(53), 
+	`poly_3_INBOX_count_Normal_user` FLOAT(53), 
+	`INBOX_count_company_sqrt` FLOAT(53), 
+	`INBOX_count_company_standriezed` FLOAT(53), 
+	`INBOX_count_company_log` FLOAT(53), 
+	`poly_2_INBOX_count_company` FLOAT(53), 
+	`poly_3_INBOX_count_company` FLOAT(53), 
+	`SENT_count_Normal_user_sqrt` FLOAT(53), 
+	`SENT_count_Normal_user_standriezed` FLOAT(53), 
+	`SENT_count_Normal_user_log` FLOAT(53), 
+	`poly_2_SENT_count_Normal_user` FLOAT(53), 
+	`poly_3_SENT_count_Normal_user` FLOAT(53), 
+	`SENT_count_company_sqrt` FLOAT(53), 
+	`SENT_count_company_standriezed` FLOAT(53), 
+	`SENT_count_company_log` FLOAT(53), 
+	`poly_2_SENT_count_company` FLOAT(53), 
+	`poly_3_SENT_count_company` FLOAT(53), 
+	`null_count_Normal_user_sqrt` FLOAT(53), 
+	`null_count_Normal_user_standriezed` FLOAT(53), 
+	`null_count_Normal_user_log` FLOAT(53), 
+	`poly_2_null_count_Normal_user` FLOAT(53), 
+	`poly_3_null_count_Normal_user` FLOAT(53), 
+	null_count_company_sqrt FLOAT(53), 
+	null_count_company_standriezed FLOAT(53), 
+	null_count_company_log FLOAT(53), 
+	poly_2_null_count_company FLOAT(53), 
+	poly_3_null_count_company FLOAT(53), 
+	`INBOX_mean_Normal_user_sqrt` FLOAT(53), 
+	`INBOX_mean_Normal_user_standriezed` FLOAT(53), 
+	`INBOX_mean_Normal_user_log` FLOAT(53), 
+	`poly_2_INBOX_mean_Normal_user` FLOAT(53), 
+	`poly_3_INBOX_mean_Normal_user` FLOAT(53), 
+	`INBOX_mean_company_sqrt` FLOAT(53), 
+	`INBOX_mean_company_standriezed` FLOAT(53), 
+	`INBOX_mean_company_log` FLOAT(53), 
+	`poly_2_INBOX_mean_company` FLOAT(53), 
+	`poly_3_INBOX_mean_company` FLOAT(53), 
+	`SENT_mean_Normal_user_sqrt` FLOAT(53), 
+	`SENT_mean_Normal_user_standriezed` FLOAT(53), 
+	`SENT_mean_Normal_user_log` FLOAT(53), 
+	`poly_2_SENT_mean_Normal_user` FLOAT(53), 
+	`poly_3_SENT_mean_Normal_user` FLOAT(53), 
+	`SENT_mean_company_sqrt` FLOAT(53), 
+	`SENT_mean_company_standriezed` FLOAT(53), 
+	`SENT_mean_company_log` FLOAT(53), 
+	`poly_2_SENT_mean_company` FLOAT(53), 
+	`poly_3_SENT_mean_company` FLOAT(53), 
+	`null_mean_Normal_user_sqrt` FLOAT(53), 
+	`null_mean_Normal_user_standriezed` FLOAT(53), 
+	`null_mean_Normal_user_log` FLOAT(53), 
+	`poly_2_null_mean_Normal_user` FLOAT(53), 
+	`poly_3_null_mean_Normal_user` FLOAT(53), 
+	null_mean_company_sqrt FLOAT(53), 
+	null_mean_company_standriezed FLOAT(53), 
+	null_mean_company_log FLOAT(53), 
+	poly_2_null_mean_company FLOAT(53), 
+	poly_3_null_mean_company FLOAT(53), 
+	body_nunique_sqrt FLOAT(53), 
+	body_nunique_standriezed FLOAT(53), 
+	body_nunique_log FLOAT(53), 
+	poly_2_body_nunique FLOAT(53), 
+	poly_3_body_nunique FLOAT(53), 
+	mean_body_unique_count_sqrt FLOAT(53), 
+	mean_body_unique_count_standriezed FLOAT(53), 
+	mean_body_unique_count_log FLOAT(53), 
+	poly_2_mean_body_unique_count FLOAT(53), 
+	poly_3_mean_body_unique_count FLOAT(53), 
+	max_body_unique_count_sqrt FLOAT(53), 
+	max_body_unique_count_standriezed FLOAT(53), 
+	max_body_unique_count_log FLOAT(53), 
+	poly_2_max_body_unique_count FLOAT(53), 
+	poly_3_max_body_unique_count FLOAT(53), 
+	median_body_unique_count_sqrt FLOAT(53), 
+	median_body_unique_count_standriezed FLOAT(53), 
+	median_body_unique_count_log FLOAT(53), 
+	poly_2_median_body_unique_count FLOAT(53), 
+	poly_3_median_body_unique_count FLOAT(53), 
+	std_body_unique_count_sqrt FLOAT(53), 
+	std_body_unique_count_standriezed FLOAT(53), 
+	std_body_unique_count_log FLOAT(53), 
+	poly_2_std_body_unique_count FLOAT(53), 
+	poly_3_std_body_unique_count FLOAT(53), 
+	`Body_nunique_sqrt` FLOAT(53), 
+	`Body_nunique_standriezed` FLOAT(53), 
+	`Body_nunique_log` FLOAT(53), 
+	`poly_2_Body_nunique` FLOAT(53), 
+	`poly_3_Body_nunique` FLOAT(53), 
+	average_body_repeat_sqrt FLOAT(53), 
+	average_body_repeat_standriezed FLOAT(53), 
+	average_body_repeat_log FLOAT(53), 
+	poly_2_average_body_repeat FLOAT(53), 
+	poly_3_average_body_repeat FLOAT(53), 
+	`INBOX_body_nunique_min_sqrt` FLOAT(53), 
+	`INBOX_body_nunique_min_standriezed` FLOAT(53), 
+	`INBOX_body_nunique_min_log` FLOAT(53), 
+	`poly_2_INBOX_body_nunique_min` FLOAT(53), 
+	`poly_3_INBOX_body_nunique_min` FLOAT(53), 
+	`INBOX_body_nunique_max_sqrt` FLOAT(53), 
+	`INBOX_body_nunique_max_standriezed` FLOAT(53), 
+	`INBOX_body_nunique_max_log` FLOAT(53), 
+	`poly_2_INBOX_body_nunique_max` FLOAT(53), 
+	`poly_3_INBOX_body_nunique_max` FLOAT(53), 
+	`INBOX_body_nunique_mean_sqrt` FLOAT(53), 
+	`INBOX_body_nunique_mean_standriezed` FLOAT(53), 
+	`INBOX_body_nunique_mean_log` FLOAT(53), 
+	`poly_2_INBOX_body_nunique_mean` FLOAT(53), 
+	`poly_3_INBOX_body_nunique_mean` FLOAT(53), 
+	`INBOX_body_nunique_median_sqrt` FLOAT(53), 
+	`INBOX_body_nunique_median_standriezed` FLOAT(53), 
+	`INBOX_body_nunique_median_log` FLOAT(53), 
+	`poly_2_INBOX_body_nunique_median` FLOAT(53), 
+	`poly_3_INBOX_body_nunique_median` FLOAT(53), 
+	`INBOX_body_nunique_std_sqrt` FLOAT(53), 
+	`INBOX_body_nunique_std_standriezed` FLOAT(53), 
+	`INBOX_body_nunique_std_log` FLOAT(53), 
+	`poly_2_INBOX_body_nunique_std` FLOAT(53), 
+	`poly_3_INBOX_body_nunique_std` FLOAT(53), 
+	`SENT_body_nunique_min_sqrt` FLOAT(53), 
+	`SENT_body_nunique_min_standriezed` FLOAT(53), 
+	`SENT_body_nunique_min_log` FLOAT(53), 
+	`poly_2_SENT_body_nunique_min` FLOAT(53), 
+	`poly_3_SENT_body_nunique_min` FLOAT(53), 
+	`SENT_body_nunique_max_sqrt` FLOAT(53), 
+	`SENT_body_nunique_max_standriezed` FLOAT(53), 
+	`SENT_body_nunique_max_log` FLOAT(53), 
+	`poly_2_SENT_body_nunique_max` FLOAT(53), 
+	`poly_3_SENT_body_nunique_max` FLOAT(53), 
+	`SENT_body_nunique_mean_sqrt` FLOAT(53), 
+	`SENT_body_nunique_mean_standriezed` FLOAT(53), 
+	`SENT_body_nunique_mean_log` FLOAT(53), 
+	`poly_2_SENT_body_nunique_mean` FLOAT(53), 
+	`poly_3_SENT_body_nunique_mean` FLOAT(53), 
+	`SENT_body_nunique_median_sqrt` FLOAT(53), 
+	`SENT_body_nunique_median_standriezed` FLOAT(53), 
+	`SENT_body_nunique_median_log` FLOAT(53), 
+	`poly_2_SENT_body_nunique_median` FLOAT(53), 
+	`poly_3_SENT_body_nunique_median` FLOAT(53), 
+	`SENT_body_nunique_std_sqrt` FLOAT(53), 
+	`SENT_body_nunique_std_standriezed` FLOAT(53), 
+	`SENT_body_nunique_std_log` FLOAT(53), 
+	`poly_2_SENT_body_nunique_std` FLOAT(53), 
+	`poly_3_SENT_body_nunique_std` FLOAT(53), 
+	null_body_nunique_min_sqrt FLOAT(53), 
+	null_body_nunique_min_standriezed FLOAT(53), 
+	null_body_nunique_min_log FLOAT(53), 
+	poly_2_null_body_nunique_min FLOAT(53), 
+	poly_3_null_body_nunique_min FLOAT(53), 
+	null_body_nunique_max_sqrt FLOAT(53), 
+	null_body_nunique_max_standriezed FLOAT(53), 
+	null_body_nunique_max_log FLOAT(53), 
+	poly_2_null_body_nunique_max FLOAT(53), 
+	poly_3_null_body_nunique_max FLOAT(53), 
+	null_body_nunique_mean_sqrt FLOAT(53), 
+	null_body_nunique_mean_standriezed FLOAT(53), 
+	null_body_nunique_mean_log FLOAT(53), 
+	poly_2_null_body_nunique_mean FLOAT(53), 
+	poly_3_null_body_nunique_mean FLOAT(53), 
+	null_body_nunique_median_sqrt FLOAT(53), 
+	null_body_nunique_median_standriezed FLOAT(53), 
+	null_body_nunique_median_log FLOAT(53), 
+	poly_2_null_body_nunique_median FLOAT(53), 
+	poly_3_null_body_nunique_median FLOAT(53), 
+	null_body_nunique_std_sqrt FLOAT(53), 
+	null_body_nunique_std_standriezed FLOAT(53), 
+	null_body_nunique_std_log FLOAT(53), 
+	poly_2_null_body_nunique_std FLOAT(53), 
+	poly_3_null_body_nunique_std FLOAT(53), 
+	days_since_older_msg_sqrt FLOAT(53), 
+	days_since_older_msg_standriezed FLOAT(53), 
+	days_since_older_msg_log FLOAT(53), 
+	poly_2_days_since_older_msg FLOAT(53), 
+	poly_3_days_since_older_msg FLOAT(53), 
+	`weekend_sms_sent_log_Count_min_sqrt` FLOAT(53), 
+	`weekend_sms_sent_log_Count_min_standriezed` FLOAT(53), 
+	`weekend_sms_sent_log_Count_min_log` FLOAT(53), 
+	`poly_2_weekend_sms_sent_log_Count_min` FLOAT(53), 
+	`poly_3_weekend_sms_sent_log_Count_min` FLOAT(53), 
+	`weekend_sms_sent_log_Count_max_sqrt` FLOAT(53), 
+	`weekend_sms_sent_log_Count_max_standriezed` FLOAT(53), 
+	`weekend_sms_sent_log_Count_max_log` FLOAT(53), 
+	`poly_2_weekend_sms_sent_log_Count_max` FLOAT(53), 
+	`poly_3_weekend_sms_sent_log_Count_max` FLOAT(53), 
+	`weekend_sms_sent_log_Count_count_sqrt` FLOAT(53), 
+	`weekend_sms_sent_log_Count_count_standriezed` FLOAT(53), 
+	`weekend_sms_sent_log_Count_count_log` FLOAT(53), 
+	`poly_2_weekend_sms_sent_log_Count_count` FLOAT(53), 
+	`poly_3_weekend_sms_sent_log_Count_count` FLOAT(53), 
+	`weekend_sms_sent_log_Count_std_sqrt` FLOAT(53), 
+	`weekend_sms_sent_log_Count_std_standriezed` FLOAT(53), 
+	`weekend_sms_sent_log_Count_std_log` FLOAT(53), 
+	`poly_2_weekend_sms_sent_log_Count_std` FLOAT(53), 
+	`poly_3_weekend_sms_sent_log_Count_std` FLOAT(53), 
+	`weekend_sms_sent_log_Count_mean_sqrt` FLOAT(53), 
+	`weekend_sms_sent_log_Count_mean_standriezed` FLOAT(53), 
+	`weekend_sms_sent_log_Count_mean_log` FLOAT(53), 
+	`poly_2_weekend_sms_sent_log_Count_mean` FLOAT(53), 
+	`poly_3_weekend_sms_sent_log_Count_mean` FLOAT(53), 
+	`weekday_sms_sent_log_Count_min_sqrt` FLOAT(53), 
+	`weekday_sms_sent_log_Count_min_standriezed` FLOAT(53), 
+	`weekday_sms_sent_log_Count_min_log` FLOAT(53), 
+	`poly_2_weekday_sms_sent_log_Count_min` FLOAT(53), 
+	`poly_3_weekday_sms_sent_log_Count_min` FLOAT(53), 
+	`weekday_sms_sent_log_Count_max_sqrt` FLOAT(53), 
+	`weekday_sms_sent_log_Count_max_standriezed` FLOAT(53), 
+	`weekday_sms_sent_log_Count_max_log` FLOAT(53), 
+	`poly_2_weekday_sms_sent_log_Count_max` FLOAT(53), 
+	`poly_3_weekday_sms_sent_log_Count_max` FLOAT(53), 
+	`weekday_sms_sent_log_Count_count_sqrt` FLOAT(53), 
+	`weekday_sms_sent_log_Count_count_standriezed` FLOAT(53), 
+	`weekday_sms_sent_log_Count_count_log` FLOAT(53), 
+	`poly_2_weekday_sms_sent_log_Count_count` FLOAT(53), 
+	`poly_3_weekday_sms_sent_log_Count_count` FLOAT(53), 
+	`weekday_sms_sent_log_Count_std_sqrt` FLOAT(53), 
+	`weekday_sms_sent_log_Count_std_standriezed` FLOAT(53), 
+	`weekday_sms_sent_log_Count_std_log` FLOAT(53), 
+	`poly_2_weekday_sms_sent_log_Count_std` FLOAT(53), 
+	`poly_3_weekday_sms_sent_log_Count_std` FLOAT(53), 
+	`weekday_sms_sent_log_Count_mean_sqrt` FLOAT(53), 
+	`weekday_sms_sent_log_Count_mean_standriezed` FLOAT(53), 
+	`weekday_sms_sent_log_Count_mean_log` FLOAT(53), 
+	`poly_2_weekday_sms_sent_log_Count_mean` FLOAT(53), 
+	`poly_3_weekday_sms_sent_log_Count_mean` FLOAT(53), 
+	`sms_sent_Count_min_sqrt` FLOAT(53), 
+	`sms_sent_Count_min_standriezed` FLOAT(53), 
+	`sms_sent_Count_min_log` FLOAT(53), 
+	`poly_2_sms_sent_Count_min` FLOAT(53), 
+	`poly_3_sms_sent_Count_min` FLOAT(53), 
+	`sms_sent_Count_max_sqrt` FLOAT(53), 
+	`sms_sent_Count_max_standriezed` FLOAT(53), 
+	`sms_sent_Count_max_log` FLOAT(53), 
+	`poly_2_sms_sent_Count_max` FLOAT(53), 
+	`poly_3_sms_sent_Count_max` FLOAT(53), 
+	`sms_sent_Count_mean_sqrt` FLOAT(53), 
+	`sms_sent_Count_mean_standriezed` FLOAT(53), 
+	`sms_sent_Count_mean_log` FLOAT(53), 
+	`poly_2_sms_sent_Count_mean` FLOAT(53), 
+	`poly_3_sms_sent_Count_mean` FLOAT(53), 
+	`sms_sent_Count_median_sqrt` FLOAT(53), 
+	`sms_sent_Count_median_standriezed` FLOAT(53), 
+	`sms_sent_Count_median_log` FLOAT(53), 
+	`poly_2_sms_sent_Count_median` FLOAT(53), 
+	`poly_3_sms_sent_Count_median` FLOAT(53), 
+	`sms_sent_Count_std_sqrt` FLOAT(53), 
+	`sms_sent_Count_std_standriezed` FLOAT(53), 
+	`sms_sent_Count_std_log` FLOAT(53), 
+	`poly_2_sms_sent_Count_std` FLOAT(53), 
+	`poly_3_sms_sent_Count_std` FLOAT(53), 
+	`sms_sent_Count_sum_sqrt` FLOAT(53), 
+	`sms_sent_Count_sum_standriezed` FLOAT(53), 
+	`sms_sent_Count_sum_log` FLOAT(53), 
+	`poly_2_sms_sent_Count_sum` FLOAT(53), 
+	`poly_3_sms_sent_Count_sum` FLOAT(53), 
+	days_since_first_sms_sent_sqrt FLOAT(53), 
+	days_since_first_sms_sent_standriezed FLOAT(53), 
+	days_since_first_sms_sent_log FLOAT(53), 
+	poly_2_days_since_first_sms_sent FLOAT(53), 
+	poly_3_days_since_first_sms_sent FLOAT(53), 
+	most_duplicated_account_count_sqrt FLOAT(53), 
+	most_duplicated_account_count_standriezed FLOAT(53), 
+	most_duplicated_account_count_log FLOAT(53), 
+	poly_2_most_duplicated_account_count FLOAT(53), 
+	poly_3_most_duplicated_account_count FLOAT(53), 
+	accounts_count_sqrt FLOAT(53), 
+	accounts_count_standriezed FLOAT(53), 
+	accounts_count_log FLOAT(53), 
+	poly_2_accounts_count FLOAT(53), 
+	poly_3_accounts_count FLOAT(53), 
+	unique_accounts_count_sqrt FLOAT(53), 
+	unique_accounts_count_standriezed FLOAT(53), 
+	unique_accounts_count_log FLOAT(53), 
+	poly_2_unique_accounts_count FLOAT(53), 
+	poly_3_unique_accounts_count FLOAT(53), 
+	duplicated_accounts_qty_sqrt FLOAT(53), 
+	duplicated_accounts_qty_standriezed FLOAT(53), 
+	duplicated_accounts_qty_log FLOAT(53), 
+	poly_2_duplicated_accounts_qty FLOAT(53), 
+	poly_3_duplicated_accounts_qty FLOAT(53), 
+	average_account_repeated_sqrt FLOAT(53), 
+	average_account_repeated_standriezed FLOAT(53), 
+	average_account_repeated_log FLOAT(53), 
+	poly_2_average_account_repeated FLOAT(53), 
+	poly_3_average_account_repeated FLOAT(53), 
+	packages_count_sqrt FLOAT(53), 
+	packages_count_standriezed FLOAT(53), 
+	packages_count_log FLOAT(53), 
+	poly_2_packages_count FLOAT(53), 
+	poly_3_packages_count FLOAT(53), 
+	unique_packages_count_sqrt FLOAT(53), 
+	unique_packages_count_standriezed FLOAT(53), 
+	unique_packages_count_log FLOAT(53), 
+	poly_2_unique_packages_count FLOAT(53), 
+	poly_3_unique_packages_count FLOAT(53), 
+	duplicated_packages_qty_sqrt FLOAT(53), 
+	duplicated_packages_qty_standriezed FLOAT(53), 
+	duplicated_packages_qty_log FLOAT(53), 
+	poly_2_duplicated_packages_qty FLOAT(53), 
+	poly_3_duplicated_packages_qty FLOAT(53), 
+	average_packages_repeated_sqrt FLOAT(53), 
+	average_packages_repeated_standriezed FLOAT(53), 
+	average_packages_repeated_log FLOAT(53), 
+	poly_2_average_packages_repeated FLOAT(53), 
+	poly_3_average_packages_repeated FLOAT(53), 
+	non_english_packages_qty_sqrt FLOAT(53), 
+	non_english_packages_qty_standriezed FLOAT(53), 
+	non_english_packages_qty_log FLOAT(53), 
+	poly_2_non_english_packages_qty FLOAT(53), 
+	poly_3_non_english_packages_qty FLOAT(53), 
+	non_english_packages_ratio_sqrt FLOAT(53), 
+	non_english_packages_ratio_standriezed FLOAT(53), 
+	non_english_packages_ratio_log FLOAT(53), 
+	poly_2_non_english_packages_ratio FLOAT(53), 
+	poly_3_non_english_packages_ratio FLOAT(53), 
+	max_unique_numbers_sqrt FLOAT(53), 
+	max_unique_numbers_standriezed FLOAT(53), 
+	max_unique_numbers_log FLOAT(53), 
+	poly_2_max_unique_numbers FLOAT(53), 
+	poly_3_max_unique_numbers FLOAT(53), 
+	count_unique_numbers_sqrt FLOAT(53), 
+	count_unique_numbers_standriezed FLOAT(53), 
+	count_unique_numbers_log FLOAT(53), 
+	poly_2_count_unique_numbers FLOAT(53), 
+	poly_3_count_unique_numbers FLOAT(53), 
+	median_unique_numbers_sqrt FLOAT(53), 
+	median_unique_numbers_standriezed FLOAT(53), 
+	median_unique_numbers_log FLOAT(53), 
+	poly_2_median_unique_numbers FLOAT(53), 
+	poly_3_median_unique_numbers FLOAT(53), 
+	mean_unique_numbers_sqrt FLOAT(53), 
+	mean_unique_numbers_standriezed FLOAT(53), 
+	mean_unique_numbers_log FLOAT(53), 
+	poly_2_mean_unique_numbers FLOAT(53), 
+	poly_3_mean_unique_numbers FLOAT(53), 
+	numbers_qty_sqrt FLOAT(53), 
+	numbers_qty_standriezed FLOAT(53), 
+	numbers_qty_log FLOAT(53), 
+	poly_2_numbers_qty FLOAT(53), 
+	poly_3_numbers_qty FLOAT(53), 
+	`call_log_count_OUTGOING_sqrt` FLOAT(53), 
+	`call_log_count_OUTGOING_standriezed` FLOAT(53), 
+	`call_log_count_OUTGOING_log` FLOAT(53), 
+	`poly_2_call_log_count_OUTGOING` FLOAT(53), 
+	`poly_3_call_log_count_OUTGOING` FLOAT(53), 
+	`call_log_count_MISSED_sqrt` FLOAT(53), 
+	`call_log_count_MISSED_standriezed` FLOAT(53), 
+	`call_log_count_MISSED_log` FLOAT(53), 
+	`poly_2_call_log_count_MISSED` FLOAT(53), 
+	`poly_3_call_log_count_MISSED` FLOAT(53), 
+	`call_log_count_INCOMING_sqrt` FLOAT(53), 
+	`call_log_count_INCOMING_standriezed` FLOAT(53), 
+	`call_log_count_INCOMING_log` FLOAT(53), 
+	`poly_2_call_log_count_INCOMING` FLOAT(53), 
+	`poly_3_call_log_count_INCOMING` FLOAT(53), 
+	call_log_count_null_sqrt FLOAT(53), 
+	call_log_count_null_standriezed FLOAT(53), 
+	call_log_count_null_log FLOAT(53), 
+	poly_2_call_log_count_null FLOAT(53), 
+	poly_3_call_log_count_null FLOAT(53), 
+	`call_log_ratio_OUTGOING_sqrt` FLOAT(53), 
+	`call_log_ratio_OUTGOING_standriezed` FLOAT(53), 
+	`call_log_ratio_OUTGOING_log` FLOAT(53), 
+	`poly_2_call_log_ratio_OUTGOING` FLOAT(53), 
+	`poly_3_call_log_ratio_OUTGOING` FLOAT(53), 
+	`call_log_ratio_MISSED_sqrt` FLOAT(53), 
+	`call_log_ratio_MISSED_standriezed` FLOAT(53), 
+	`call_log_ratio_MISSED_log` FLOAT(53), 
+	`poly_2_call_log_ratio_MISSED` FLOAT(53), 
+	`poly_3_call_log_ratio_MISSED` FLOAT(53), 
+	`call_log_ratio_INCOMING_sqrt` FLOAT(53), 
+	`call_log_ratio_INCOMING_standriezed` FLOAT(53), 
+	`call_log_ratio_INCOMING_log` FLOAT(53), 
+	`poly_2_call_log_ratio_INCOMING` FLOAT(53), 
+	`poly_3_call_log_ratio_INCOMING` FLOAT(53), 
+	call_log_ratio_null_sqrt FLOAT(53), 
+	call_log_ratio_null_standriezed FLOAT(53), 
+	call_log_ratio_null_log FLOAT(53), 
+	poly_2_call_log_ratio_null FLOAT(53), 
+	poly_3_call_log_ratio_null FLOAT(53), 
+	`max_INCOMING_sqrt` FLOAT(53), 
+	`max_INCOMING_standriezed` FLOAT(53), 
+	`max_INCOMING_log` FLOAT(53), 
+	`poly_2_max_INCOMING` FLOAT(53), 
+	`poly_3_max_INCOMING` FLOAT(53), 
+	`max_MISSED_sqrt` FLOAT(53), 
+	`max_MISSED_standriezed` FLOAT(53), 
+	`max_MISSED_log` FLOAT(53), 
+	`poly_2_max_MISSED` FLOAT(53), 
+	`poly_3_max_MISSED` FLOAT(53), 
+	`max_OUTGOING_sqrt` FLOAT(53), 
+	`max_OUTGOING_standriezed` FLOAT(53), 
+	`max_OUTGOING_log` FLOAT(53), 
+	`poly_2_max_OUTGOING` FLOAT(53), 
+	`poly_3_max_OUTGOING` FLOAT(53), 
+	max_null_sqrt FLOAT(53), 
+	max_null_standriezed FLOAT(53), 
+	max_null_log FLOAT(53), 
+	poly_2_max_null FLOAT(53), 
+	poly_3_max_null FLOAT(53), 
+	`mean_INCOMING_sqrt` FLOAT(53), 
+	`mean_INCOMING_standriezed` FLOAT(53), 
+	`mean_INCOMING_log` FLOAT(53), 
+	`poly_2_mean_INCOMING` FLOAT(53), 
+	`poly_3_mean_INCOMING` FLOAT(53), 
+	`mean_MISSED_sqrt` FLOAT(53), 
+	`mean_MISSED_standriezed` FLOAT(53), 
+	`mean_MISSED_log` FLOAT(53), 
+	`poly_2_mean_MISSED` FLOAT(53), 
+	`poly_3_mean_MISSED` FLOAT(53), 
+	`mean_OUTGOING_sqrt` FLOAT(53), 
+	`mean_OUTGOING_standriezed` FLOAT(53), 
+	`mean_OUTGOING_log` FLOAT(53), 
+	`poly_2_mean_OUTGOING` FLOAT(53), 
+	`poly_3_mean_OUTGOING` FLOAT(53), 
+	mean_null_sqrt FLOAT(53), 
+	mean_null_standriezed FLOAT(53), 
+	mean_null_log FLOAT(53), 
+	poly_2_mean_null FLOAT(53), 
+	poly_3_mean_null FLOAT(53), 
+	`std_INCOMING_sqrt` FLOAT(53), 
+	`std_INCOMING_standriezed` FLOAT(53), 
+	`std_INCOMING_log` FLOAT(53), 
+	`poly_2_std_INCOMING` FLOAT(53), 
+	`poly_3_std_INCOMING` FLOAT(53), 
+	`std_MISSED_sqrt` FLOAT(53), 
+	`std_MISSED_standriezed` FLOAT(53), 
+	`std_MISSED_log` FLOAT(53), 
+	`poly_2_std_MISSED` FLOAT(53), 
+	`poly_3_std_MISSED` FLOAT(53), 
+	`std_OUTGOING_sqrt` FLOAT(53), 
+	`std_OUTGOING_standriezed` FLOAT(53), 
+	`std_OUTGOING_log` FLOAT(53), 
+	`poly_2_std_OUTGOING` FLOAT(53), 
+	`poly_3_std_OUTGOING` FLOAT(53), 
+	std_null_sqrt FLOAT(53), 
+	std_null_standriezed FLOAT(53), 
+	std_null_log FLOAT(53), 
+	poly_2_std_null FLOAT(53), 
+	poly_3_std_null FLOAT(53), 
+	`median_INCOMING_sqrt` FLOAT(53), 
+	`median_INCOMING_standriezed` FLOAT(53), 
+	`median_INCOMING_log` FLOAT(53), 
+	`poly_2_median_INCOMING` FLOAT(53), 
+	`poly_3_median_INCOMING` FLOAT(53), 
+	`median_MISSED_sqrt` FLOAT(53), 
+	`median_MISSED_standriezed` FLOAT(53), 
+	`median_MISSED_log` FLOAT(53), 
+	`poly_2_median_MISSED` FLOAT(53), 
+	`poly_3_median_MISSED` FLOAT(53), 
+	`median_OUTGOING_sqrt` FLOAT(53), 
+	`median_OUTGOING_standriezed` FLOAT(53), 
+	`median_OUTGOING_log` FLOAT(53), 
+	`poly_2_median_OUTGOING` FLOAT(53), 
+	`poly_3_median_OUTGOING` FLOAT(53), 
+	median_null_sqrt FLOAT(53), 
+	median_null_standriezed FLOAT(53), 
+	median_null_log FLOAT(53), 
+	poly_2_median_null FLOAT(53), 
+	poly_3_median_null FLOAT(53), 
+	`min_call_Duration_sqrt` FLOAT(53), 
+	`min_call_Duration_standriezed` FLOAT(53), 
+	`min_call_Duration_log` FLOAT(53), 
+	`poly_2_min_call_Duration` FLOAT(53), 
+	`poly_3_min_call_Duration` FLOAT(53), 
+	`max_call_Duration_sqrt` FLOAT(53), 
+	`max_call_Duration_standriezed` FLOAT(53), 
+	`max_call_Duration_log` FLOAT(53), 
+	`poly_2_max_call_Duration` FLOAT(53), 
+	`poly_3_max_call_Duration` FLOAT(53), 
+	`mean_call_Duration_sqrt` FLOAT(53), 
+	`mean_call_Duration_standriezed` FLOAT(53), 
+	`mean_call_Duration_log` FLOAT(53), 
+	`poly_2_mean_call_Duration` FLOAT(53), 
+	`poly_3_mean_call_Duration` FLOAT(53), 
+	`std_call_Duration_sqrt` FLOAT(53), 
+	`std_call_Duration_standriezed` FLOAT(53), 
+	`std_call_Duration_log` FLOAT(53), 
+	`poly_2_std_call_Duration` FLOAT(53), 
+	`poly_3_std_call_Duration` FLOAT(53), 
+	`median_call_Duration_sqrt` FLOAT(53), 
+	`median_call_Duration_standriezed` FLOAT(53), 
+	`median_call_Duration_log` FLOAT(53), 
+	`poly_2_median_call_Duration` FLOAT(53), 
+	`poly_3_median_call_Duration` FLOAT(53), 
+	social_count_sqrt FLOAT(53), 
+	social_count_standriezed FLOAT(53), 
+	social_count_log FLOAT(53), 
+	poly_2_social_count FLOAT(53), 
+	poly_3_social_count FLOAT(53), 
+	dangerous_count_sqrt FLOAT(53), 
+	dangerous_count_standriezed FLOAT(53), 
+	dangerous_count_log FLOAT(53), 
+	poly_2_dangerous_count FLOAT(53), 
+	poly_3_dangerous_count FLOAT(53), 
+	darkweb_count_sqrt FLOAT(53), 
+	darkweb_count_standriezed FLOAT(53), 
+	darkweb_count_log FLOAT(53), 
+	poly_2_darkweb_count FLOAT(53), 
+	poly_3_darkweb_count FLOAT(53), 
+	wallet_count_sqrt FLOAT(53), 
+	wallet_count_standriezed FLOAT(53), 
+	wallet_count_log FLOAT(53), 
+	poly_2_wallet_count FLOAT(53), 
+	poly_3_wallet_count FLOAT(53), 
+	banking_count_sqrt FLOAT(53), 
+	banking_count_standriezed FLOAT(53), 
+	banking_count_log FLOAT(53), 
+	poly_2_banking_count FLOAT(53), 
+	poly_3_banking_count FLOAT(53), 
+	lending_count_sqrt FLOAT(53), 
+	lending_count_standriezed FLOAT(53), 
+	lending_count_log FLOAT(53), 
+	poly_2_lending_count FLOAT(53), 
+	poly_3_lending_count FLOAT(53), 
+	rosca_count_sqrt FLOAT(53), 
+	rosca_count_standriezed FLOAT(53), 
+	rosca_count_log FLOAT(53), 
+	poly_2_rosca_count FLOAT(53), 
+	poly_3_rosca_count FLOAT(53), 
+	social_count_ratio_sqrt FLOAT(53), 
+	social_count_ratio_standriezed FLOAT(53), 
+	social_count_ratio_log FLOAT(53), 
+	poly_2_social_count_ratio FLOAT(53), 
+	poly_3_social_count_ratio FLOAT(53), 
+	dangerous_count_ratio_sqrt FLOAT(53), 
+	dangerous_count_ratio_standriezed FLOAT(53), 
+	dangerous_count_ratio_log FLOAT(53), 
+	poly_2_dangerous_count_ratio FLOAT(53), 
+	poly_3_dangerous_count_ratio FLOAT(53), 
+	darkweb_count_ratio_sqrt FLOAT(53), 
+	darkweb_count_ratio_standriezed FLOAT(53), 
+	darkweb_count_ratio_log FLOAT(53), 
+	poly_2_darkweb_count_ratio FLOAT(53), 
+	poly_3_darkweb_count_ratio FLOAT(53), 
+	wallet_count_ratio_sqrt FLOAT(53), 
+	wallet_count_ratio_standriezed FLOAT(53), 
+	wallet_count_ratio_log FLOAT(53), 
+	poly_2_wallet_count_ratio FLOAT(53), 
+	poly_3_wallet_count_ratio FLOAT(53), 
+	banking_count_ratio_sqrt FLOAT(53), 
+	banking_count_ratio_standriezed FLOAT(53), 
+	banking_count_ratio_log FLOAT(53), 
+	poly_2_banking_count_ratio FLOAT(53), 
+	poly_3_banking_count_ratio FLOAT(53), 
+	lending_count_ratio_sqrt FLOAT(53), 
+	lending_count_ratio_standriezed FLOAT(53), 
+	lending_count_ratio_log FLOAT(53), 
+	poly_2_lending_count_ratio FLOAT(53), 
+	poly_3_lending_count_ratio FLOAT(53), 
+	rosca_count_ratio_sqrt FLOAT(53), 
+	rosca_count_ratio_standriezed FLOAT(53), 
+	rosca_count_ratio_log FLOAT(53), 
+	poly_2_rosca_count_ratio FLOAT(53), 
+	poly_3_rosca_count_ratio FLOAT(53), 
+	calendar_events_sqrt FLOAT(53), 
+	calendar_events_standriezed FLOAT(53), 
+	calendar_events_log FLOAT(53), 
+	poly_2_calendar_events FLOAT(53), 
+	poly_3_calendar_events FLOAT(53), 
+	title_count_sqrt FLOAT(53), 
+	title_count_standriezed FLOAT(53), 
+	title_count_log FLOAT(53), 
+	poly_2_title_count FLOAT(53), 
+	poly_3_title_count FLOAT(53), 
+	title_unique_counts_sqrt FLOAT(53), 
+	title_unique_counts_standriezed FLOAT(53), 
+	title_unique_counts_log FLOAT(53), 
+	poly_2_title_unique_counts FLOAT(53), 
+	poly_3_title_unique_counts FLOAT(53), 
+	title_repeated_values_qty_sqrt FLOAT(53), 
+	title_repeated_values_qty_standriezed FLOAT(53), 
+	title_repeated_values_qty_log FLOAT(53), 
+	poly_2_title_repeated_values_qty FLOAT(53), 
+	poly_3_title_repeated_values_qty FLOAT(53), 
+	english_title_counts_qty_sqrt FLOAT(53), 
+	english_title_counts_qty_standriezed FLOAT(53), 
+	english_title_counts_qty_log FLOAT(53), 
+	poly_2_english_title_counts_qty FLOAT(53), 
+	poly_3_english_title_counts_qty FLOAT(53), 
+	english_title_counts_ratio_sqrt FLOAT(53), 
+	english_title_counts_ratio_standriezed FLOAT(53), 
+	english_title_counts_ratio_log FLOAT(53), 
+	poly_2_english_title_counts_ratio FLOAT(53), 
+	poly_3_english_title_counts_ratio FLOAT(53), 
+	non_english_title_counts_qty_sqrt FLOAT(53), 
+	non_english_title_counts_qty_standriezed FLOAT(53), 
+	non_english_title_counts_qty_log FLOAT(53), 
+	poly_2_non_english_title_counts_qty FLOAT(53), 
+	poly_3_non_english_title_counts_qty FLOAT(53), 
+	non_english_title_counts_ratio_sqrt FLOAT(53), 
+	non_english_title_counts_ratio_standriezed FLOAT(53), 
+	non_english_title_counts_ratio_log FLOAT(53), 
+	poly_2_non_english_title_counts_ratio FLOAT(53), 
+	poly_3_non_english_title_counts_ratio FLOAT(53), 
+	path_duplicated_count_sqrt FLOAT(53), 
+	path_duplicated_count_standriezed FLOAT(53), 
+	path_duplicated_count_log FLOAT(53), 
+	poly_2_path_duplicated_count FLOAT(53), 
+	poly_3_path_duplicated_count FLOAT(53), 
+	path_duplicated_ratio_sqrt FLOAT(53), 
+	path_duplicated_ratio_standriezed FLOAT(53), 
+	path_duplicated_ratio_log FLOAT(53), 
+	poly_2_path_duplicated_ratio FLOAT(53), 
+	poly_3_path_duplicated_ratio FLOAT(53), 
+	path_unique_count_sqrt FLOAT(53), 
+	path_unique_count_standriezed FLOAT(53), 
+	path_unique_count_log FLOAT(53), 
+	poly_2_path_unique_count FLOAT(53), 
+	poly_3_path_unique_count FLOAT(53), 
+	path_unique_ratio_sqrt FLOAT(53), 
+	path_unique_ratio_standriezed FLOAT(53), 
+	path_unique_ratio_log FLOAT(53), 
+	poly_2_path_unique_ratio FLOAT(53), 
+	poly_3_path_unique_ratio FLOAT(53), 
+	img_count_sqrt FLOAT(53), 
+	img_count_standriezed FLOAT(53), 
+	img_count_log FLOAT(53), 
+	poly_2_img_count FLOAT(53), 
+	poly_3_img_count FLOAT(53), 
+	fb_count_sqrt FLOAT(53), 
+	fb_count_standriezed FLOAT(53), 
+	fb_count_log FLOAT(53), 
+	poly_2_fb_count FLOAT(53), 
+	poly_3_fb_count FLOAT(53), 
+	screenshot_count_sqrt FLOAT(53), 
+	screenshot_count_standriezed FLOAT(53), 
+	screenshot_count_log FLOAT(53), 
+	poly_2_screenshot_count FLOAT(53), 
+	poly_3_screenshot_count FLOAT(53), 
+	face_count_sqrt FLOAT(53), 
+	face_count_standriezed FLOAT(53), 
+	face_count_log FLOAT(53), 
+	poly_2_face_count FLOAT(53), 
+	poly_3_face_count FLOAT(53), 
+	others_sqrt FLOAT(53), 
+	others_standriezed FLOAT(53), 
+	others_log FLOAT(53), 
+	poly_2_others FLOAT(53), 
+	poly_3_others FLOAT(53), 
+	picture_sqrt FLOAT(53), 
+	picture_standriezed FLOAT(53), 
+	picture_log FLOAT(53), 
+	poly_2_picture FLOAT(53), 
+	poly_3_picture FLOAT(53), 
+	audio_sqrt FLOAT(53), 
+	audio_standriezed FLOAT(53), 
+	audio_log FLOAT(53), 
+	poly_2_audio FLOAT(53), 
+	poly_3_audio FLOAT(53), 
+	video_sqrt FLOAT(53), 
+	video_standriezed FLOAT(53), 
+	video_log FLOAT(53), 
+	poly_2_video FLOAT(53), 
+	poly_3_video FLOAT(53), 
+	days_since_older_file_sqrt FLOAT(53), 
+	days_since_older_file_standriezed FLOAT(53), 
+	days_since_older_file_log FLOAT(53), 
+	poly_2_days_since_older_file FLOAT(53), 
+	poly_3_days_since_older_file FLOAT(53), 
+	min_timestamp_count_sqrt FLOAT(53), 
+	min_timestamp_count_standriezed FLOAT(53), 
+	min_timestamp_count_log FLOAT(53), 
+	poly_2_min_timestamp_count FLOAT(53), 
+	poly_3_min_timestamp_count FLOAT(53), 
+	max_timestamp_count_sqrt FLOAT(53), 
+	max_timestamp_count_standriezed FLOAT(53), 
+	max_timestamp_count_log FLOAT(53), 
+	poly_2_max_timestamp_count FLOAT(53), 
+	poly_3_max_timestamp_count FLOAT(53), 
+	mean_timestamp_count_sqrt FLOAT(53), 
+	mean_timestamp_count_standriezed FLOAT(53), 
+	mean_timestamp_count_log FLOAT(53), 
+	poly_2_mean_timestamp_count FLOAT(53), 
+	poly_3_mean_timestamp_count FLOAT(53), 
+	std_timestamp_count_sqrt FLOAT(53), 
+	std_timestamp_count_standriezed FLOAT(53), 
+	std_timestamp_count_log FLOAT(53), 
+	poly_2_std_timestamp_count FLOAT(53), 
+	poly_3_std_timestamp_count FLOAT(53), 
+	median_timestamp_count_sqrt FLOAT(53), 
+	median_timestamp_count_standriezed FLOAT(53), 
+	median_timestamp_count_log FLOAT(53), 
+	poly_2_median_timestamp_count FLOAT(53), 
+	poly_3_median_timestamp_count FLOAT(53), 
+	`+1_files_in_one_day_qty_sqrt` FLOAT(53), 
+	`+1_files_in_one_day_qty_standriezed` FLOAT(53), 
+	`+1_files_in_one_day_qty_log` FLOAT(53), 
+	`poly_2_+1_files_in_one_day_qty` FLOAT(53), 
+	`poly_3_+1_files_in_one_day_qty` FLOAT(53), 
+	`1_file_in_one_day_qty_sqrt` FLOAT(53), 
+	`1_file_in_one_day_qty_standriezed` FLOAT(53), 
+	`1_file_in_one_day_qty_log` FLOAT(53), 
+	poly_2_1_file_in_one_day_qty FLOAT(53), 
+	poly_3_1_file_in_one_day_qty FLOAT(53), 
+	`+1_files_in_one_day_ratio_sqrt` FLOAT(53), 
+	`+1_files_in_one_day_ratio_standriezed` FLOAT(53), 
+	`+1_files_in_one_day_ratio_log` FLOAT(53), 
+	`poly_2_+1_files_in_one_day_ratio` FLOAT(53), 
+	`poly_3_+1_files_in_one_day_ratio` FLOAT(53), 
+	`1_file_in_one_day_ratio_sqrt` FLOAT(53), 
+	`1_file_in_one_day_ratio_standriezed` FLOAT(53), 
+	`1_file_in_one_day_ratio_log` FLOAT(53), 
+	poly_2_1_file_in_one_day_ratio FLOAT(53), 
+	poly_3_1_file_in_one_day_ratio FLOAT(53), 
+	`deviceSoftware_sqrt` FLOAT(53), 
+	`deviceSoftware_standriezed` FLOAT(53), 
+	`deviceSoftware_log` FLOAT(53), 
+	`poly_2_deviceSoftware` FLOAT(53), 
+	`poly_3_deviceSoftware` FLOAT(53), 
+	ram_sqrt FLOAT(53), 
+	ram_standriezed FLOAT(53), 
+	ram_log FLOAT(53), 
+	poly_2_ram FLOAT(53), 
+	poly_3_ram FLOAT(53), 
+	storage_size_sqrt FLOAT(53), 
+	storage_size_standriezed FLOAT(53), 
+	storage_size_log FLOAT(53), 
+	poly_2_storage_size FLOAT(53), 
+	poly_3_storage_size FLOAT(53), 
+	`numberOfWifiStored_sqrt` FLOAT(53), 
+	`numberOfWifiStored_standriezed` FLOAT(53), 
+	`numberOfWifiStored_log` FLOAT(53), 
+	`poly_2_numberOfWifiStored` FLOAT(53), 
+	`poly_3_numberOfWifiStored` FLOAT(53), 
+	outgoing_call_logs_weekdays_std_sqrt FLOAT(53), 
+	outgoing_call_logs_weekdays_std_standriezed FLOAT(53), 
+	outgoing_call_logs_weekdays_std_log FLOAT(53), 
+	poly_2_outgoing_call_logs_weekdays_std FLOAT(53), 
+	poly_3_outgoing_call_logs_weekdays_std FLOAT(53), 
+	calendar_events_count_sqrt FLOAT(53), 
+	calendar_events_count_standriezed FLOAT(53), 
+	calendar_events_count_log FLOAT(53), 
+	poly_2_calendar_events_count FLOAT(53), 
+	poly_3_calendar_events_count FLOAT(53), 
+	`outgoind_call_log_COUNT_min_sqrt` FLOAT(53), 
+	`outgoind_call_log_COUNT_min_standriezed` FLOAT(53), 
+	`outgoind_call_log_COUNT_min_log` FLOAT(53), 
+	`poly_2_outgoind_call_log_COUNT_min` FLOAT(53), 
+	`poly_3_outgoind_call_log_COUNT_min` FLOAT(53), 
+	outgoing_call_logs_weekdays_max_sqrt FLOAT(53), 
+	outgoing_call_logs_weekdays_max_standriezed FLOAT(53), 
+	outgoing_call_logs_weekdays_max_log FLOAT(53), 
+	poly_2_outgoing_call_logs_weekdays_max FLOAT(53), 
+	poly_3_outgoing_call_logs_weekdays_max FLOAT(53), 
+	`outgoind_call_log_COUNT_mean_sqrt` FLOAT(53), 
+	`outgoind_call_log_COUNT_mean_standriezed` FLOAT(53), 
+	`outgoind_call_log_COUNT_mean_log` FLOAT(53), 
+	`poly_2_outgoind_call_log_COUNT_mean` FLOAT(53), 
+	`poly_3_outgoind_call_log_COUNT_mean` FLOAT(53), 
+	`outgoind_call_log_COUNT_median_sqrt` FLOAT(53), 
+	`outgoind_call_log_COUNT_median_standriezed` FLOAT(53), 
+	`outgoind_call_log_COUNT_median_log` FLOAT(53), 
+	`poly_2_outgoind_call_log_COUNT_median` FLOAT(53), 
+	`poly_3_outgoind_call_log_COUNT_median` FLOAT(53), 
+	outgoing_call_logs_weekends_mean_sqrt FLOAT(53), 
+	outgoing_call_logs_weekends_mean_standriezed FLOAT(53), 
+	outgoing_call_logs_weekends_mean_log FLOAT(53), 
+	poly_2_outgoing_call_logs_weekends_mean FLOAT(53), 
+	poly_3_outgoing_call_logs_weekends_mean FLOAT(53), 
+	count_of_days_no_outgoing_call_sqrt FLOAT(53), 
+	count_of_days_no_outgoing_call_standriezed FLOAT(53), 
+	count_of_days_no_outgoing_call_log FLOAT(53), 
+	poly_2_count_of_days_no_outgoing_call FLOAT(53), 
+	poly_3_count_of_days_no_outgoing_call FLOAT(53), 
+	days_since_last_outgoing_call_sqrt FLOAT(53), 
+	days_since_last_outgoing_call_standriezed FLOAT(53), 
+	days_since_last_outgoing_call_log FLOAT(53), 
+	poly_2_days_since_last_outgoing_call FLOAT(53), 
+	poly_3_days_since_last_outgoing_call FLOAT(53), 
+	`outgoind_call_log_COUNT_max_sqrt` FLOAT(53), 
+	`outgoind_call_log_COUNT_max_standriezed` FLOAT(53), 
+	`outgoind_call_log_COUNT_max_log` FLOAT(53), 
+	`poly_2_outgoind_call_log_COUNT_max` FLOAT(53), 
+	`poly_3_outgoind_call_log_COUNT_max` FLOAT(53), 
+	outgoing_call_logs_weekends_max_sqrt FLOAT(53), 
+	outgoing_call_logs_weekends_max_standriezed FLOAT(53), 
+	outgoing_call_logs_weekends_max_log FLOAT(53), 
+	poly_2_outgoing_call_logs_weekends_max FLOAT(53), 
+	poly_3_outgoing_call_logs_weekends_max FLOAT(53), 
+	outgoing_call_logs_weekends_std_sqrt FLOAT(53), 
+	outgoing_call_logs_weekends_std_standriezed FLOAT(53), 
+	outgoing_call_logs_weekends_std_log FLOAT(53), 
+	poly_2_outgoing_call_logs_weekends_std FLOAT(53), 
+	poly_3_outgoing_call_logs_weekends_std FLOAT(53), 
+	outgoing_call_logs_weekends_min_sqrt FLOAT(53), 
+	outgoing_call_logs_weekends_min_standriezed FLOAT(53), 
+	outgoing_call_logs_weekends_min_log FLOAT(53), 
+	poly_2_outgoing_call_logs_weekends_min FLOAT(53), 
+	poly_3_outgoing_call_logs_weekends_min FLOAT(53), 
+	`outgoind_call_log_COUNT_std_sqrt` FLOAT(53), 
+	`outgoind_call_log_COUNT_std_standriezed` FLOAT(53), 
+	`outgoind_call_log_COUNT_std_log` FLOAT(53), 
+	`poly_2_outgoind_call_log_COUNT_std` FLOAT(53), 
+	`poly_3_outgoind_call_log_COUNT_std` FLOAT(53), 
+	outgoing_call_logs_weekdays_mean_sqrt FLOAT(53), 
+	outgoing_call_logs_weekdays_mean_standriezed FLOAT(53), 
+	outgoing_call_logs_weekdays_mean_log FLOAT(53), 
+	poly_2_outgoing_call_logs_weekdays_mean FLOAT(53), 
+	poly_3_outgoing_call_logs_weekdays_mean FLOAT(53), 
+	outgoing_call_logs_weekdays_min_sqrt FLOAT(53), 
+	outgoing_call_logs_weekdays_min_standriezed FLOAT(53), 
+	outgoing_call_logs_weekdays_min_log FLOAT(53), 
+	poly_2_outgoing_call_logs_weekdays_min FLOAT(53), 
+	poly_3_outgoing_call_logs_weekdays_min FLOAT(53), 
+	days_between_first_and_last_day_outgoing_call_sqrt FLOAT(53), 
+	days_between_first_and_last_day_outgoing_call_standriezed FLOAT(53), 
+	days_between_first_and_last_day_outgoing_call_log FLOAT(53), 
+	poly_2_days_between_first_and_last_day_outgoing_call FLOAT(53), 
+	poly_3_days_between_first_and_last_day_outgoing_call FLOAT(53), 
+	min_timestamp_year_sqrt FLOAT(53), 
+	min_timestamp_year_standriezed FLOAT(53), 
+	min_timestamp_year_log FLOAT(53), 
+	poly_2_min_timestamp_year FLOAT(53), 
+	poly_3_min_timestamp_year FLOAT(53), 
+	min_timestamp_month_sqrt FLOAT(53), 
+	min_timestamp_month_standriezed FLOAT(53), 
+	min_timestamp_month_log FLOAT(53), 
+	poly_2_min_timestamp_month FLOAT(53), 
+	poly_3_min_timestamp_month FLOAT(53), 
+	min_timestamp_day_sqrt FLOAT(53), 
+	min_timestamp_day_standriezed FLOAT(53), 
+	min_timestamp_day_log FLOAT(53), 
+	poly_2_min_timestamp_day FLOAT(53), 
+	poly_3_min_timestamp_day FLOAT(53), 
+	max_timestamp_year_sqrt FLOAT(53), 
+	max_timestamp_year_standriezed FLOAT(53), 
+	max_timestamp_year_log FLOAT(53), 
+	poly_2_max_timestamp_year FLOAT(53), 
+	poly_3_max_timestamp_year FLOAT(53), 
+	max_timestamp_month_sqrt FLOAT(53), 
+	max_timestamp_month_standriezed FLOAT(53), 
+	max_timestamp_month_log FLOAT(53), 
+	poly_2_max_timestamp_month FLOAT(53), 
+	poly_3_max_timestamp_month FLOAT(53), 
+	max_timestamp_day_sqrt FLOAT(53), 
+	max_timestamp_day_standriezed FLOAT(53), 
+	max_timestamp_day_log FLOAT(53), 
+	poly_2_max_timestamp_day FLOAT(53), 
+	poly_3_max_timestamp_day FLOAT(53)
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+BOOKING2021Q3ORIGINAL
+(pymysql.err.OperationalError) (1059, "Identifier name 'HHD_ORDER_NUMBER||LINE_NUMBER||ITEM_CODE||ORDERED_QUANTITY||PRODUCT_CATEGORY||UNIT_PRICE||LINE_TYPE|' is too long")
+[SQL: 
+CREATE TABLE `BOOKING2021Q3ORIGINAL` (
+	`index` BIGINT, 
+	`HHD_ORDER_NUMBER||LINE_NUMBER||ITEM_CODE||ORDERED_QUANTITY||PRODUCT_CATEGORY||UNIT_PRICE||LINE_TYPE||ORGANIZATION_ID||FOC_FLAG||ORDER_TYPE||ORDERED_DATE||SHIP_DATE||CUSTOMER_ID||SHIP_TO_CUSTOMER_SITE_ID||PAYMENT_TERM||SALESREP_ID||TERRITORY_ID||CREATION_DATE||CREATED_BY||LAST_UPDATED_BY||LAST_UPDATE_DATE||EBS_STATUS` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+master
+(pymysql.err.OperationalError) (1059, "Identifier name 'battery_level\tipaddress\tmodel\tmanufacturer\tbrand\tdeviceSoftware\tnetworkOperator\tram\tstorage_size\tdev' is too long")
+[SQL: 
+CREATE TABLE master (
+	`index` BIGINT, 
+	`battery_level	ipaddress	model	manufacturer	brand	deviceSoftware	networkOperator	ram	storage_size	deviceWifiDataInBytes	deviceMobileDataInBytes	numberOfWifiStored	connectedConnectionName	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+newestDAP
+(pymysql.err.ProgrammingError) (1166, "Incorrect column name 'RG '")
+[SQL: 
+CREATE TABLE `newestDAP` (
+	`index` BIGINT, 
+	date TEXT, 
+	year BIGINT, 
+	district TEXT, 
+	month BIGINT, 
+	day BIGINT, 
+	province TEXT, 
+	`DH` BIGINT, 
+	`ms_DH` TEXT, 
+	`EFERT` FLOAT(53), 
+	`ms_EFERT` TEXT, 
+	`FFC` FLOAT(53), 
+	`ms_FFC` TEXT, 
+	`Agritech` BIGINT, 
+	`ms_AGRI` TEXT, 
+	`RG ` FLOAT(53), 
+	`ms_RG` TEXT, 
+	pvt_import FLOAT(53), 
+	ms_pvt TEXT, 
+	total FLOAT(53)
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+------------------
+
+EngroMC
+(pymysql.err.OperationalError) (1059, "Identifier name 'MasterSKU\tYear\tDate\tPrimaryVolume\tSecondaryVolume\tDistributor Region' is too long")
+[SQL: 
+CREATE TABLE `EngroMC` (
+	`index` BIGINT, 
+	`MasterSKU	Year	Date	PrimaryVolume	SecondaryVolume	Distributor Region` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+extstoragefiles
+(pymysql.err.OperationalError) (1059, "Identifier name 'Downloads\tDocuments\tImages\tVideos\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_' is too long")
+[SQL: 
+CREATE TABLE extstoragefiles (
+	`index` BIGINT, 
+	`Downloads	Documents	Images	Videos	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+TASKLOCK
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_TASKLOCK_index` ON `TASKLOCK` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+promotionalOffer
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_promotionalOffer_index` ON `promotionalOffer` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+insuranceProvider
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_insuranceProvider_index` ON `insuranceProvider` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+customerWallet
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_customerWallet_index` ON `customerWallet` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+DAPPunjabData
+(pymysql.err.ProgrammingError) (1166, "Incorrect column name 'Plant Center '")
+[SQL: 
+CREATE TABLE `DAPPunjabData` (
+	`index` BIGINT, 
+	`Year` BIGINT, 
+	`District` TEXT, 
+	`Cotton` FLOAT(53), 
+	`Maize` FLOAT(53), 
+	`Rice` FLOAT(53), 
+	`Sugarcane` FLOAT(53), 
+	`Wheat` FLOAT(53), 
+	`Sales` FLOAT(53), 
+	`Plant Center ` BIGINT, 
+	`Prices` FLOAT(53), 
+	`Zones` TEXT, 
+	`City` BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+------------------
+
+DAPSindhData
+(pymysql.err.ProgrammingError) (1166, "Incorrect column name 'City '")
+[SQL: 
+CREATE TABLE `DAPSindhData` (
+	`index` BIGINT, 
+	`Year` BIGINT, 
+	`District` TEXT, 
+	`Cotton` FLOAT(53), 
+	`Maize` FLOAT(53), 
+	`Rice` FLOAT(53), 
+	`Sugarcane` FLOAT(53), 
+	`Wheat` FLOAT(53), 
+	`Total Area` FLOAT(53), 
+	`Sales` FLOAT(53), 
+	`Plant Center Urea` BIGINT, 
+	`Prices` FLOAT(53), 
+	`Zones` TEXT, 
+	`Plant Center` BIGINT, 
+	`City ` BIGINT, 
+	`Political` BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+------------------
+
+userPolicy
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_userPolicy_index` ON `userPolicy` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+availableMerchantForLimit
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_availableMerchantForLimit_index` ON `availableMerchantForLimit` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+accountslist
+(pymysql.err.OperationalError) (1059, "Identifier name 'name\ttype\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variable' is too long")
+[SQL: 
+CREATE TABLE accountslist (
+	`index` BIGINT, 
+	`name	type	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+appinstalllog
+(pymysql.err.OperationalError) (1059, "Identifier name 'Package\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variable' is too long")
+[SQL: 
+CREATE TABLE appinstalllog (
+	`index` BIGINT, 
+	`Package	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+signupQuestionnaireResponse
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_signupQuestionnaireResponse_index` ON `signupQuestionnaireResponse` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+location
+(pymysql.err.OperationalError) (1059, "Identifier name 'TimeStamp_\tlatitude\tlongitude\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tdb_matching_vari' is too long")
+[SQL: 
+CREATE TABLE location (
+	`index` BIGINT, 
+	`TimeStamp_	latitude	longitude	ID	timestamp	Epoch	process_date	process_hour	isActive	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+streamdefinitions
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX ix_streamdefinitions_index ON streamdefinitions (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+userAdvancePolicy
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_userAdvancePolicy_index` ON `userAdvancePolicy` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+bundledInsuranceMapping
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_bundledInsuranceMapping_index` ON `bundledInsuranceMapping` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+calendarevents
+(pymysql.err.OperationalError) (1059, "Identifier name 'title\tdescription\tallowReminders\tdTStart\tdTEnd\tallDay\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\ti' is too long")
+[SQL: 
+CREATE TABLE calendarevents (
+	`index` BIGINT, 
+	`title	description	allowReminders	dTStart	dTEnd	allDay	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+calllog
+(pymysql.err.OperationalError) (1059, "Identifier name 'number\tType\tDuration\tID\ttimestamp\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_vari' is too long")
+[SQL: 
+CREATE TABLE calllog (
+	`index` BIGINT, 
+	`number	Type	Duration	ID	timestamp	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+userClaim
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_userClaim_index` ON `userClaim` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+userPromotionalOffer
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_userPromotionalOffer_index` ON `userPromotionalOffer` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+walletTransaction
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX `ix_walletTransaction_index` ON `walletTransaction` (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+yrandomforest
+(pymysql.err.OperationalError) (1060, "Duplicate column name 'Index'")
+[SQL: 
+CREATE TABLE yrandomforest (
+	`index` BIGINT, 
+	`Unnamed: 0` BIGINT, 
+	`RMSE` FLOAT(53), 
+	`Below_15_perc` FLOAT(53), 
+	`Index` BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+finaldfcreatedfromzipfiles
+(pymysql.err.OperationalError) (1060, "Duplicate column name 'Body_nunique'")
+[SQL: 
+CREATE TABLE finaldfcreatedfromzipfiles (
+	`index` BIGINT, 
+	displyname_nunique BIGINT, 
+	contacts_qty BIGINT, 
+	number_as_name_qty BIGINT, 
+	number_as_name_ratio FLOAT(53), 
+	engslish_contacts_qty BIGINT, 
+	engslish_contacts_ratio FLOAT(53), 
+	arabic_contacts_qty FLOAT(53), 
+	arabic_contacts_ratio FLOAT(53), 
+	`picture_count_Downloads` BIGINT, 
+	`audio_count_Downloads` BIGINT, 
+	`video_count_Downloads` BIGINT, 
+	`others_count_Downloads` BIGINT, 
+	`_count_Downloads` BIGINT, 
+	`unique_extention_count_Downloads` BIGINT, 
+	`picture_count_Documents` BIGINT, 
+	`audio_count_Documents` BIGINT, 
+	`video_count_Documents` BIGINT, 
+	`others_count_Documents` BIGINT, 
+	`_count_Documents` BIGINT, 
+	`unique_extention_count_Documents` BIGINT, 
+	`picture_count_Images` BIGINT, 
+	`audio_count_Images` BIGINT, 
+	`video_count_Images` BIGINT, 
+	`others_count_Images` BIGINT, 
+	`_count_Images` BIGINT, 
+	`unique_extention_count_Images` BIGINT, 
+	`picture_count_Videos` BIGINT, 
+	`audio_count_Videos` BIGINT, 
+	`video_count_Videos` BIGINT, 
+	`others_count_Videos` BIGINT, 
+	`_count_Videos` BIGINT, 
+	`unique_extention_count_Videos` BIGINT, 
+	`INBOX_count` FLOAT(53), 
+	`SENT_count` FLOAT(53), 
+	null_count FLOAT(53), 
+	`INBOX_count_perc` FLOAT(53), 
+	`SENT_count_perc` FLOAT(53), 
+	null_count_perc FLOAT(53), 
+	`INBOX_weekend_min` FLOAT(53), 
+	`INBOX_weekday_min` FLOAT(53), 
+	`SENT_weekend_min` FLOAT(53), 
+	`SENT_weekday_min` FLOAT(53), 
+	null_weekend_min FLOAT(53), 
+	null_weekday_min FLOAT(53), 
+	`INBOX_weekend_max` FLOAT(53), 
+	`INBOX_weekday_max` FLOAT(53), 
+	`SENT_weekend_max` FLOAT(53), 
+	`SENT_weekday_max` FLOAT(53), 
+	null_weekend_max FLOAT(53), 
+	null_weekday_max FLOAT(53), 
+	`INBOX_weekend_mean` FLOAT(53), 
+	`INBOX_weekday_mean` FLOAT(53), 
+	`SENT_weekend_mean` FLOAT(53), 
+	`SENT_weekday_mean` FLOAT(53), 
+	null_weekend_mean FLOAT(53), 
+	null_weekday_mean FLOAT(53), 
+	`INBOX_weekend_std` FLOAT(53), 
+	`INBOX_weekday_std` FLOAT(53), 
+	`SENT_weekend_std` FLOAT(53), 
+	`SENT_weekday_std` FLOAT(53), 
+	null_weekend_std FLOAT(53), 
+	null_weekday_std FLOAT(53), 
+	`INBOX_count_Normal_user` FLOAT(53), 
+	`INBOX_count_company` FLOAT(53), 
+	`SENT_count_Normal_user` FLOAT(53), 
+	`SENT_count_company` FLOAT(53), 
+	`null_count_Normal_user` FLOAT(53), 
+	null_count_company FLOAT(53), 
+	`INBOX_mean_Normal_user` FLOAT(53), 
+	`INBOX_mean_company` FLOAT(53), 
+	`SENT_mean_Normal_user` FLOAT(53), 
+	`SENT_mean_company` FLOAT(53), 
+	`null_mean_Normal_user` FLOAT(53), 
+	null_mean_company FLOAT(53), 
+	body_nunique FLOAT(53), 
+	mean_body_unique_count FLOAT(53), 
+	max_body_unique_count FLOAT(53), 
+	median_body_unique_count FLOAT(53), 
+	std_body_unique_count FLOAT(53), 
+	`Body_nunique` FLOAT(53), 
+	average_body_repeat FLOAT(53), 
+	`INBOX_body_nunique_min` FLOAT(53), 
+	`INBOX_body_nunique_max` FLOAT(53), 
+	`INBOX_body_nunique_mean` FLOAT(53), 
+	`INBOX_body_nunique_median` FLOAT(53), 
+	`INBOX_body_nunique_std` FLOAT(53), 
+	`SENT_body_nunique_min` FLOAT(53), 
+	`SENT_body_nunique_max` FLOAT(53), 
+	`SENT_body_nunique_mean` FLOAT(53), 
+	`SENT_body_nunique_median` FLOAT(53), 
+	`SENT_body_nunique_std` FLOAT(53), 
+	null_body_nunique_min FLOAT(53), 
+	null_body_nunique_max FLOAT(53), 
+	null_body_nunique_mean FLOAT(53), 
+	null_body_nunique_median FLOAT(53), 
+	null_body_nunique_std FLOAT(53), 
+	days_since_older_msg FLOAT(53), 
+	`weekend_sms_sent_log_Count_min` FLOAT(53), 
+	`weekend_sms_sent_log_Count_max` FLOAT(53), 
+	`weekend_sms_sent_log_Count_count` FLOAT(53), 
+	`weekend_sms_sent_log_Count_std` FLOAT(53), 
+	`weekend_sms_sent_log_Count_mean` FLOAT(53), 
+	`weekday_sms_sent_log_Count_min` FLOAT(53), 
+	`weekday_sms_sent_log_Count_max` FLOAT(53), 
+	`weekday_sms_sent_log_Count_count` FLOAT(53), 
+	`weekday_sms_sent_log_Count_std` FLOAT(53), 
+	`weekday_sms_sent_log_Count_mean` FLOAT(53), 
+	`sms_sent_Count_min` FLOAT(53), 
+	`sms_sent_Count_max` FLOAT(53), 
+	`sms_sent_Count_mean` FLOAT(53), 
+	`sms_sent_Count_median` FLOAT(53), 
+	`sms_sent_Count_std` FLOAT(53), 
+	`sms_sent_Count_sum` FLOAT(53), 
+	days_since_first_sms_sent FLOAT(53), 
+	most_duplicated_account_count FLOAT(53), 
+	accounts_count FLOAT(53), 
+	unique_accounts_count FLOAT(53), 
+	duplicated_accounts_qty FLOAT(53), 
+	average_account_repeated FLOAT(53), 
+	packages_count FLOAT(53), 
+	unique_packages_count FLOAT(53), 
+	duplicated_packages_qty FLOAT(53), 
+	average_packages_repeated FLOAT(53), 
+	non_english_packages_qty FLOAT(53), 
+	non_english_packages_ratio FLOAT(53), 
+	max_unique_numbers FLOAT(53), 
+	count_unique_numbers FLOAT(53), 
+	median_unique_numbers FLOAT(53), 
+	mean_unique_numbers FLOAT(53), 
+	numbers_qty FLOAT(53), 
+	`call_log_count_OUTGOING` FLOAT(53), 
+	`call_log_count_MISSED` FLOAT(53), 
+	`call_log_count_INCOMING` FLOAT(53), 
+	call_log_count_null FLOAT(53), 
+	`call_log_ratio_OUTGOING` FLOAT(53), 
+	`call_log_ratio_MISSED` FLOAT(53), 
+	`call_log_ratio_INCOMING` FLOAT(53), 
+	call_log_ratio_null FLOAT(53), 
+	`max_INCOMING` FLOAT(53), 
+	`max_MISSED` FLOAT(53), 
+	`max_OUTGOING` FLOAT(53), 
+	max_null FLOAT(53), 
+	`mean_INCOMING` FLOAT(53), 
+	`mean_MISSED` FLOAT(53), 
+	`mean_OUTGOING` FLOAT(53), 
+	mean_null FLOAT(53), 
+	`std_INCOMING` FLOAT(53), 
+	`std_MISSED` FLOAT(53), 
+	`std_OUTGOING` FLOAT(53), 
+	std_null FLOAT(53), 
+	`median_INCOMING` FLOAT(53), 
+	`median_MISSED` FLOAT(53), 
+	`median_OUTGOING` FLOAT(53), 
+	median_null FLOAT(53), 
+	`min_call_Duration` FLOAT(53), 
+	`max_call_Duration` FLOAT(53), 
+	`mean_call_Duration` FLOAT(53), 
+	`std_call_Duration` FLOAT(53), 
+	`median_call_Duration` FLOAT(53), 
+	social_count FLOAT(53), 
+	dangerous_count FLOAT(53), 
+	darkweb_count FLOAT(53), 
+	wallet_count FLOAT(53), 
+	banking_count FLOAT(53), 
+	lending_count FLOAT(53), 
+	rosca_count FLOAT(53), 
+	social_count_ratio FLOAT(53), 
+	dangerous_count_ratio FLOAT(53), 
+	darkweb_count_ratio FLOAT(53), 
+	wallet_count_ratio FLOAT(53), 
+	banking_count_ratio FLOAT(53), 
+	lending_count_ratio FLOAT(53), 
+	rosca_count_ratio FLOAT(53), 
+	calendar_events FLOAT(53), 
+	title_count FLOAT(53), 
+	title_unique_counts FLOAT(53), 
+	title_repeated_values_qty FLOAT(53), 
+	english_title_counts_qty FLOAT(53), 
+	english_title_counts_ratio FLOAT(53), 
+	non_english_title_counts_qty FLOAT(53), 
+	non_english_title_counts_ratio FLOAT(53), 
+	path_duplicated_count FLOAT(53), 
+	path_duplicated_ratio FLOAT(53), 
+	path_unique_count FLOAT(53), 
+	path_unique_ratio FLOAT(53), 
+	img_count FLOAT(53), 
+	fb_count FLOAT(53), 
+	screenshot_count FLOAT(53), 
+	face_count FLOAT(53), 
+	others FLOAT(53), 
+	picture FLOAT(53), 
+	audio FLOAT(53), 
+	video FLOAT(53), 
+	min_timestamp TEXT, 
+	max_timestamp TEXT, 
+	days_since_older_file FLOAT(53), 
+	min_timestamp_count FLOAT(53), 
+	max_timestamp_count FLOAT(53), 
+	mean_timestamp_count FLOAT(53), 
+	std_timestamp_count FLOAT(53), 
+	median_timestamp_count FLOAT(53), 
+	`+1_files_in_one_day_qty` FLOAT(53), 
+	`1_file_in_one_day_qty` FLOAT(53), 
+	`+1_files_in_one_day_ratio` FLOAT(53), 
+	`1_file_in_one_day_ratio` FLOAT(53), 
+	brand TEXT, 
+	`deviceSoftware` TEXT, 
+	ram FLOAT(53), 
+	storage_size FLOAT(53), 
+	`numberOfWifiStored` FLOAT(53), 
+	outgoing_call_logs_weekdays_std FLOAT(53), 
+	calendar_events_count FLOAT(53), 
+	`outgoind_call_log_COUNT_min` FLOAT(53), 
+	outgoing_call_logs_weekdays_max FLOAT(53), 
+	`outgoind_call_log_COUNT_mean` FLOAT(53), 
+	`outgoind_call_log_COUNT_median` FLOAT(53), 
+	outgoing_call_logs_weekends_mean FLOAT(53), 
+	count_of_days_no_outgoing_call FLOAT(53), 
+	days_since_last_outgoing_call FLOAT(53), 
+	`outgoind_call_log_COUNT_max` FLOAT(53), 
+	outgoing_call_logs_weekends_max FLOAT(53), 
+	outgoing_call_logs_weekends_std FLOAT(53), 
+	outgoing_call_logs_weekends_min FLOAT(53), 
+	`outgoind_call_log_COUNT_std` FLOAT(53), 
+	outgoing_call_logs_weekdays_mean FLOAT(53), 
+	outgoing_call_logs_weekdays_min FLOAT(53), 
+	days_between_first_and_last_day_outgoing_call FLOAT(53), 
+	file_name TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+gallerydata
+(pymysql.err.OperationalError) (1059, "Identifier name 'title\ttimestamp\tpath\tID\tEpoch\tprocess_date\tprocess_hour\tisActive\tend_date\tdb_matching_variable' is too long")
+[SQL: 
+CREATE TABLE gallerydata (
+	`index` BIGINT, 
+	`title	timestamp	path	ID	Epoch	process_date	process_hour	isActive	end_date	db_matching_variable` TEXT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
+beneficiary
+(pymysql.err.OperationalError) (1170, "BLOB/TEXT column 'index' used in key specification without a key length")
+[SQL: CREATE INDEX ix_beneficiary_index ON beneficiary (`index`)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+------------------
+
